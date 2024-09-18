@@ -1,0 +1,33 @@
+{
+  "pub_grouping": {
+    "conference": "conference/workshop",
+    "workshop": "conference/workshop",
+    "journal": "journal/chapter",
+    "dissertation": "journal/chapter",
+    "chapter": "journal/chapter",
+    "poster": "other",
+    "article": "other",
+    "demo": "other",
+    "tech report": "other"
+  },
+
+  "publications": [
+     {
+      "key": "publication_key",
+      "author": ["author1", "author2", "author3"],
+      "title": "Publication Title",
+      "venue": "Venue name",
+      "year": "year",
+      "thumbnail": "thumbnail_src",
+      "type": "journal",
+      "pdf": "pdf_src",
+      "url": "publication_url",
+      "supp":
+      {
+        "Supplemental Link 1": "http://example1.com",
+        "Supplemental Link 2": "http://example2.com",
+        "Supplemental Link 3": "http://example3.com"
+      }
+    }
+  ]
+}
