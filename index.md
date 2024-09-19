@@ -1,5 +1,5 @@
 ---
-title: Home Page Title
+title: Park Lab
 subtitle: <br/>
 layout: page
 hero_link: /
