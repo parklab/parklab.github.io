@@ -153,8 +153,8 @@ function renderPubs(pubData, target) {
         supplementals += '<a href="' + d.abstract_link + '"> Abstract </a>';
       else
         supplementals += ''
-      if (d.hasOwnProperty('pdf_link'))
-        supplementals += '| <a href="' + d.pdf_link + '"> PDF </a>';
+      if (d.hasOwnProperty('pdf_link') && d.pdf_link !== '')
+        supplementals += '| <a target="_blank" href="' + d.pdf_link + '"> PDF </a>';
       else
         supplementals += ''
       if (d.hasOwnProperty('tutorialwebsite'))
