@@ -1,7 +1,7 @@
 MY_NAME = "NAME";
 
 // DISPLAY OPTIONS -------
-SHOW_THUMBNAILS = true;
+SHOW_THUMBNAILS = false;
 SHOW_TYPE_TAGS = false;
 SHOW_YEAR_HEADINGS = false;
 // Note that this is still organized by year,
@@ -27,16 +27,16 @@ var tagColor;
 // If we use customs group, this maps orig type name to custom group name
 var groupMap;
 
-d3.json('/pubs.json', function(json) {
+d3.json('/publication_data.json', function(json) {
+  console.log("JSON", json);
 
-  if (USE_CUSTOM_GROUPS)
-    groupMap = d3.map(json.pub_grouping);
+  if (USE_CUSTOM_GROUPS) {
+    groupMap = d3.map(json.pub_grouping)
+  };
 
   createTypeColors(json.publications);
 
   data = json.publications;
-
-  console.log(data);
 
   // var nested_data = d3.nest()
     // .key(function(d) {return d.year;})
@@ -52,7 +52,7 @@ d3.json('/pubs.json', function(json) {
 
 function createTypeColors(d) {
   var types = [];
-  d.forEach(function(pub) {
+  d?.forEach(function(pub) {
     if (types.indexOf(pub.type) < 0) {
       types.push(pub.type);
     }
@@ -63,8 +63,9 @@ function createTypeColors(d) {
 // Generate publications
 function renderPubs(pubData, target) {
   var pubs = d3.select(target).selectAll('pub')
-    // .data(function(d) {return d.values;});
     .data(pubData);
+
+    console.log("pubs", pubs);
 
   pubs.enter().append('div')
     .classed('pub', true);
@@ -103,8 +104,9 @@ function renderPubs(pubData, target) {
     .classed('title', true)
     .append('a')
     .attr('href', function(d) {
-      return d.url;
+      return d.title_link;
     })
+    .attr('target', '_blank')
     .text(function(d) {
       return d.title;
     });
@@ -130,15 +132,15 @@ function renderPubs(pubData, target) {
   pubInfo.append('div')
     .classed('authors', true)
     .html(function(d) {
-      return d.author.join(", ")
-        .replace(MY_NAME, '<span class="me">' + MY_NAME + '</span>')
+      return d.author.map((d) => `<span class="${d.bold ? "bold" : ""}">${d.name}</span>`)
+      .join(", ")
     });
 
   // venue, year
   pubInfo.append('div')
     .classed('venue', true)
     .html(function(d) {
-      return '<em>' + d.venue + '</em> ' + d.year;
+      return '<em>' + d.venue + '</em> ';
     });
 
   // add supplemental links
@@ -147,8 +149,12 @@ function renderPubs(pubData, target) {
     .html(function(d) {
       // First add paper pdf (if there is one)
       var supplementals = ''
-      if (d.hasOwnProperty('pdf'))
-        supplementals += '<a href="' + d.pdf + '"> pdf </a>';
+      if (d.hasOwnProperty('abstract_link'))
+        supplementals += '<a href="' + d.abstract_link + '"> Abstract </a>';
+      else
+        supplementals += ''
+      if (d.hasOwnProperty('pdf_link'))
+        supplementals += '| <a href="' + d.pdf_link + '"> PDF </a>';
       else
         supplementals += ''
       if (d.hasOwnProperty('tutorialwebsite'))

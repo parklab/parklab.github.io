@@ -16,8 +16,8 @@ hero_link_text: heroButtonLinkText
 		
 
 <!-- Load d3.js and generate publications -->
-<!-- <script src="js/d3.min.js"></script> -->
-<!-- <script src="js/generate_pubs.js"></script> -->
+<script src="js/d3.min.js"></script>
+<script src="js/generate_pubs.js"></script>
 <div class="label">
     <div id="publications" style="margin-top:20px;"></div>
 </div>
