@@ -132,7 +132,7 @@ function renderPubs(pubData, target) {
   pubInfo.append('div')
     .classed('authors', true)
     .html(function(d) {
-      return d.author.map((d) => `<span class="${d.bold ? "bold" : ""}">${d.name}</span>`)
+      return d.author.map((d) => `<span class="${d.lab_member ? "lab_member" : ""}">${d.name}</span>`)
       .join(", ")
     });
 
@@ -150,7 +150,7 @@ function renderPubs(pubData, target) {
       // First add paper pdf (if there is one)
       var supplementals = ''
       if (d.hasOwnProperty('abstract_link'))
-        supplementals += '<a href="' + d.abstract_link + '"> Abstract </a>';
+        supplementals += '<a target="_blank" href="' + d.abstract_link + '"> Abstract </a>';
       else
         supplementals += ''
       if (d.hasOwnProperty('pdf_link') && d.pdf_link !== '')

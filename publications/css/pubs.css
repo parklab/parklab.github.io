@@ -22,9 +22,9 @@
   margin-bottom: 50px;
 }
 
-.bold
+.lab_member
 {
-    font-weight: bolder;
+    font-weight: 600;
     color: black;
 }
 
@@ -84,6 +84,7 @@
 {
     /*color: #185A7C;*/
     color: #474747;
+    font-weight: 400;
 }
 
 .type-tag
