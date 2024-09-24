@@ -6,6 +6,6 @@ professional_title: "Undergraduate (Physics), Harvard College, Undergraduate Res
 description: ""
 layout: product
 academic: 1
-image: /img/people/jennifer-walsh.jpg
+image: ./img//jennifer-walsh.jpg
 hide_footer: true
 ---

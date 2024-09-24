@@ -6,6 +6,6 @@ professional_title: "MS, Bioinformatics Analyst (2006-2008), Director, Bioinform
 description: ""
 layout: product
 academic: 1
-image: /img/people/jonathan-dreyfuss.jpg
+image: ./img//jonathan-dreyfuss.jpg
 hide_footer: true
 ---

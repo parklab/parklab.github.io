@@ -6,6 +6,6 @@ professional_title: "HPCGG Bioinformatics Analyst (2003-2005)"  # Joined profess
 description: ""
 layout: product
 academic: 1
-image: /img/people/richard-kim.jpg
+image: ./img//richard-kim.jpg
 hide_footer: true
 ---

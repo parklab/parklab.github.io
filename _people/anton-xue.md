@@ -6,6 +6,6 @@ professional_title: "High School/Undergraduate Student (Boston Latin School/Prin
 description: ""
 layout: product
 academic: 1
-image: /img/people/anton-xue.jpg
+image: ./img//anton-xue.jpg
 hide_footer: true
 ---

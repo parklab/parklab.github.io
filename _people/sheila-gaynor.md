@@ -6,6 +6,6 @@ professional_title: "Rotation Student (2014)"  # Joined professional titles
 description: ""
 layout: product
 academic: 1
-image: /img/people/sheila-gaynor.jpg
+image: ./img//sheila-gaynor.jpg
 hide_footer: true
 ---

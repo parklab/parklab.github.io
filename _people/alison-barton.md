@@ -6,6 +6,6 @@ professional_title: "MPhil in Biological Science (Genetics), University of Cambr
 description: ""
 layout: product
 academic: 1
-image: /img/people/alison-barton.jpg
+image: ./img//alison-barton.jpg
 hide_footer: true
 ---

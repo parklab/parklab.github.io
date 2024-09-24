@@ -6,6 +6,6 @@ professional_title: "PhD in Bioinformatics and Integrative Genomics, MIT, Postdo
 description: "Jinkuk is a research fellow working on glioblastoma and other brain related diseases.Jinkuk received his PhD in Bioinformatics and Integrative Genomics from MIT, where he studied regulatory small RNA genomics with David Bartel. He also studied glioblastoma genomics for five years at Samsung Medical Center in South Korea as part of his military service. More recently he worked on machine learning approaches on genomic data analysis at Deep Genomics in Toronto."
 layout: product
 academic: 1
-image: /img/people/jinkuk-kim.jpg
+image: ./img//jinkuk-kim.jpg
 hide_footer: true
 ---

@@ -6,6 +6,6 @@ professional_title: "PhD in Biophysics, Harvard University, Postdoctoral Fellow/
 description: "Peter finished his biophysics PhD in George Church's lab at Harvard Medical School in 2005 and joined the Park lab in 2006. He now runs his own lab at DBMI, after earning the top spot in a national faculty search."
 layout: product
 academic: 1
-image: /img/people/peter-v-kharchenko.jpg
+image: ./img//peter-v-kharchenko.jpg
 hide_footer: true
 ---

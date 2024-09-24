@@ -6,6 +6,6 @@ professional_title: "MBA, MS/MBA Student (2007-2008)"  # Joined professional tit
 description: ""
 layout: product
 academic: 1
-image: /img/people/julie-yoo.jpg
+image: ./img//julie-yoo.jpg
 hide_footer: true
 ---

@@ -6,6 +6,6 @@ professional_title: "PhD in Biomedical Systems Informatics, Yonsei University Co
 description: ""
 layout: product
 academic: 1
-image: /img/people/yoo-jin-jiny-ha.jpg
+image: ./img//yoo-jin-jiny-ha.jpg
 hide_footer: true
 ---

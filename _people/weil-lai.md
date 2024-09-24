@@ -6,6 +6,6 @@ professional_title: "MD Tufts University School of Medicine, HPCGG Bioinformatic
 description: ""
 layout: product
 academic: 1
-image: /img/people/weil-lai.jpg
+image: ./img//weil-lai.jpg
 hide_footer: true
 ---

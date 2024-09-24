@@ -1,0 +1,43 @@
+.news-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.news-card {
+    box-shadow: none;
+    padding: 10px 0px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #ebebeb;
+
+    .card-header {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        margin-bottom: 10px;
+        
+        &-title {
+            font-size: 1.25rem;
+            flex-grow: inherit;
+            padding: 0px;
+        }
+        &-date {
+            font-size: 0.875rem;
+            color: #808080;
+            font-style: italic;
+        }
+    }
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+
+        img {
+            margin-top: 10px;
+            max-width: 400px;
+            max-height: 350px;
+        }
+    }
+    .card-header {
+
+    }
+}

@@ -6,6 +6,6 @@ professional_title: "PhD in Computer Science, Graz University of Technology, Vis
 description: "Alex is at the Institute for Computer Graphics and Vision in Graz University of Technology, Austria. He worked on development of StratomeX, a visualization tool for cancer genomics data."
 layout: product
 academic: 1
-image: /img/people/alexander-lex.jpg
+image: ./img//alexander-lex.jpg
 hide_footer: true
 ---

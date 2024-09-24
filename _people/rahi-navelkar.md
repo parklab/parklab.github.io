@@ -6,6 +6,6 @@ professional_title: "Masters in Biotechnology, Georgetown University, Data Wrang
 description: ""
 layout: product
 academic: 1
-image: /img/people/rahi-navelkar.jpg
+image: ./img//rahi-navelkar.jpg
 hide_footer: true
 ---

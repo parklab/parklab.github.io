@@ -6,6 +6,6 @@ professional_title: "PhD student, Bioinformatics and Integrative Genomics (BIG)"
 description: "Ann earned her BS in Information and Data Sciences from Caltech in 2022. While there she did research with Vineet Bafna at UCSD on detecting breakage-fusion-bridge (BFB) genomic rearrangements in cancer cells and did a senior thesis with Leonard Schulman on causal identification algorithms. She is currently working on studying mutational signatures in circulating tumor DNA with Doga Gulhan."
 layout: product
 academic: 1
-image: /img/people/ann-caplin.jpg
+image: ./img//ann-caplin.jpg
 hide_footer: true
 ---

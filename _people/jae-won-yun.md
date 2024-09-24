@@ -6,6 +6,6 @@ professional_title: "Visiting graduate student (2014)"  # Joined professional ti
 description: ""
 layout: product
 academic: 1
-image: /img/people/jae-won-yun.jpg
+image: ./img//jae-won-yun.jpg
 hide_footer: true
 ---

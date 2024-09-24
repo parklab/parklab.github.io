@@ -6,6 +6,6 @@ professional_title: "(2016)"  # Joined professional titles
 description: ""
 layout: product
 academic: 1
-image: /img/people/jumanah-alshenaifi.jpg
+image: ./img//jumanah-alshenaifi.jpg
 hide_footer: true
 ---

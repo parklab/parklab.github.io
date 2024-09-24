@@ -6,6 +6,6 @@ professional_title: "Scientific Programmer (2019-2021), Machine Learning Softwar
 description: ""
 layout: product
 academic: 1
-image: /img/people/victor-mao.jpg
+image: ./img//victor-mao.jpg
 hide_footer: true
 ---

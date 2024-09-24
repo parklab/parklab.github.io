@@ -10,7 +10,7 @@ $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
 
 // Disable the mobile breakpoint
-//$mobile-enabled: false;
+// $mobile-enabled: false;
 //$tablet-enabled: false;
 //$desktop-enabled: false;
 //$widescreen-enabled: false;
@@ -41,4 +41,7 @@ a{
 @import "showcase";
 @import "block-list";
 @import "navigation";
+@import "footer";
+
+// Pages
 @import "pages/index";

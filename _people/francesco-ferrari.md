@@ -6,6 +6,6 @@ professional_title: "PhD in Molecular Biology/Bioinformatics, University of Mode
 description: "Francesco did his graduate work in molecular biology/bioinformatics at the University of Modena and Reggio Emilia in Italy and was a postdoc at the University of Padova before joining the lab."
 layout: product
 academic: 1
-image: /img/people/francesco-ferrari.jpg
+image: ./img//francesco-ferrari.jpg
 hide_footer: true
 ---

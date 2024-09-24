@@ -6,6 +6,6 @@ professional_title: "MEng in Electrical Engineering, Boston University, Lead Sof
 description: "Full-stack web developer with a background in electrical engineering and industrial design."
 layout: product
 academic: 1
-image: /img/people/jennifer-marx.jpg
+image: ./img//jennifer-marx.jpg
 hide_footer: true
 ---

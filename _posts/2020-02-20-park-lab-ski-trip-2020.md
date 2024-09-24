@@ -1,0 +1,15 @@
+---
+layout: blog
+title: "Park Lab Ski Trip 2020"
+subtitle: "February 20, 2020"
+show_sidebar: false
+hero_image: ""
+hide_footer: true
+---
+
+After a brief hiatus, Park Lab went on their annual ski trip to Pats Peak this week!
+
+...
+
+![Image](/img/news-images/pats_peak_2020_2.jpg)
+

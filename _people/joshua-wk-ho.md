@@ -6,6 +6,6 @@ professional_title: "PhD in Bioinformatics, University of Sydney, Postdoctoral F
 description: "Joshua finished his PhD at the University of Sydney in Australia, working on microarray analysis and its clinical applications. In the Park lab, he worked on various genomics and epigenomic studies related to the SysCODE project. He now leads the Bioinformatics and Systems Medicine Laboratory at Victor Chang Cardiac Research Institute and Senior Lecturer at the University of New South Wales, back in Sydney."
 layout: product
 academic: 1
-image: /img/people/joshua-wk-ho.jpg
+image: ./img//joshua-wk-ho.jpg
 hide_footer: true
 ---

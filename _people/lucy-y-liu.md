@@ -6,6 +6,6 @@ professional_title: "Summer Intern (Wellesley, 2011)"  # Joined professional tit
 description: ""
 layout: product
 academic: 1
-image: /img/people/lucy-y-liu.jpg
+image: ./img//lucy-y-liu.jpg
 hide_footer: true
 ---

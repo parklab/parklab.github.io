@@ -6,6 +6,6 @@ professional_title: "Summer Intern (DBMI Summer Institute) (2017), Undergraduate
 description: ""
 layout: product
 academic: 1
-image: /img/people/rebecca-panitch.jpg
+image: ./img//rebecca-panitch.jpg
 hide_footer: true
 ---

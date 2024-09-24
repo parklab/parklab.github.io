@@ -6,6 +6,6 @@ professional_title: "PhD in Statistics, Washington University in St. Louis, Post
 description: "Ruibin is a statistician with a PhD from Washington University in St. Louis. He developed new methods for analysis of copy number and structural variations from sequencing data. He is now an assistant professor in the School of Mathematical Sciences and the Center for Statistical Science at Peking University in China."
 layout: product
 academic: 1
-image: /img/people/ruibin-xi.jpg
+image: ./img//ruibin-xi.jpg
 hide_footer: true
 ---

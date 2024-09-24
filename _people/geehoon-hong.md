@@ -6,6 +6,6 @@ professional_title: "MS in Mathematics, Georgia Institute of Technology, Researc
 description: "Research Assistant (2009-2010), a recent MIT graduate in mathematics, now a combinatorics graduate student at Georgia Tech"
 layout: product
 academic: 1
-image: /img/people/geehoon-hong.jpg
+image: ./img//geehoon-hong.jpg
 hide_footer: true
 ---

@@ -6,6 +6,6 @@ professional_title: "PhD Student, Electrical Engineering and Computer Science (M
 description: "Max holds a BS in Applied Mathematics from Brown University and an MS in Mathematics from the University of Cambridge. He is now a PhD in Electrical Engineering and Computer Science (EECS) at MIT where he works on ultra-efficient algorithms for assaying genomic variation in very large genome sequencing cohorts such as the UK Biobank. He previously worked as a scientific programmer in the Park Lab developing tools for single-cell whole genome sequencing analysis."
 layout: product
 academic: 1
-image: /img/people/maxwell-sherman.jpg
+image: ./img//maxwell-sherman.jpg
 hide_footer: true
 ---

@@ -6,6 +6,6 @@ professional_title: "Summer Intern (DBMI HST Summer Institute) (2017), Undergrad
 description: ""
 layout: product
 academic: 1
-image: /img/people/yixuan-he.jpg
+image: ./img//yixuan-he.jpg
 hide_footer: true
 ---

@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Example Post 2023"
-date:   2023-01-01
-description: Example Description 2023
----
-
-Example markdown
-

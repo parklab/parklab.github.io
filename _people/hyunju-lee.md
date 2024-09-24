@@ -6,6 +6,6 @@ professional_title: "PhD in Computer Science, University of Southern California,
 description: ""
 layout: product
 academic: 1
-image: /img/people/hyunju-lee.jpg
+image: ./img//hyunju-lee.jpg
 hide_footer: true
 ---

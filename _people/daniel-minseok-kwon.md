@@ -6,6 +6,6 @@ professional_title: "PhD in Bioinformatics, Seoul National University, Postdocto
 description: ""
 layout: product
 academic: 1
-image: /img/people/daniel-minseok-kwon.jpg
+image: ./img//daniel-minseok-kwon.jpg
 hide_footer: true
 ---

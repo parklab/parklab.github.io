@@ -1,0 +1,6 @@
+---
+description: "The male-specific lethal (MSL) complex upregulates the single male X chromosome to achieve dosage compensation in Drosophila melanogaster. We have proposed that MSL recognition of specific entry sites on the X is followed by local targeting of active genes marked by histone H3 trimethylation (H3K36me3). Here we analyze the role of the MSL3 chromodomain in the second targeting step. Using ChIP-chip analysis, we find that MSL3 chromodomain mutants retain binding to chromatin entry sites but show a clear disruption in the full pattern of MSL targeting in vivo, consistent with a loss of spreading. Furthermore, when compared to wild type, chromodomain mutants lack preferential affinity for nucleosomes containing H3K36me3 in vitro. Our results support a model in which activating complexes, similarly to their silencing counterparts, use the nucleosomal binding specificity of their respective chromodomains to spread from initiation sites to flanking chromatin."
+link: "http://compbio.hms.harvard.edu/sural-et-al-nature-structural-and-molecular-biology-2008"
+link_text: "Sural et al, The MSL3 chromodomain directs a key targeting step for dosage compensation of the Drosophila melanogaster X chromosome,Nature Structural and Molecular Biology, 2008"
+---
+

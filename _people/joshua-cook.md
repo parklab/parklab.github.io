@@ -6,6 +6,6 @@ professional_title: "PhD student, Biological and Biomedical Sciences (BBS), Harv
 description: "Josh earned degrees in chemistry and molecular biology from the University of California, Irvine. There, he trained under Professor Melissa Lodoen studying the deceptive dissemination tactics ofToxolasma gondii. Now, he is pursuing his PhD under the tutelage of Kevin Haigis and Peter Park studying the cellular effects of somatic mutations in cancer tumors."
 layout: product
 academic: 1
-image: /img/people/joshua-cook.jpg
+image: ./img//joshua-cook.jpg
 hide_footer: true
 ---

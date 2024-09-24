@@ -6,6 +6,6 @@ professional_title: "Undergradute Student, Tufts University, Summer Intern (2019
 description: "Undergraduate student at Tufts University School of Engineering, Computer Science '21"
 layout: product
 academic: 1
-image: /img/people/ethan-oliver.jpg
+image: ./img//ethan-oliver.jpg
 hide_footer: true
 ---

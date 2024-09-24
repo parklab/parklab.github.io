@@ -6,6 +6,6 @@ professional_title: "Summer intern (MIT UROP, 2005-2006)"  # Joined professional
 description: ""
 layout: product
 academic: 1
-image: /img/people/christopher-palmer.jpg
+image: ./img//christopher-palmer.jpg
 hide_footer: true
 ---

@@ -1,0 +1,14 @@
+---
+layout: default
+show_sidebar: false
+---
+
+{{ page.content }}
+
+{% for supplement in site.supplements %}
+<div class="supplement-container">
+    <a href="{{ supplement.link }}">{{ supplement.link_text }}</a>
+    <br/>
+    <b>Abstract</b>: {{ supplement.description }}
+</div>
+{% endfor %}

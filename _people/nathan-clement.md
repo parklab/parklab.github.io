@@ -6,6 +6,6 @@ professional_title: "BS Brigham Young University, Summer student (2009)"  # Join
 description: ""
 layout: product
 academic: 1
-image: /img/people/nathan-clement.jpg
+image: ./img//nathan-clement.jpg
 hide_footer: true
 ---

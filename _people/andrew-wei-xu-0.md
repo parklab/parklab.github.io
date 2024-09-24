@@ -6,6 +6,6 @@ professional_title: "PhD University of Ottawa, Postdoctoral Fellow (2011-2014), 
 description: "Andrew received his PhD from University of Ottawa with David Sankoff and did postdoctoral work at EPFL with Bernard Moret before joining the lab."
 layout: product
 academic: 1
-image: /img/people/andrew-wei-xu-0.jpg
+image: ./img//andrew-wei-xu-0.jpg
 hide_footer: true
 ---

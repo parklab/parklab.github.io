@@ -6,6 +6,6 @@ professional_title: "PhD in Genome Sciences/Genomics, Università degli Studi di
 description: "Luca was a PhD student in the School of Molecular Medicine at Università degli Studi di Milano in Italy when he came to visit us for a year. He worked on large-scale analysis of epigenetic data."
 layout: product
 academic: 1
-image: /img/people/luca-petiti.jpg
+image: ./img//luca-petiti.jpg
 hide_footer: true
 ---

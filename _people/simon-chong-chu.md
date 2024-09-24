@@ -6,6 +6,6 @@ professional_title: "PhD in Computer Science and Engineering, University of Conn
 description: "Chong (Simon) did his PhD training on computer science and engineering at University of Connecticut. He is interested in algorithm design and method development in fields of computational genomics and bioinformatics. During his PhD period, he has developed several open source tools on structural variation calling and genotyping, de novo repeats assembly, gap closing on draft genomes.He is currently working on structural variation and copy number analysis in normal and cancer cells."
 layout: product
 academic: 1
-image: /img/people/simon-chong-chu.jpg
+image: ./img//simon-chong-chu.jpg
 hide_footer: true
 ---

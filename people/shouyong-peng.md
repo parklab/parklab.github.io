@@ -1,0 +1,11 @@
+---
+title: <a href="/people/shouyong-peng">Dr.  Shouyong Peng</a>
+name: Dr.  Shouyong Peng
+subtitle: Research Fellow
+professional_title: "PhD in Physics, Boston University, Postdoctoral Fellow (2005-2010), Staff Scientist, Broad Institute/Dana-Farber Cancer Institute"  # Joined professional titles
+description: "Shouyong joined the Park lab after obtaining his physics PhD at Boston University in 2005. He is now a staff scientist at the Broad Institute/Dana-Farber Cancer Institute."
+layout: product
+academic: 1
+image: ../img/shouyong-peng.jpg
+hide_footer: true
+---

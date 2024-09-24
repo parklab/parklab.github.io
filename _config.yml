@@ -54,8 +54,8 @@ paginate: 10
 paginate_path: "/news/page:num"
 
 collections:
-  products:
+  people:
     output: true
-    layout: product
+    layout: person
     image: https://via.placeholder.com/800x600
-    show_sidebar: false
+    show_sidebar: falser

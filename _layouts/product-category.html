@@ -9,20 +9,20 @@ show_sidebar: false
   </div>
 
   <div class="page-body-container">
-    {% assign sorted_products = site.products | sort:page.sort %}
+    {% assign sorted_people = site.people | sort:page.sort %}
 
-    {% for product in sorted_products %}
+    {% for person in sorted_people %}
     <div class="person-container">
-      {% if product.image %}
+      {% if person.image %}
       <div class="person-card">
         <div class="image-container">
-          <img src="{{ product.image }}" alt="{{ product.name }}" />
+          <img src="{{ person.image }}" alt="{{ person.name }}" />
         </div>
         <div class="person-information">
-          <p class="title">{{ product.title }}</p>
-          <p class="subtitle">{{ product.subtitle }}</p>
-          <p class="professional_title">{{ product.professional_title }}</p>
-          {% comment %} <a class="read-more" href="{{ product.id }}">Read more</a> {% endcomment %}
+          <p class="title">{{ person.title }}</p>
+          <p class="subtitle">{{ person.subtitle }}</p>
+          <p class="professional_title">{{ person.professional_title }}</p>
+          {% comment %} <a class="read-more" href="{{ person.id }}">Read more</a> {% endcomment %}
         </div>
       </div>
       {% endif %}

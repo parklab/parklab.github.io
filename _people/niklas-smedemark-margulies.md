@@ -6,6 +6,6 @@ professional_title: "Graduate student in immunology (2014-2015)"  # Joined profe
 description: ""
 layout: product
 academic: 1
-image: /img/people/niklas-smedemark-margulies.jpg
+image: ./img//niklas-smedemark-margulies.jpg
 hide_footer: true
 ---

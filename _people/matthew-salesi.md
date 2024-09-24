@@ -6,6 +6,6 @@ professional_title: "BS Princeton University, Summer student (2009)"  # Joined p
 description: ""
 layout: product
 academic: 1
-image: /img/people/matthew-salesi.jpg
+image: ./img//matthew-salesi.jpg
 hide_footer: true
 ---

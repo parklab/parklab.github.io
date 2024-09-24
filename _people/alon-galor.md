@@ -6,6 +6,6 @@ professional_title: "B.S. in Applied Mathematics - Biology, Brown University, Sc
 description: "Alon is a recent graduate of Brown University, with a degree in Applied Mathematics - Biology (B.S.) and Economics (B.A.). Prior to joining the lab, he worked as a Research Associate at Harvard Business School and spent summers at Central and Investment Banks. In the coming years, Alon hopes to pursue doctoral studies in Biomedical Informatics."
 layout: product
 academic: 1
-image: /img/people/alon-galor.jpg
+image: ./img//alon-galor.jpg
 hide_footer: true
 ---

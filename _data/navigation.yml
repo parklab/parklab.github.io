@@ -11,8 +11,6 @@
 - name: Software
   link: /software/
 - name: Positions
-  link: /jobs/
-- name: Galleries
-  link: /galleries/
+  link: /positions/
 - name: Contact
   link: /contact/

@@ -6,6 +6,6 @@ professional_title: "Visiting Student Intern (2018-2019), Research Assistant and
 description: "Onur is a student intern at the4D NucleomeData Coordination and Integration Centerled by Park Lab at DBMI.He is currently a PhD candidate and reseach assistant at the Biology Department of Middle East Technical University in Ankara, TURKEY. His ongoing research topic is \"Combination and Interpratation of Different Kind of Human and Chimp Brain Data Sets\"."
 layout: product
 academic: 1
-image: /img/people/onur-baloglu.jpg
+image: ./img//onur-baloglu.jpg
 hide_footer: true
 ---

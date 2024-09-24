@@ -6,6 +6,6 @@ professional_title: "Rotation Student"  # Joined professional titles
 description: ""
 layout: product
 academic: 1
-image: /img/people/rebeca-borges-monroy.jpg
+image: ./img//rebeca-borges-monroy.jpg
 hide_footer: true
 ---
