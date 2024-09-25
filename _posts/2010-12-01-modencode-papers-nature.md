@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "modENCODE papers at Nature"
 subtitle: "December 1, 2010"
 show_sidebar: false

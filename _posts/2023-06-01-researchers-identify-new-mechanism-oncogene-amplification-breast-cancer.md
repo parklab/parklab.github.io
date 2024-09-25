@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Researchers identify new mechanism of oncogene amplification in breast cancer"
 subtitle: "June 1, 2023"
 show_sidebar: false

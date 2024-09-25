@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Congratulations Dr. Viswanadham!"
 subtitle: "May 25, 2023"
 show_sidebar: false

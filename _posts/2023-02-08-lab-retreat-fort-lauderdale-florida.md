@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Lab Retreat - Fort Lauderdale, Florida"
 subtitle: "February 8, 2023"
 show_sidebar: false

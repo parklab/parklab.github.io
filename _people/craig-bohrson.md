@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/craig-bohrson">Craig Bohrson</a>
+person_title: <a href="/people/craig-bohrson">Craig Bohrson</a>
 name: Craig Bohrson
-subtitle: Research Fellow
-professional_title: "PhD, HMS Bioinformatics and Integrative Genomics (BIG), Postdoctoral Fellow (2017-2023)"  # Joined professional titles
+subtitle: Research Fellow  # Set subtitle to position_link_text
+professional_title: "PhD, HMS Bioinformatics and Integrative Genomics (BIG), Postdoctoral Fellow (2017-2023)"
 description: ""
-layout: product
-academic: 1
-image: ./img//craig-bohrson.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/craig-bohrson.jpg
 hide_footer: true
 ---

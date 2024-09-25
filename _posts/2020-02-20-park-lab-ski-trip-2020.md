@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Park Lab Ski Trip 2020"
 subtitle: "February 20, 2020"
 show_sidebar: false

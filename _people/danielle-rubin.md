@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/danielle-rubin">Danielle Rubin</a>
+person_title: <a href="/people/danielle-rubin">Danielle Rubin</a>
 name: Danielle Rubin
-subtitle: Undergraduate Student
-professional_title: "Summer Intern (Harvard DBMI Summer Institute) (2017), Undergraduate student at the University of Chicago, Biology"  # Joined professional titles
+subtitle: Undergraduate Student  # Set subtitle to position_link_text
+professional_title: "Summer Intern (Harvard DBMI Summer Institute) (2017), Undergraduate student at the University of Chicago, Biology"
 description: ""
-layout: product
-academic: 1
-image: ./img//danielle-rubin.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/danielle-rubin.jpg
 hide_footer: true
 ---

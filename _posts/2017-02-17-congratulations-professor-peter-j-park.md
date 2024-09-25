@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Congratulations, Professor  Peter J. Park!"
 subtitle: "February 17, 2017"
 show_sidebar: false

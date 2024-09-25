@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "January team outing to Gunstock Mountain Resort"
 subtitle: "January 31, 2017"
 show_sidebar: false

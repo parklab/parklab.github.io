@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/jonathan-dreyfuss">Jonathan Dreyfuss</a>
+person_title: <a href="/people/jonathan-dreyfuss">Jonathan Dreyfuss</a>
 name: Jonathan Dreyfuss
-subtitle: Programmer
-professional_title: "MS, Bioinformatics Analyst (2006-2008), Director, Bioinformatics & Biostatistics Core Instructor in Medicine, Harvard Medical School"  # Joined professional titles
+subtitle: Programmer  # Set subtitle to position_link_text
+professional_title: "MS, Bioinformatics Analyst (2006-2008), Director, Bioinformatics & Biostatistics Core Instructor in Medicine, Harvard Medical School"
 description: ""
-layout: product
-academic: 1
-image: ./img//jonathan-dreyfuss.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/jonathan-dreyfuss.jpg
 hide_footer: true
 ---

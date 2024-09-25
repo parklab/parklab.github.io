@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Park Lab Holiday Party 2023!"
 subtitle: "December 14, 2023"
 show_sidebar: false

@@ -1,14 +1,16 @@
 ---
-layout: default
+layout: page
 show_sidebar: false
 ---
 
-{{ page.content }}
+{{ content }}
 
-{% for supplement in site.supplements %}
-<div class="supplement-container">
-    <a href="{{ supplement.link }}">{{ supplement.link_text }}</a>
-    <br/>
-    <b>Abstract</b>: {{ supplement.description }}
+<div class="supplements-container">
+    {% for supplement in site.supplements %}
+    <div class="supplement-container">
+        <a href="{{ supplement.link }}">{{ supplement.link_text }}</a>
+        <br/>
+        <b>Abstract</b>: {{ supplement.description }}
+    </div>
+    {% endfor %}
 </div>
-{% endfor %}

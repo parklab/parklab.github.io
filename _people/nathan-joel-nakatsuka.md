@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/nathan-joel-nakatsuka">Nathan Joel Nakatsuka</a>
+person_title: <a href="/people/nathan-joel-nakatsuka">Nathan Joel Nakatsuka</a>
 name: Nathan Joel Nakatsuka
-subtitle: Rotation Student
-professional_title: "Rotation Student"  # Joined professional titles
+subtitle: Rotation Student  # Set subtitle to position_link_text
+professional_title: "Rotation Student"
 description: ""
-layout: product
-academic: 1
-image: ./img//nathan-joel-nakatsuka.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/nathan-joel-nakatsuka.jpg
 hide_footer: true
 ---

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "More new members to the team!"
 subtitle: "August 8, 2018"
 show_sidebar: false

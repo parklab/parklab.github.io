@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/jennifer-walsh">Jennifer Walsh</a>
+person_title: <a href="/people/jennifer-walsh">Jennifer Walsh</a>
 name: Jennifer Walsh
-subtitle: Undergraduate Student
-professional_title: "Undergraduate (Physics), Harvard College, Undergraduate Researcher (2017)"  # Joined professional titles
+subtitle: Undergraduate Student  # Set subtitle to position_link_text
+professional_title: "Undergraduate (Physics), Harvard College, Undergraduate Researcher (2017)"
 description: ""
-layout: product
-academic: 1
-image: ./img//jennifer-walsh.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/jennifer-walsh.jpg
 hide_footer: true
 ---

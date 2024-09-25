@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Re-analysis of a published paper"
 subtitle: "April 19, 2013"
 show_sidebar: false

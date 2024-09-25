@@ -9,5 +9,5 @@ hero_image: heroImageSrc
 hide_footer: false
 ---
 
-Supplementary Material for Published Papers
+# Supplementary Material for Published Papers
 

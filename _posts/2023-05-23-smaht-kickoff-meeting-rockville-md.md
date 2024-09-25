@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "SMaHT Kickoff Meeting in Rockville, MD"
 subtitle: "May 23, 2023"
 show_sidebar: false

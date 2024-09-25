@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/richard-kim">Richard Kim</a>
+person_title: <a href="/people/richard-kim">Richard Kim</a>
 name: Richard Kim
-subtitle: Programmer
-professional_title: "HPCGG Bioinformatics Analyst (2003-2005)"  # Joined professional titles
+subtitle: Programmer  # Set subtitle to position_link_text
+professional_title: "HPCGG Bioinformatics Analyst (2003-2005)"
 description: ""
-layout: product
-academic: 1
-image: ./img//richard-kim.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/richard-kim.jpg
 hide_footer: true
 ---

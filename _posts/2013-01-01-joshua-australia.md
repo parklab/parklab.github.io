@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Joshua in Australia"
 subtitle: "January 1, 2013"
 show_sidebar: false

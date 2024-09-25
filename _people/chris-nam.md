@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/chris-nam">Chris Nam</a>
+person_title: <a href="/people/chris-nam">Chris Nam</a>
 name: Chris Nam
-subtitle: Rotation Student
-professional_title: "PhD student, Department of Systems Biology, Joint with Jeremy Gunawardena"  # Joined professional titles
+subtitle: Rotation Student  # Set subtitle to position_link_text
+professional_title: "PhD student, Department of Systems Biology, Joint with Jeremy Gunawardena"
 description: ""
-layout: product
-academic: 1
-image: ./img//chris-nam.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/chris-nam.jpg
 hide_footer: true
 ---

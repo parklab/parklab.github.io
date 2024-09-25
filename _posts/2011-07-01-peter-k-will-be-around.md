@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Peter K will be around!"
 subtitle: "July 1, 2011"
 show_sidebar: false

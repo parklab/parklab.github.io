@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/vidhu-choudhary">Vidhu  Choudhary</a>
+person_title: <a href="/people/vidhu-choudhary">Vidhu  Choudhary</a>
 name: Vidhu  Choudhary
-subtitle: Programmer
-professional_title: "MA, Bioinformatics Programmer (2007-2008), Senior Data Consultant, Kaiser Permanente"  # Joined professional titles
+subtitle: Programmer  # Set subtitle to position_link_text
+professional_title: "MA, Bioinformatics Programmer (2007-2008), Senior Data Consultant, Kaiser Permanente"
 description: ""
-layout: product
-academic: 1
-image: ./img//vidhu-choudhary.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/vidhu-choudhary.jpg
 hide_footer: true
 ---

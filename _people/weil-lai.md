@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/weil-lai">Dr. Weil R Lai</a>
+person_title: <a href="/people/weil-lai">Dr. Weil R Lai</a>
 name: Dr. Weil R Lai
-subtitle: Programmer
-professional_title: "MD Tufts University School of Medicine, HPCGG Bioinformatics Analyst (2004-2007), Urologist, Hunterdon Medical Center"  # Joined professional titles
+subtitle: Programmer  # Set subtitle to position_link_text
+professional_title: "MD Tufts University School of Medicine, HPCGG Bioinformatics Analyst (2004-2007), Urologist, Hunterdon Medical Center"
 description: ""
-layout: product
-academic: 1
-image: ./img//weil-lai.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/weil-lai.jpg
 hide_footer: true
 ---

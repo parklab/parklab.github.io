@@ -23,7 +23,7 @@ url: "http://example.com" # the base hostname & protocol for your site, e.g. htt
 permalink: pretty
 twitter_username: twitter_username
 github_username:  github_username
-favicon: favicon.ico
+favicon: favicon.svg
 author: Author
 twitter:
   username: twitter_username
@@ -58,4 +58,9 @@ collections:
     output: true
     layout: person
     image: https://via.placeholder.com/800x600
-    show_sidebar: falser
+    show_sidebar: false
+  supplements:
+    output: true
+    layout: supplement
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Happy Holidays from Park Lab!"
 subtitle: "December 16, 2017"
 show_sidebar: false

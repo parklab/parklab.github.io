@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Richard is a finalist"
 subtitle: "June 1, 2011"
 show_sidebar: false

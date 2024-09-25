@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Park Lab DBMI Happy Hour"
 subtitle: "May 11, 2023"
 show_sidebar: false

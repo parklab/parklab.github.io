@@ -12,14 +12,14 @@ show_sidebar: false
     {% assign sorted_people = site.people | sort:page.sort %}
 
     {% for person in sorted_people %}
-    <div class="person-container">
+    <div class="person-container" data-person="{{ person.name }}">
       {% if person.image %}
       <div class="person-card">
         <div class="image-container">
           <img src="{{ person.image }}" alt="{{ person.name }}" />
         </div>
         <div class="person-information">
-          <p class="title">{{ person.title }}</p>
+          <p class="title">{{ person.person_title }}</p>
           <p class="subtitle">{{ person.subtitle }}</p>
           <p class="professional_title">{{ person.professional_title }}</p>
           {% comment %} <a class="read-more" href="{{ person.id }}">Read more</a> {% endcomment %}

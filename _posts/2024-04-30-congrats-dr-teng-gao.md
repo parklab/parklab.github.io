@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Congrats Dr. Teng Gao!"
 subtitle: "April 30, 2024"
 show_sidebar: false

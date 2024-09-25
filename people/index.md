@@ -2,7 +2,7 @@
 title: People
 subtitle: <br/>
 page_title: people
-layout: product-category
+layout: people-category
 description: People Description
 show_sidebar: true
 sort: academic

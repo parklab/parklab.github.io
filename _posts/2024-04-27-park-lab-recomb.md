@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Park Lab at RECOMB"
 subtitle: "April 27, 2024"
 show_sidebar: false

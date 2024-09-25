@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Finding mutations in single neurons, in collaboration with the Walsh Lab"
 subtitle: "December 7, 2017"
 show_sidebar: false

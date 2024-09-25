@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/daon-ha">Daon Ha</a>
+person_title: <a href="/people/daon-ha">Daon Ha</a>
 name: Daon Ha
-subtitle: Undergraduate Student
-professional_title: "Summer intern (MIT UROP, 2005-2006)"  # Joined professional titles
+subtitle: Undergraduate Student  # Set subtitle to position_link_text
+professional_title: "Summer intern (MIT UROP, 2005-2006)"
 description: ""
-layout: product
-academic: 1
-image: ./img//daon-ha.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/daon-ha.jpg
 hide_footer: true
 ---

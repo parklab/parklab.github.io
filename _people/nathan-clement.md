@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/nathan-clement">Nathan Clement</a>
+person_title: <a href="/people/nathan-clement">Nathan Clement</a>
 name: Nathan Clement
-subtitle: Undergraduate Student
-professional_title: "BS Brigham Young University, Summer student (2009)"  # Joined professional titles
+subtitle: Undergraduate Student  # Set subtitle to position_link_text
+professional_title: "BS Brigham Young University, Summer student (2009)"
 description: ""
-layout: product
-academic: 1
-image: ./img//nathan-clement.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/nathan-clement.jpg
 hide_footer: true
 ---

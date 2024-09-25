@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Park Lab at the 4DN Annual Meeting in San Diego"
 subtitle: "December 7, 2022"
 show_sidebar: false

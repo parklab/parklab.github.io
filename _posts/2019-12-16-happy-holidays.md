@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Happy Holidays!"
 subtitle: "December 16, 2019"
 show_sidebar: false

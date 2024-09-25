@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Harvard vs Yale Hockey Game"
 subtitle: "March 1, 2024"
 show_sidebar: false

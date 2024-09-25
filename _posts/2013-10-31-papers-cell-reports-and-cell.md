@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Papers in Cell Reports and Cell"
 subtitle: "October 31, 2013"
 show_sidebar: false

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Integrated Biology Reseach grant from Agilent"
 subtitle: "October 1, 2011"
 show_sidebar: false

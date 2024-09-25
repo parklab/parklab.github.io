@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Antuan's Farewell Dinner"
 subtitle: "June 30, 2023"
 show_sidebar: false

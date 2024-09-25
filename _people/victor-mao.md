@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/victor-mao">Victor Mao</a>
+person_title: <a href="/people/victor-mao">Victor Mao</a>
 name: Victor Mao
-subtitle: Programmer
-professional_title: "Scientific Programmer (2019-2021), Machine Learning Software Engineer, Google"  # Joined professional titles
+subtitle: Programmer  # Set subtitle to position_link_text
+professional_title: "Scientific Programmer (2019-2021), Machine Learning Software Engineer, Google"
 description: ""
-layout: product
-academic: 1
-image: ./img//victor-mao.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/victor-mao.jpg
 hide_footer: true
 ---

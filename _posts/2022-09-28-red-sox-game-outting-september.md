@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "September Red Sox Game!"
 subtitle: "September 28, 2022"
 show_sidebar: false

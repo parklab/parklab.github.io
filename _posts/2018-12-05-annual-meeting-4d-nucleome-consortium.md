@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "At the annual meeting of the 4D Nucleome consortium"
 subtitle: "December 5, 2018"
 show_sidebar: false

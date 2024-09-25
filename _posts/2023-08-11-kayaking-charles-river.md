@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Kayaking on the Charles River!"
 subtitle: "August 11, 2023"
 show_sidebar: false

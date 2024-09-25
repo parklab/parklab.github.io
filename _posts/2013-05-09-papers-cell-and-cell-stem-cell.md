@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Papers in Cell and Cell Stem Cell"
 subtitle: "May 9, 2013"
 show_sidebar: false

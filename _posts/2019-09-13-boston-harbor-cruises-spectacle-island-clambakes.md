@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Boston Harbor Cruises - Spectacle Island Clambakes"
 subtitle: "September 13, 2019"
 show_sidebar: false

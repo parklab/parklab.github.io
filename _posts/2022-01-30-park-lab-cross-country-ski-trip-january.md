@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Park Lab Cross Country Ski Trip in January!"
 subtitle: "January 30, 2022"
 show_sidebar: false

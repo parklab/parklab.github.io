@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Single neuron sequencing paper published in Science"
 subtitle: "October 2, 2015"
 show_sidebar: false

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Welcome to Scott Kallgren"
 subtitle: "July 1, 2014"
 show_sidebar: false

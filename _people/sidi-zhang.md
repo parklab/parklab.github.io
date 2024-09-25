@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/sidi-zhang">Sidi Zhang</a>
+person_title: <a href="/people/sidi-zhang">Sidi Zhang</a>
 name: Sidi Zhang
-subtitle: Rotation Student
-professional_title: "Rotation Student (2013)"  # Joined professional titles
+subtitle: Rotation Student  # Set subtitle to position_link_text
+professional_title: "Rotation Student (2013)"
 description: ""
-layout: product
-academic: 1
-image: ./img//sidi-zhang.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/sidi-zhang.jpg
 hide_footer: true
 ---

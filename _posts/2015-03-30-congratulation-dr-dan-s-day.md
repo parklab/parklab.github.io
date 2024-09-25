@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Congratulations Dr. Dan S Day!"
 subtitle: "March 30, 2015"
 show_sidebar: false

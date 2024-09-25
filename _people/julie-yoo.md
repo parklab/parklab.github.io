@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/julie-yoo">Julie Yoo</a>
+person_title: <a href="/people/julie-yoo">Julie Yoo</a>
 name: Julie Yoo
-subtitle: Graduate Student
-professional_title: "MBA, MS/MBA Student (2007-2008)"  # Joined professional titles
+subtitle: Graduate Student  # Set subtitle to position_link_text
+professional_title: "MBA, MS/MBA Student (2007-2008)"
 description: ""
-layout: product
-academic: 1
-image: ./img//julie-yoo.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/julie-yoo.jpg
 hide_footer: true
 ---

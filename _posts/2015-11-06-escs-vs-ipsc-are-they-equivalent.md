@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "ESCs vs iPSC: are they equivalent?"
 subtitle: "November 6, 2015"
 show_sidebar: false

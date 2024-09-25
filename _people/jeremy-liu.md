@@ -1,11 +1,11 @@
 ---
-title: <a href="/people/jeremy-liu">Jeremy Liu</a>
+person_title: <a href="/people/jeremy-liu">Jeremy Liu</a>
 name: Jeremy Liu
-subtitle: Undergraduate Student
-professional_title: "Summer Intern (Yale, 2014)"  # Joined professional titles
+subtitle: Undergraduate Student  # Set subtitle to position_link_text
+professional_title: "Summer Intern (Yale, 2014)"
 description: ""
-layout: product
-academic: 1
-image: ./img//jeremy-liu.jpg
+layout: person
+academic: 10  # Updated academic field
+image: ./img/jeremy-liu.jpg
 hide_footer: true
 ---

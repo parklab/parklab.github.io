@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "STAP cell re-analysis published in Nature"
 subtitle: "September 24, 2015"
 show_sidebar: false

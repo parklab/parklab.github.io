@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Michael at MGH"
 subtitle: "July 1, 2012"
 show_sidebar: false

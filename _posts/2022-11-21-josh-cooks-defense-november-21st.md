@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Josh Cook's defense on November 21st!"
 subtitle: "November 21, 2022"
 show_sidebar: false

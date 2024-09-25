@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="columns is-multiline">
+<div class="columns is-multiline page-person">
 
     <div class="column is-6">
         <figure class="image is-4by3">
-            <img src="{{ page.image }}" />
+            <img src=".{{ page.image }}" />
         </figure>
     </div>
 
@@ -42,7 +42,7 @@ layout: default
     <div class="column is-12">
         <p class="title is-4">Description</p>
         <div class="content">
-
+            {{ page.description }}
 
             {{ content }}
         </div>

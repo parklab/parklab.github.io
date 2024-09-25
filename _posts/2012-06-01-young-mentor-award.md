@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "A Young Mentor Award"
 subtitle: "June 1, 2012"
 show_sidebar: false

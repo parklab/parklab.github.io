@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "New Park Lab Website Launched"
 subtitle: "October 26, 2015"
 show_sidebar: false

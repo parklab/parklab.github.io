@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "A Sloan fellowship!"
 subtitle: "February 1, 2010"
 show_sidebar: false

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "August summer outing to Nantasket Beach"
 subtitle: "September 12, 2017"
 show_sidebar: false

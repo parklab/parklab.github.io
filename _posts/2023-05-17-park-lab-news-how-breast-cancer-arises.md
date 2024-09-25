@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Park Lab in the News: How Breast Cancer Arises"
 subtitle: "May 17, 2023"
 show_sidebar: false

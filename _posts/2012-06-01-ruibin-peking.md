@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Ruibin in Peking"
 subtitle: "June 1, 2012"
 show_sidebar: false

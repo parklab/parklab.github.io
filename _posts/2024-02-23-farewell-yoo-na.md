@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Farewell Yoo-Na!"
 subtitle: "February 23, 2024"
 show_sidebar: false

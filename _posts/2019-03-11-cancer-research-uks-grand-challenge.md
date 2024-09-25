@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Cancer Research UK's Grand Challenge"
 subtitle: "March 11, 2019"
 show_sidebar: false

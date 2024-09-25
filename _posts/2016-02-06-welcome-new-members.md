@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Welcome to new members!"
 subtitle: "February 6, 2016"
 show_sidebar: false

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Multiple papers published"
 subtitle: "September 1, 2014"
 show_sidebar: false

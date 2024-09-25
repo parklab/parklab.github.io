@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "White Mountains Hiking Trip!"
 subtitle: "October 8, 2022"
 show_sidebar: false

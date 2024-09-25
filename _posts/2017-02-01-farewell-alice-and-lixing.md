@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Farewell to Alice and Lixing!"
 subtitle: "February 1, 2017"
 show_sidebar: false
