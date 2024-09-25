@@ -8,4 +8,5 @@ layout: person
 academic: 5  # Updated academic field
 image: ./img/han-qu.jpg
 hide_footer: true
+position_category: Postdoctoral Fellows
 ---

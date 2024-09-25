@@ -8,4 +8,5 @@ layout: person
 academic: 10  # Updated academic field
 image: ./img/burak-alver-0.jpg
 hide_footer: true
+position_category: Alumni
 ---

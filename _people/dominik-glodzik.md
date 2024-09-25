@@ -8,4 +8,5 @@ layout: person
 academic: 5  # Updated academic field
 image: ./img/dominik-glodzik.jpg
 hide_footer: true
+position_category: Research Scientists
 ---

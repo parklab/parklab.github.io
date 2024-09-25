@@ -8,4 +8,5 @@ layout: person
 academic: 5  # Updated academic field
 image: ./img/bianca-morris.jpg
 hide_footer: true
+position_category: Staff Scientists and Software Engineers
 ---

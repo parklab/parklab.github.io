@@ -8,4 +8,5 @@ layout: person
 academic: 5  # Updated academic field
 image: ./img/gregory-brunette.jpg
 hide_footer: true
+position_category: Students
 ---

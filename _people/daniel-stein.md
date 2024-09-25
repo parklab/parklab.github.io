@@ -8,4 +8,5 @@ layout: person
 academic: 10  # Updated academic field
 image: ./img/daniel-stein.jpg
 hide_footer: true
+position_category: Alumni
 ---

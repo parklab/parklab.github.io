@@ -9,7 +9,8 @@ show_sidebar: false
   </div>
 
   <div class="page-body-container">
-    {% assign sorted_people = site.people | sort:page.sort %}
+    <!-- {% assign grouped_people = site.people | group_by: "position_category" %} -->
+    {% assign sorted_people = site.people | sort: page.sort %}
 
     {% for person in sorted_people %}
     <div class="person-container" data-person="{{ person.name }}">

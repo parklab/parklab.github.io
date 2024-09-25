@@ -8,4 +8,5 @@ layout: person
 academic: 10  # Updated academic field
 image: ./img/francesco-ferrari.jpg
 hide_footer: true
+position_category: Alumni
 ---

@@ -8,4 +8,5 @@ layout: person
 academic: 10  # Updated academic field
 image: ./img/rebecca-panitch.jpg
 hide_footer: true
+position_category: Alumni
 ---

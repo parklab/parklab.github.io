@@ -8,4 +8,5 @@ layout: person
 academic: 0  # Updated academic field
 image: ./img/peter-j-park.jpg
 hide_footer: true
+position_category: Principal Investigator
 ---
