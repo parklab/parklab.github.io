@@ -12,12 +12,11 @@
             </a>
         </div>
         <div class="navbar-menu" id="navMenu">
-            <div class="navbar-start">
-<!--                <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}"><b>Home</b></a>-->
+            <div class="navbar-content">
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
-                    {% if item.dropdown %}
-                    <div class="navbar-item has-dropdown is-hoverable">
+                    <!-- {% if item.dropdown %}
+                    <div class="navbar-item has-dropdown is-hoverable link-underline-animate">
                         <a href="{{ item.link | prepend: site.baseurl }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}"><b>{{ item.name }}</b></a>
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
@@ -25,8 +24,15 @@
                             {% endfor %}
                         </div>
                     </div>
-                    {% else %}
-                <a href="{{ item.link | prepend: site.baseurl }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}"><b>{{ item.name }}</b></a>
+                    {% else %} -->
+                    <div class="navbar-item">
+                        <a href="{{ item.link | prepend: site.baseurl }}" class="navbar-item-link link-underline-animate {% if item.link == page.url %}is-active {% endif %}">
+                            <span class="navbar-item-text">
+                                {{ item.name }}
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
                     {% endif %}
                 {% endfor %}
                 {% endif %}

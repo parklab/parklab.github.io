@@ -4,25 +4,41 @@
     background: linear-gradient(to right, #155799 0%, #159957 100%) !important;
 
     .navbar-brand {
-        .navbar-item {
-            color: white;
-            font-weight: 700;
-            font-size: 1.875rem;
-        }
-    }
-    .navbar-item {
-        position: relative;
-        margin: auto 5px;
-        height: 40px;
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
-    .nav-link {
-        padding: 10px;
         color: white;
-        font-weight: 400;
+        font-weight: 700;
+        font-size: 1.875rem;
+    }
+
+    .navbar-menu {
+        .navbar-content {
+            .navbar-item {
+                padding: 0px;
+
+                &-link {
+                    padding: 0px 24px;
+                    position: relative;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    margin: auto 0px;
+                    height: 40px;
+                    color: white;
+                }
+
+                &-text {
+                    color: #155799;
+                }
+    
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgba(0, 0, 0, 0.02);
+                }
+
+                .disc {
+                    display: none;
+                }
+            }
+        }
     }
 
     &-toggler-icon {
@@ -31,33 +47,54 @@
 
     @media screen and (min-width: 1024px) {
         height: 100px;
-        .navbar-item {
-            display: flex;
-            justify-content: center;
-            padding: 0px 10px;
 
-            &-disc { // Add a disc before each nav item
-                height: 3px;
-                width: 3px;
-                background-color: rgba(255,255,255,0.33);
-                border-radius: 100%;
-                position: absolute;
-                left: -8px;
-                top: 50%;
-                transform: translateY(-50%);
-            }
+        .navbar-menu {
+            margin: 0px;
 
-            &:first-of-type {
-                .nav-item-disc {
-                    display: none;
+            .navbar-content {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                height: 100%;
+
+                .navbar-item {
+                    &-link {
+                        display: flex;
+                        justify-content: center;
+                        padding: 0px 0px;
+                        margin: auto 16px;
+                    }
+                    
+                    &-text {
+                        color: white;
+                    }
+        
+                    .disc { // Add a disc before each nav item
+                        display: flex;
+                        height: 3px;
+                        width: 3px;
+                        background-color: rgba(255,255,255,0.33);
+                        border-radius: 100%;
+                        position: absolute;
+                        left: 0px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: transparent;
+                    }
+        
+                    &:first-of-type {
+                        .disc {
+                            display: none;
+                        }
+                    }
                 }
             }
-
-            .nav-link {
-                margin: auto;
-                padding: 0px;
-            }
         }
+
     }
 
     .link-underline-animate { // Add an underline animation to the nav links
@@ -65,13 +102,13 @@
         &:before {
             content: "";
             position: absolute;
-            margin-left: 50%;
-            transform: translateX(-50%);
             height: 1px;
             background-color: white;
             bottom: 0px;
             width: 0%;
             transition: width 100ms ease-out;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         &:hover {
