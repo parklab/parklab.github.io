@@ -27,7 +27,7 @@ var tagColor;
 // If we use customs group, this maps orig type name to custom group name
 var groupMap;
 
-d3.json('/publication_data.json', function(json) {
+d3.json('/publication-data.json', function(json) {
   console.log("JSON", json);
 
   if (USE_CUSTOM_GROUPS) {

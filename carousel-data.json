@@ -1,0 +1,209 @@
+[
+  {
+    "link": "https://www.nature.com/articles/s41588-024-01659-0",
+    "image": "carousel-images/musical.png",
+    "caption": {
+      "h2": "A New Tool for Mutational Signature Analysis",
+      "p": "Hu and Doga describe MuSiCal (Mutational Signature Calculator) for analysis of somatic mutations (Nat Genetics 2024)",
+      "nested_link": "https://www.nature.com/articles/s41588-024-01659-0"
+    }
+  },
+  {
+    "link": "https://www.nature.com/articles/s41588-024-01665-2",
+    "image": "carousel-images/chromosome_evolution.png",
+    "caption": {
+      "h2": "Tissue-specific proliferative effects underlie tumor CNA patterns",
+      "p": "Chromosome evolution screens using single cell genome sequencing (Emma/Jake, Nat Genetics, 2024)",
+      "nested_link": "https://www.nature.com/articles/s41588-024-01665-2"
+    }
+  },
+  {
+    "link": "https://www.nature.com/articles/s41592-023-02056-x",
+    "image": "carousel-images/chromoscope.png",
+    "caption": {
+      "h2": "Chromoscope for SV analysis",
+      "p": "Interactive multiscale visualization for structural variation by Sehi and Dominik (Nat Methods, 2023)",
+      "nested_link": "https://www.nature.com/articles/s41592-023-02056-x"
+    }
+  },
+  {
+    "link": "https://www.nature.com/articles/s41588-023-01537-1",
+    "image": "carousel-images/mcnas.png",
+    "caption": {
+      "h2": "Widespread emergence of mosaic CNVs in normal human tissues",
+      "p": "A pan-tissue survey of mosaic chromosomal alterations in 948 individuals (Teng/Kharchenko Lab, Nat Genetics, 2023)",
+      "nested_link": "https://www.nature.com/articles/s41588-023-01537-1"
+    }
+  },
+  {
+    "link": "https://rdcu.be/ddh89",
+    "image": "carousel-images/tbamplificationfig2.jpg",
+    "caption": {
+      "h2": "A new mechanism for breast cancers",
+      "p": "Jake discovers Translocation-Bridge Amplification that generates focal amplifications (Nature, 2023)",
+      "nested_link": "https://rdcu.be/ddh89"
+    }
+  },
+  {
+    "link": "https://www.nature.com/articles/s41588-022-01180-2",
+    "image": "carousel-images/thumbnail_image001.png",
+    "caption": {
+      "h2": "Single-cell genome sequencing of human neurons",
+      "p": "Joe finds enrichment of somatic SNVs and indels in regulatory elements (Nat Genetics, 2022)",
+      "nested_link": "https://www.nature.com/articles/s41588-022-01180-2"
+    }
+  },
+  {
+    "link": "https://rdcu.be/cCQki",
+    "image": "carousel-images/slide-NRG_figure1.png",
+    "caption": {
+      "h2": "Computational analysis of Cancer Genome Sequencing Data",
+      "p": "Isidro et al discuss recent advances in cancer genome analysis (Nature Reviews Genetics, 2022)",
+      "nested_link": "https://rdcu.be/cCQki"
+    }
+  },
+  {
+    "link": "https://science.sciencemag.org/content/371/6535/1249",
+    "image": "carousel-images/untitled-1-01.png",
+    "caption": {
+      "h2": "Landmarks of embryonic development inscribed in somatic mutations",
+      "p": "Mosaic variants in multiple organs resolve post-zygotic lineages (Science, 2021)",
+      "nested_link": "https://science.sciencemag.org/content/371/6535/1249"
+    }
+  },
+  {
+    "link": "https://www.nature.com/articles/s41467-021-22125-z",
+    "image": "carousel-images/untitled-2.png",
+    "caption": {
+      "h2": "Origins/genetic interactions of KRAS mutations are allele- and tissue-specific",
+      "p": "Analysis of KRAS mutations at the allele level using >13K samples (Nat Comm, 2021)",
+      "nested_link": "https://www.nature.com/articles/s41467-021-22125-z"
+    }
+  },
+  {
+    "link": "https://www.nature.com/articles/s41588-019-0576-7",
+    "image": "carousel-images/screenshot_2020-03-08_20.28.59.png",
+    "caption": {
+      "h2": "Comprehensive analysis of chromothripsis using whole-genome data",
+      "p": "Analysis of >2500 cancer genomes shows that chromothripsis events are prevalent across multiple tumor types (Nat Genetics, 2020)",
+      "nested_link": "https://www.nature.com/articles/s41588-019-0576-7"
+    }
+  },
+  {
+    "link": "https://www.nature.com/articles/s41587-019-0368-8",
+    "image": "carousel-images/image.png",
+    "caption": {
+      "h2": "Detecting mosaic mutations using a ML algorithm (MosaicForecast)",
+      "p": "Yanmei et al develop MosaicForecast, a machine learning-based variant caller for mosaic mutations (Nat Biotech, 2020)",
+      "nested_link": "https://www.nature.com/articles/s41587-019-0368-8"
+    }
+  },
+  {
+    "link": "https://www.nature.com/articles/s41588-019-0390-2",
+    "image": "carousel-images/gulhan_2019.png",
+    "caption": {
+      "h2": "Detecting the mutational signature of homologous recombination deficiency",
+      "p": "Doga et al develop SigMA to identify patients who may benefit from PARP inhibitor treatment (Nat Genetics, 2019)",
+      "nested_link": "https://www.nature.com/articles/s41588-019-0390-2"
+    }
+  },
+  {
+    "link": "https://rdcu.be/brEMK",
+    "image": "carousel-images/bohrson_NG_fig1.jpg",
+    "caption": {
+      "h2": "LiRA identifies mutations in scDNA-seq data",
+      "p": "Craig develops a method for detection of somatic variants in single cells (Nat Genetics, 2019)",
+      "nested_link": "https://rdcu.be/brEMK"
+    }
+  },
+  {
+    "link": "https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30073-8",
+    "image": "carousel-images/figure_1.jpg",
+    "caption": {
+      "h2": "Review: Detecting somatic mutations in normal cells",
+      "p": "Yanmei, Heather, Joe, and Peter discuss issues in detection of somatic variants (Trends in Genetics, 2018)",
+      "nested_link": "https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30073-8"
+    }
+  },
+  {
+    "link": "http://science.sciencemag.org/content/early/2017/12/06/science.aao4426",
+    "image": "carousel-images/untitled.001.jpeg",
+    "caption": {
+      "h2": "Aging & neurodegeneration assoc. with increased mutations in neurons",
+      "p": "Analysis of the largest single cell WGS dataset to date (Science, 2018)",
+      "nested_link": "http://science.sciencemag.org/content/early/2017/12/06/science.aao4426"
+    }
+  },
+  {
+    "link": "https://academic-oup-com.ezp-prod1.hul.harvard.edu/nar/advance-article/doi/10.1093/nar/gkx1195/4658833",
+    "image": "carousel-images/untitled.001_01.jpeg",
+    "caption": {
+      "h2": "PaSD-qc: quality control for single cell whole-genome sequencing data",
+      "p": "Sherman et al. (Nucleic Acids Research, 2017) develop a QC method based on power density estimation",
+      "nested_link": "https://academic-oup-com.ezp-prod1.hul.harvard.edu/nar/advance-article/doi/10.1093/nar/gkx1195/4658833"
+    }
+  },
+  {
+    "link": "http://www.nature.com/articles/ncomms15180",
+    "image": "carousel-images/isidro_figure.png",
+    "caption": {
+      "h2": "Analysis of microsatellite instability identifies patients that may benefit from immunotherapy",
+      "p": "Cortes-Ciriano et al,Nat Comm, June, 2017",
+      "nested_link": "http://www.nature.com/articles/ncomms15180"
+    }
+  },
+  {
+    "link": "https://hms.harvard.edu/news/agent-mischief",
+    "image": "carousel-images/smarcb1-deficient_g401_cell_line_before_and_after_smarcb1_re-expression.jpg",
+    "caption": {
+      "h2": "Impact of mutation in a chromatin remodeling protein complex",
+      "p": "Three papers from a collaboration with the Roberts lab inNature GeneticsandNature Communications",
+      "nested_link": "https://hms.harvard.edu/news/agent-mischief"
+    }
+  },
+  {
+    "link": null,
+    "image": "carousel-images/slide1.jpg",
+    "caption": {
+      "h2": "Detecting structural variants from exome data",
+      "p": "Yang et al (AJHG, 2016) analyze nearly 5000 cancer exomes and identify thousands of rearrangements.",
+      "nested_link": null
+    }
+  },
+  {
+    "link": "http://science.sciencemag.org/content/350/6256/94.short",
+    "image": "carousel-images/phylogenycircle.jpg",
+    "caption": {
+      "h2": "Sequencing single neurons",
+      "p": "Lineage tracing of neurons using mutational analysis of single cell whole-genome sequencing data (Science, 2015; cover)",
+      "nested_link": "http://science.sciencemag.org/content/350/6256/94.short"
+    }
+  },
+  {
+    "link": "http://4dn-dcic.hms.harvard.edu",
+    "image": "carousel-images/4C_interactome.png",
+    "caption": {
+      "h2": "4D Nucleome project to understand higher-order nuclear organization",
+      "p": "The Park lab, along with the Kharchenko and Gehlenborg labs at DBMI, are leading the Data Coordination and Integration Center",
+      "nested_link": "http://4dn-dcic.hms.harvard.edu"
+    }
+  },
+  {
+    "link": "http://www.cell.com/neuron/abstract/S0896-6273(14)01137-4",
+    "image": "carousel-images/brain-teinsertion-new.jpg",
+    "caption": {
+      "h2": "Cell lineage analysis in human brain using endogenous retroelements",
+      "p": "Gilad Evrony, Alice Lee, et al. inNeuron, 2015 (Collaboration with the Chris Walsh lab)",
+      "nested_link": "http://www.cell.com/neuron/abstract/S0896-6273(14)01137-4"
+    }
+  },
+  {
+    "link": "http://www.nature.com/nature/journal/v512/n7515/full/nature13415.html",
+    "image": "carousel-images/front_page.jpg",
+    "caption": {
+      "h2": "Comparative analysis of metazoan chromatin organization",
+      "p": "A cross-species analysis from the ENCODE and modENCODE consortia, led by Park lab members,Nature, 2014",
+      "nested_link": "http://www.nature.com/nature/journal/v512/n7515/full/nature13415.html"
+    }
+  }
+]

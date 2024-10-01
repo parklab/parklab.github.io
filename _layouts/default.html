@@ -16,6 +16,9 @@
     {% include callouts.html %}
     <section class="section">
         <div class="container">
+            {% if page.showCarousel %}
+                {% include carousel.html %}
+            {% endif %}
             <div class="columns">
                 {% if page.menubar %}
                 <div class="column is-4-desktop is-4-tablet">
