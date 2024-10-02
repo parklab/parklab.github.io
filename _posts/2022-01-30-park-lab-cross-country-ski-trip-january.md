@@ -8,7 +8,5 @@ hero_image: ""
 hide_footer: true
 ---
 
-...
-
 ![Image](/img/news-images/image_from_ios_1.jpg)
 

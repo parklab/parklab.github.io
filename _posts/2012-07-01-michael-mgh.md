@@ -8,5 +8,5 @@ hero_image: ""
 hide_footer: true
 ---
 
-Congratulations to Michael for his new faculty position in the Department of Molecular Biology at Massachusetts General Hospital. Well done! His lab page ishere.
+Congratulations to Michael for his new faculty position in the Department of Molecular Biology at Massachusetts General Hospital. Well done! His lab page is [here](https://molbio.mgh.harvard.edu/laboratories/tolstorukov).
 

@@ -34,24 +34,22 @@
         img {
             margin-top: 10px;
             width: 100%;
+            height: auto;
             max-width: 400px;
-            max-height: 350px;
         }
     }
     .card-header {
+        .content {
+            display: flex;
 
+            .thumbnail {
+                margin-right: 20px;
+            }
+        }
     }
 
     &:first-of-type {
         padding-top: 20px;
-    }
-
-    @media screen and (min-width: 992px) {
-        img {
-            max-width: 400px;
-            max-height: 350px;
-        }
-        
     }
 }
 

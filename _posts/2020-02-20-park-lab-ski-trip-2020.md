@@ -10,7 +10,7 @@ hide_footer: true
 
 After a brief hiatus, Park Lab went on their annual ski trip to Pats Peak this week!
 
-...
+![Image](/img/news-images/pats_peak_2020.jpg)
 
 ![Image](/img/news-images/pats_peak_2020_2.jpg)
 
