@@ -5,8 +5,7 @@
 
 .news-card {
     box-shadow: none;
-    padding: 10px 0px;
-    padding-bottom: 34px;
+    padding: 40px 0px;
     border-bottom: 1px solid #ebebeb;
 
     .card-header {
@@ -39,5 +38,9 @@
     }
     .card-header {
 
+    }
+
+    &:first-of-type {
+        padding-top: 20px;
     }
 }

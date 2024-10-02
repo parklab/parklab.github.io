@@ -1,0 +1,22 @@
+.pagination {
+    &-link {
+        display: flex;
+
+        .page-number {
+            margin: auto;
+        }
+    }
+
+    &-button {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #3273dc;
+
+        &:hover {
+            background-color: #3273dc;
+            border: none;
+            color: white;
+        }
+    }
+}
