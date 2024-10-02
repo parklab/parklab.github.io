@@ -13,6 +13,7 @@
         </div>
     </div>
     <div class="card-content">
-            {{ post.content | truncatewords: 50 }}
+            <!-- Note: truncatewords may split a word inside of some text decoration -->
+            {{ post.content | truncatewords: 51 }}
     </div>
 </div>
