@@ -2,6 +2,7 @@
 layout: post
 title: "Peter K will be around!"
 subtitle: "July 1, 2011"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

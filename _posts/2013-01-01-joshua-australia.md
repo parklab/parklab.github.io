@@ -2,6 +2,7 @@
 layout: post
 title: "Joshua in Australia"
 subtitle: "January 1, 2013"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

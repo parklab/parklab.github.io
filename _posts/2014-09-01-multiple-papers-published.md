@@ -2,6 +2,7 @@
 layout: post
 title: "Multiple papers published"
 subtitle: "September 1, 2014"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

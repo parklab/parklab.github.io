@@ -2,6 +2,7 @@
 layout: post
 title: "Integrated Biology Reseach grant from Agilent"
 subtitle: "October 1, 2011"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

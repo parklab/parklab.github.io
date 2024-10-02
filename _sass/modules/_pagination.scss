@@ -18,5 +18,11 @@
             border: none;
             color: white;
         }
+
+        &[disabled]:hover {
+            background-color: #dbdbdb;
+            color: #7a7a7a;
+            border-color: #dbdbdb;
+        }
     }
 }

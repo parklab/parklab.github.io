@@ -2,6 +2,7 @@
 layout: post
 title: "STAP cell re-analysis published in Nature"
 subtitle: "September 24, 2015"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

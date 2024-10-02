@@ -2,6 +2,7 @@
 layout: post
 title: "At the annual meeting of the 4D Nucleome consortium"
 subtitle: "December 5, 2018"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

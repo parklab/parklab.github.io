@@ -2,6 +2,7 @@
 layout: post
 title: "Researchers identify new mechanism of oncogene amplification in breast cancer"
 subtitle: "June 1, 2023"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

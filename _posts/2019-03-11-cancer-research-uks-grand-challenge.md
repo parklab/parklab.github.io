@@ -2,6 +2,7 @@
 layout: post
 title: "Cancer Research UK's Grand Challenge"
 subtitle: "March 11, 2019"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

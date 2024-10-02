@@ -2,6 +2,7 @@
 layout: post
 title: "Welcome to our newest members!"
 subtitle: "March 21, 2018"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

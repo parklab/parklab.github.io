@@ -2,6 +2,7 @@
 layout: post
 title: "Farewell to Alice and Lixing!"
 subtitle: "February 1, 2017"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

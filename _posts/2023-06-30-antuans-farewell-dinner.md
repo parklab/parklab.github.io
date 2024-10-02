@@ -2,6 +2,7 @@
 layout: post
 title: "Antuan's Farewell Dinner"
 subtitle: "June 30, 2023"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

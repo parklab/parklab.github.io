@@ -3,6 +3,7 @@
     margin-bottom: 20px;
 }
 
+// Styles for the news cards on the /news/ page
 .news-card {
     box-shadow: none;
     padding: 40px 0px;
@@ -32,6 +33,7 @@
 
         img {
             margin-top: 10px;
+            width: 100%;
             max-width: 400px;
             max-height: 350px;
         }
@@ -42,5 +44,30 @@
 
     &:first-of-type {
         padding-top: 20px;
+    }
+
+    @media screen and (min-width: 992px) {
+        img {
+            max-width: 400px;
+            max-height: 350px;
+        }
+        
+    }
+}
+
+// Styles for a news-item page
+.page-news-item {
+    .content {
+        img {
+            max-width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .content {
+            img {
+                max-width: 800px;
+            }
+        }
     }
 }

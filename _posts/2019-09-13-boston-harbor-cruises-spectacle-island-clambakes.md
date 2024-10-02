@@ -2,6 +2,7 @@
 layout: post
 title: "Boston Harbor Cruises - Spectacle Island Clambakes"
 subtitle: "September 13, 2019"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

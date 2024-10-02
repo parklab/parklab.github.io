@@ -2,6 +2,7 @@
 layout: post
 title: "Happy Holidays!"
 subtitle: "December 16, 2019"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

@@ -2,6 +2,7 @@
 layout: post
 title: "New Park Lab Website Launched"
 subtitle: "October 26, 2015"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

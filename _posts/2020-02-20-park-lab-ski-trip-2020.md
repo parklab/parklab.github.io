@@ -2,6 +2,7 @@
 layout: post
 title: "Park Lab Ski Trip 2020"
 subtitle: "February 20, 2020"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

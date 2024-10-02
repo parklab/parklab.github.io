@@ -2,6 +2,7 @@
 layout: post
 title: "Single neuron sequencing paper published in Science"
 subtitle: "October 2, 2015"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

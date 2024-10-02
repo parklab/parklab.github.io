@@ -2,6 +2,7 @@
 layout: post
 title: "A Closer Read: To understand large data sets, researchers look to tools that decipher patterns in natural language"
 subtitle: "December 4, 2017"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

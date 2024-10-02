@@ -2,6 +2,7 @@
 layout: post
 title: "SMaHT Kickoff Meeting in Rockville, MD"
 subtitle: "May 23, 2023"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

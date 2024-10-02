@@ -2,6 +2,7 @@
 layout: post
 title: "Josh Cook's defense on November 21st!"
 subtitle: "November 21, 2022"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

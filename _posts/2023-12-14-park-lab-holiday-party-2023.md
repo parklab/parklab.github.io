@@ -2,6 +2,7 @@
 layout: post
 title: "Park Lab Holiday Party 2023!"
 subtitle: "December 14, 2023"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

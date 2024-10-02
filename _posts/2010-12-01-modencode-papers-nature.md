@@ -2,6 +2,7 @@
 layout: post
 title: "modENCODE papers at Nature"
 subtitle: "December 1, 2010"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

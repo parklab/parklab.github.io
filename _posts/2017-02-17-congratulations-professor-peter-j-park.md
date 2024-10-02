@@ -2,6 +2,7 @@
 layout: post
 title: "Congratulations, Professor  Peter J. Park!"
 subtitle: "February 17, 2017"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

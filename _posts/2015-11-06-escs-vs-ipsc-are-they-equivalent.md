@@ -2,6 +2,7 @@
 layout: post
 title: "ESCs vs iPSC: are they equivalent?"
 subtitle: "November 6, 2015"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

@@ -2,6 +2,7 @@
 layout: post
 title: "September Red Sox Game!"
 subtitle: "September 28, 2022"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

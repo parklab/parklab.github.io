@@ -1,9 +1,19 @@
 .page-person {
+    flex: 1;
     .image {
         img {
             height: 100%;
-            width: auto;
+            width: 100%;
             margin: auto;
         }
+    }
+
+
+    @media screen and (min-width: 1200px) {
+       .image {
+            img {
+                width: auto;
+            }
+       }
     }
 }

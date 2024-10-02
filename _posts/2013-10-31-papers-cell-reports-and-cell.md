@@ -2,6 +2,7 @@
 layout: post
 title: "Papers in Cell Reports and Cell"
 subtitle: "October 31, 2013"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

@@ -2,6 +2,7 @@
 layout: post
 title: "Lab Retreat - Fort Lauderdale, Florida"
 subtitle: "February 8, 2023"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

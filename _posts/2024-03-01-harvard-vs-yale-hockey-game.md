@@ -2,6 +2,7 @@
 layout: post
 title: "Harvard vs Yale Hockey Game"
 subtitle: "March 1, 2024"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

@@ -2,6 +2,7 @@
 layout: post
 title: "October Lab Hike in New Hampshire"
 subtitle: "November 16, 2017"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

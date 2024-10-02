@@ -2,6 +2,7 @@
 layout: post
 title: "Park Lab at RECOMB"
 subtitle: "April 27, 2024"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

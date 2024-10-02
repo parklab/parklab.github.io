@@ -2,6 +2,7 @@
 layout: post
 title: "Finding mutations in single neurons, in collaboration with the Walsh Lab"
 subtitle: "December 7, 2017"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true

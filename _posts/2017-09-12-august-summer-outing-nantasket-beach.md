@@ -2,6 +2,7 @@
 layout: post
 title: "August summer outing to Nantasket Beach"
 subtitle: "September 12, 2017"
+page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
