@@ -9,25 +9,31 @@ show_sidebar: false
   </div>
 
   <div class="page-body-container">
-    <!-- {% assign grouped_people = site.people | group_by: "position_category" %} -->
-    {% assign sorted_people = site.people | sort: page.sort %}
+    {% assign people_by_category = site.people | group_by: "position_category" %}
 
-    {% for person in sorted_people %}
-    <div class="person-container" data-person="{{ person.name }}">
-      {% if person.image %}
-      <div class="person-card">
-        <div class="image-container">
-          <img src="{{ person.image }}" alt="{{ person.name }}" />
+    {% for category in site.data.categories-order %}
+      <h2 class="category-header">{{ category }}</h2>
+      <hr>
+      
+      {% assign currentPositionCategory = people_by_category | where: "name" , category | first %}
+
+      {% for person in currentPositionCategory.items %}
+      <div class="person-container" data-person="{{ person.name }}">
+        {% if person.image %}
+        <div class="person-card">
+          <div class="image-container">
+            <img src="{{ person.image }}" alt="{{ person.name }}" />
+          </div>
+          <div class="person-information">
+            <p class="title">{{ person.person_title }}</p>
+            <p class="subtitle">{{ person.subtitle }}</p>
+            <p class="professional_title">{{ person.professional_title }}</p>
+            {% comment %} <a class="read-more" href="{{ person.id }}">Read more</a> {% endcomment %}
+          </div>
         </div>
-        <div class="person-information">
-          <p class="title">{{ person.person_title }}</p>
-          <p class="subtitle">{{ person.subtitle }}</p>
-          <p class="professional_title">{{ person.professional_title }}</p>
-          {% comment %} <a class="read-more" href="{{ person.id }}">Read more</a> {% endcomment %}
-        </div>
+        {% endif %}
       </div>
-      {% endif %}
-    </div>
+      {% endfor %}
     {% endfor %}
   </div>
 </div>
