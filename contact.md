@@ -6,7 +6,7 @@ description: Contact Page Description
 layout: page
 hero_link: heroButtonLink
 hero_link_text: HeroButtonText
-show_sidebar: true
+show_sidebar: false
 hero_image: heroImageSrc
 hide_footer: true
 ---
@@ -15,13 +15,16 @@ hide_footer: true
 
 #### Location of the Lab
 
-Department of Biomedical Informatics
-Harvard Medical School
-10 Shattuck St, 3rd Floor
-Boston, MA 02115
-(Inside Countway Library of Medicine building)
-Phone: 617-432-7373
-Fax: 617-432-0693
+
+![Countway Library](/img/countway.jpg)
+
+Department of Biomedical Informatics<br>
+Harvard Medical School<br>
+10 Shattuck St, 3rd Floor<br>
+Boston, MA 02115<br>
+(Inside Countway Library of Medicine building)<br>
+Phone: 617-432-7373<br>
+Fax: 617-432-0693<br>
 
 #### Directions to the Longwood Medical Area
 
@@ -34,3 +37,6 @@ Fax: 617-432-0693
 #### Entry to Countway Library
 
 A Harvard, MIT, or a hospital ID is needed. (If you do not have it, please speak to the guard and explain that you are visitor. A call to Peter's office may be needed). The Library is located next to the Gordon Hall in the main Quad (you can see the top of the library between the buildings):
+
+![Harvard Medical School Quad](/img/rsch_sci_env_quad.jpg)
+![Map of Longwood](/img/longwoodmap.gif)
