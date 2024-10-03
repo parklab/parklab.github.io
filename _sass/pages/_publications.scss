@@ -7,20 +7,15 @@
         margin-bottom: 20px;
     }
 
-
-
-    /*.container {
-    width:90%;
-        margin:0 auto 0 auto;
-        margin-top: 30px;
+    h3.year-header {
+        margin-top: 60px;
+        margin-bottom: 0px;
+        color: #4a4a4a;
     }
-    */
+
 
     .pub
     {
-    /*margin-bottom: 15px;*/
-    /*Indentation for year*/
-    /*margin-left: 10px;*/
     font-size: 15px;
     }
 
@@ -38,9 +33,7 @@
 
     .title
     {
-        /*font-weight: bolder;*/
-        font-size:16px;
-        color:rgb(145,20,20);
+        font-size: 1rem;
     }
 
     .comment
@@ -111,24 +104,5 @@
     color: #474747;
     background-color: white;
     }
-
-    /*h3
-    {
-    color: #707070;
-    margin-left: 15px;
-
-    }
-
-
-    a:link, a:visited
-    {
-        color:rgb(145,20,20);
-            text-decoration: none;
-    }
-
-    a:hover, a:active {
-        color:rgb(145,20,20);
-        text-decoration: underline;
-    }*/
 
 }

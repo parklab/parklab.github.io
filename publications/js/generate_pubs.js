@@ -28,7 +28,6 @@ var tagColor;
 var groupMap;
 
 d3.json('/publication-data.json', function(json) {
-  console.log("JSON", json);
 
   if (USE_CUSTOM_GROUPS) {
     groupMap = d3.map(json.pub_grouping)
@@ -47,7 +46,14 @@ d3.json('/publication-data.json', function(json) {
   //
   // buildYears(nested_data, '#publications');
 
-  renderPubs(data, '#publications');
+  // Organize by year
+  const data_groups = Object.groupBy(data, ({ year }) => year);
+
+  // Render each year independently
+  Object.keys(data_groups).sort((a, b) => b - a).forEach(year => {
+    renderPubs(data_groups[year], `#publications`, year);
+  })
+
 });
 
 function createTypeColors(d) {
@@ -61,11 +67,21 @@ function createTypeColors(d) {
 }
 
 // Generate publications
-function renderPubs(pubData, target) {
-  var pubs = d3.select(target).selectAll('pub')
-    .data(pubData);
+function renderPubs(pubData, target, year) {
 
-    console.log("pubs", pubs);
+  const pubsContainer = d3.select(target);
+  
+  pubsContainer.append('h3')
+      .classed('year-header', true)
+      .text(function(d) {
+        return year;
+      });
+
+  pubsContainer.append('hr')
+      .classed('year-header-break', true)
+    
+  var pubs = d3.select(target).selectAll('pub')
+               .data(pubData);
 
   pubs.enter().append('div')
     .classed('pub', true);
