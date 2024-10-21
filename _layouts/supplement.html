@@ -1,0 +1,44 @@
+---
+layout: page
+---
+
+<h1>{{ page.link_text }}</h1>
+
+
+<div class="text-content">
+    {{ content }}
+</div>
+<br />
+{% if page.data_files %}
+    <b>Data Files:</b>
+    <table class="supplementary-files-table">
+        <tbody>
+            {% for file in page.data_files %}
+            <tr>
+                {% if file.nested-files %}
+                <td>
+                    <div class="file-group">
+                        <span class="file-group-title">{{ file.title }}</span>
+                        <ul>
+                            {% for nested_file in file.nested-files %} 
+                            <li>
+                                <a href="../files/{{ nested_file.src }}">{{ nested_file.title }}</a><span class="size">{{ nested_file.size }}</span>
+                            </li>
+                            {% endfor %}
+    
+                        </ul>
+                    </div>
+                </td>
+                {% else %}
+                <td>
+                    <div class="file-item">
+                        <a href="../files/{{ file.src }}">{{ file.title }}</a>
+                        <span class="size">{{ file.size }}</span>
+                    </div>
+                </td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endif %}

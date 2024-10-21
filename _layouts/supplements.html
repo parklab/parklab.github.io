@@ -6,11 +6,20 @@ show_sidebar: false
 {{ content }}
 
 <div class="supplements-container">
-    {% for supplement in site.supplements %}
+    {% assign supplements_by_year = site.supplements | sort: "year" | reverse %}
+    {% for supplement in supplements_by_year %}
     <div class="supplement-container">
         <a href="{{ supplement.link }}">{{ supplement.link_text }}</a>
+
+        {% if supplement.abstract_description %}
         <br/>
-        <b>Abstract</b>: {{ supplement.description }}
+        <b>Abstract</b>: {{ supplement.abstract_description }}
+        {% endif %}
+
+        {% if supplement.additional_text %}
+        <br/>
+        <p>{{ supplement.additional_text }}</p>
+        {% endif %}
     </div>
     {% endfor %}
 </div>

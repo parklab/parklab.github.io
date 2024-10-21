@@ -9,3 +9,68 @@
         font-weight: 500;
     }
 }
+
+.page-supplement {
+
+    .text-content {
+        color: #555555;
+    }
+
+    .supplementary-files-table {
+        width: 80%;
+        margin-top: 16px;
+        border: 1px solid rgb(216, 216, 216);
+
+        tbody {
+            tr {
+                td {
+                    font-size: 1rem;
+                    display: flex;
+
+                    .file-group {
+                        width: 100%;
+
+                        &-title {
+                            font-weight: 600;
+                        }
+                        ul {
+                            margin-top: 5px;
+                            margin-left: 10px;
+
+                            li {
+                                display: flex;
+                                justify-content: space-between;
+                                margin-top: 0px;
+                                padding-top: 5px;
+                                padding-bottom: 5px;
+                                border-bottom: 1px solid rgb(237, 237, 237);
+
+                                &:last-of-type {
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .file-item {
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+                    }
+                    
+                    span.size {
+                        font-size: 0.75rem;
+                        font-weight: 700;
+                        color: #555555;
+                        align-self: center;
+                    }
+                }
+
+                &:nth-of-type(2n) {
+                    background-color: rgb(238, 238, 238);
+                }
+            }
+        }
+    
+    }
+}
