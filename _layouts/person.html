@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="columns is-multiline page-person">
+<!-- <div class="columns is-multiline page-person">
 
     <div class="column is-6">
         <figure class="image is-4by3">
@@ -57,5 +57,63 @@ layout: default
     </div>
     {% endif %}
 
-</div>
+</div> -->
 
+<div class="page-person">
+    <div class="content column is-10">
+        <div class="header">
+            {% if page.name %}
+            <h1 class="name">{{ page.name }}</h1>
+            {% endif %}
+            {% if page.professional_title %}
+            <h2 class="title">{{ page.professional_title }}</h2>
+            {% endif %}
+        </div>
+        
+        <hr />
+
+        <div class="image-and-description">
+            {% if page.image %}
+            <div class="image-container">
+                <img src=".{{ page.image }}" />
+            </div>
+            {% endif %}
+
+            {% if page.description %}
+            {{ page.description }}
+            {% else %}
+            {{ page.content }}
+            {% endif %}
+        </div>
+
+        <hr />
+
+        <div class="information-cards-container">
+            
+            {% if page.contact_information %}
+            <div class="information-card">
+                <span class="title">Contact Information</span>
+                <span class="value">{{ page.contact_information }}</span>
+            </div>
+            {% endif %}
+
+            <div class="information-card">
+                <span class="title">Status</span>
+                <span class="value">
+                    {% if page.academic < 10 %}
+                    Active Member
+                    {% else %}
+                    Alumni
+                    {% endif %}
+                </span>
+            </div>
+
+            {% if page.subtitle %}
+            <div class="information-card">
+                <span class="title">Position</span>
+                <span class="value">{{ page.subtitle }}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

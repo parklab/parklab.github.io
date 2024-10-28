@@ -1,19 +1,80 @@
 .page-person {
     flex: 1;
-    .image {
-        img {
-            height: 100%;
-            width: 100%;
-            margin: auto;
+
+    .content {
+        margin: auto;
+
+        ul {
+            list-style: none;
+            padding-left: 0px;
+            margin-left: 0px;
+        }
+    }
+    
+
+    .header {
+        display: flex;
+        flex-direction: column;
+
+        h1.name {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        .title {
+            font-size: 1rem;
+            margin: 0px;
         }
     }
 
+    .image-and-description {
+        margin-top: 30px;
+        font-size: 1rem;
+        
+        .image-container {
+            float: left;
+            min-width: 150px;
+            width: 20%;
+            padding: 0px 15px 15px 0px;
+        }
+        .description-container {
+            margin-left: 25px;
+            display: flex;
+
+            .description {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .information-cards-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .information-card {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 3rem;
+            flex: 1;
+            margin-right: 20px;
+            min-width: 330px;
+
+            .title {
+                font-weight: 700;
+                font-size: 1.25rem;
+                margin-bottom: 8px;
+            }
+            .value {
+                font-size: 1rem;
+            }
+        }
+    }
 
     @media screen and (min-width: 1200px) {
-       .image {
-            img {
-                width: auto;
-            }
-       }
+        .image {
+             img {
+                 width: auto;
+             }
+        }
     }
 }
