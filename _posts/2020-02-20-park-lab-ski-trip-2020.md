@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2020-02-20"
+
 ---
 
 After a brief hiatus, Park Lab went on their annual ski trip to Pats Peak this week!

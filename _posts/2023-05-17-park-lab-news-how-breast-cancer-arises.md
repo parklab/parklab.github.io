@@ -8,6 +8,8 @@ hero_image: ""
 hide_footer: true
 thumbnail: "/img/news-images/channels4_profile.jpg"
 thumbnail_alt: "Harvard Medical School Logo"
+date: "2023-05-17"
+
 ---
 
 Congratulations to first author Jake June-Koo Lee and all Park Lab members who worked on the recently published paper in Nature titled "ERα-associated translocations underlie oncogene amplifications in breast cancer." The paper was featured and discussed on multiple news outlets including the Harvard Medical School website: [How Breast Cancer Arises \| Harvard Medical School](https://hms.harvard.edu/news/how-breast-cancer-arises).

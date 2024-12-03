@@ -8,6 +8,8 @@ hero_image: ""
 hide_footer: true
 thumbnail: "/img/news-images/images.jpeg"
 thumbnail_alt: "STAP cell re-analysis published in Nature"
+date: "2015-09-24"
+
 ---
 
 Congrats for Francesco! It took a long time, but this paper has finally come out. An accompanying review features a section on how to use genomics to evaluate potency and provenance of pluripotent stem cells by Francesco and Peter, as well as analysis by Ruibin. (image from Science News).

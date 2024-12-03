@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2017-01-31"
+
 ---
 
 In January, some members of the lab enjoyed a fun day trip to the Gunstock Mountain Resort. It was a beautiful day for skiing and snowboarding!  Below are some pictures from the trip:

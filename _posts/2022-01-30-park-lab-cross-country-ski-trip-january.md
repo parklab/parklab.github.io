@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2022-01-30"
+
 ---
 
 ![Image](/img/news-images/image_from_ios_1.jpg)

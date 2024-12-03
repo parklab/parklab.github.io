@@ -8,6 +8,8 @@ hero_image: ""
 hide_footer: true
 thumbnail: "/img/news-images/f1.medium.gif"
 thumbnail_alt: "Single neuron sequencing paper published in Science"
+date: "2015-10-02"
+
 ---
 
 Congrats to Semin, Soo, Joe, Alice, and our friends in the Walsh lab!  We are delighted  that this paper made the cover!  Here is the accompanying Perspective in Science: [A tree of the human brain](https://www.sciencemag.org/content/350/6256/37.summary).

@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2017-02-01"
+
 ---
 
 A belated congratulations to the former lab members Alice Lee and Lixing Yang, who have left to start their own laboratories in January!  Alice has gone on to the Division of Genetics and Genomics at Boston Children's Hospital and will be appointed as an asssistant professor at Harvard Medical School. Lixing has moved to the Biological Sciences Division at the University of Chicago as an assistant professor ([his departmental page](https://benmay.uchicago.edu/page/lixing-yang-phd); [his new lab](http://yanglab.me/)). They were courted by multiple institutions but Boston Children's and Chicago were the lucky winners!

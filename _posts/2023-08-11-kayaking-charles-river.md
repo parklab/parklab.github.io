@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2023-08-11"
+
 ---
 
 The lab had a fun and adventurous time kayaking together on the Charles this August!

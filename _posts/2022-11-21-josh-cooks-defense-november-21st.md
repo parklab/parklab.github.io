@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2022-11-21"
+
 ---
 
 Congrats Josh!

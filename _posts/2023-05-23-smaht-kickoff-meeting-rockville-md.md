@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2023-05-23"
+
 ---
 
 The SMaHT Kickoff Meeting brought together approximately 100 awardees and NIH staff to discuss the goals and priorities of the newly established Somatic Mosaicism Across Human Tissue Network.

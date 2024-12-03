@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2017-12-07"
+
 ---
 
 Congratulations to Craig Bohrson, Alison Barton, and Daniel Kwon, three of the six co-lead authors of a recently published paper in Science, discussing the increased accumulation of mutations in neurons as people age. The paper was the result of a collaborative effort with the Walsh Lab of Boston Children's Hospital. The link to the paper is [here](http://science.sciencemag.org/content/early/2017/12/06/science.aao4426); the paper was featured in multiple news outlets:

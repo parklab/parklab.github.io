@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2013-05-09"
+
 ---
 
 Congratulations to Lixing and Francesco! Their papers came out on the same day in Cell and Cell Stem Cell.

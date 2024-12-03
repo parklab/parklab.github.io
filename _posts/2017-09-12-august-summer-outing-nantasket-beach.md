@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2017-09-12"
+
 ---
 
 On August 25th, members of the Park Lab went down to Nantasket Beach in Hull, MA for a day of fun summer activities, including kayaking, paddle boarding, beach volleyball, and eating delicious seafood. 

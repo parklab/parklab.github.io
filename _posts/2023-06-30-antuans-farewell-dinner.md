@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2023-06-30"
+
 ---
 
 The lab said goodbye and good luck to Antuan as he heads onto his next adventure in medical school at Mayo Clinic!

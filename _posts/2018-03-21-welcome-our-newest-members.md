@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2018-03-21"
+
 ---
 
 We are excited to announce the addition of new members to our lab during the past couple of months.

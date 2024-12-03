@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2017-12-16"
+
 ---
 
 Park lab wishes everyone a happy holiday season and a happy new year!

@@ -6,6 +6,8 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
+date: "2019-12-16"
+
 ---
 
 Our lab has grown quite big this past year! We had a wonderful time gathering with friends, families, and old faces. We hope everyone has a wonderful holiday season and a happy new year!
