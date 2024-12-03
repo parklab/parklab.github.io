@@ -8491,62 +8491,78 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   margin: auto 0px 20px auto; }
   .people-page-container .page-body-container {
     margin-top: 50px; }
-    .people-page-container .page-body-container .category-header {
+    .people-page-container .page-body-container .category-container .category-header {
       font-weight: 700;
       font-size: 1.5rem;
       margin-top: 20px; }
-    .people-page-container .page-body-container hr {
-      margin: 10px 0px; }
-    .people-page-container .page-body-container .person-container {
+    .people-page-container .page-body-container .category-container .category-body {
       display: flex;
-      max-height: 150px;
-      height: min-content;
-      width: 100%;
-      margin: 0px;
-      padding: 20px 0px; }
-      .people-page-container .page-body-container .person-container .person-card {
-        height: min-content;
+      flex-wrap: wrap;
+      gap: 32px; }
+      .people-page-container .page-body-container .category-container .category-body .person-container {
         display: flex;
-        width: 100%; }
-        .people-page-container .page-body-container .person-container .person-card .image-container {
-          height: 100%;
-          max-width: 75px; }
-          .people-page-container .page-body-container .person-container .person-card .image-container img {
-            height: auto;
-            width: auto;
-            border-radius: 5px;
-            box-shadow: 0px 0px 5px 1px lightgray; }
-        .people-page-container .page-body-container .person-container .person-card .person-information {
-          max-width: 80%;
-          padding: 0px 20px; }
-          .people-page-container .page-body-container .person-container .person-card .person-information .title {
-            font-size: 1.125rem;
-            line-height: inherit;
-            font-weight: bold;
-            margin: 0px auto; }
-          .people-page-container .page-body-container .person-container .person-card .person-information .subtitle {
-            font-size: 0.9rem;
-            line-height: inherit;
-            font-weight: bold;
-            margin: 0px auto; }
-          .people-page-container .page-body-container .person-container .person-card .person-information .professional_title {
-            display: none; }
-          .people-page-container .page-body-container .person-container .person-card .person-information .description {
-            display: none;
-            margin-top: 10px; }
-      .people-page-container .page-body-container .person-container .person-container {
-        width: 100%; }
+        width: 380px;
+        min-width: 300px;
+        height: min-content;
+        margin: 0px;
+        padding: 8px 0px; }
+        .people-page-container .page-body-container .category-container .category-body .person-container .person-card {
+          height: min-content;
+          display: flex;
+          width: 100%; }
+          .people-page-container .page-body-container .category-container .category-body .person-container .person-card .image-container {
+            display: flex;
+            max-width: 120px; }
+            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .image-container img {
+              height: auto;
+              width: auto; }
+          .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: flex-start;
+            max-width: 80%;
+            padding: 10px 20px 0px; }
+            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title {
+              margin: 0px; }
+              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a {
+                color: #4A4A4A;
+                font-size: 1rem;
+                line-height: inherit;
+                font-weight: bold;
+                text-decoration: underline; }
+                .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a:hover {
+                  color: #404040; }
+            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .subtitle {
+              font-size: 0.875rem;
+              line-height: inherit;
+              font-weight: 400;
+              margin: 0px; }
+            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .description {
+              display: none;
+              margin-top: 10px; }
+            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container {
+              display: flex;
+              justify-content: center;
+              gap: 12px; }
+              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container .link {
+                color: #4A4A4A;
+                font-size: 1.5rem; }
+                .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container .link:hover {
+                  color: #404040; }
+        .people-page-container .page-body-container .category-container .category-body .person-container .person-container {
+          width: 100%; }
     @media (min-width: 992px) {
-      .people-page-container .page-body-container .category-header {
+      .people-page-container .page-body-container .category-container .category-header {
         margin-top: 30px; }
-      .people-page-container .page-body-container .person-container {
+      .people-page-container .page-body-container .category-container .category-body .person-container {
         max-height: 200px;
         padding: 10px 0px; }
-        .people-page-container .page-body-container .person-container .person-card .person-information .professional_title {
+        .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .professional_title {
           display: flex;
           font-size: 0.875rem;
           font-weight: 500; }
-        .people-page-container .page-body-container .person-container .person-card .person-information .description {
+        .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .description {
           display: flex;
           font-size: 0.875rem;
           line-height: inherit; } }
@@ -8729,21 +8745,21 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       margin-bottom: 5px; }
     .page-person .header .title {
       font-size: 1rem;
-      margin: 0px; }
+      margin-top: 8px; }
   .page-person .image-and-description {
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     min-height: 230px; }
     .page-person .image-and-description .image-container {
+      display: flex;
+      flex-direction: column;
       float: left;
-      min-width: 150px;
-      width: 20%;
+      min-width: 250px;
       padding: 0px 15px 15px 0px; }
-    .page-person .image-and-description .description-container {
-      margin-left: 25px;
-      display: flex; }
-      .page-person .image-and-description .description-container .description {
-        font-size: 1rem; }
+    .page-person .image-and-description .description-container .description {
+      font-size: 1rem;
+      margin-left: 0px; }
   .page-person .information-cards-container {
     width: 100%;
     display: flex;
@@ -8761,6 +8777,18 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         margin-bottom: 8px; }
       .page-person .information-cards-container .information-card .value {
         font-size: 1rem; }
+      .page-person .information-cards-container .information-card .additional-links-container {
+        display: flex;
+        justify-content: flex-start;
+        gap: 12px; }
+        .page-person .information-cards-container .information-card .additional-links-container .link {
+          color: #4A4A4A;
+          font-size: 1.5rem; }
+          .page-person .information-cards-container .information-card .additional-links-container .link:hover {
+            color: #404040; }
+  @media screen and (min-width: 480px) {
+    .page-person .image-and-description {
+      display: inline-block; } }
   @media screen and (min-width: 1200px) {
     .page-person .image img {
       width: auto; } }
