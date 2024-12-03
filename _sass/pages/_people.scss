@@ -4,90 +4,128 @@
     .page-body-container {
         margin-top: 50px;
 
-        .category-header {
-            font-weight: 700;
-            font-size: 1.5rem;
-            margin-top: 20px;
+        .category-container {
+            .category {
+                &-header {
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                    margin-top: 20px;
+                }
+                &-body {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 32px;
+
+                    .person-container {
+                        display: flex;
+                        width: 380px;
+                        min-width: 300px;
+                        height: min-content;
+                        margin: 0px ;
+                        padding: 8px 0px;
+                
+                        .person-card {
+                            height: min-content;
+                            display: flex;
+                            width: 100%;
+                            
+                            .image-container {
+                                display: flex;
+                                max-width: 120px;
+                                
+                                img {
+                                    height: auto;
+                                    width: auto;
+                                    // border-radius: 5px;
+                                    // box-shadow: 0px 0px 5px 1px lightgray;
+                                }
+                            }
+                            .person-information {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: start;
+                                align-items: flex-start;
+                                max-width: 80%;
+                                padding: 10px 20px 0px;
+                
+                                .title {
+                                    margin: 0px;
+
+                                    a {
+                                        color: #4A4A4A;
+                                        font-size: 1rem;
+                                        line-height: inherit;
+                                        font-weight: bold;
+                                        text-decoration: underline;
+
+                                        &:hover {
+                                            color: #404040;
+                                        }
+                                    }
+                                }
+                                .subtitle {
+                                    font-size: 0.875rem;
+                                    line-height: inherit;
+                                    font-weight: 400;
+                                    margin: 0px;
+                                }
+                                .description {
+                                    display: none;
+                                    margin-top: 10px;
+                                }
+                                .additional-links-container {
+                                    display: flex;
+                                    justify-content: center;
+                                    gap: 12px;
+                                    .link {
+                                        color: #4A4A4A;
+                                        font-size: 1.5rem;
+
+                                        &:hover {
+                                            color: #404040;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .person-container {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
         }
 
-        hr {
-            margin: 10px 0px;
-        }
-        .person-container {
-            display: flex;
-            max-height: 150px;
-            height: min-content;
-            width: 100%;
-            margin: 0px ;
-            padding: 20px 0px;
-    
-            .person-card {
-                height: min-content;
-                display: flex;
-                width: 100%;
-                
-                .image-container {
-                    height: 100%;
-                    max-width: 75px;
-                    
-                    img {
-                        height: auto;
-                        width: auto;
-                        border-radius: 5px;
-                        box-shadow: 0px 0px 5px 1px lightgray;
-                    }
-                }
-                .person-information {
-                    max-width: 80%;
-                    padding: 0px 20px;
-    
-                    .title {
-                        font-size: 1.125rem;
-                        line-height: inherit;
-                        font-weight: bold;
-                        margin: 0px auto;
-                    }
-                    .subtitle {
-                        font-size: 0.9rem;
-                        line-height: inherit;
-                        font-weight: bold;
-                        margin: 0px auto;
-                    }
-                    .professional_title {
-                        display: none;
-                    }
-                    .description {
-                        display: none;
-                        margin-top: 10px;
-                    }
-                }
-            }
-            .person-container {
-                width: 100%;
-            }
-        }
+        
         
         @media (min-width: 992px) {
 
-            .category-header {
-                margin-top: 30px;
-            }
-            
-            .person-container {
-                max-height: 200px;
-                padding: 10px 0px;
+            .category-container {
 
-                .person-card {
-                    .person-information {
-                        .professional_title {
-                            display: flex;
-                            font-size: 0.875rem;
-                            font-weight: 500;
-                        }
-                        .description {
-                            display: flex;
-                            font-size: 0.875rem;
-                            line-height: inherit;
+                .category {
+                    &-header {
+                        margin-top: 30px;
+                    }
+                    
+                    &-body {
+                        .person-container {
+                            max-height: 200px;
+                            padding: 10px 0px;
+            
+                            .person-card {
+                                .person-information {
+                                    .professional_title {
+                                        display: flex;
+                                        font-size: 0.875rem;
+                                        font-weight: 500;
+                                    }
+                                    .description {
+                                        display: flex;
+                                        font-size: 0.875rem;
+                                        line-height: inherit;
+                                    }
+                                }
+                            }
                         }
                     }
                 }

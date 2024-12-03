@@ -63,7 +63,9 @@ layout: default
     <div class="content column is-10">
         <div class="header">
             {% if page.name %}
-            <h1 class="name">{{ page.name }}</h1>
+            <div class="header-container">
+                <h1 class="name">{{ page.name }}</h1>
+            </div>
             {% endif %}
             {% if page.professional_title %}
             <h2 class="title">{{ page.professional_title }}</h2>
@@ -79,17 +81,40 @@ layout: default
             </div>
             {% endif %}
 
-            {% if page.description %}
-            {{ page.description }}
-            {% else %}
-            {{ page.content }}
-            {% endif %}
+            <div class="description-container">
+                {% if page.description %}
+                {{ page.description }}
+                {% else %}
+                {{ page.content }}
+                {% endif %}
+            </div>
+            
         </div>
 
         <hr />
 
         <div class="information-cards-container">
             
+            {% if page.additional_links %}
+            <div class="information-card">
+                <span class="title">Additional Links</span>
+                <div class="value">
+                    <div class="additional-links-container">
+                        {% if page.additional_links.github %}
+                        <a class="link github" href="{{ page.additional_links.github }}" target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
+                        {% if page.additional_links.linkedin %}
+                        <a class="link linkedin" href="{{ page.additional_links.linkedin }}" target="_blank">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
             {% if page.contact_information %}
             <div class="information-card">
                 <span class="title">Contact Information</span>
