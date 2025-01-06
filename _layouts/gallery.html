@@ -12,7 +12,7 @@ layout: page
 
             {% comment %} Use compbio images {% endcomment %}
             {% if page.use_compbio_images and item.compbio_filename %}
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/{{ item.compbio_filename }}" alt="{{ item.alt }}"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/{{ item.compbio_filename }}" alt="{{ item.alt }}" />
             
             {% comment %} Use drupal images {% endcomment %}
             {% elsif page.use_drupal_images and item.drupal_filename %}

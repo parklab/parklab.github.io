@@ -10,6 +10,10 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 $family-sans-serif: "Inter", Helvetica, Arial, sans-serif;
