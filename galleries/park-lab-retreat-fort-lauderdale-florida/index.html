@@ -44,12 +44,34 @@
 <script>
     document.addEventListener('DOMContentLoaded', (event) => {
 
+        const body = document.querySelector('body');
+
         const modal = document.getElementById('gallery-modal');
+        const modalContent = modal.querySelector('.modal-content');
         const modalImageElement = modal.querySelector('img');
 
+
         const closeModalButton = modal.querySelector('.close-modal');
-        closeModalButton.addEventListener('click', (e) => {
+
+        // Close modal
+        const closeModal = () => {
             modal.classList.remove('show');
+            body.classList.remove('modal-open');
+            modal.classList.add('modal-open');
+        }
+
+        modal.addEventListener('click', (e) => {
+            if (e.target !== modalContent && e.target !== modalImageElement) {
+                closeModal();
+            }
+        });
+        closeModalButton.addEventListener('click', (e) => {
+            closeModal();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {   
+                closeModal();
+            }
         });
 
         // document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
@@ -70,12 +92,26 @@
         document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
             button.addEventListener('click', (e) => {
 
-                // Assign proper image to modal
-                const imageSrc = e.target.src;
-                const imageAlt = e.target.alt;
-                modalImageElement.src = imageSrc;
-                modalImageElement.alt = imageAlt;
 
+                // Assign proper image to modal
+                const button_image = e.target.querySelector('img');
+                if (button_image) {
+                    // Use button's child image
+                    const imageSrc = button_image.src;
+                    const imageAlt = button_image.alt;
+                    modalImageElement.src = imageSrc;
+                    modalImageElement.alt = imageAlt;
+                }
+                else {
+                    // Use image clicked itself
+                    const imageSrc = e.target.src;
+                    const imageAlt = e.target.alt;
+                    modalImageElement.src = imageSrc;
+                    modalImageElement.alt = imageAlt;
+                }
+
+
+                body.classList.add('modal-open');
                 modal.classList.add('show');
             });
         });
@@ -230,7 +266,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/00_-_20230210_125943_2.jpg" alt="lab smiling on the beach"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/00_-_20230210_125943_2.jpg" alt="lab smiling on the beach" />
             
             
             
@@ -241,7 +277,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/01_-_20230209_071853_1.jpeg" alt="The Florida house"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/01_-_20230209_071853_1.jpeg" alt="The Florida house" />
             
             
             
@@ -252,7 +288,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/02_-_3a5a4f2c-2fc3-4ed6-841c-04b05aa17cb1.jpg" alt="outdoor pool at house in Florida"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/02_-_3a5a4f2c-2fc3-4ed6-841c-04b05aa17cb1.jpg" alt="outdoor pool at house in Florida" />
             
             
             
@@ -263,7 +299,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/02a_-_20230209_100125_01.jpeg" alt="lab eating breakfast outside together in Florida"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/02a_-_20230209_100125_01.jpeg" alt="lab eating breakfast outside together in Florida" />
             
             
             
@@ -274,7 +310,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/02b_-_20230208_215114_2.jpg" alt="lab eating pizza together"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/02b_-_20230208_215114_2.jpg" alt="lab eating pizza together" />
             
             
             
@@ -285,7 +321,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/2b_-_img_2564.jpg" alt="group getting groceries"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/2b_-_img_2564.jpg" alt="group getting groceries" />
             
             
             
@@ -296,7 +332,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/03_-_49647c30-5a0a-43df-83db-ddcb73e32761.jpeg" alt="group walking on a bridge surrounded by plants"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/03_-_49647c30-5a0a-43df-83db-ddcb73e32761.jpeg" alt="group walking on a bridge surrounded by plants" />
             
             
             
@@ -307,7 +343,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/03a_-_20230210_123405_1.jpg" alt="group walking on a bridge on Peanut Island"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/03a_-_20230210_123405_1.jpg" alt="group walking on a bridge on Peanut Island" />
             
             
             
@@ -318,7 +354,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/04_-_20230209_132839.jpeg" alt="group posing near an alligator in the Everglades National Park"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/04_-_20230209_132839.jpeg" alt="group posing near an alligator in the Everglades National Park" />
             
             
             
@@ -329,7 +365,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/5_-_20230209_184456_1.jpg" alt="Allen, Antuan, and Benedikt discussing AI"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/5_-_20230209_184456_1.jpg" alt="Allen, Antuan, and Benedikt discussing AI" />
             
             
             
@@ -340,7 +376,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/5b_-_20230209_193500_3.jpg" alt="Hu and Peter grilling for the barbecue"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/5b_-_20230209_193500_3.jpg" alt="Hu and Peter grilling for the barbecue" />
             
             
             
@@ -351,7 +387,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/5c_-_20230209_194858.jpg" alt="lab sitting down for an outdoor barbecue"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/5c_-_20230209_194858.jpg" alt="lab sitting down for an outdoor barbecue" />
             
             
             
@@ -362,7 +398,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/06_-_20230208_231126_4.jpg" alt="Allen and Antuan playing pool"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/06_-_20230208_231126_4.jpg" alt="Allen and Antuan playing pool" />
             
             
             
@@ -373,7 +409,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/07_-_20230208_231008_2.jpg" alt="Clara and Hu playing ping pong"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/07_-_20230208_231008_2.jpg" alt="Clara and Hu playing ping pong" />
             
             
             
@@ -384,7 +420,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/10_-_20230209_174733.jpg" alt="group preparing for dinner"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/10_-_20230209_174733.jpg" alt="group preparing for dinner" />
             
             
             
@@ -395,7 +431,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/11_-_20230209_180113.jpg" alt="group preparing for dinner"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/11_-_20230209_180113.jpg" alt="group preparing for dinner" />
             
             
             
@@ -406,7 +442,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/11.5_-_20230210_134906.jpg" alt="kayaks on a beach"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/11.5_-_20230210_134906.jpg" alt="kayaks on a beach" />
             
             
             
@@ -417,7 +453,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/12_-_20230210_133904.jpg" alt="the group takes off from Peanut Island in kayaks"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/12_-_20230210_133904.jpg" alt="the group takes off from Peanut Island in kayaks" />
             
             
             
@@ -428,7 +464,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/13_-_20230210_134105.jpg" alt="a group kayaks across the bay"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/13_-_20230210_134105.jpg" alt="a group kayaks across the bay" />
             
             
             
@@ -439,7 +475,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/14_-_20230210_134634.jpg" alt="Doug and Bianca paddle in a double kayak on the ocean"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/14_-_20230210_134634.jpg" alt="Doug and Bianca paddle in a double kayak on the ocean" />
             
             
             
@@ -450,7 +486,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/15_-_20230210_132913.jpg" alt="a group sits under palm trees in the shade"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/15_-_20230210_132913.jpg" alt="a group sits under palm trees in the shade" />
             
             
             
@@ -461,7 +497,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/20_-_20230210_152357_2.jpg" alt="lab hanging out together on the beach"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/20_-_20230210_152357_2.jpg" alt="lab hanging out together on the beach" />
             
             
             
@@ -472,7 +508,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/21_-_20230210_150542.jpg" alt="a group jumps waves in the ocean"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/21_-_20230210_150542.jpg" alt="a group jumps waves in the ocean" />
             
             
             
@@ -483,7 +519,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/30_-_20230210_191035.jpg" alt="dinner in an Italian restaurant"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/30_-_20230210_191035.jpg" alt="dinner in an Italian restaurant" />
             
             
             
@@ -494,7 +530,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/30a_-_7fcbe100-244c-41be-92a3-3f303200ea95.jpg" alt="Antuan giving a presentation"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/30a_-_7fcbe100-244c-41be-92a3-3f303200ea95.jpg" alt="Antuan giving a presentation" />
             
             
             
@@ -505,7 +541,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/31_-_20230210_235716.jpg" alt="Dominik and Benedikt discussing a paper on a laptop"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/31_-_20230210_235716.jpg" alt="Dominik and Benedikt discussing a paper on a laptop" />
             
             
             
@@ -516,7 +552,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/40_-_20230211_112257_1.jpeg" alt="playing mini golf"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/40_-_20230211_112257_1.jpeg" alt="playing mini golf" />
             
             
             
@@ -527,7 +563,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/41_-_20230211_121110_1.jpg" alt="iguana spotting during mini golf"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/41_-_20230211_121110_1.jpg" alt="iguana spotting during mini golf" />
             
             
             
@@ -538,7 +574,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/45_-_20230211_123807.jpg" alt="Will teaches the group how to golf at a driving range"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/45_-_20230211_123807.jpg" alt="Will teaches the group how to golf at a driving range" />
             
             
             
@@ -549,7 +585,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/46_-_20230211_125237_1.jpg" alt="Allen swinging at the golf range"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/46_-_20230211_125237_1.jpg" alt="Allen swinging at the golf range" />
             
             
             
@@ -560,7 +596,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/49_-_27a5c7c1-3737-40cf-aef6-73f9d6cefdd8.jpg" alt="flamingos in the water"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/49_-_27a5c7c1-3737-40cf-aef6-73f9d6cefdd8.jpg" alt="flamingos in the water" />
             
             
             
@@ -571,7 +607,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/50_-_20230211_160557.jpg" alt="group looking at a bird on a barrier"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/50_-_20230211_160557.jpg" alt="group looking at a bird on a barrier" />
             
             
             
@@ -582,7 +618,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/51_-_71071e45-8d83-4ba5-bbb7-797566edf996.jpeg" alt="Elizabeth reaching out to a flamingo"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/51_-_71071e45-8d83-4ba5-bbb7-797566edf996.jpeg" alt="Elizabeth reaching out to a flamingo" />
             
             
             
@@ -593,7 +629,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/52_-_20230211_100503_1.jpg" alt="lab in front of the Florida house"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/52_-_20230211_100503_1.jpg" alt="lab in front of the Florida house" />
             
             
             
@@ -604,7 +640,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/53_-_20230211_100744_1.jpg" alt="lab in front of the Florida house"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/53_-_20230211_100744_1.jpg" alt="lab in front of the Florida house" />
             
             
             
@@ -615,7 +651,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/54_-_20230211_100827.jpg" alt="jumping group photo in front of the Florida house"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/54_-_20230211_100827.jpg" alt="jumping group photo in front of the Florida house" />
             
             
             

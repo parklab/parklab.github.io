@@ -44,12 +44,34 @@
 <script>
     document.addEventListener('DOMContentLoaded', (event) => {
 
+        const body = document.querySelector('body');
+
         const modal = document.getElementById('gallery-modal');
+        const modalContent = modal.querySelector('.modal-content');
         const modalImageElement = modal.querySelector('img');
 
+
         const closeModalButton = modal.querySelector('.close-modal');
-        closeModalButton.addEventListener('click', (e) => {
+
+        // Close modal
+        const closeModal = () => {
             modal.classList.remove('show');
+            body.classList.remove('modal-open');
+            modal.classList.add('modal-open');
+        }
+
+        modal.addEventListener('click', (e) => {
+            if (e.target !== modalContent && e.target !== modalImageElement) {
+                closeModal();
+            }
+        });
+        closeModalButton.addEventListener('click', (e) => {
+            closeModal();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {   
+                closeModal();
+            }
         });
 
         // document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
@@ -70,12 +92,26 @@
         document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
             button.addEventListener('click', (e) => {
 
-                // Assign proper image to modal
-                const imageSrc = e.target.src;
-                const imageAlt = e.target.alt;
-                modalImageElement.src = imageSrc;
-                modalImageElement.alt = imageAlt;
 
+                // Assign proper image to modal
+                const button_image = e.target.querySelector('img');
+                if (button_image) {
+                    // Use button's child image
+                    const imageSrc = button_image.src;
+                    const imageAlt = button_image.alt;
+                    modalImageElement.src = imageSrc;
+                    modalImageElement.alt = imageAlt;
+                }
+                else {
+                    // Use image clicked itself
+                    const imageSrc = e.target.src;
+                    const imageAlt = e.target.alt;
+                    modalImageElement.src = imageSrc;
+                    modalImageElement.alt = imageAlt;
+                }
+
+
+                body.classList.add('modal-open');
                 modal.classList.add('show');
             });
         });
@@ -230,7 +266,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/image001.png" alt="Invite"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/image001.png" alt="Invite" />
             
             
             
@@ -241,7 +277,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/parklab_01.jpg" alt="Attendees"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/parklab_01.jpg" alt="Attendees" />
             
             
             
@@ -252,7 +288,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/food1.jpg" alt="Food on table"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/food1.jpg" alt="Food on table" />
             
             
             
@@ -263,7 +299,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/guac.jpg" alt="Guacamole"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/guac.jpg" alt="Guacamole" />
             
             
             
@@ -274,7 +310,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/drink.jpg" alt="Drinks on table"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/drink.jpg" alt="Drinks on table" />
             
             
             
@@ -285,7 +321,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/food3.jpg" alt="Food on table"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/food3.jpg" alt="Food on table" />
             
             
             
@@ -296,7 +332,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/food2.jpg" alt="Cupcakes"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/food2.jpg" alt="Cupcakes" />
             
             
             
@@ -307,7 +343,7 @@
 
             
             
-            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/babyyoda.jpg" alt="Baby Yoda"/>
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/babyyoda.jpg" alt="Baby Yoda" />
             
             
             

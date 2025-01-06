@@ -8,6 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%; }
+  body.modal-open {
+    overflow: hidden; }
 
 a:link {
   color: #155799;
