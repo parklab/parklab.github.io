@@ -53,6 +53,11 @@ paginate: 10
 paginate_path: "/news/page:num"
 
 collections:
+  galleries:
+    output: true
+    layout: gallery
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
   people:
     output: true
     layout: person
