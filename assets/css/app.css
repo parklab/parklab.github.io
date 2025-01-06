@@ -8491,67 +8491,70 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   margin: auto 0px 20px auto; }
   .people-page-container .page-body-container {
     margin-top: 50px; }
-    .people-page-container .page-body-container .category-container .category-header {
-      font-weight: 700;
-      font-size: 1.5rem;
-      margin-top: 20px; }
-    .people-page-container .page-body-container .category-container .category-body {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 32px; }
-      .people-page-container .page-body-container .category-container .category-body .person-container {
+    .people-page-container .page-body-container .category-container {
+      margin-top: 60px; }
+      .people-page-container .page-body-container .category-container .category-header {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 20px; }
+      .people-page-container .page-body-container .category-container .category-body {
         display: flex;
-        width: 380px;
-        min-width: 300px;
-        height: min-content;
-        margin: 0px;
-        padding: 8px 0px; }
-        .people-page-container .page-body-container .category-container .category-body .person-container .person-card {
-          height: min-content;
+        flex-wrap: wrap;
+        gap: 50px 32px; }
+        .people-page-container .page-body-container .category-container .category-body .person-container {
           display: flex;
-          width: 100%; }
-          .people-page-container .page-body-container .category-container .category-body .person-container .person-card .image-container {
+          width: 380px;
+          min-width: 300px;
+          height: min-content;
+          margin: 0px;
+          padding: 8px 0px; }
+          .people-page-container .page-body-container .category-container .category-body .person-container .person-card {
+            height: min-content;
             display: flex;
-            max-width: 120px; }
-            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .image-container img {
-              height: auto;
-              width: auto; }
-          .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: flex-start;
-            max-width: 80%;
-            padding: 10px 20px 0px; }
-            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title {
-              margin: 0px; }
-              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a {
-                color: #4A4A4A;
-                font-size: 1rem;
-                line-height: inherit;
-                font-weight: bold;
-                text-decoration: underline; }
-                .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a:hover {
-                  color: #404040; }
-            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .subtitle {
-              font-size: 0.875rem;
-              line-height: inherit;
-              font-weight: 400;
-              margin: 0px; }
-            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .description {
-              display: none;
-              margin-top: 10px; }
-            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container {
+            width: 100%; }
+            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .image-container {
               display: flex;
-              justify-content: center;
-              gap: 12px; }
-              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container .link {
-                color: #4A4A4A;
-                font-size: 1.5rem; }
-                .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container .link:hover {
-                  color: #404040; }
-        .people-page-container .page-body-container .category-container .category-body .person-container .person-container {
-          width: 100%; }
+              max-width: 120px; }
+              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .image-container img {
+                height: auto;
+                width: auto;
+                border-radius: 2px; }
+            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information {
+              display: flex;
+              flex-direction: column;
+              justify-content: start;
+              align-items: flex-start;
+              max-width: 80%;
+              padding: 10px 20px 0px; }
+              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title {
+                margin: 0px; }
+                .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a {
+                  color: #4A4A4A;
+                  font-size: 1rem;
+                  line-height: inherit;
+                  font-weight: bold;
+                  text-decoration: underline; }
+                  .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a:hover {
+                    color: #404040; }
+              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .subtitle {
+                font-size: 0.875rem;
+                line-height: inherit;
+                font-weight: 400;
+                margin: 0px; }
+              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .description {
+                display: none;
+                margin-top: 10px; }
+              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container {
+                display: flex;
+                justify-content: center;
+                gap: 12px; }
+                .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container .link {
+                  color: #4A4A4A;
+                  font-size: 1.5rem; }
+                  .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container .link:hover {
+                    color: #404040; }
+          .people-page-container .page-body-container .category-container .category-body .person-container .person-container {
+            width: 100%; }
     @media (min-width: 992px) {
       .people-page-container .page-body-container .category-container .category-header {
         margin-top: 30px; }
@@ -8795,6 +8798,80 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 .page-contact.content img {
   max-width: 500px; }
+
+.page-galleries .gallery-container {
+  margin-top: 40px; }
+  .page-galleries .gallery-container > a {
+    display: flex;
+    width: max-content; }
+    .page-galleries .gallery-container > a h1.gallery-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem; }
+      .page-galleries .gallery-container > a h1.gallery-title:hover {
+        text-decoration: underline; }
+  .page-galleries .gallery-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; }
+
+.page-gallery .gallery-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; }
+.page-gallery .gallery-image-button {
+  border: none;
+  background-color: transparent;
+  padding: 0px; }
+  .page-gallery .gallery-image-button img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; }
+    .page-gallery .gallery-image-button img:hover {
+      cursor: pointer;
+      box-shadow: 0px 0px 10px 2px lightgray; }
+.page-gallery #gallery-modal {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  justify-content: center; }
+  .page-gallery #gallery-modal .modal-content {
+    max-height: 80%;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: fit-content; }
+    .page-gallery #gallery-modal .modal-content .close-modal {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      align-self: flex-end;
+      margin-bottom: 10px;
+      background-color: transparent;
+      border: none;
+      border-radius: 3px;
+      padding: 5px;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 1.5rem;
+      margin-right: 15px;
+      margin-top: 15px; }
+      .page-gallery #gallery-modal .modal-content .close-modal:hover {
+        cursor: pointer;
+        color: white;
+        background-color: #00000075; }
+    .page-gallery #gallery-modal .modal-content img {
+      width: 100%;
+      height: auto; }
+  .page-gallery #gallery-modal.show {
+    display: flex; }
 
 .carousel-container {
   margin-bottom: 50px; }

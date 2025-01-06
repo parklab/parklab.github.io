@@ -40,7 +40,49 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'GoogleAnalytics');
-</script><!-- head scripts --></head>
+</script><!-- head scripts -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+
+        const modal = document.getElementById('gallery-modal');
+        const modalImageElement = modal.querySelector('img');
+
+        const closeModalButton = modal.querySelector('.close-modal');
+        closeModalButton.addEventListener('click', (e) => {
+            modal.classList.remove('show');
+        });
+
+        // document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+        //     button.addEventListener('focus', (e) => {
+
+        //         const button = e.target;
+        //         console.log(button);
+        //         const image = e.target.querySelector('img');
+        //         console.log(image.src, image.alt);
+
+        //         // Assign proper image to modal
+        //         modalImageElement.src = image.src;
+        //         modalImageElement.alt = image.alt;
+
+        //     });
+        // });
+
+        document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+            button.addEventListener('click', (e) => {
+
+                // Assign proper image to modal
+                const imageSrc = e.target.src;
+                const imageAlt = e.target.alt;
+                modalImageElement.src = imageSrc;
+                modalImageElement.alt = imageAlt;
+
+                modal.classList.add('show');
+            });
+        });
+    
+    });
+</script></head>
 
   <body>
     
@@ -150,9 +192,9 @@
                 
                     <!--  -->
                     <div class="navbar-item">
-                        <a href="/gallery/" class="navbar-item-link link-underline-animate ">
+                        <a href="/galleries/" class="navbar-item-link link-underline-animate ">
                             <span class="navbar-item-text">
-                                Gallery
+                                Galleries
                             </span>
                         </a>
                         <div class="disc"></div>

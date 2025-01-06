@@ -25,14 +25,14 @@
 <meta property="og:site_name" content="PARK LAB" />
 <meta property="og:image" content="http://example.com/img/danielle-rubin.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-12-03T20:58:10+00:00" />
+<meta property="article:published_time" content="2025-01-06T22:40:42+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:image" content="http://example.com/img/danielle-rubin.jpg" />
 <meta property="twitter:title" content="Danielle Rubin" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Author" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Author"},"dateModified":"2024-12-03T20:58:10+00:00","datePublished":"2024-12-03T20:58:10+00:00","description":"Placeholder description for the site","headline":"Danielle Rubin","image":"http://example.com/img/danielle-rubin.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/people/danielle-rubin/"},"url":"http://example.com/people/danielle-rubin/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Author"},"dateModified":"2025-01-06T22:40:42+00:00","datePublished":"2025-01-06T22:40:42+00:00","description":"Placeholder description for the site","headline":"Danielle Rubin","image":"http://example.com/img/danielle-rubin.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/people/danielle-rubin/"},"url":"http://example.com/people/danielle-rubin/"}</script>
 <!-- End Jekyll SEO tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=GoogleAnalytics"></script>
 <script>
@@ -41,7 +41,49 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'GoogleAnalytics');
-</script><!-- head scripts --></head>
+</script><!-- head scripts -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+
+        const modal = document.getElementById('gallery-modal');
+        const modalImageElement = modal.querySelector('img');
+
+        const closeModalButton = modal.querySelector('.close-modal');
+        closeModalButton.addEventListener('click', (e) => {
+            modal.classList.remove('show');
+        });
+
+        // document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+        //     button.addEventListener('focus', (e) => {
+
+        //         const button = e.target;
+        //         console.log(button);
+        //         const image = e.target.querySelector('img');
+        //         console.log(image.src, image.alt);
+
+        //         // Assign proper image to modal
+        //         modalImageElement.src = image.src;
+        //         modalImageElement.alt = image.alt;
+
+        //     });
+        // });
+
+        document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+            button.addEventListener('click', (e) => {
+
+                // Assign proper image to modal
+                const imageSrc = e.target.src;
+                const imageAlt = e.target.alt;
+                modalImageElement.src = imageSrc;
+                modalImageElement.alt = imageAlt;
+
+                modal.classList.add('show');
+            });
+        });
+    
+    });
+</script></head>
 
   <body>
     
@@ -151,9 +193,9 @@
                 
                     <!--  -->
                     <div class="navbar-item">
-                        <a href="/gallery/" class="navbar-item-link link-underline-animate ">
+                        <a href="/galleries/" class="navbar-item-link link-underline-animate ">
                             <span class="navbar-item-text">
-                                Gallery
+                                Galleries
                             </span>
                         </a>
                         <div class="disc"></div>

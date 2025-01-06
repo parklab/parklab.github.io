@@ -1,0 +1,1118 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galleries | Park Lab | Computational Genomics | Harvard</title>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.svg" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet"
+    />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Galleries | PARK LAB</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Galleries" />
+<meta name="author" content="Author" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Galleries Page Description" />
+<meta property="og:description" content="Galleries Page Description" />
+<link rel="canonical" href="http://example.com/galleries/" />
+<meta property="og:url" content="http://example.com/galleries/" />
+<meta property="og:site_name" content="PARK LAB" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Galleries" />
+<meta name="twitter:site" content="@twitter_username" />
+<meta name="twitter:creator" content="@Author" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Author"},"description":"Galleries Page Description","headline":"Galleries","url":"http://example.com/galleries/"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GoogleAnalytics"></script>
+<script>
+  window['ga-disable-GoogleAnalytics'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GoogleAnalytics');
+</script><!-- head scripts -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+
+        const modal = document.getElementById('gallery-modal');
+        const modalImageElement = modal.querySelector('img');
+
+        const closeModalButton = modal.querySelector('.close-modal');
+        closeModalButton.addEventListener('click', (e) => {
+            modal.classList.remove('show');
+        });
+
+        // document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+        //     button.addEventListener('focus', (e) => {
+
+        //         const button = e.target;
+        //         console.log(button);
+        //         const image = e.target.querySelector('img');
+        //         console.log(image.src, image.alt);
+
+        //         // Assign proper image to modal
+        //         modalImageElement.src = image.src;
+        //         modalImageElement.alt = image.alt;
+
+        //     });
+        // });
+
+        document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+            button.addEventListener('click', (e) => {
+
+                // Assign proper image to modal
+                const imageSrc = e.target.src;
+                const imageAlt = e.target.alt;
+                modalImageElement.src = imageSrc;
+                modalImageElement.alt = imageAlt;
+
+                modal.classList.add('show');
+            });
+        });
+    
+    });
+</script></head>
+
+  <body>
+    
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item"><b>
+                PARK LAB
+            </b></a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-content">
+                
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/news/" class="navbar-item-link link-underline-animate ">
+                            <span class="navbar-item-text">
+                                News
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/research/" class="navbar-item-link link-underline-animate ">
+                            <span class="navbar-item-text">
+                                Research
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/people/" class="navbar-item-link link-underline-animate ">
+                            <span class="navbar-item-text">
+                                People
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/publications/" class="navbar-item-link link-underline-animate ">
+                            <span class="navbar-item-text">
+                                Publications
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/supplements/" class="navbar-item-link link-underline-animate ">
+                            <span class="navbar-item-text">
+                                Supplements
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/software/" class="navbar-item-link link-underline-animate ">
+                            <span class="navbar-item-text">
+                                Software
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/positions/" class="navbar-item-link link-underline-animate ">
+                            <span class="navbar-item-text">
+                                Positions
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/contact/" class="navbar-item-link link-underline-animate ">
+                            <span class="navbar-item-text">
+                                Contact
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                    <!--  -->
+                    <div class="navbar-item">
+                        <a href="/galleries/" class="navbar-item-link link-underline-animate is-active ">
+                            <span class="navbar-item-text">
+                                Galleries
+                            </span>
+                        </a>
+                        <div class="disc"></div>
+                    </div>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <!--  -->
+    
+
+
+    <section class="section">
+        <div class="container">
+            
+            <div class="columns">
+                
+                <div class="column is-12">
+                    
+                    
+                    
+<div class="page-galleries content">
+    <h1 id="galleries">Galleries</h1>
+
+
+
+
+
+
+<div class="gallery-container">
+    <a href="/galleries/park-lab-members/">
+        <h1 class="gallery-title">Where are they now? From a 2012 lab hiking trip to the White Mountains.</h1>
+    </a>
+    <p>Jun 28, 2017</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/2017-summer-lab-outing/">
+        <h1 class="gallery-title">2017 Summer Lab Outing</h1>
+    </a>
+    <p>Sep 12, 2017</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/2017-lab-hike/">
+        <h1 class="gallery-title">September Red Sox Game!</h1>
+    </a>
+    <p>Nov 14, 2017</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/2019-boston-harbor-cruise-spectacle-island-clambake/">
+        <h1 class="gallery-title">2019 Boston Harbor Cruise Spectacle Island Clambake</h1>
+    </a>
+    <p>Sep 13, 2019</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/park-lab-cross-country-ski-trip-january/">
+        <h1 class="gallery-title">Park Lab Cross Country Ski Trip in January!</h1>
+    </a>
+    <p>Jan 30, 2022</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/september-red-sox-game/">
+        <h1 class="gallery-title">September Red Sox Game!</h1>
+    </a>
+    <p>Sep 28, 2022</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/white-mountains-hiking-trip/">
+        <h1 class="gallery-title">White Mountains Hiking Trip!</h1>
+    </a>
+    <p>Oct 8, 2022</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/josh-cooks-defense-november-21st/">
+        <h1 class="gallery-title">Josh Cook's Defense on November 21st!</h1>
+    </a>
+    <p>Nov 21, 2022</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/park-lab-kayak-4dn-annual-meeting/">
+        <h1 class="gallery-title">Park Lab Kayak at the 4DN Annual Meeting!</h1>
+    </a>
+    <p>Dec 9, 2022</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/park-lab-retreat-fort-lauderdale-florida/">
+        <h1 class="gallery-title">Park Lab Retreat in Fort Lauderdale, Florida!</h1>
+    </a>
+    <p>Feb 22, 2023</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/00_-_20230210_125943_2.jpg" alt="lab smiling on the beach"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/01_-_20230209_071853_1.jpeg" alt="The Florida house"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/02_-_3a5a4f2c-2fc3-4ed6-841c-04b05aa17cb1.jpg" alt="outdoor pool at house in Florida"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/02a_-_20230209_100125_01.jpeg" alt="lab eating breakfast outside together in Florida"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/02b_-_20230208_215114_2.jpg" alt="lab eating pizza together"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/2b_-_img_2564.jpg" alt="group getting groceries"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/03_-_49647c30-5a0a-43df-83db-ddcb73e32761.jpeg" alt="group walking on a bridge surrounded by plants"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/03a_-_20230210_123405_1.jpg" alt="group walking on a bridge on Peanut Island"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/04_-_20230209_132839.jpeg" alt="group posing near an alligator in the Everglades National Park"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/5_-_20230209_184456_1.jpg" alt="Allen, Antuan, and Benedikt discussing AI"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/5b_-_20230209_193500_3.jpg" alt="Hu and Peter grilling for the barbecue"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/5c_-_20230209_194858.jpg" alt="lab sitting down for an outdoor barbecue"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/06_-_20230208_231126_4.jpg" alt="Allen and Antuan playing pool"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/07_-_20230208_231008_2.jpg" alt="Clara and Hu playing ping pong"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/10_-_20230209_174733.jpg" alt="group preparing for dinner"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/11_-_20230209_180113.jpg" alt="group preparing for dinner"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/11.5_-_20230210_134906.jpg" alt="kayaks on a beach"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/12_-_20230210_133904.jpg" alt="the group takes off from Peanut Island in kayaks"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/13_-_20230210_134105.jpg" alt="a group kayaks across the bay"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/14_-_20230210_134634.jpg" alt="Doug and Bianca paddle in a double kayak on the ocean"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/15_-_20230210_132913.jpg" alt="a group sits under palm trees in the shade"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/20_-_20230210_152357_2.jpg" alt="lab hanging out together on the beach"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/21_-_20230210_150542.jpg" alt="a group jumps waves in the ocean"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/30_-_20230210_191035.jpg" alt="dinner in an Italian restaurant"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/30a_-_7fcbe100-244c-41be-92a3-3f303200ea95.jpg" alt="Antuan giving a presentation"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/31_-_20230210_235716.jpg" alt="Dominik and Benedikt discussing a paper on a laptop"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/40_-_20230211_112257_1.jpeg" alt="playing mini golf"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/41_-_20230211_121110_1.jpg" alt="iguana spotting during mini golf"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/45_-_20230211_123807.jpg" alt="Will teaches the group how to golf at a driving range"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/46_-_20230211_125237_1.jpg" alt="Allen swinging at the golf range"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/49_-_27a5c7c1-3737-40cf-aef6-73f9d6cefdd8.jpg" alt="flamingos in the water"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/50_-_20230211_160557.jpg" alt="group looking at a bird on a barrier"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/51_-_71071e45-8d83-4ba5-bbb7-797566edf996.jpeg" alt="Elizabeth reaching out to a flamingo"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/52_-_20230211_100503_1.jpg" alt="lab in front of the Florida house"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/53_-_20230211_100744_1.jpg" alt="lab in front of the Florida house"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/54_-_20230211_100827.jpg" alt="jumping group photo in front of the Florida house"/>
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+
+<div class="gallery-container">
+    <a href="/galleries/park-lab-dbmi-happy-hour/">
+        <h1 class="gallery-title">Park Lab DBMI Happy Hour</h1>
+    </a>
+    <p>May 31, 2023</p>
+    <div class="gallery-images-container">
+        
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/image001.png" alt="Invite"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/parklab_01.jpg" alt="Attendees"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/food1.jpg" alt="Food on table"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/guac.jpg" alt="Guacamole"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/drink.jpg" alt="Drinks on table"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/food3.jpg" alt="Food on table"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/food2.jpg" alt="Cupcakes"/>
+        
+        
+        
+            
+    
+        
+        
+        
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/babyyoda.jpg" alt="Baby Yoda"/>
+        
+        
+        
+            
+    
+    </div>
+</div>
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <span class="footer-text"><b>Park Lab</b>, Department of Biomedical Informatics, Harvard Medical School, 10 Shattuck St, 3rd Floor, Boston, MA 02115</span>
+</footer>
+
+    <script src="/assets/js/app.js" type="text/javascript"></script>
+  </body>
+</html>
+
