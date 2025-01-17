@@ -6,7 +6,7 @@ show_sidebar: false
 {{ content }}
 
 
-{% assign galleries = site.galleries %}
+{% assign galleries = site.galleries | sort: "date" | reverse %}
 {% for gallery in galleries %}
 {% assign link = gallery.url %}
 <div class="gallery-container">
@@ -16,9 +16,13 @@ show_sidebar: false
     <p>{{ gallery.date | date: "%b %-d, %Y" }}</p>
     <div class="gallery-images-container">
         {% for item in gallery.items %}
-        
+
+        {% comment %} Manually set URL {% endcomment %}
+        {% if item.source_url %}
+        <img src="{{ item.source_url }}" alt="{{ item.alt }}"/>
+
         {% comment %} Use compbio images {% endcomment %}
-        {% if gallery.use_compbio_images and item.compbio_filename %}
+        {% elsif gallery.use_compbio_images and item.compbio_filename %}
         <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/{{ item.compbio_filename }}" alt="{{ item.alt }}"/>
         
         {% comment %} Use drupal images {% endcomment %}

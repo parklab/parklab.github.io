@@ -20,7 +20,7 @@ layout: page
             
             {% comment %} Use local images {% endcomment %}
             {% elsif page.use_local_images and item.local_filename %}
-            <img src="./img/{{ item.local_filename }}" alt="{{ item.alt }}"/>
+            <img src="../img/{{ item.local_filename }}" alt="{{ item.alt }}"/>
             {% endif %}
 
         </button>

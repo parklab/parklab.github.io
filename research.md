@@ -4,7 +4,7 @@ page_name: research
 title: Research
 description: Research Description
 toc: false
-show_sidebar: true
+show_sidebar: false
 hero_image: heroImageSrc
 hide_footer: false
 ---
