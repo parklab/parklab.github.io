@@ -15,7 +15,7 @@ show_sidebar: false
     </a>
     <p>{{ gallery.date | date: "%b %-d, %Y" }}</p>
     <div class="gallery-images-container">
-        {% for item in gallery.items %}
+        {% for item in gallery.items limit:8 %}
 
         {% comment %} Manually set URL {% endcomment %}
         {% if item.source_url %}

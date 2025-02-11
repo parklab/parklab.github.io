@@ -20,20 +20,51 @@ layout: page
                     <div class="file-group">
                         <span class="file-group-title">{{ file.title }}</span>
                         <ul>
-                            {% for nested_file in file.nested-files %} 
+                            {% for nested_file in file.nested-files %}
+
+                            {% comment %} Manually set URL {% endcomment %}
+                            {% if nested_file.source_url %}
+                            <li>
+                                <a href="{{ nested_file.source_url }}">{{ nested_file.title }}</a><span class="size">{{ nested_file.size }}</span>
+                            </li>
+
+                            {% comment %} Use compbio site asset {% endcomment %}
+                            {% elsif nested_file.compbio_src %}
+                            <li>
+                                <a href="https://compbio.hms.harvard.edu/{{ nested_file.compbio_src }}">{{ nested_file.title }}</a><span class="size">{{ nested_file.size }}</span>
+                            </li>
+
+                            {% comment %} Use local asset {% endcomment %}
+                            {% else %}
                             <li>
                                 <a href="../files/{{ nested_file.src }}">{{ nested_file.title }}</a><span class="size">{{ nested_file.size }}</span>
                             </li>
+                            {% endif %}
                             {% endfor %}
-    
                         </ul>
                     </div>
                 </td>
                 {% else %}
                 <td>
                     <div class="file-item">
+
+                        {% comment %} Manually set URL {% endcomment %}
+                        {% if file.source_url %}
+                        <a href="{{ file.source_url }}">{{ file.title }}</a>
+
+                        {% comment %} Use compbio site asset {% endcomment %}
+                        {% elsif file.compbio_src %}
+                        <a href="https://compbio.hms.harvard.edu/{{ file.compbio_src }}">{{ file.title }}</a>
+
+                        {% comment %} Use local asset {% endcomment %}
+                        {% else %}
                         <a href="../files/{{ file.src }}">{{ file.title }}</a>
+                        {% endif %}
+
+                        {% comment %} Checks for "B" in string to ensure existence {% endcomment %}
+                        {% if file.size contains "B"%}
                         <span class="size">{{ file.size }}</span>
+                        {% endif %}
                     </div>
                 </td>
                 {% endif %}

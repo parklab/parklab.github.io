@@ -2,6 +2,7 @@
 layout: supplement
 page_name: supplement
 year: 2005
+journal: "Bioinformatics"
 abstract_description: "MOTIVATION: Array Comparative Genomic Hybridization (CGH) can reveal chromosomal aberrations in the genomic DNA. These amplifications and deletions at the DNA level are important in the pathogenesis of cancer and other diseases. While a large number of approaches have been proposed for analyzing the large array CGH datasets, the relative merits of these methods in practice are not clear. RESULTS: We compare 11 different algorithms for analyzing array CGH data. These include both segment detection methods and smoothing methods, based on diverse techniques such as mixture models, Hidden Markov Models, maximum likelihood, regression, wavelets and genetic algorithms. We compute the Receiver Operating Characteristic (ROC) curves using simulated data to quantify sensitivity and specificity for various levels of signal-to-noise ratio and different sizes of abnormalities. We also characterize their performance on chromosomal regions of interest in a real dataset obtained from patients with Glioblastoma Multiforme. While comparisons of this type are difficult due to possibly sub-optimal choice of parameters in the methods, they nevertheless reveal general characteristics that are helpful to the biological investigator."
 link: "./lai-et-al-bioinformatics-2005"
 link_text: "Lai et al, Comparative analysis of algorithms for identifying amplifications and deletions in array CGH data, Bioinformatics, 2005"
@@ -30,25 +31,25 @@ ACE | Lingjaerde et al. (2005) | Analysis of Copy Errors | [CGH-Explorer](http:/
 
 For the last column, 'S' and 'E' indicate that the algorithm has a step for smoothing and estimation, respectively. Three methods (Quantreg, Wavelet, and Lowess) are for smoothing only. Some methods or packages did not have specific names; others had names that are too generic. We have created short abbreviations in such cases (e.g., we have called the method in Picard et al. (2005) based on the name of their downloadable file). These names are used in the subsequent figures. * indicates those using existing R packages: Quantreg and Wavelet methods were implemented by us based on the descriptions given in the papers; Lowess is our implementatino using the existing R function. CGHseg was ported to R from MATLAB by us.
 
-Figure 1: [high resolution PDF](../files/lai_et_al_figure_1.pdf)
+Figure 1: [high resolution PDF](http://compbio.hms.harvard.edu/files/parklab/files/lai_et_al_figure_1.pdf)
 
-Figure 2: [high resolution PDF](../files/lai_et_al_figure_2.pdf)
+Figure 2: [high resolution PDF](http://compbio.hms.harvard.edu/files/parklab/files/lai_et_al_figure_2.pdf)
 
-Figure 3: [high resolution PDF](../files/lai_et_al_figure_3.pdf)
+Figure 3: [high resolution PDF](http://compbio.hms.harvard.edu/files/parklab/files/lai_et_al_figure_3.pdf)
 
-Figure 4: [high resolution PDF](../files/lai_et_al_figure_4.pdf)
+Figure 4: [high resolution PDF](http://compbio.hms.harvard.edu/files/parklab/files/lai_et_al_figure_4.pdf)
 
 
 ### Data Used in the Analysis
 
-- Profile in Figure 1: Lai_et_al_Figure_1_data.xls (140K)
-- Profiles of artificial chromosomes in the Simulated Data: Lai_et_al_art_chrom_profiles.xls (3MB)
-- The true and false positive rates used in plotting Figure 2: Lai_et_al_TPR_FPR_profiles.xls (620KB)
+- Profile in Figure 1: [Lai_et_al_Figure_1_data.xls](http://compbio.hms.harvard.edu/files/parklab/files/lai_et_al_figure_1_data.xls) (140K)
+- Profiles of artificial chromosomes in the Simulated Data: [Lai_et_al_art_chrom_profiles.xls](http://compbio.hms.harvard.edu/files/parklab/files/lai_et_al_art_chrom_profiles.xls) (3MB)
+- The true and false positive rates used in plotting Figure 2: [Lai_et_al_TPR_FPR_profiles.xls](http://compbio.hms.harvard.edu/files/parklab/files/lai_et_al_tpr_fpr_profiles.xls) (620KB)
 - Normalized glioblastoma profiles from the data set of Bredel et al. (2005)
-- The raw data can be found at the Stanford Microarray Database: Click Here to be Directed to the Raw Data
+- The raw data can be found at the Stanford Microarray Database: [Click Here to be Directed to the Raw Data](http://smd.stanford.edu/cgi-bin/publication/viewPublication.pl?pub_no=452)
 - Chromosome 13 in GBM31 (used in Figure 3): Chrom_13_GBM31.xls (120KB)
-- Excerpt of chromosome 7 in GBM29 from 40 to 65 Mb (used in Figure 4): Chrom_7_from40_to65Mb_GBM29.xls (40KB)
-- All of the GBM profiles: GBM_normalized_using_Bredel_et_al_dataset.xls (24MB)
+- Excerpt of chromosome 7 in GBM29 from 40 to 65 Mb (used in Figure 4): [Chrom_7_from40_to65Mb_GBM29.xls](http://compbio.hms.harvard.edu/files/parklab/files/chrom_7_from40_to65mb_gbm29.xls) (40KB)
+- All of the GBM profiles: [GBM_normalized_using_Bredel_et_al_dataset.xls](http://compbio.hms.harvard.edu/files/parklab/files/gbm_normalized_using_bredel_et_al_dataset.xls) (24MB)
 
 
 ### Frequently Asked Questions
@@ -56,7 +57,7 @@ Figure 4: [high resolution PDF](../files/lai_et_al_figure_4.pdf)
 
 __Can I obtain the R implementation of the CGHseg algorithm by Picard et al?__
 
-Since the paper's publication, we have found that the tilingArray package on BioConductor also implements the breakpoint estimation step of the algorithm. A sample R code which uses this package and selects the optimal breakpoint can be found here: example_Picard.R
+Since the paper's publication, we have found that the tilingArray package on BioConductor also implements the breakpoint estimation step of the algorithm. A sample R code which uses this package and selects the optimal breakpoint can be found here: [example_Picard.R](http://compbio.hms.harvard.edu/files/parklab/files/example_picard_r.zip)
 
 
 __Where can I download the implementations for the algorithms?__
@@ -66,7 +67,7 @@ Unfortunately, we do not have a simple R function that will automatically run al
 
 __What are the settings used for each algorithm?__
 
-When possible, we used the default settings given in the algorithms.  A more detailed list of settings used can be downloaded here: [Lai_et_al_algorithm_settings.txt](../files/lai_et_al_algorithm_settings.txt)
+When possible, we used the default settings given in the algorithms.  A more detailed list of settings used can be downloaded here: [Lai_et_al_algorithm_settings.txt](http://compbio.hms.harvard.edu/files/parklab/files/lai_et_al_algorithm_settings.txt)
 
 
 __How are true positive rates (TPRs) and false positive rates (FPRs) calculated in the simulated data?__
