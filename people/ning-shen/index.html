@@ -25,14 +25,14 @@
 <meta property="og:site_name" content="PARK LAB" />
 <meta property="og:image" content="http://example.com/img/ning-shen.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-12T01:46:36+00:00" />
+<meta property="article:published_time" content="2025-02-12T16:58:42+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:image" content="http://example.com/img/ning-shen.jpg" />
 <meta property="twitter:title" content="Ning Shen" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Author" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Author"},"dateModified":"2025-02-12T01:46:36+00:00","datePublished":"2025-02-12T01:46:36+00:00","description":"Ning received her PhD in Pharmacology with a Certificate in Computational Biology from Duke University in 2016, where she investigated the genomic expression regulation using a combination of high-throughput experimental and computational approaches, supervised by Dr. Raluca Gordan. Her study focused on sequence and structural determinants of specificity difference between paralogous transcription factors (Shen et al, Cell Systems, 2018, PMID 29605182,https://imads.genome.duke.edu; Zhou &amp; Shen et al, PNAS, 2015, PMID 25775564).After a short postdoc experience at Dr. Gordan’s lab in the department of Biostatistics and Bioinformatics at Duke University, applying her PhD work into interpretation of cancer mutations, Ning joined a start up company Fulcrum Therapeutics in Cambridge, MA in early 2017. At Fulcrum, Ning was deeply integrated into the drug discovery and development pipeline, applying her knowledge and expertise in computational biology and regulatory genomics to make impact on patient life. She has been the computational biology lead for multiple muscular dystrophy diseases, contributing to several stages of drug discovery and development in the company. In particular, Ning made critical contribution in the mechanism study and proof-of-concept biomarker development for the drug FTX-1821 in treatment of Facioscapulohumeral muscular dystrophy (FSHD), delivered IND-enabling data analysis and study report (Cacace et al, US Patent 20190105311A1; Rojas et al, bioRxiv, 2019).In July 2019, Ning joined the Park lab as research fellow. Her work focuses on understanding the mechanisms of tissue specificity of different cancer driver mutations by integrating multiple sources of datasets.","headline":"Ning Shen","image":"http://example.com/img/ning-shen.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/people/ning-shen/"},"url":"http://example.com/people/ning-shen/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Author"},"dateModified":"2025-02-12T16:58:42+00:00","datePublished":"2025-02-12T16:58:42+00:00","description":"Ning received her PhD in Pharmacology with a Certificate in Computational Biology from Duke University in 2016, where she investigated the genomic expression regulation using a combination of high-throughput experimental and computational approaches, supervised by Dr. Raluca Gordan. Her study focused on sequence and structural determinants of specificity difference between paralogous transcription factors (Shen et al, Cell Systems, 2018, PMID 29605182,https://imads.genome.duke.edu; Zhou &amp; Shen et al, PNAS, 2015, PMID 25775564).After a short postdoc experience at Dr. Gordan’s lab in the department of Biostatistics and Bioinformatics at Duke University, applying her PhD work into interpretation of cancer mutations, Ning joined a start up company Fulcrum Therapeutics in Cambridge, MA in early 2017. At Fulcrum, Ning was deeply integrated into the drug discovery and development pipeline, applying her knowledge and expertise in computational biology and regulatory genomics to make impact on patient life. She has been the computational biology lead for multiple muscular dystrophy diseases, contributing to several stages of drug discovery and development in the company. In particular, Ning made critical contribution in the mechanism study and proof-of-concept biomarker development for the drug FTX-1821 in treatment of Facioscapulohumeral muscular dystrophy (FSHD), delivered IND-enabling data analysis and study report (Cacace et al, US Patent 20190105311A1; Rojas et al, bioRxiv, 2019).In July 2019, Ning joined the Park lab as research fellow. Her work focuses on understanding the mechanisms of tissue specificity of different cancer driver mutations by integrating multiple sources of datasets.","headline":"Ning Shen","image":"http://example.com/img/ning-shen.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/people/ning-shen/"},"url":"http://example.com/people/ning-shen/"}</script>
 <!-- End Jekyll SEO tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=GoogleAnalytics"></script>
 <script>
@@ -49,47 +49,36 @@
         const body = document.querySelector('body');
 
         const modal = document.getElementById('gallery-modal');
-        const modalContent = modal.querySelector('.modal-content');
-        const modalImageElement = modal.querySelector('img');
 
+        if (modal) {
 
-        const closeModalButton = modal.querySelector('.close-modal');
-
-        // Close modal
-        const closeModal = () => {
-            modal.classList.remove('show');
-            body.classList.remove('modal-open');
-            modal.classList.add('modal-open');
+            const modalContent = modal.querySelector('.modal-content');
+            const modalImageElement = modal.querySelector('img');
+    
+    
+            const closeModalButton = modal.querySelector('.close-modal');
+    
+            // Close modal
+            const closeModal = () => {
+                modal.classList.remove('show');
+                body.classList.remove('modal-open');
+                modal.classList.add('modal-open');
+            }
+    
+            modal.addEventListener('click', (e) => {
+                if (e.target !== modalContent && e.target !== modalImageElement) {
+                    closeModal();
+                }
+            });
+            closeModalButton.addEventListener('click', (e) => {
+                closeModal();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {   
+                    closeModal();
+                }
+            });
         }
-
-        modal.addEventListener('click', (e) => {
-            if (e.target !== modalContent && e.target !== modalImageElement) {
-                closeModal();
-            }
-        });
-        closeModalButton.addEventListener('click', (e) => {
-            closeModal();
-        });
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {   
-                closeModal();
-            }
-        });
-
-        // document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
-        //     button.addEventListener('focus', (e) => {
-
-        //         const button = e.target;
-        //         console.log(button);
-        //         const image = e.target.querySelector('img');
-        //         console.log(image.src, image.alt);
-
-        //         // Assign proper image to modal
-        //         modalImageElement.src = image.src;
-        //         modalImageElement.alt = image.alt;
-
-        //     });
-        // });
 
         document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
             button.addEventListener('click', (e) => {

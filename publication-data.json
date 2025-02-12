@@ -16,7 +16,8 @@
       "key": "publication_key",
       "author": ["author1", "author2", "author3"],
       "title": "Publication Title",
-      "venue": "Venue name",
+      "journal": "Journal name",
+      "journal_location": "Journal location",
       "year": "year",
       "thumbnail": "thumbnail_src",
       "type": "journal",
@@ -62,7 +63,8 @@
       "pdf_link": "",
       "year": "2024",
       "type": "2024",
-      "venue": "Cancer Research and Treatment 2024"
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Research and Treatment 2024"
     },
     {
       "author": [
@@ -122,7 +124,8 @@
       "pdf_link": "/publications/pdf/s41467-024-46181-3.pdf",
       "year": "2024",
       "type": "2024",
-      "venue": "Nature Communications 2024"
+      "journal": "Nature",
+      "journal_location": "Nature Communications 2024"
     },
     {
       "author": [
@@ -198,7 +201,8 @@
       "pdf_link": "/publications/pdf/1-s2.0-s0092867424002277-main.pdf",
       "year": "2024",
       "type": "2024",
-      "venue": "Cell 2024"
+      "journal": "Cell",
+      "journal_location": "Cell 2024"
     },
     {
       "author": [
@@ -262,7 +266,8 @@
       "pdf_link": "/publications/pdf/s41588-024-01665-2.pdf",
       "year": "2024",
       "type": "2024",
-      "venue": "Nature Genetics 2024"
+      "journal": "Nature",
+      "journal_location": "Nature Genetics 2024"
     },
     {
       "author": [
@@ -302,7 +307,8 @@
       "pdf_link": "/publications/pdf/s41588-024-01659-0.pdf",
       "year": "2024",
       "type": "2024",
-      "venue": "Nature Genetics 2024"
+      "journal": "Nature",
+      "journal_location": "Nature Genetics 2024"
     },
     {
       "author": [
@@ -366,7 +372,8 @@
       "pdf_link": "/publications/pdf/pdf.pdf",
       "year": "2024",
       "type": "2024",
-      "venue": "Clinical Genitourinary Cancer 2024;01(011)"
+      "journal": "Clinical Genitourinary Cancer",
+      "journal_location": "Clinical Genitourinary Cancer 2024;01(011)"
     },
     {
       "author": [
@@ -409,7 +416,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/role-mutations-ak9-and-other-genes-affecting-ependymal-cells-idiopathic-normal",
       "pdf_link": "/publications/pdf/yang-et-al-2023-a-role-for-mutations-in-ak9-and-other-genes-affecting-ependymal-cells-in-idiopathic-normal-pressure.pdf",
       "year": "2023",
-      "venue": "PNAS 2023;120(51)"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "PNAS 2023;120(51)"
     },
     {
       "author": [
@@ -544,7 +552,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genomic-data-resources-brain-somatic-mosaicism-network-neuropsychiatric",
       "pdf_link": "/publications/pdf/s41597-023-02645-7.pdf",
       "year": "2023",
-      "venue": "Scientific Data 2023"
+      "journal": "Scientific Data",
+      "journal_location": "Scientific Data 2023"
     },
     {
       "author": [
@@ -595,7 +604,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pan-tissue-survey-mosaic-chromosomal-alterations-948-individuals",
       "pdf_link": "",
       "year": "2023",
-      "venue": "Nature Genetics 2023"
+      "journal": "Nature",
+      "journal_location": "Nature Genetics 2023"
     },
     {
       "author": [
@@ -642,7 +652,8 @@
       "abstract_link": "N/A",
       "pdf_link": "",
       "year": "2023",
-      "venue": "Nature Methods 2023"
+      "journal": "Nature",
+      "journal_location": "Nature Methods 2023"
     },
     {
       "author": [
@@ -693,7 +704,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/landscape-human-sva-retrotransposons",
       "pdf_link": "/publications/pdf/gkad821.pdf",
       "year": "2023",
-      "venue": "Nucleic Acids Research 2023"
+      "journal": "Nucleic Acids Res",
+      "journal_location": "Nucleic Acids Research 2023"
     },
     {
       "author": [
@@ -792,7 +804,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/hyper-dependence-nhej-enables-synergy-between-dna-pk-inhibitors-and-low-dose",
       "pdf_link": "",
       "year": "2023",
-      "venue": "Clinical Cancer Research 2023"
+      "journal": "Clinical Cancer Research",
+      "journal_location": "Clinical Cancer Research 2023"
     },
     {
       "author": [
@@ -943,7 +956,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/spatial-and-temporal-organization-genome-current-state-and-future-aims-4d",
       "pdf_link": "/publications/pdf/1-s2.0-s1097276523004653-main.pdf",
       "year": "2023",
-      "venue": "Molecular Cell 2023;83(15):2624-2640"
+      "journal": "Molecular Cell",
+      "journal_location": "Molecular Cell 2023;83(15):2624-2640"
     },
     {
       "author": [
@@ -1070,7 +1084,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/framework-individualized-splice-switching-oligonucleotide-therapy",
       "pdf_link": "/publications/pdf/s41586-023-06277-0.pdf",
       "year": "2023",
-      "venue": "Nature 2023;619:828-836"
+      "journal": "Nature",
+      "journal_location": "Nature 2023;619:828-836"
     },
     {
       "author": [
@@ -1141,7 +1156,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/er%CE%B1-associated-translocations-underlie-oncogene-amplifications-breast-cancer",
       "pdf_link": "/publications/pdf/s41586-023-06057-w.pdf",
       "year": "2023",
-      "venue": "[Internet]. Nature 2023"
+      "journal": "Nature",
+      "journal_location": "Nature 2023"
     },
     {
       "author": [
@@ -1364,7 +1380,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-multi-omic-profiling-somatic-mutations-malformations-cortical",
       "pdf_link": "/publications/pdf/escholarship_uc_item_6qk17474.pdf",
       "year": "2023",
-      "venue": "Nat Genetics 2023;55:209-220"
+      "journal": "Nat Genet",
+      "journal_location": "Nat Genetics 2023;55:209-220"
     },
     {
       "author": [
@@ -1419,7 +1436,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genomic-patterns-malignant-peripheral-nerve-sheath-tumor-mpnst-evolution",
       "pdf_link": "/publications/pdf/cd-22-0786.pdf",
       "year": "2023",
-      "venue": "Cancer Discovery 2023;13(3):654-671"
+      "journal": "Cancer Discovery",
+      "journal_location": "Cancer Discovery 2023;13(3):654-671"
     },
     {
       "author": [
@@ -1506,7 +1524,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/mutational-signature-3-detected-clinical-panel-sequencing-associated-responses",
       "pdf_link": "/publications/pdf/4714.pdf",
       "year": "2022",
-      "venue": "Clinical Cancer Research 2022;28(21):4714-4723"
+      "journal": "Clinical Cancer Research",
+      "journal_location": "Clinical Cancer Research 2022;28(21):4714-4723"
     },
     {
       "author": [
@@ -1597,7 +1616,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/single-cell-genome-sequencing-human-neurons-identifies-somatic-point-mutation",
       "pdf_link": "/publications/pdf/nihms-1834492.pdf",
       "year": "2022",
-      "venue": "Nature Genetics 2022;54:1564-1571"
+      "journal": "Nature",
+      "journal_location": "Nature Genetics 2022;54:1564-1571"
     },
     {
       "author": [
@@ -1716,7 +1736,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/analysis-somatic-mutations-131-human-brains-reveals-aging-associated",
       "pdf_link": "/publications/pdf/nihms-1831345.pdf",
       "year": "2022",
-      "venue": "Science 2022;377(6605):511-517"
+      "journal": "Science",
+      "journal_location": "Science 2022;377(6605):511-517"
     },
     {
       "author": [
@@ -1819,7 +1840,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/4d-nucleome-data-portal-resource-searching-and-visualizing-curated-nucleomics",
       "pdf_link": "/publications/pdf/s41467-022-29697-4.pdf",
       "year": "2022",
-      "venue": "Nature Communications 2022;13(1):2365"
+      "journal": "Nature",
+      "journal_location": "Nature Communications 2022;13(1):2365"
     },
     {
       "author": [
@@ -1850,7 +1872,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/computational-analysis-cancer-genome-sequencing-data-0",
       "pdf_link": "",
       "year": "2022",
-      "venue": "Nature Reviews Genetics 2022;23(5):298-314"
+      "journal": "Nature",
+      "journal_location": "Nature Reviews Genetics 2022;23(5):298-314"
     },
     {
       "author": [
@@ -1881,7 +1904,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pairs-and-pairix-file-format-and-tool-efficient-storage-and-retrieval-hi-c-read",
       "pdf_link": "/publications/pdf/btab870.pdf",
       "year": "2022",
-      "venue": "Bioinformatics 2022"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2022"
     },
     {
       "author": [
@@ -2088,7 +2112,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/reverse-transcriptase-inhibition-disrupts-repeat-element-life-cycle-colorectal",
       "pdf_link": "/publications/pdf/nihms-1793898_1.pdf",
       "year": "2022",
-      "venue": "Cancer Discov 2022"
+      "journal": "Cancer Discovery",
+      "journal_location": "Cancer Discovery 2022"
     },
     {
       "author": [
@@ -2131,7 +2156,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/single-cell-gene-fusion-detection-scfusion",
       "pdf_link": "/publications/pdf/s41467-022-28661-6.pdf",
       "year": "2022",
-      "venue": "Nat Commun 2022;13(1):1084"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2022;13(1):1084"
     },
     {
       "author": [
@@ -2246,7 +2272,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/somatic-mosaicism-reveals-clonal-distributions-neocortical-development",
       "pdf_link": "/publications/pdf/nihms-1818642_1.pdf",
       "year": "2022",
-      "venue": "Nature 2022;604(7907):689-696"
+      "journal": "Nature",
+      "journal_location": "Nature 2022;604(7907):689-696"
     },
     {
       "author": [
@@ -2389,7 +2416,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/micro-meta-app-interactive-tool-collecting-microscopy-metadata-based-community",
       "pdf_link": "/publications/pdf/s41592-021-01315-z.pdf",
       "year": "2021",
-      "venue": "Nat Methods 2021;18(12):1489-1495"
+      "journal": "Nature Methods",
+      "journal_location": "Nat Methods 2021;18(12):1489-1495"
     },
     {
       "author": [
@@ -2440,7 +2468,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/whole-genome-analysis-reveals-contribution-non-coding-de-novo-transposon",
       "pdf_link": "/publications/pdf/s13100-021-00256-w.pdf",
       "year": "2021",
-      "venue": "Mobile DNA 2021;12(1):28"
+      "journal": "Mobile DNA",
+      "journal_location": "Mobile DNA 2021;12(1):28"
     },
     {
       "author": [
@@ -2479,7 +2508,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/cis-regulatory-dissection-cone-development-reveals-broad-role-otx2-and-oc",
       "pdf_link": "/publications/pdf/dev198549.pdf",
       "year": "2021",
-      "venue": "Development 2021;148(9)"
+      "journal": "Development",
+      "journal_location": "Development 2021;148(9)"
     },
     {
       "author": [
@@ -2694,7 +2724,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-identification-somatic-nucleotide-variants-human-brain-tissue",
       "pdf_link": "/publications/pdf/s13059-021-02285-3.pdf",
       "year": "2021",
-      "venue": "Genome Biology 2021;22(1):92"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biology 2021;22(1):92"
     },
     {
       "author": [
@@ -2733,7 +2764,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-identification-transposable-element-insertions-using-multiple",
       "pdf_link": "/publications/pdf/s41467-021-24041-8.pdf",
       "year": "2021",
-      "venue": "Nat Commun 2021;12(1):3836"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2021;12(1):3836"
     },
     {
       "author": [
@@ -2784,7 +2816,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/essential-histone-chaperones-collaborate-regulate-transcription-and-chromatin",
       "pdf_link": "/publications/pdf/genes_dev.-2021-viktorovskaya-698-712.pdf",
       "year": "2021",
-      "venue": "Genes Dev 2021;35(9-10):698-712"
+      "journal": "Genes",
+      "journal_location": "Genes Dev 2021;35(9-10):698-712"
     },
     {
       "author": [
@@ -2851,7 +2884,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/negative-elongation-factor-regulates-muscle-progenitor-expansion-efficient",
       "pdf_link": "/publications/pdf/1-s2.0-s1534580721001659-main.pdf",
       "year": "2021",
-      "venue": "Dev Cell 2021;56(7):1014-1029.e7"
+      "journal": "Dev Cell",
+      "journal_location": "Dev Cell 2021;56(7):1014-1029.e7"
     },
     {
       "author": [
@@ -2870,7 +2904,8 @@
       "abstract_link": "N/A",
       "pdf_link": "/publications/pdf/s41422-021-00537-2_01.pdf",
       "year": "2021",
-      "venue": "Cell Res 2021;31(9):949-950"
+      "journal": "Cell",
+      "journal_location": "Cell Res 2021;31(9):949-950"
     },
     {
       "author": [
@@ -2901,7 +2936,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/origins-and-genetic-interactions-kras-mutations-are-allele-and-tissue-specific",
       "pdf_link": "/publications/pdf/s41467-021-22125-z.pdf",
       "year": "2021",
-      "venue": "Nature Communications 2021;12(1808)"
+      "journal": "Nature",
+      "journal_location": "Nature Communications 2021;12(1808)"
     },
     {
       "author": [
@@ -2960,7 +2996,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/landmarks-human-embryonic-development-inscribed-somatic-mutations",
       "pdf_link": "/publications/pdf/nihms-1706284_1_01.pdf",
       "year": "2021",
-      "venue": "Science 2021;371(6535):1249-1253"
+      "journal": "Science",
+      "journal_location": "Science 2021;371(6535):1249-1253"
     },
     {
       "author": [
@@ -2991,7 +3028,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/bamsnap-lightweight-viewer-sequencing-reads-bam-files",
       "pdf_link": "/publications/pdf/btaa1101.pdf",
       "year": "2021",
-      "venue": "Bioinformatics 2021;37(2):263-4"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2021;37(2):263-4"
     },
     {
       "author": [
@@ -3070,7 +3108,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/deletions-cwh43-cause-idiopathic-normal-pressure-hydrocephalus",
       "pdf_link": "/publications/pdf/embo_mol_med_-_2021_-_yang_-_deletions_in_cwh43_cause_idiopathic_normal_pressure_hydrocephalus.pdf",
       "year": "2021",
-      "venue": "EMBO Mol Med 2021;:e13249"
+      "journal": "EMBO Mol Med",
+      "journal_location": "EMBO Mol Med 2021;:e13249"
     },
     {
       "author": [
@@ -3153,7 +3192,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/heterogeneity-and-clonal-evolution-acquired-parp-inhibitor-resistance-tp53-and",
       "pdf_link": "/publications/pdf/2774.pdf",
       "year": "2021",
-      "venue": "Cancer Res 2021;81(10):2774-2787"
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Res 2021;81(10):2774-2787"
     },
     {
       "author": [
@@ -3188,7 +3228,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/hitea-computational-pipeline-identify-non-reference-transposable-element",
       "pdf_link": "/publications/pdf/btaa923.pdf",
       "year": "2021",
-      "venue": "Bioinformatics 2021;37(8):1045-1051"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2021;37(8):1045-1051"
     },
     {
       "author": [
@@ -3263,7 +3304,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/landscape-somatic-mutation-cerebral-cortex-autistic-and-neurotypical",
       "pdf_link": "/publications/pdf/nihms-1648954_1.pdf",
       "year": "2021",
-      "venue": "Nat Neurosci 2021;24(2):176-185"
+      "journal": "Nat Neurosci",
+      "journal_location": "Nat Neurosci 2021;24(2):176-185"
     },
     {
       "author": [
@@ -3314,7 +3356,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/large-mosaic-copy-number-variations-confer-autism-risk",
       "pdf_link": "/publications/pdf/nihms-1648952_1_01.pdf",
       "year": "2021",
-      "venue": "Nat Neurosci 2021;24(2):197-203"
+      "journal": "Nat Neurosci",
+      "journal_location": "Nat Neurosci 2021;24(2):197-203"
     },
     {
       "author": [
@@ -3341,7 +3384,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/resources-and-challenges-integrative-analysis-nuclear-architecture-data",
       "pdf_link": "/publications/pdf/nihms-1659039_1_01.pdf",
       "year": "2021",
-      "venue": "Curr Opin Genet Dev 2021;67:103-110"
+      "journal": "Curr Opin Genet Dev",
+      "journal_location": "Curr Opin Genet Dev 2021;67:103-110"
     },
     {
       "author": [
@@ -3404,7 +3448,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-analysis-chromothripsis-2658-human-cancers-using-whole-genome-0",
       "pdf_link": "/publications/pdf/s41588-019-0576-7.pdf",
       "year": "2020",
-      "venue": "Nature Genetics 2020;52(3):331-341"
+      "journal": "Nature",
+      "journal_location": "Nature Genetics 2020;52(3):331-341"
     },
     {
       "author": [
@@ -3455,7 +3500,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/accurate-detection-mosaic-variants-sequencing-data-without-matched-controls",
       "pdf_link": "/publications/pdf/nihms-1544381_1.pdf",
       "year": "2020",
-      "venue": "Nature Biotechnology 2020;38(3):314-319"
+      "journal": "Nature",
+      "journal_location": "Nature Biotechnology 2020;38(3):314-319"
     },
     {
       "author": [
@@ -3526,7 +3572,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/systematic-assessment-tumor-purity-and-its-clinical-implications",
       "pdf_link": "/publications/pdf/po.20.00016.pdf",
       "year": "2020",
-      "venue": "JCO Precis Oncol 2020;4"
+      "journal": "JCO Precis Oncol",
+      "journal_location": "JCO Precis Oncol 2020;4"
     },
     {
       "author": [
@@ -3561,7 +3608,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/conserved-elongation-factor-spn1-required-normal-transcription-histone",
       "pdf_link": "/publications/pdf/gkaa745.pdf",
       "year": "2020",
-      "venue": "Nucleic Acids Res 2020"
+      "journal": "Nucleic Acids Res",
+      "journal_location": "Nucleic Acids Res 2020"
     },
     {
       "author": [
@@ -3612,7 +3660,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/dysregulation-cancer-genes-recurrent-intergenic-fusions",
       "pdf_link": "/publications/pdf/s13059-020-02076-2.pdf",
       "year": "2020",
-      "venue": "Genome Biol 2020;21(1):166"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol 2020;21(1):166"
     },
     {
       "author": [
@@ -3663,7 +3712,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/epigenetic-transcriptional-reprogramming-wt1-mediates-repair-response-during",
       "pdf_link": "/publications/pdf/sciadv.abb5460.pdf",
       "year": "2020",
-      "venue": "Science Advances 2020;6(30):eabb5460"
+      "journal": "Science",
+      "journal_location": "Science Advances 2020;6(30):eabb5460"
     },
     {
       "author": [
@@ -3706,7 +3756,8 @@
       "abstract_link": "N/A",
       "pdf_link": "/publications/pdf/po.20.00009.pdf",
       "year": "2020",
-      "venue": "JCO Precis Oncol 2020;4:492-497"
+      "journal": "JCO Precis Oncol",
+      "journal_location": "JCO Precis Oncol 2020;4:492-497"
     },
     {
       "author": [
@@ -3793,7 +3844,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genomics-mpnst-gem-consortium-rationale-and-study-design-multi-omic",
       "pdf_link": "/publications/pdf/genes-11-00387.pdf",
       "year": "2020",
-      "venue": "Genes 2020;11(4)"
+      "journal": "Genes",
+      "journal_location": "Genes 2020;11(4)"
     },
     {
       "author": [
@@ -3820,7 +3872,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/identification-and-genotyping-transposable-element-insertions-genome-sequencing",
       "pdf_link": "/publications/pdf/nihms-1785915_1.pdf",
       "year": "2020",
-      "venue": "Curr Protoc Hum Genet 2020;107(1):e102"
+      "journal": "Curr Protoc Hum Genet",
+      "journal_location": "Curr Protoc Hum Genet 2020;107(1):e102"
     },
     {
       "author": [
@@ -4143,7 +4196,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/mechanisms-and-therapeutic-implications-hypermutation-gliomas",
       "pdf_link": "/publications/pdf/nihms-1572083_1.pdf",
       "year": "2020",
-      "venue": "Nature 2020;580(7804):517-523"
+      "journal": "Nature",
+      "journal_location": "Nature 2020;580(7804):517-523"
     },
     {
       "author": [
@@ -4210,7 +4264,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/parallel-rna-and-dna-analysis-after-deep-sequencing-prdd-seq-reveals-cell-type",
       "pdf_link": "/publications/pdf/pnas.2006163117.pdf",
       "year": "2020",
-      "venue": "Proc Natl Acad Sci U S A 2020;117(25):13886-13895"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2020;117(25):13886-13895"
     },
     {
       "author": [
@@ -4317,7 +4372,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/user-guide-online-exploration-and-visualization-pcawg-data",
       "pdf_link": "/publications/pdf/s41467-020-16785-6.pdf",
       "year": "2020",
-      "venue": "Nat Commun 2020;11(1):3400"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2020;11(1):3400"
     },
     {
       "author": [
@@ -4364,7 +4420,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/hint-computational-method-detecting-copy-number-variations-and-translocations",
       "pdf_link": "/publications/pdf/s13059-020-01986-5.pdf",
       "year": "2020",
-      "venue": "Genome Biology 2020;21(1):73"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biology 2020;21(1):73"
     },
     {
       "author": [
@@ -4483,7 +4540,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/immunogenomic-profiling-determines-responses-combined-parp-and-pd-1-inhibition",
       "pdf_link": "/publications/pdf/s41467-020-15315-8.pdf",
       "year": "2020",
-      "venue": "Nature Communications 2020;11(1):1459"
+      "journal": "Nature",
+      "journal_location": "Nature Communications 2020;11(1):1459"
     },
     {
       "author": [
@@ -4498,7 +4556,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pan-cancer-analysis-whole-genomes",
       "pdf_link": "/publications/pdf/41586_2020_article_1969.pdf",
       "year": "2020",
-      "venue": "Nature 2020;578(7793):82-93"
+      "journal": "Nature",
+      "journal_location": "Nature 2020;578(7793):82-93"
     },
     {
       "author": [
@@ -4573,7 +4632,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/patterns-somatic-structural-variation-human-cancer-genomes",
       "pdf_link": "/publications/pdf/s41586-019-1913-9.pdf",
       "year": "2020",
-      "venue": "Nature 2020;578(7793):112-121"
+      "journal": "Nature",
+      "journal_location": "Nature 2020;578(7793):112-121"
     },
     {
       "author": [
@@ -4796,7 +4856,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pan-cancer-analysis-whole-genome-identifies-driver-rearrangements-promoted-line",
       "pdf_link": "/publications/pdf/s41588-019-0562-0.pdf",
       "year": "2020",
-      "venue": "Nature Genetics 2020;52(3):306-319"
+      "journal": "Nature",
+      "journal_location": "Nature Genetics 2020;52(3):306-319"
     },
     {
       "author": [
@@ -4883,7 +4944,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genomic-footprints-activated-telomere-maintenance-mechanisms-cancer",
       "pdf_link": "/publications/pdf/s41467-019-13824-9.pdf",
       "year": "2020",
-      "venue": "Nature Communications 2020;11(733)"
+      "journal": "Nature",
+      "journal_location": "Nature Communications 2020;11(733)"
     },
     {
       "author": [
@@ -4906,7 +4968,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/giniqc-measure-quantifying-noise-single-cell-hi-c-data",
       "pdf_link": "/publications/pdf/btaa048.pdf",
       "year": "2020",
-      "venue": "Bioinformatics 2020"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2020"
     },
     {
       "author": [
@@ -5109,7 +5172,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/patient-customized-oligonucleotide-therapy-rare-genetic-disease",
       "pdf_link": "/publications/pdf/nejmoa1813279.pdf",
       "year": "2019",
-      "venue": "N Engl J Med 2019"
+      "journal": "N Engl J Med",
+      "journal_location": "N Engl J Med 2019"
     },
     {
       "author": [
@@ -5136,7 +5200,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/identification-somatic-mutations-single-cell-dna-sequencing-data-using-spatial",
       "pdf_link": "/publications/pdf/s41467-019-11857-8.pdf",
       "year": "2019",
-      "venue": "Nature Communications 2019;10(1):3908"
+      "journal": "Nature",
+      "journal_location": "Nature Communications 2019;10(1):3908"
     },
     {
       "author": [
@@ -5167,7 +5232,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/detecting-mutational-signature-homologous-recombination-deficiency-clinical",
       "pdf_link": "",
       "year": "2019",
-      "venue": "Nature Genetics 2019;51(5):912-919"
+      "journal": "Nature",
+      "journal_location": "Nature Genetics 2019;51(5):912-919"
     },
     {
       "author": [
@@ -5234,7 +5300,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/linked-read-analysis-identifies-mutations-single-cell-dna-sequencing-data",
       "pdf_link": "/publications/pdf/nihms-1061349_1.pdf",
       "year": "2019",
-      "venue": "Nature Genetics 2019;51:749-754"
+      "journal": "Nature",
+      "journal_location": "Nature Genetics 2019;51:749-754"
     },
     {
       "author": [
@@ -5357,7 +5424,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/small-molecule-and-crispr-screening-converge-reveal-receptor-tyrosine-kinase",
       "pdf_link": "/publications/pdf/1-s2.0-s2211124719309118-main.pdf",
       "year": "2019",
-      "venue": "Cell Rep 2019;28(9):2331-2344.e8"
+      "journal": "Cell",
+      "journal_location": "Cell Rep 2019;28(9):2331-2344.e8"
     },
     {
       "author": [
@@ -5460,7 +5528,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/global-impact-somatic-structural-variation-dna-methylome-human-cancers",
       "pdf_link": "/publications/pdf/s13059-019-1818-9.pdf",
       "year": "2019",
-      "venue": "Genome Biol 2019;20(1):209"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol 2019;20(1):209"
     },
     {
       "author": [
@@ -5507,7 +5576,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/enhanced-genetic-model-colorectal-cancer-progression-history",
       "pdf_link": "/publications/pdf/s13059-019-1782-4.pdf",
       "year": "2019",
-      "venue": "Genome Biology 2019;20(1):168"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biology 2019;20(1):168"
     },
     {
       "author": [
@@ -5542,7 +5612,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/tibanna-software-scalable-execution-portable-pipelines-cloud",
       "pdf_link": "/publications/pdf/btz379.pdf",
       "year": "2019",
-      "venue": "Bioinformatics 2019"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2019"
     },
     {
       "author": [
@@ -5625,7 +5696,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/tracing-oncogene-rearrangements-mutational-history-lung-adenocarcinoma",
       "pdf_link": "/publications/pdf/1-s2.0-s0092867419305112-main.pdf",
       "year": "2019",
-      "venue": "Cell 2019;177(7):1842-1857"
+      "journal": "Cell",
+      "journal_location": "Cell 2019;177(7):1842-1857"
     },
     {
       "author": [
@@ -5748,7 +5820,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/mdm2-nad-mdm4-are-therapeutic-vulnerabilities-malignant-rhabdoid-tumors",
       "pdf_link": "/publications/pdf/2404.pdf",
       "year": "2019",
-      "venue": "Cancer Research 2019;79(9)"
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Research 2019;79(9)"
     },
     {
       "author": [
@@ -5803,7 +5876,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/microrna-29a-activates-multicomponent-growth-and-invasion-program-glioblastoma",
       "pdf_link": "/publications/pdf/s13046-019-1026-1.pdf",
       "year": "2019",
-      "venue": "Journal of Experimental & Clinical Cancer Research 2019;38(36)"
+      "journal": "Journal of Experimental & Clinical Cancer Research",
+      "journal_location": "Journal of Experimental & Clinical Cancer Research 2019;38(36)"
     },
     {
       "author": [
@@ -5902,7 +5976,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/dynamic-and-integrated-epigenetic-program-distal-regions-orchestrates",
       "pdf_link": "/publications/pdf/genome_res.-2019-wang-193-207.pdf",
       "year": "2019",
-      "venue": "Genome Research 2019;29:193-207"
+      "journal": "Genome Research",
+      "journal_location": "Genome Research 2019;29:193-207"
     },
     {
       "author": [
@@ -5969,7 +6044,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/brd9-defines-swisnf-sub-complex-and-constitutes-specific-vulnerability",
       "pdf_link": "/publications/pdf/s41467-019-09891-7.pdf",
       "year": "2019",
-      "venue": "Nature Communications 2019"
+      "journal": "Nature",
+      "journal_location": "Nature Communications 2019"
     },
     {
       "author": [
@@ -6048,7 +6124,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/aging-and-neurodegeneration-are-associated-increased-mutations-single-human",
       "pdf_link": "/publications/pdf/nihms941147_1.pdf",
       "year": "2018",
-      "venue": "Science 2018;359(6375):555-559"
+      "journal": "Science",
+      "journal_location": "Science 2018;359(6375):555-559"
     },
     {
       "author": [
@@ -6127,7 +6204,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/higlass-web-based-visual-exploration-and-analysis-genome-interaction-maps",
       "pdf_link": "/publications/pdf/s13059-018-1486-1.pdf",
       "year": "2018",
-      "venue": "Genome Biol 2018;19(1):125"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol 2018;19(1):125"
     },
     {
       "author": [
@@ -6186,7 +6264,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/linking-transcriptional-and-genetic-tumor-heterogeneity-through-allele-analysis",
       "pdf_link": "/publications/pdf/genome_res.-2018-fan-1217-27.pdf",
       "year": "2018",
-      "venue": "Genome Research 2018;28(8):1217-1227"
+      "journal": "Genome Research",
+      "journal_location": "Genome Research 2018;28(8):1217-1227"
     },
     {
       "author": [
@@ -6241,7 +6320,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/eed-member-polycomb-group-required-nephron-differentiation-and-maintenance",
       "pdf_link": "/publications/pdf/dev157149.pdf",
       "year": "2018",
-      "venue": "Development 2018;145(14)"
+      "journal": "Development",
+      "journal_location": "Development 2018;145(14)"
     },
     {
       "author": [
@@ -6336,7 +6416,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/babyseq-project-implementing-genomic-sequencing-newborns",
       "pdf_link": "/publications/pdf/s12887-018-1200-1_1.pdf",
       "year": "2018",
-      "venue": "BMC Pediatrics 2018;18(1):225"
+      "journal": "BMC Pediatrics",
+      "journal_location": "BMC Pediatrics 2018;18(1):225"
     },
     {
       "author": [
@@ -6447,7 +6528,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pan-cancer-compendium-genes-deregulated-somatic-genomic-rearrangement-across",
       "pdf_link": "/publications/pdf/1-s2.0-s2211124718309203-main.pdf",
       "year": "2018",
-      "venue": "Cell Reports 2018;24(2):515-527"
+      "journal": "Cell",
+      "journal_location": "Cell Reports 2018;24(2):515-527"
     },
     {
       "author": [
@@ -6474,7 +6556,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/detecting-somatic-mutations-normal-cells",
       "pdf_link": "/publications/pdf/1-s2.0-s0168952518300738-main.pdf",
       "year": "2018",
-      "venue": "Trends in Genetics 2018;35(7):545-557"
+      "journal": "Trends in Genetics",
+      "journal_location": "Trends in Genetics 2018;35(7):545-557"
     },
     {
       "author": [
@@ -6673,7 +6756,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-characterization-cancer-driver-genes-and-mutations",
       "pdf_link": "/publications/pdf/1-s2.0-s009286741830237x-mainext.pdf",
       "year": "2018",
-      "venue": "Cell 2018;173(2):371-385"
+      "journal": "Cell",
+      "journal_location": "Cell 2018;173(2):371-385"
     },
     {
       "author": [
@@ -6712,7 +6796,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pasd-qc-quality-control-single-cell-whole-genome-sequencing-data-using-power-0",
       "pdf_link": "/publications/pdf/gkx1195.pdf",
       "year": "2018",
-      "venue": "Nucleic Acids Research 2018;46(4):e20"
+      "journal": "Nucleic Acids Res",
+      "journal_location": "Nucleic Acids Research 2018;46(4):e20"
     },
     {
       "author": [
@@ -6743,7 +6828,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/molecular-portrait-microsatellite-instability-across-multiple-cancers",
       "pdf_link": "/publications/pdf/ncomms15180.pdf",
       "year": "2017",
-      "venue": "Nat Commun 2017;8:15180"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2017;8:15180"
     },
     {
       "author": [
@@ -6810,7 +6896,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/4d-nucleome-project",
       "pdf_link": "/publications/pdf/nihms907863_1.pdf",
       "year": "2017",
-      "venue": "Nature 2017;549(7671):219-226"
+      "journal": "Nature",
+      "journal_location": "Nature 2017;549(7671):219-226"
     },
     {
       "author": [
@@ -6853,7 +6940,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/bivalent-complexes-prc1-orthologs-brd4-and-mozmorf-target-developmental-genes",
       "pdf_link": "/publications/pdf/genes_dev.-2017-kang-1988-2002.pdf",
       "year": "2017",
-      "venue": "Genes Dev 2017;31(19):1988-2002"
+      "journal": "Genes",
+      "journal_location": "Genes Dev 2017;31(19):1988-2002"
     },
     {
       "author": [
@@ -6956,7 +7044,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/clinical-application-targeted-deep-sequencing-solid-cancer-patients-and-utility",
       "pdf_link": "/publications/pdf/oncolo_22_10_1169.pdf",
       "year": "2017",
-      "venue": "Oncologist 2017;22(10):1169-1177"
+      "journal": "Oncologist",
+      "journal_location": "Oncologist 2017;22(10):1169-1177"
     },
     {
       "author": [
@@ -7091,7 +7180,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/prevalence-and-detection-low-allele-fraction-variants-clinical-cancer-samples",
       "pdf_link": "/publications/pdf/s41467-017-01470-y.pdf",
       "year": "2017",
-      "venue": "Nat Commun 2017;8(1):1377"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2017;8(1):1377"
     },
     {
       "author": [
@@ -7186,7 +7276,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/vegf-amplifies-transcription-through-ets1-acetylation-enable-angiogenesis",
       "pdf_link": "/publications/pdf/s41467-017-00405-x.pdf",
       "year": "2017",
-      "venue": "Nat Commun 2017;8(1):383"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2017;8(1):383"
     },
     {
       "author": [
@@ -7289,7 +7380,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/clonal-history-and-genetic-predictors-transformation-small-cell-carcinomas-lung",
       "pdf_link": "",
       "year": "2017",
-      "venue": "J Clin Oncol 2017;:JCO2016719096"
+      "journal": "J Clin Oncol",
+      "journal_location": "J Clin Oncol 2017;:JCO2016719096"
     },
     {
       "author": [
@@ -7368,7 +7460,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/engineering-and-functional-characterization-fusion-genes-identifies-novel",
       "pdf_link": "/publications/pdf/3502.pdf",
       "year": "2017",
-      "venue": "Cancer Res 2017"
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Res 2017"
     },
     {
       "author": [
@@ -7547,7 +7640,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pan-cancer-proteogenomic-atlas-pi3kaktmtor-pathway-alterations",
       "pdf_link": "/publications/pdf/1-s2.0-s153561081730168x-main.pdf",
       "year": "2017",
-      "venue": "Cancer Cell 2017;31(6):820-832.e3"
+      "journal": "Cancer Cell",
+      "journal_location": "Cancer Cell 2017;31(6):820-832.e3"
     },
     {
       "author": [
@@ -7634,7 +7728,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/dusp9-modulates-dna-hypomethylation-female-mouse-pluripotent-stem-cells",
       "pdf_link": "/publications/pdf/1-s2.0-s1934590917300735-main.pdf",
       "year": "2017",
-      "venue": "Cell Stem Cell 2017;20(5):706-719.e7"
+      "journal": "Cell",
+      "journal_location": "Cell Stem Cell 2017;20(5):706-719.e7"
     },
     {
       "author": [
@@ -7805,7 +7900,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/intersection-diverse-neuronal-genomes-and-neuropsychiatric-disease-brain",
       "pdf_link": "/publications/pdf/nihms888777_1.pdf",
       "year": "2017",
-      "venue": "Science 2017;356(6336)"
+      "journal": "Science",
+      "journal_location": "Science 2017;356(6336)"
     },
     {
       "author": [
@@ -7840,7 +7936,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/ngscheckmate-software-validating-sample-identity-next-generation-sequencing",
       "pdf_link": "/publications/pdf/gkx193.pdf",
       "year": "2017",
-      "venue": "Nucleic Acids Res 2017"
+      "journal": "Nucleic Acids Res",
+      "journal_location": "Nucleic Acids Res 2017"
     },
     {
       "author": [
@@ -7887,7 +7984,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/spt5-plays-vital-roles-control-sense-and-antisense-transcription-elongation",
       "pdf_link": "/publications/pdf/1-s2.0-s1097276517301600-main_1.pdf",
       "year": "2017",
-      "venue": "Mol Cell 2017;66(1):77-88.e5"
+      "journal": "Mol Cell",
+      "journal_location": "Mol Cell 2017;66(1):77-88.e5"
     },
     {
       "author": [
@@ -7934,7 +8032,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/swisnf-chromatin-remodelling-complex-required-maintenance-lineage-specific",
       "pdf_link": "/publications/pdf/ncomms14648.pdf",
       "year": "2017",
-      "venue": "Nat Commun 2017;8:14648"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2017;8:14648"
     },
     {
       "author": [
@@ -8017,7 +8116,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/smarcb1-mediated-swisnf-complex-function-essential-enhancer-regulation",
       "pdf_link": "/publications/pdf/nihms831184_1.pdf",
       "year": "2017",
-      "venue": "Nat Genet 2017;49(2):289-295"
+      "journal": "Nat Genet",
+      "journal_location": "Nat Genet 2017;49(2):289-295"
     },
     {
       "author": [
@@ -8064,7 +8164,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/arid1a-loss-impairs-enhancer-mediated-gene-regulation-and-drives-colon-cancer",
       "pdf_link": "/publications/pdf/nihms831184_1.pdf",
       "year": "2017",
-      "venue": "Nat Genet 2017;49(2):296-302"
+      "journal": "Nat Genet",
+      "journal_location": "Nat Genet 2017;49(2):296-302"
     },
     {
       "author": [
@@ -8099,7 +8200,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/upset-drosophila-homologue-set3-required-viability-and-proper-balance-active",
       "pdf_link": "/publications/pdf/g3journal0625.pdf",
       "year": "2017",
-      "venue": "G3 (Bethesda) 2017;7(2):625-635"
+      "journal": "G3",
+      "journal_location": "G3 (Bethesda) 2017;7(2):625-635"
     },
     {
       "author": [
@@ -8114,7 +8216,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integrated-genomic-and-molecular-characterization-cervical-cancer",
       "pdf_link": "/publications/pdf/nature21386.pdf",
       "year": "2017",
-      "venue": "Nature 2017;543(7645):378-84"
+      "journal": "Nature",
+      "journal_location": "Nature 2017;543(7645):378-84"
     },
     {
       "author": [
@@ -8129,7 +8232,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integrated-genomic-characterization-oesophageal-carcinoma",
       "pdf_link": "/publications/pdf/nature20805.pdf",
       "year": "2017",
-      "venue": "Nature 2017;541(7636):169-175"
+      "journal": "Nature",
+      "journal_location": "Nature 2017;541(7636):169-175"
     },
     {
       "author": [
@@ -8208,7 +8312,8 @@
       "abstract_link": "N/A",
       "pdf_link": "/publications/pdf/file.pdf",
       "year": "2016",
-      "venue": "PLoS genetics 2016;12(10):e1006385"
+      "journal": "PLoS genet",
+      "journal_location": "PLoS genetics 2016;12(10):e1006385"
     },
     {
       "author": [
@@ -8247,7 +8352,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-analysis-promoter-proximal-rna-polymerase-ii-pausing-across",
       "pdf_link": "/publications/pdf/s13059-016-0984-2.pdf",
       "year": "2016",
-      "venue": "Genome Biol 2016;17(1):120"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol 2016;17(1):120"
     },
     {
       "author": [
@@ -8278,7 +8384,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/copy-number-analysis-whole-genome-data-using-bic-seq2-and-its-application",
       "pdf_link": "/publications/pdf/gkw491.pdf",
       "year": "2016",
-      "venue": "Nucleic Acids Res 2016"
+      "journal": "Nucleic Acids Res",
+      "journal_location": "Nucleic Acids Res 2016"
     },
     {
       "author": [
@@ -8357,7 +8464,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/analyzing-somatic-genome-rearrangements-human-cancers-using-whole-exome",
       "pdf_link": "/publications/pdf/1-s2.0-s0002929716300520-main_1.pdf",
       "year": "2016",
-      "venue": "Am J Hum Genet 2016;98(5):843-56"
+      "journal": "Am J Hum Genet",
+      "journal_location": "Am J Hum Genet 2016;98(5):843-56"
     },
     {
       "author": [
@@ -8416,7 +8524,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/mnase-titration-reveals-differences-between-nucleosome-occupancy-and-chromatin",
       "pdf_link": "/publications/pdf/ncomms11485.pdf",
       "year": "2016",
-      "venue": "Nat Commun 2016;7:11485"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2016;7:11485"
     },
     {
       "author": [
@@ -8467,7 +8576,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/next-generation-sequencing-based-detection-germline-l1-mediated-transductions",
       "pdf_link": "/publications/pdf/s12864-016-2670-x.pdf",
       "year": "2016",
-      "venue": "BMC Genomics 2016;17(1):342"
+      "journal": "BMC Genomics",
+      "journal_location": "BMC Genomics 2016;17(1):342"
     },
     {
       "author": [
@@ -8494,7 +8604,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/mechanisms-and-consequences-cancer-genome-instability-lessons-genome-sequencing",
       "pdf_link": "/publications/pdf/annurev-pathol-012615-044446.pdf",
       "year": "2016",
-      "venue": "Annu Rev Pathol 2016"
+      "journal": "Annu Rev Pathol",
+      "journal_location": "Annu Rev Pathol 2016"
     },
     {
       "author": [
@@ -8521,7 +8632,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/resolving-rates-mutation-brain-using-single-neuron-genomics",
       "pdf_link": "/publications/pdf/elife-12966-v3.pdf",
       "year": "2016",
-      "venue": "Elife 2016;5"
+      "journal": "Elife",
+      "journal_location": "Elife 2016;5"
     },
     {
       "author": [
@@ -8564,7 +8676,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/evaluation-somatic-copy-number-estimation-tools-whole-exome-sequencing-data",
       "pdf_link": "/publications/pdf/bbv055.pdf",
       "year": "2016",
-      "venue": "Brief Bioinform 2016;17(2):185-92"
+      "journal": "Brief Bioinform",
+      "journal_location": "Brief Bioinform 2016;17(2):185-92"
     },
     {
       "author": [
@@ -8751,7 +8864,8 @@
       "abstract_link": "N/A",
       "pdf_link": "/publications/pdf/1-s2.0-s153561081630160x-mainext.pdf",
       "year": "2016",
-      "venue": "Cancer Cell 2016;30(2):363"
+      "journal": "Cancer Cell",
+      "journal_location": "Cancer Cell 2016;30(2):363"
     },
     {
       "author": [
@@ -8778,7 +8892,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/correspondence-drosophila-polycomb-group-proteins-broad-h3k27me3-silent-domains",
       "pdf_link": "/publications/pdf/correspondence_of_drosophila_polycomb_group_proteins_with_broad_h3k27me3_silent_domains.pdf",
       "year": "2016",
-      "venue": "Fly 2016"
+      "journal": "Fly",
+      "journal_location": "Fly 2016"
     },
     {
       "author": [
@@ -8829,7 +8944,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/intravenous-leiomyomatosis-unusual-intermediate-between-benign-and-malignant",
       "pdf_link": "/publications/pdf/1-s2.0-s0893395222021299-main.pdf",
       "year": "2016",
-      "venue": "Mod Pathol 2016"
+      "journal": "Mod Pathol",
+      "journal_location": "Mod Pathol 2016"
     },
     {
       "author": [
@@ -9028,7 +9144,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/molecular-profiling-reveals-biologically-discrete-subsets-and-pathways",
       "pdf_link": "/publications/pdf/1-s2.0-s009286741501692x-main.pdf",
       "year": "2016",
-      "venue": "Cell 2016;164(3):550-63"
+      "journal": "Cell",
+      "journal_location": "Cell 2016;164(3):550-63"
     },
     {
       "author": [
@@ -9199,7 +9316,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/multilevel-genomics-based-taxonomy-renal-cell-carcinoma",
       "pdf_link": "/publications/pdf/1-s2.0-s2211124716301279-main.pdf",
       "year": "2016",
-      "venue": "Cell Rep 2016"
+      "journal": "Cell",
+      "journal_location": "Cell Rep 2016"
     },
     {
       "author": [
@@ -9354,7 +9472,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/histone-chaperone-caf-1-safeguards-somatic-cell-identity",
       "pdf_link": "/publications/pdf/nihms-726948.pdf",
       "year": "2015",
-      "venue": "Nature 2015;528(7581):218-24"
+      "journal": "Nature",
+      "journal_location": "Nature 2015;528(7581):218-24"
     },
     {
       "author": [
@@ -9425,7 +9544,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pericentromeric-satellite-repeat-expansions-through-rna-derived-dna-0",
       "pdf_link": "/publications/pdf/pnas.1518008112.pdf",
       "year": "2015",
-      "venue": "Proc Natl Acad Sci U S A 2015;112(49):15148-53"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2015;112(49):15148-53"
     },
     {
       "author": [
@@ -9440,7 +9560,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/molecular-taxonomy-primary-prostate-cancer",
       "pdf_link": "/publications/pdf/1-s2.0-s0092867415013392-main.pdf",
       "year": "2015",
-      "venue": "Cell 2015;163(4):1011-25"
+      "journal": "Cell",
+      "journal_location": "Cell 2015;163(4):1011-25"
     },
     {
       "author": [
@@ -9511,7 +9632,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comparison-genetically-matched-cell-lines-reveals-equivalence-human-ipscs-and",
       "pdf_link": "/publications/pdf/nihms726251.pdf",
       "year": "2015",
-      "venue": "Nat Biotechnol 2015;33(11):1173-81"
+      "journal": "Nat Biotechnol",
+      "journal_location": "Nat Biotechnol 2015;33(11):1173-81"
     },
     {
       "author": [
@@ -9558,7 +9680,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/intron-retention-widespread-mechanism-tumor-suppressor-inactivation",
       "pdf_link": "",
       "year": "2015",
-      "venue": "Nat Genet 2015;47(11):1242-8"
+      "journal": "Nat Genet",
+      "journal_location": "Nat Genet 2015;47(11):1242-8"
     },
     {
       "author": [
@@ -9625,7 +9748,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/somatic-mutation-single-human-neurons-tracks-developmental-and-transcriptional",
       "pdf_link": "/publications/pdf/nihms-735404.pdf",
       "year": "2015",
-      "venue": "Science 2015;350(6256):94-8"
+      "journal": "Science",
+      "journal_location": "Science 2015;350(6256):94-8"
     },
     {
       "author": [
@@ -9640,7 +9764,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-integrative-genomic-analysis-diffuse-lower-grade-gliomas-0",
       "pdf_link": "/publications/pdf/nejmoa1402121.pdf",
       "year": "2015",
-      "venue": "N Engl J Med 2015;372(26):2481-98"
+      "journal": "N Engl J Med",
+      "journal_location": "N Engl J Med 2015;372(26):2481-98"
     },
     {
       "author": [
@@ -9655,7 +9780,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-genomic-characterization-head-and-neck-squamous-cell-carcinomas",
       "pdf_link": "/publications/pdf/nature14129.pdf",
       "year": "2015",
-      "venue": "Nature 2015;517(7536):576-82"
+      "journal": "Nature",
+      "journal_location": "Nature 2015;517(7536):576-82"
     },
     {
       "author": [
@@ -9670,7 +9796,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genomic-classification-cutaneous-melanoma",
       "pdf_link": "/publications/pdf/1-s2.0-s0092867415006340-main.pdf",
       "year": "2015",
-      "venue": "Cell 2015;161(7):1681-96"
+      "journal": "Cell",
+      "journal_location": "Cell 2015;161(7):1681-96"
     },
     {
       "author": [
@@ -9749,7 +9876,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/hallmarks-pluripotency",
       "pdf_link": "",
       "year": "2015",
-      "venue": "Nature 2015;525(7570):469-78"
+      "journal": "Nature",
+      "journal_location": "Nature 2015;525(7570):469-78"
     },
     {
       "author": [
@@ -9780,7 +9908,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/emsar-estimation-transcript-abundance-rna-seq-data-mappability-based",
       "pdf_link": "/publications/pdf/s12859-015-0704-z.pdf",
       "year": "2015",
-      "venue": "BMC Bioinformatics 2015;16(1):278"
+      "journal": "BMC Bioinformatics",
+      "journal_location": "BMC Bioinformatics 2015;16(1):278"
     },
     {
       "author": [
@@ -9819,7 +9948,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/sex-comb-midleg-scm-functional-link-between-pcg-repressive-complexes-drosophila",
       "pdf_link": "/publications/pdf/genes_dev.-2015-kang-1136-50.pdf",
       "year": "2015",
-      "venue": "Genes Dev 2015;29(11):1136-50"
+      "journal": "Genes",
+      "journal_location": "Genes Dev 2015;29(11):1136-50"
     },
     {
       "author": [
@@ -9902,7 +10032,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/spatiotemporal-evolution-primary-glioblastoma-genome",
       "pdf_link": "/publications/pdf/1-s2.0-s1535610815002652-main.pdf",
       "year": "2015",
-      "venue": "Cancer Cell 2015;28(3):318-28"
+      "journal": "Cancer Cell",
+      "journal_location": "Cancer Cell 2015;28(3):318-28"
     },
     {
       "author": [
@@ -9957,7 +10088,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/cell-lineage-analysis-human-brain-using-endogenous-retroelements",
       "pdf_link": "/publications/pdf/1-s2.0-s0896627314011374-main.pdf",
       "year": "2015",
-      "venue": "Neuron 2015;85(1):49-59"
+      "journal": "Neuron",
+      "journal_location": "Neuron 2015;85(1):49-59"
     },
     {
       "author": [
@@ -10004,7 +10136,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genome-wide-analysis-wilms-tumor-1-controlled-gene-expression-podocytes-reveals",
       "pdf_link": "/publications/pdf/genome_wide_analysis_of_wilms_tumor_1_controlled.8.pdf",
       "year": "2015",
-      "venue": "J Am Soc Nephrol 2015;26(9):2097-104"
+      "journal": "J Am Soc Nephrol",
+      "journal_location": "J Am Soc Nephrol 2015;26(9):2097-104"
     },
     {
       "author": [
@@ -10039,7 +10172,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/hihmm-bayesian-non-parametric-joint-inference-chromatin-state-maps",
       "pdf_link": "/publications/pdf/bioinformatics_31_13_2066.pdf",
       "year": "2015",
-      "venue": "Bioinformatics 2015;31(13):2066-74"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2015;31(13):2066-74"
     },
     {
       "author": [
@@ -10118,7 +10252,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/htt-cag-repeat-expansion-confers-pleiotropic-gains-mutant-huntingtin-function",
       "pdf_link": "/publications/pdf/ddv006.pdf",
       "year": "2015",
-      "venue": "Hum Mol Genet 2015"
+      "journal": "Hum Mol Genet",
+      "journal_location": "Hum Mol Genet 2015"
     },
     {
       "author": [
@@ -10169,7 +10304,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/small-subunit-processome-protein-promotes-cancer-altering-translation",
       "pdf_link": "",
       "year": "2015",
-      "venue": "Oncogene 2015;34(34):4471-81"
+      "journal": "Oncogene",
+      "journal_location": "Oncogene 2015;34(34):4471-81"
     },
     {
       "author": [
@@ -10196,7 +10332,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/identification-rare-germline-copy-number-variations-over-represented-five-human",
       "pdf_link": "/publications/pdf/s12943-015-0292-6.pdf",
       "year": "2015",
-      "venue": "Molecular Cancer 2015;14:25"
+      "journal": "Molecular Cancer",
+      "journal_location": "Molecular Cancer 2015;14:25"
     },
     {
       "author": [
@@ -10315,7 +10452,8 @@
       "abstract_link": "N/A",
       "pdf_link": "",
       "year": "2015",
-      "venue": "Nature 2015;525(7570):E6-9"
+      "journal": "Nature",
+      "journal_location": "Nature 2015;525(7570):E6-9"
     },
     {
       "author": [
@@ -10350,7 +10488,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/bioinformatics-approach-identifies-signal-transducer-and-activator",
       "pdf_link": "/publications/pdf/a_bioinformatics_approach_identifies_signal.14.pdf",
       "year": "2014",
-      "venue": "J Am Soc Nephrol 2014;25(1):105-18"
+      "journal": "J Am Soc Nephrol",
+      "journal_location": "J Am Soc Nephrol 2014;25(1):105-18"
     },
     {
       "author": [
@@ -10365,7 +10504,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integrated-genomic-characterization-papillary-thyroid-carcinoma",
       "pdf_link": "/publications/pdf/piis0092867414012380.pdf",
       "year": "2014",
-      "venue": "Cell 2014;159(3):676-90"
+      "journal": "Cell",
+      "journal_location": "Cell 2014;159(3):676-90"
     },
     {
       "author": [
@@ -10380,7 +10520,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-molecular-characterization-gastric-adenocarcinoma",
       "pdf_link": "/publications/pdf/nature13480.pdf",
       "year": "2014",
-      "venue": "Nature 2014;513(7517):202-9"
+      "journal": "Nature",
+      "journal_location": "Nature 2014;513(7517):202-9"
     },
     {
       "author": [
@@ -10395,7 +10536,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-molecular-characterization-urothelial-bladder-carcinoma",
       "pdf_link": "/publications/pdf/nature12965.pdf",
       "year": "2014",
-      "venue": "Nature 2014;507(7492):315-22"
+      "journal": "Nature",
+      "journal_location": "Nature 2014;507(7492):315-22"
     },
     {
       "author": [
@@ -10410,7 +10552,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-molecular-profiling-lung-adenocarcinoma",
       "pdf_link": "/publications/pdf/nature13385.pdf",
       "year": "2014",
-      "venue": "Nature 2014;511(7511):543-50"
+      "journal": "Nature",
+      "journal_location": "Nature 2014;511(7511):543-50"
     },
     {
       "author": [
@@ -10437,7 +10580,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/large-scale-quality-analysis-published-chip-seq-data",
       "pdf_link": "/publications/pdf/g3journal0209.pdf",
       "year": "2014",
-      "venue": "G3 2014;4(2):209-23"
+      "journal": "G3",
+      "journal_location": "G3 2014;4(2):209-23"
     },
     {
       "author": [
@@ -10596,7 +10740,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/characterization-hpv-and-host-genome-interactions-primary-head-and-neck-cancers",
       "pdf_link": "/publications/pdf/pnas.1416074111.pdf",
       "year": "2014",
-      "venue": "Proc Natl Acad Sci U S A 2014;111(43):15544-9"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2014;111(43):15544-9"
     },
     {
       "author": [
@@ -10919,7 +11064,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comparative-analysis-metazoan-chromatin-organization",
       "pdf_link": "/publications/pdf/nature13415.pdf",
       "year": "2014",
-      "venue": "Nature 2014;512(7515):449-52"
+      "journal": "Nature",
+      "journal_location": "Nature 2014;512(7515):449-52"
     },
     {
       "author": [
@@ -11314,7 +11460,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comparative-analysis-transcriptome-across-distant-species",
       "pdf_link": "/publications/pdf/nature13424.pdf",
       "year": "2014",
-      "venue": "Nature 2014;512(7515):445-8"
+      "journal": "Nature",
+      "journal_location": "Nature 2014;512(7515):445-8"
     },
     {
       "author": [
@@ -11333,7 +11480,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genome-wide-view-microsatellite-instability-old-stories-cancer-mutations",
       "pdf_link": "/publications/pdf/6377.pdf",
       "year": "2014",
-      "venue": "Cancer Res 2014;74(22):6377-82"
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Res 2014;74(22):6377-82"
     },
     {
       "author": [
@@ -11376,7 +11524,8 @@
       "abstract_link": "N/A",
       "pdf_link": "/publications/pdf/emss-60637.pdf",
       "year": "2014",
-      "venue": "Nat Methods 2014;11(9):884-5"
+      "journal": "Nature Methods",
+      "journal_location": "Nat Methods 2014;11(9):884-5"
     },
     {
       "author": [
@@ -11431,7 +11580,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/impact-sequencing-depth-chip-seq-experiments",
       "pdf_link": "/publications/pdf/gku178.pdf",
       "year": "2014",
-      "venue": "Nucleic Acids Res 2014;42(9):e74"
+      "journal": "Nucleic Acids Res",
+      "journal_location": "Nucleic Acids Res 2014;42(9):e74"
     },
     {
       "author": [
@@ -11574,7 +11724,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/multiplatform-analysis-12-cancer-types-reveals-molecular-classification-within",
       "pdf_link": "/publications/pdf/piis0092867414008769.pdf",
       "year": "2014",
-      "venue": "Cell 2014;158(4):929-44"
+      "journal": "Cell",
+      "journal_location": "Cell 2014;158(4):929-44"
     },
     {
       "author": [
@@ -11621,7 +11772,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/nucleosomal-occupancy-changes-locally-over-key-regulatory-regions-during-cell",
       "pdf_link": "/publications/pdf/ncomms5719.pdf",
       "year": "2014",
-      "venue": "Nat Commun 2014;5:4719"
+      "journal": "Nature Communications",
+      "journal_location": "Nature Communications 2014;5:4719"
     },
     {
       "author": [
@@ -11656,7 +11808,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/p53-prevents-neurodegeneration-regulating-synaptic-genes",
       "pdf_link": "/publications/pdf/pnas.1419083111.pdf",
       "year": "2014",
-      "venue": "Proc Natl Acad Sci U S A 2014;111(50):18055-60"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2014;111(50):18055-60"
     },
     {
       "author": [
@@ -11855,7 +12008,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/somatic-genomic-landscape-chromophobe-renal-cell-carcinoma",
       "pdf_link": "/publications/pdf/piis1535610814003043.pdf",
       "year": "2014",
-      "venue": "Cancer Cell 2014;26(3):319-30"
+      "journal": "Cancer Cell",
+      "journal_location": "Cancer Cell 2014;26(3):319-30"
     },
     {
       "author": [
@@ -11882,7 +12036,8 @@
       "abstract_link": "N/A",
       "pdf_link": "/publications/pdf/rearranging_the_chromatin_for_pluripotency.pdf",
       "year": "2014",
-      "venue": "Cell Cycle 2014;13(2):167-8"
+      "journal": "Cell",
+      "journal_location": "Cell Cycle 2014;13(2):167-8"
     },
     {
       "author": [
@@ -11909,7 +12064,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/transcriptional-control-whole-chromosome-emerging-models-dosage-compensation",
       "pdf_link": "/publications/pdf/nihms665971.pdf",
       "year": "2014",
-      "venue": "Nat Struct Mol Biol 2014;21(2):118-25"
+      "journal": "Nature Structural & Molecular Biology",
+      "journal_location": "Nat Struct Mol Biol 2014;21(2):118-25"
     },
     {
       "author": [
@@ -11924,7 +12080,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-molecular-characterization-clear-cell-renal-cell-carcinoma",
       "pdf_link": "/publications/pdf/nature12222.pdf",
       "year": "2013",
-      "venue": "Nature 2013;499(7456):43-9"
+      "journal": "Nature",
+      "journal_location": "Nature 2013;499(7456):43-9"
     },
     {
       "author": [
@@ -11939,7 +12096,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integrated-genomic-characterization-endometrial-carcinoma",
       "pdf_link": "/publications/pdf/nature12113.pdf",
       "year": "2013",
-      "venue": "Nature 2013;497(7447):67-73"
+      "journal": "Nature",
+      "journal_location": "Nature 2013;497(7447):67-73"
     },
     {
       "author": [
@@ -12186,7 +12344,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/somatic-genomic-landscape-glioblastoma",
       "pdf_link": "/publications/pdf/piis0092867413012087.pdf",
       "year": "2013",
-      "venue": "Cell 2013;155(2):462-77"
+      "journal": "Cell",
+      "journal_location": "Cell 2013;155(2):462-77"
     },
     {
       "author": [
@@ -12237,7 +12396,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/cancer-genome-atlas-pan-cancer-analysis-project",
       "pdf_link": "/publications/pdf/ng.2764.pdf",
       "year": "2013",
-      "venue": "Nat Genet 2013;45(10):1113-20"
+      "journal": "Nat Genet",
+      "journal_location": "Nat Genet 2013;45(10):1113-20"
     },
     {
       "author": [
@@ -12304,7 +12464,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/clamp-protein-links-msl-complex-x-chromosome-during-drosophila-dosage",
       "pdf_link": "/publications/pdf/genes_dev.-2013-soruco-1551-6.pdf",
       "year": "2013",
-      "venue": "Genes Dev 2013;27(14):1551-6"
+      "journal": "Genes",
+      "journal_location": "Genes Dev 2013;27(14):1551-6"
     },
     {
       "author": [
@@ -12359,7 +12520,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/conservation-and-de-novo-acquisition-dosage-compensation-newly-evolved-sex",
       "pdf_link": "/publications/pdf/genes_dev.-2013-alekseyenko-853-8.pdf",
       "year": "2013",
-      "venue": "Genes Dev 2013;27(8):853-8"
+      "journal": "Genes",
+      "journal_location": "Genes Dev 2013;27(8):853-8"
     },
     {
       "author": [
@@ -12410,7 +12572,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/dynamic-h3k27ac-signature-identifies-vegfa-stimulated-endothelial-enhancers-and",
       "pdf_link": "/publications/pdf/genome_res.-2013-zhang-917-27.pdf",
       "year": "2013",
-      "venue": "Genome Res 2013;23(6):917-27"
+      "journal": "Genome Research",
+      "journal_location": "Genome Res 2013;23(6):917-27"
     },
     {
       "author": [
@@ -12473,7 +12636,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genome-wide-chromatin-interactions-nanog-locus-pluripotency-differentiation-and",
       "pdf_link": "/publications/pdf/piis1934590913001495.pdf",
       "year": "2013",
-      "venue": "Cell Stem Cell 2013;12(6):699-712"
+      "journal": "Cell",
+      "journal_location": "Cell Stem Cell 2013;12(6):699-712"
     },
     {
       "author": [
@@ -12528,7 +12692,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/loss-sh3gl2endophilin-a1-common-event-urothelial-carcinoma-promotes-malignant",
       "pdf_link": "/publications/pdf/1-s2.0-s1476558613800693-main_1.pdf",
       "year": "2013",
-      "venue": "Neoplasia 2013;15(7):749-60"
+      "journal": "Neoplasia",
+      "journal_location": "Neoplasia 2013;15(7):749-60"
     },
     {
       "author": [
@@ -12583,7 +12748,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/overcoming-evasive-resistance-vascular-endothelial-growth-factor-inhibition",
       "pdf_link": "/publications/pdf/intl_journal_of_cancer_-_2012_-_kim_-_overcoming_evasive_resistance_from_vascular_endothelial_growth_factor_a_inhibition_in.pdf",
       "year": "2013",
-      "venue": "Int J Cancer 2013;132(1):29-41"
+      "journal": "Int J Cancer",
+      "journal_location": "Int J Cancer 2013;132(1):29-41"
     },
     {
       "author": [
@@ -12654,7 +12820,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/primate-genome-architecture-influences-structural-variation-mechanisms-and",
       "pdf_link": "/publications/pdf/pnas.1305904110.pdf",
       "year": "2013",
-      "venue": "Proc Natl Acad Sci U S A 2013;110(39):15764-9"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2013;110(39):15764-9"
     },
     {
       "author": [
@@ -12685,7 +12852,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/variable-requirements-dna-binding-proteins-polycomb-dependent-repressive",
       "pdf_link": "/publications/pdf/zmb3274.pdf",
       "year": "2013",
-      "venue": "Mol Cell Biol 2013;33(16):3274-85"
+      "journal": "Mol Cell",
+      "journal_location": "Mol Cell Biol 2013;33(16):3274-85"
     },
     {
       "author": [
@@ -12724,7 +12892,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comment-drosophila-dosage-compensation-involves-enhanced-pol-ii-recruitment",
       "pdf_link": "/publications/pdf/science.1231815_1.pdf",
       "year": "2013",
-      "venue": "Science 2013;340(6130):273"
+      "journal": "Science",
+      "journal_location": "Science 2013;340(6130):273"
     },
     {
       "author": [
@@ -12763,7 +12932,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/cumulative-haploinsufficiency-and-triplosensitivity-drive-aneuploidy-patterns",
       "pdf_link": "/publications/pdf/piis0092867413012877.pdf",
       "year": "2013",
-      "venue": "Cell 2013;155(4):948-62"
+      "journal": "Cell",
+      "journal_location": "Cell 2013;155(4):948-62"
     },
     {
       "author": [
@@ -12826,7 +12996,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/diverse-mechanisms-somatic-structural-variations-human-cancer-genomes",
       "pdf_link": "/publications/pdf/piis0092867413004510.pdf",
       "year": "2013",
-      "venue": "Cell 2013;153(4):919-29"
+      "journal": "Cell",
+      "journal_location": "Cell 2013;153(4):919-29"
     },
     {
       "author": [
@@ -12861,7 +13032,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/functional-genomic-analysis-chromosomal-aberrations-compendium-8000-cancer",
       "pdf_link": "/publications/pdf/genome_res.-2013-kim-217-27.pdf",
       "year": "2013",
-      "venue": "Genome Res 2013;23(2):217-27"
+      "journal": "Genome Research",
+      "journal_location": "Genome Res 2013;23(2):217-27"
     },
     {
       "author": [
@@ -12904,7 +13076,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/jump-start-and-gain-model-dosage-compensation-drosophila-based-direct",
       "pdf_link": "/publications/pdf/piis2211124713005603.pdf",
       "year": "2013",
-      "venue": "Cell Rep 2013;5(3):629-36"
+      "journal": "Cell",
+      "journal_location": "Cell Rep 2013;5(3):629-36"
     },
     {
       "author": [
@@ -12959,7 +13132,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/kdm2b-promotes-pancreatic-cancer-polycomb-dependent-and-independent",
       "pdf_link": "/publications/pdf/64535.2-20201218131621-covered-e0fd13ba177f913fd3156f593ead4cfd.pdf",
       "year": "2013",
-      "venue": "J Clin Invest 2013;123(2):727-39"
+      "journal": "J Clin Invest",
+      "journal_location": "J Clin Invest 2013;123(2):727-39"
     },
     {
       "author": [
@@ -12982,7 +13156,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/landscape-microsatellite-instability-colorectal-and-endometrial-cancer-genomes",
       "pdf_link": "/publications/pdf/piis0092867413012919.pdf",
       "year": "2013",
-      "venue": "Cell 2013;155(4):858-68"
+      "journal": "Cell",
+      "journal_location": "Cell 2013;155(4):858-68"
     },
     {
       "author": [
@@ -13013,7 +13188,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/nozzle-report-generation-toolkit-data-analysis-pipelines",
       "pdf_link": "/publications/pdf/bioinformatics_29_8_1089.pdf",
       "year": "2013",
-      "venue": "Bioinformatics 2013;29(8):1089-91"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2013;29(8):1089-91"
     },
     {
       "author": [
@@ -13056,7 +13232,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/spt6-regulates-intragenic-and-antisense-transcription-nucleosome-positioning",
       "pdf_link": "/publications/pdf/zmb4779.pdf",
       "year": "2013",
-      "venue": "Mol Cell Biol 2013;33(24):4779-92"
+      "journal": "Mol Cell",
+      "journal_location": "Mol Cell Biol 2013;33(24):4779-92"
     },
     {
       "author": [
@@ -13111,7 +13288,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/swisnf-chromatin-remodelingtumor-suppressor-complex-establishes-nucleosome",
       "pdf_link": "/publications/pdf/pnas.1302209110.pdf",
       "year": "2013",
-      "venue": "Proc Natl Acad Sci U S A 2013;110(25):10165-70"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2013;110(25):10165-70"
     },
     {
       "author": [
@@ -13138,7 +13316,8 @@
       "abstract_link": "N/A",
       "pdf_link": "",
       "year": "2012",
-      "venue": "[Internet].  In: Tag-Based Next Generation Sequencing.  Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA; 2012"
+      "journal": " In: Tag-Based Next Generation Sequencing.  Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA; 2012",
+      "journal_location": " In: Tag-Based Next Generation Sequencing.  Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA; 2012"
     },
     {
       "author": [
@@ -13177,7 +13356,8 @@
       "abstract_link": "N/A",
       "pdf_link": "/publications/pdf/nihms-829777.pdf",
       "year": "2012",
-      "venue": "[Internet]. Computer Graphics Forum 2012;31(3):1175-1184"
+      "journal": "Computer Graphics Forum",
+      "journal_location": "Computer Graphics Forum 2012;31(3):1175-1184"
     },
     {
       "author": [
@@ -13192,7 +13372,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integrated-encyclopedia-dna-elements-human-genome",
       "pdf_link": "/publications/pdf/nature11247.pdf",
       "year": "2012",
-      "venue": "Nature 2012;489(7414):57-74"
+      "journal": "Nature",
+      "journal_location": "Nature 2012;489(7414):57-74"
     },
     {
       "author": [
@@ -13391,7 +13572,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/chip-seq-guidelines-and-practices-encode-and-modencode-consortia",
       "pdf_link": "/publications/pdf/genome_res.-2012-landt-1813-31.pdf",
       "year": "2012",
-      "venue": "Genome Res 2012;22(9):1813-31"
+      "journal": "Genome Research",
+      "journal_location": "Genome Res 2012;22(9):1813-31"
     },
     {
       "author": [
@@ -13406,7 +13588,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-genomic-characterization-squamous-cell-lung-cancers",
       "pdf_link": "/publications/pdf/nature11404.pdf",
       "year": "2012",
-      "venue": "Nature 2012;489(7417):519-25"
+      "journal": "Nature",
+      "journal_location": "Nature 2012;489(7417):519-25"
     },
     {
       "author": [
@@ -13421,7 +13604,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-molecular-characterization-human-colon-and-rectal-cancer",
       "pdf_link": "/publications/pdf/nature11252.pdf",
       "year": "2012",
-      "venue": "Nature 2012;487(7407):330-7"
+      "journal": "Nature",
+      "journal_location": "Nature 2012;487(7407):330-7"
     },
     {
       "author": [
@@ -13436,7 +13620,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-molecular-portraits-human-breast-tumours",
       "pdf_link": "/publications/pdf/nature11412.pdf",
       "year": "2012",
-      "venue": "Nature 2012;490(7418):61-70"
+      "journal": "Nature",
+      "journal_location": "Nature 2012;490(7418):61-70"
     },
     {
       "author": [
@@ -13487,7 +13672,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/expression-profiling-uterine-leiomyomata-cytogenetic-subgroups-reveals-distinct",
       "pdf_link": "/publications/pdf/dds051.pdf",
       "year": "2012",
-      "venue": "Hum Mol Genet 2012;21(10):2312-29"
+      "journal": "Hum Mol Genet",
+      "journal_location": "Hum Mol Genet 2012;21(10):2312-29"
     },
     {
       "author": [
@@ -13538,7 +13724,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/identification-chromatin-associated-regulators-msl-complex-targeting-drosophila",
       "pdf_link": "/publications/pdf/identification_of_chrimatin-associated.pdf",
       "year": "2012",
-      "venue": "PLoS Genet 2012;8(7):e1002830"
+      "journal": "PLoS Genet",
+      "journal_location": "PLoS Genet 2012;8(7):e1002830"
     },
     {
       "author": [
@@ -13577,7 +13764,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/upregulation-proapoptotic-microrna-mir-125a-after-massive-small-bowel-resection",
       "pdf_link": "/publications/pdf/nihms602165.pdf",
       "year": "2012",
-      "venue": "Ann Surg 2012;255(4):747-53"
+      "journal": "Ann Surg",
+      "journal_location": "Ann Surg 2012;255(4):747-53"
     },
     {
       "author": [
@@ -13652,7 +13840,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/enrichment-hp1a-drosophila-chromosome-4-genes-creates-alternate-chromatin",
       "pdf_link": "/publications/pdf/renrichment_.pdf",
       "year": "2012",
-      "venue": "PLoS Genet 2012;8(9):e1002954"
+      "journal": "PLoS Genet",
+      "journal_location": "PLoS Genet 2012;8(9):e1002954"
     },
     {
       "author": [
@@ -13743,7 +13932,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/nature-and-function-insulator-protein-binding-sites-drosophila-genome",
       "pdf_link": "/publications/pdf/genome_res.-2012-schwartz-2188-98.pdf",
       "year": "2012",
-      "venue": "Genome Res 2012;22(11):2188-98"
+      "journal": "Genome Research",
+      "journal_location": "Genome Res 2012;22(11):2188-98"
     },
     {
       "author": [
@@ -13794,7 +13984,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/alternative-splicing-chek2-and-codeletion-nf2-promote-chromosomal-instability",
       "pdf_link": "/publications/pdf/neo1401_0020.pdf",
       "year": "2012",
-      "venue": "Neoplasia 2012;14(1):20-8"
+      "journal": "Neoplasia",
+      "journal_location": "Neoplasia 2012;14(1):20-8"
     },
     {
       "author": [
@@ -13853,7 +14044,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/ascorbic-acid-prevents-loss-dlk1-dio3-imprinting-and-facilitates-generation-all",
       "pdf_link": "/publications/pdf/nihms351610.pdf",
       "year": "2012",
-      "venue": "Nat Genet 2012;44(4):398-405, S1-2"
+      "journal": "Nat Genet",
+      "journal_location": "Nat Genet 2012;44(4):398-405, S1-2"
     },
     {
       "author": [
@@ -13908,7 +14100,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/expression-circulation-and-excretion-profile-microrna-21-155-and-18a-following",
       "pdf_link": "/publications/pdf/kfs210.pdf",
       "year": "2012",
-      "venue": "Toxicol Sci 2012;129(2):256-67"
+      "journal": "Toxicol Sci",
+      "journal_location": "Toxicol Sci 2012;129(2):256-67"
     },
     {
       "author": [
@@ -13943,7 +14136,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/histone-variant-h2abbd-associated-active-transcription-and-mrna-processing",
       "pdf_link": "/publications/pdf/piis1097276512005060.pdf",
       "year": "2012",
-      "venue": "Mol Cell 2012;47(4):596-607"
+      "journal": "Mol Cell",
+      "journal_location": "Mol Cell 2012;47(4):596-607"
     },
     {
       "author": [
@@ -13986,7 +14180,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/isyte-integrated-systems-tool-eye-gene-discovery",
       "pdf_link": "",
       "year": "2012",
-      "venue": "Invest Ophthalmol Vis Sci 2012;53(3):1617-27"
+      "journal": "Invest Ophthalmol Vis Sci",
+      "journal_location": "Invest Ophthalmol Vis Sci 2012;53(3):1617-27"
     },
     {
       "author": [
@@ -14065,7 +14260,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/landscape-somatic-retrotransposition-human-cancers",
       "pdf_link": "/publications/pdf/science.1222077.pdf",
       "year": "2012",
-      "venue": "Science 2012;337(6097):967-71"
+      "journal": "Science",
+      "journal_location": "Science 2012;337(6097):967-71"
     },
     {
       "author": [
@@ -14116,7 +14312,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/numb-regulates-glioma-stem-cell-fate-and-growth-altering-epidermal-growth",
       "pdf_link": "/publications/pdf/stmcls_30_7_1313.pdf",
       "year": "2012",
-      "venue": "Stem Cells 2012;30(7):1313-26"
+      "journal": "Stem Cells",
+      "journal_location": "Stem Cells 2012;30(7):1313-26"
     },
     {
       "author": [
@@ -14163,7 +14360,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pharmacoepidemiological-network-model-drug-safety-surveillance-statins-and",
       "pdf_link": "",
       "year": "2012",
-      "venue": "Drug Saf 2012;35(5):395-406"
+      "journal": "Drug Saf",
+      "journal_location": "Drug Saf 2012;35(5):395-406"
     },
     {
       "author": [
@@ -14250,7 +14448,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/sequence-specific-targeting-dosage-compensation-drosophila-favors-active",
       "pdf_link": "/publications/pdf/sequence-specific.pdf",
       "year": "2012",
-      "venue": "PLoS Genet 2012;8(4):e1002646"
+      "journal": "PLoS Genet",
+      "journal_location": "PLoS Genet 2012;8(4):e1002646"
     },
     {
       "author": [
@@ -14309,7 +14508,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/single-neuron-sequencing-analysis-l1-retrotransposition-and-somatic-mutation",
       "pdf_link": "/publications/pdf/piis0092867412011828.pdf",
       "year": "2012",
-      "venue": "Cell 2012;151(3):483-96"
+      "journal": "Cell",
+      "journal_location": "Cell 2012;151(3):483-96"
     },
     {
       "author": [
@@ -14332,7 +14532,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/survey-copy-number-variation-detection-tools-based-high-throughput-sequencing",
       "pdf_link": "",
       "year": "2012",
-      "venue": "Curr Protoc Hum Genet 2012;Chapter 7:Unit7.19"
+      "journal": "Curr Protoc Hum Genet",
+      "journal_location": "Curr Protoc Hum Genet 2012;Chapter 7:Unit7.19"
     },
     {
       "author": [
@@ -14383,7 +14584,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/systematic-identification-synergistic-drug-pairs-targeting-hiv",
       "pdf_link": "/publications/pdf/nihms-407587.pdf",
       "year": "2012",
-      "venue": "Nat Biotechnol 2012;30(11):1125-30"
+      "journal": "Nat Biotechnol",
+      "journal_location": "Nat Biotechnol 2012;30(11):1125-30"
     },
     {
       "author": [
@@ -14438,7 +14640,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/wnt-bmp-feedback-circuit-controls-intertissue-signaling-dynamics-tooth",
       "pdf_link": "",
       "year": "2012",
-      "venue": "Science Signaling 2012;5(206):ra4"
+      "journal": "Science",
+      "journal_location": "Science Signaling 2012;5(206):ra4"
     },
     {
       "author": [
@@ -14453,7 +14656,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integrated-genomic-analyses-ovarian-carcinoma",
       "pdf_link": "/publications/pdf/nihms-313090.pdf",
       "year": "2011",
-      "venue": "Nature 2011;474(7353):609-15"
+      "journal": "Nature",
+      "journal_location": "Nature 2011;474(7353):609-15"
     },
     {
       "author": [
@@ -14596,7 +14800,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/assessment-histone-modification-antibody-quality",
       "pdf_link": "/publications/pdf/nihms251600.pdf",
       "year": "2011",
-      "venue": "Nat Struct Mol Biol 2011;18(1):91-3"
+      "journal": "Nature Structural & Molecular Biology",
+      "journal_location": "Nat Struct Mol Biol 2011;18(1):91-3"
     },
     {
       "author": [
@@ -14619,7 +14824,8 @@
       "abstract_link": "N/A",
       "pdf_link": "",
       "year": "2011",
-      "venue": "Nat Genet 2011;43(12):1167-9; author reply 1171-2"
+      "journal": "Nat Genet",
+      "journal_location": "Nat Genet 2011;43(12):1167-9; author reply 1171-2"
     },
     {
       "author": [
@@ -14714,7 +14920,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/lung-stem-cell-self-renewal-relies-bmi1-dependent-control-expression-imprinted",
       "pdf_link": "/publications/pdf/piis1934590911003377.pdf",
       "year": "2011",
-      "venue": "Cell Stem Cell 2011;9(3):272-81"
+      "journal": "Cell",
+      "journal_location": "Cell Stem Cell 2011;9(3):272-81"
     },
     {
       "author": [
@@ -14797,7 +15004,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/plasticity-patterns-histone-modifications-and-chromosomal-proteins-drosophila",
       "pdf_link": "/publications/pdf/genome_res.-2011-riddle-147-63.pdf",
       "year": "2011",
-      "venue": "Genome Res 2011;21(2):147-63"
+      "journal": "Genome Research",
+      "journal_location": "Genome Res 2011;21(2):147-63"
     },
     {
       "author": [
@@ -14836,7 +15044,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/x-chromosome-dosage-compensation-enhanced-transcriptional-elongation-drosophila",
       "pdf_link": "/publications/pdf/nihms-258585.pdf",
       "year": "2011",
-      "venue": "Nature 2011;471(7336):115-8"
+      "journal": "Nature",
+      "journal_location": "Nature 2011;471(7336):115-8"
     },
     {
       "author": [
@@ -14855,7 +15064,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/advances-analysis-transcriptional-regulatory-networks",
       "pdf_link": "",
       "year": "2011",
-      "venue": "Wiley Interdiscip Rev Syst Biol Med 2011;3(1):21-35"
+      "journal": "Wiley Interdiscip Rev Syst Biol Med",
+      "journal_location": "Wiley Interdiscip Rev Syst Biol Med 2011;3(1):21-35"
     },
     {
       "author": [
@@ -14922,7 +15132,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/amniocytes-can-serve-dual-function-source-ips-cells-and-feeder-layers",
       "pdf_link": "/publications/pdf/ddq542.pdf",
       "year": "2011",
-      "venue": "Hum Mol Genet 2011;20(5):962-74"
+      "journal": "Hum Mol Genet",
+      "journal_location": "Hum Mol Genet 2011;20(5):962-74"
     },
     {
       "author": [
@@ -14957,7 +15168,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/chip-chip-versus-chip-seq-lessons-experimental-design-and-data-analysis",
       "pdf_link": "/publications/pdf/1471-2164-12-134.pdf",
       "year": "2011",
-      "venue": "BMC Genomics 2011;12:134"
+      "journal": "BMC Genomics",
+      "journal_location": "BMC Genomics 2011;12:134"
     },
     {
       "author": [
@@ -15088,7 +15300,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-analysis-chromatin-landscape-drosophila-melanogaster",
       "pdf_link": "/publications/pdf/nihms256870.pdf",
       "year": "2011",
-      "venue": "Nature 2011;471(7339):480-5"
+      "journal": "Nature",
+      "journal_location": "Nature 2011;471(7339):480-5"
     },
     {
       "author": [
@@ -15147,7 +15360,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/copy-number-variation-detection-whole-genome-sequencing-data-using-bayesian",
       "pdf_link": "/publications/pdf/pnas.1110574108.pdf",
       "year": "2011",
-      "venue": "Proc Natl Acad Sci U S A 2011;108(46):E1128-36"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2011;108(46):E1128-36"
     },
     {
       "author": [
@@ -15178,7 +15392,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/developmental-taxonomy-glioblastoma-defined-and-maintained-micrornas",
       "pdf_link": "/publications/pdf/3387.pdf",
       "year": "2011",
-      "venue": "Cancer Res 2011;71(9):3387-99"
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Res 2011;71(9):3387-99"
     },
     {
       "author": [
@@ -15285,7 +15500,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/expression-splicing-factor-gene-sfrs10-reduced-human-obesity-and-contributes",
       "pdf_link": "/publications/pdf/piis1550413111002567.pdf",
       "year": "2011",
-      "venue": "Cell Metab 2011;14(2):208-18"
+      "journal": "Cell",
+      "journal_location": "Cell Metab 2011;14(2):208-18"
     },
     {
       "author": [
@@ -15320,7 +15536,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/gene-expression-analysis-reveals-cell-cycle-and-kinetochore-genes-participating",
       "pdf_link": "/publications/pdf/gene_expression_analysis_reveals.pdf",
       "year": "2011",
-      "venue": "PLoS One 2011;6(9):e25679"
+      "journal": "PLoS One",
+      "journal_location": "PLoS One 2011;6(9):e25679"
     },
     {
       "author": [
@@ -15347,7 +15564,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/impact-chromatin-structure-sequence-variability-human-genome",
       "pdf_link": "/publications/pdf/nihms327269.pdf",
       "year": "2011",
-      "venue": "Nat Struct Mol Biol 2011;18(4):510-5"
+      "journal": "Nature Structural & Molecular Biology",
+      "journal_location": "Nat Struct Mol Biol 2011;18(4):510-5"
     },
     {
       "author": [
@@ -15434,7 +15652,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/phase-ii-study-neoadjuvant-bevacizumab-and-radiotherapy-resectable-soft-tissue",
       "pdf_link": "/publications/pdf/nihms232424.pdf",
       "year": "2011",
-      "venue": "Int J Radiat Oncol Biol Phys 2011;81(4):1081-90"
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "journal_location": "Int J Radiat Oncol Biol Phys 2011;81(4):1081-90"
     },
     {
       "author": [
@@ -15465,7 +15684,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/dosage-compensation-drosophila-sequence-specific-initiation-and-sequence",
       "pdf_link": "",
       "year": "2010",
-      "venue": "Genetika 2010;46(10):1430-4"
+      "journal": "Genetika",
+      "journal_location": "Genetika 2010;46(10):1430-4"
     },
     {
       "author": [
@@ -15500,7 +15720,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/cpg-islands-recruit-histone-h3-lysine-36-demethylase",
       "pdf_link": "/publications/pdf/piis1097276510002868.pdf",
       "year": "2010",
-      "venue": "Molecular Cell 2010;38(2):179-90"
+      "journal": "Molecular Cell",
+      "journal_location": "Molecular Cell 2010;38(2):179-90"
     },
     {
       "author": [
@@ -15551,7 +15772,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genomic-profiling-reveals-alternative-genetic-pathways-meningioma-malignant",
       "pdf_link": "/publications/pdf/4155.pdf",
       "year": "2010",
-      "venue": "Clin Cancer Res 2010;16(16):4155-64"
+      "journal": "Clin Cancer Res",
+      "journal_location": "Clin Cancer Res 2010;16(16):4155-64"
     },
     {
       "author": [
@@ -15950,7 +16172,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/identification-functional-elements-and-regulatory-circuits-drosophila-modencode",
       "pdf_link": "/publications/pdf/science.1198374.pdf",
       "year": "2010",
-      "venue": "Science 2010;330(6012):1787-97"
+      "journal": "Science",
+      "journal_location": "Science 2010;330(6012):1787-97"
     },
     {
       "author": [
@@ -16061,7 +16284,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/loss-tumor-suppressor-snf5-leads-aberrant-activation-hedgehog-gli-pathway",
       "pdf_link": "/publications/pdf/nihms534776.pdf",
       "year": "2010",
-      "venue": "Nat Med 2010;16(12):1429-33"
+      "journal": "Nat Med",
+      "journal_location": "Nat Med 2010;16(12):1429-33"
     },
     {
       "author": [
@@ -16100,7 +16324,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/microrna-mir-16-anti-proliferative-enterocytes-and-exhibits-diurnal-rhythmicity",
       "pdf_link": "/publications/pdf/nihms227484.pdf",
       "year": "2010",
-      "venue": "Exp Cell Res 2010;316(20):3512-21"
+      "journal": "Exp Cell Res",
+      "journal_location": "Exp Cell Res 2010;316(20):3512-21"
     },
     {
       "author": [
@@ -16123,7 +16348,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/quantized-correlation-coefficient-measuring-reproducibility-chip-chip-data",
       "pdf_link": "/publications/pdf/1471-2105-11-399.pdf",
       "year": "2010",
-      "venue": "BMC Bioinformatics 2010;11:399"
+      "journal": "BMC Bioinformatics",
+      "journal_location": "BMC Bioinformatics 2010;11:399"
     },
     {
       "author": [
@@ -16154,7 +16380,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/region-human-hoxd-cluster-confers-polycomb-group-responsiveness",
       "pdf_link": "/publications/pdf/piis0092867409015694.pdf",
       "year": "2010",
-      "venue": "Cell 2010;140(1):99-110"
+      "journal": "Cell",
+      "journal_location": "Cell 2010;140(1):99-110"
     },
     {
       "author": [
@@ -16177,7 +16404,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/analysis-primary-structure-chromatin-next-generation-sequencing",
       "pdf_link": "/publications/pdf/nihms-328140.pdf",
       "year": "2010",
-      "venue": "Epigenomics 2010;2(2):187-197"
+      "journal": "Epigenomics",
+      "journal_location": "Epigenomics 2010;2(2):187-197"
     },
     {
       "author": [
@@ -16200,7 +16428,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/detecting-structural-variations-human-genome-using-next-generation-sequencing",
       "pdf_link": "/publications/pdf/elq025.pdf",
       "year": "2010",
-      "venue": "Brief Funct Genomics 2010;9(5-6):405-15"
+      "journal": "Brief Funct Genomics",
+      "journal_location": "Brief Funct Genomics 2010;9(5-6):405-15"
     },
     {
       "author": [
@@ -16227,7 +16456,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/estimating-enrichment-repetitive-elements-high-throughput-sequence-data",
       "pdf_link": "/publications/pdf/gb-2010-11-6-r69.pdf",
       "year": "2010",
-      "venue": "Genome Biol 2010;11(6):R69"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol 2010;11(6):R69"
     },
     {
       "author": [
@@ -16262,7 +16492,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integrative-genome-analysis-reveals-oncomironcogene-cluster-regulating",
       "pdf_link": "/publications/pdf/pnas.0909896107.pdf",
       "year": "2010",
-      "venue": "Proc Natl Acad Sci U S A 2010;107(5):2183-8"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2010;107(5):2183-8"
     },
     {
       "author": [
@@ -16329,7 +16560,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/lkb1-metabolic-sensor-maintains-haematopoietic-stem-cell-survival",
       "pdf_link": "/publications/pdf/nihms263966.pdf",
       "year": "2010",
-      "venue": "Nature 2010;468(7324):659-63"
+      "journal": "Nature",
+      "journal_location": "Nature 2010;468(7324):659-63"
     },
     {
       "author": [
@@ -16356,7 +16588,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/rsw-seq-algorithm-detection-copy-number-alterations-deep-sequencing-data",
       "pdf_link": "/publications/pdf/1471-2105-11-432.pdf",
       "year": "2010",
-      "venue": "BMC Bioinformatics 2010;11:432"
+      "journal": "BMC Bioinformatics",
+      "journal_location": "BMC Bioinformatics 2010;11:432"
     },
     {
       "author": [
@@ -16387,7 +16620,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/drosophila-msl-complex-globally-acetylates-h4k16-male-x-chromosome-dosage",
       "pdf_link": "/publications/pdf/nihms127351.pdf",
       "year": "2009",
-      "venue": "Nat Struct Mol Biol 2009;16(8):825-32"
+      "journal": "Nature Structural & Molecular Biology",
+      "journal_location": "Nat Struct Mol Biol 2009;16(8):825-32"
     },
     {
       "author": [
@@ -16438,7 +16672,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/identifying-molecular-signature-interstitial-deletion-7q-subgroup-uterine",
       "pdf_link": "/publications/pdf/nihms125609.pdf",
       "year": "2009",
-      "venue": "Genes Chromosomes Cancer 2009;48(10):865-85"
+      "journal": "Genes",
+      "journal_location": "Genes Chromosomes Cancer 2009;48(10):865-85"
     },
     {
       "author": [
@@ -16469,7 +16704,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/long-range-spreading-dosage-compensation-drosophila-captures-transcribed",
       "pdf_link": "/publications/pdf/genes_dev.-2009-gorchakov-2266-71.pdf",
       "year": "2009",
-      "venue": "Genes Dev 2009;23(19):2266-71"
+      "journal": "Genes",
+      "journal_location": "Genes Dev 2009;23(19):2266-71"
     },
     {
       "author": [
@@ -16492,7 +16728,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/meta-analysis-glioblastoma-multiforme-versus-anaplastic-astrocytoma-identifies",
       "pdf_link": "/publications/pdf/1476-4598-8-71.pdf",
       "year": "2009",
-      "venue": "Mol Cancer 2009;8:71"
+      "journal": "Mol Cancer",
+      "journal_location": "Mol Cancer 2009;8:71"
     },
     {
       "author": [
@@ -16519,7 +16756,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/permutation-test-determining-significance-clusters-applications-spatial-and",
       "pdf_link": "/publications/pdf/nihms260986.pdf",
       "year": "2009",
-      "venue": "Comput Stat Data Anal 2009;53(12):4290-4300"
+      "journal": "Comput Stat Data Anal",
+      "journal_location": "Comput Stat Data Anal 2009;53(12):4290-4300"
     },
     {
       "author": [
@@ -16562,7 +16800,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/surface-antigen-phenotypes-hematopoietic-stem-cells-embryos-and-murine",
       "pdf_link": "/publications/pdf/zh802809000268.pdf",
       "year": "2009",
-      "venue": "Blood 2009;114(2):268-78"
+      "journal": "Blood",
+      "journal_location": "Blood 2009;114(2):268-78"
     },
     {
       "author": [
@@ -16621,7 +16860,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/thyroid-hormone-related-regulation-gene-expression-human-fatty-liver",
       "pdf_link": "/publications/pdf/jcem3521.pdf",
       "year": "2009",
-      "venue": "J Clin Endocrinol Metab 2009;94(9):3521-9"
+      "journal": "J Clin Endocrinol Metab",
+      "journal_location": "J Clin Endocrinol Metab 2009;94(9):3521-9"
     },
     {
       "author": [
@@ -16680,7 +16920,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/apc-inhibition-wnt-signaling-regulates-supernumerary-tooth-formation-during",
       "pdf_link": "/publications/pdf/1939.pdf",
       "year": "2009",
-      "venue": "Development 2009;136(11):1939-49"
+      "journal": "Development",
+      "journal_location": "Development 2009;136(11):1939-49"
     },
     {
       "author": [
@@ -16695,7 +16936,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/chip-seq-advantages-and-challenges-maturing-technology",
       "pdf_link": "/publications/pdf/nihms327265.pdf",
       "year": "2009",
-      "venue": "Nat Rev Genet 2009;10(10):669-80"
+      "journal": "Nat Rev Genet",
+      "journal_location": "Nat Rev Genet 2009;10(10):669-80"
     },
     {
       "author": [
@@ -16726,7 +16968,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comparative-analysis-h2az-nucleosome-organization-human-and-yeast-genomes",
       "pdf_link": "/publications/pdf/genome_res.-2009-tolstorukov-967-77.pdf",
       "year": "2009",
-      "venue": "Genome Res 2009;19(6):967-77"
+      "journal": "Genome Research",
+      "journal_location": "Genome Res 2009;19(6):967-77"
     },
     {
       "author": [
@@ -16801,7 +17044,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/efficacy-sunitinib-and-radiotherapy-genetically-engineered-mouse-model-soft",
       "pdf_link": "/publications/pdf/1-s2.0-s0360301609003502-main.pdf",
       "year": "2009",
-      "venue": "Int J Radiat Oncol Biol Phys 2009;74(4):1207-16"
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "journal_location": "Int J Radiat Oncol Biol Phys 2009;74(4):1207-16"
     },
     {
       "author": [
@@ -16836,7 +17080,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integration-heterogeneous-expression-data-sets-extends-role-retinol-pathway",
       "pdf_link": "/publications/pdf/bioinformatics_25_23_3121.pdf",
       "year": "2009",
-      "venue": "Bioinformatics 2009;25(23):3121-7"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2009;25(23):3121-7"
     },
     {
       "author": [
@@ -16875,7 +17120,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/aging-elevates-metabolic-gene-expression-brain-cholinergic-neurons",
       "pdf_link": "/publications/pdf/1-s2.0-s0197458007001996-main.pdf",
       "year": "2008",
-      "venue": "Neurobiol Aging 2008;29(12):1874-93"
+      "journal": "Neurobiol Aging",
+      "journal_location": "Neurobiol Aging 2008;29(12):1874-93"
     },
     {
       "author": [
@@ -16890,7 +17136,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-genomic-characterization-defines-human-glioblastoma-genes-and",
       "pdf_link": "/publications/pdf/nihms68048.pdf",
       "year": "2008",
-      "venue": "Nature 2008;455(7216):1061-8"
+      "journal": "Nature",
+      "journal_location": "Nature 2008;455(7216):1061-8"
     },
     {
       "author": [
@@ -16925,7 +17172,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/mouse-x-chromosome-enriched-multicopy-testis-genes-showing-postmeiotic",
       "pdf_link": "/publications/pdf/nihms114538.pdf",
       "year": "2008",
-      "venue": "Nat Genet 2008;40(6):794-9"
+      "journal": "Nat Genet",
+      "journal_location": "Nat Genet 2008;40(6):794-9"
     },
     {
       "author": [
@@ -16984,7 +17232,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/pathway-analysis-primary-central-nervous-system-lymphoma",
       "pdf_link": "/publications/pdf/zh800608003200.pdf",
       "year": "2008",
-      "venue": "Blood 2008;111(6):3200-10"
+      "journal": "Blood",
+      "journal_location": "Blood 2008;111(6):3200-10"
     },
     {
       "author": [
@@ -17015,7 +17264,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/specific-genes-expressed-association-progesterone-receptors-meningioma",
       "pdf_link": "/publications/pdf/314.pdf",
       "year": "2008",
-      "venue": "Cancer Res 2008;68(1):314-22"
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Res 2008;68(1):314-22"
     },
     {
       "author": [
@@ -17038,7 +17288,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/cghweb-tool-comparing-dna-copy-number-segmentations-multiple-algorithms",
       "pdf_link": "/publications/pdf/bioinformatics_24_7_1014.pdf",
       "year": "2008",
-      "venue": "Bioinformatics 2008;24(7):1014-5"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2008;24(7):1014-5"
     },
     {
       "author": [
@@ -17061,7 +17312,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/design-and-analysis-chip-seq-experiments-dna-binding-proteins",
       "pdf_link": "/publications/pdf/nihms76273.pdf",
       "year": "2008",
-      "venue": "Nat Biotechnol 2008;26(12):1351-9"
+      "journal": "Nat Biotechnol",
+      "journal_location": "Nat Biotechnol 2008;26(12):1351-9"
     },
     {
       "author": [
@@ -17108,7 +17360,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/differential-h3k4-methylation-identifies-developmentally-poised-hematopoietic",
       "pdf_link": "/publications/pdf/1-s2.0-s1534580708001652-main.pdf",
       "year": "2008",
-      "venue": "Dev Cell 2008;14(5):798-809"
+      "journal": "Dev Cell",
+      "journal_location": "Dev Cell 2008;14(5):798-809"
     },
     {
       "author": [
@@ -17123,7 +17376,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/epigenetics-meets-next-generation-sequencing",
       "pdf_link": "/publications/pdf/epigenetics_meets_next_generation_sequencing.pdf",
       "year": "2008",
-      "venue": "Epigenetics 2008;3(6):318-21"
+      "journal": "Epigenetics",
+      "journal_location": "Epigenetics 2008;3(6):318-21"
     },
     {
       "author": [
@@ -17138,7 +17392,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/experimental-design-and-data-analysis-array-comparative-genomic-hybridization",
       "pdf_link": "",
       "year": "2008",
-      "venue": "Cancer Invest 2008;26(9):923-8"
+      "journal": "Cancer Invest",
+      "journal_location": "Cancer Invest 2008;26(9):923-8"
     },
     {
       "author": [
@@ -17161,7 +17416,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/integrative-analysis-reveals-direct-and-indirect-interactions-between-dna-copy",
       "pdf_link": "/publications/pdf/bioinformatics_24_7_889.pdf",
       "year": "2008",
-      "venue": "Bioinformatics 2008;24(7):889-96"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2008;24(7):889-96"
     },
     {
       "author": [
@@ -17196,7 +17452,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/msl3-chromodomain-directs-key-targeting-step-dosage-compensation-drosophila",
       "pdf_link": "/publications/pdf/nihms76275.pdf",
       "year": "2008",
-      "venue": "Nat Struct Mol Biol 2008;15(12):1318-25"
+      "journal": "Nature Structural & Molecular Biology",
+      "journal_location": "Nat Struct Mol Biol 2008;15(12):1318-25"
     },
     {
       "author": [
@@ -17227,7 +17484,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/nucleosome-positioning-human-hox-gene-clusters",
       "pdf_link": "/publications/pdf/genome_res.-2008-kharchenko-1554-61.pdf",
       "year": "2008",
-      "venue": "Genome Res 2008;18(10):1554-61"
+      "journal": "Genome Research",
+      "journal_location": "Genome Res 2008;18(10):1554-61"
     },
     {
       "author": [
@@ -17258,7 +17516,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/nuscore-web-interface-nucleosome-positioning-predictions",
       "pdf_link": "/publications/pdf/bioinformatics_24_12_1456.pdf",
       "year": "2008",
-      "venue": "Bioinformatics 2008;24(12):1456-8"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2008;24(12):1456-8"
     },
     {
       "author": [
@@ -17313,7 +17572,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/sequence-motif-within-chromatin-entry-sites-directs-msl-establishment",
       "pdf_link": "/publications/pdf/1-s2.0-s0092867408008209-main.pdf",
       "year": "2008",
-      "venue": "Cell 2008;134(4):599-609"
+      "journal": "Cell",
+      "journal_location": "Cell 2008;134(4):599-609"
     },
     {
       "author": [
@@ -17364,7 +17624,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/unphosphorylated-sr-protein-npl3-stimulates-rna-polymerase-ii-elongation",
       "pdf_link": "/publications/pdf/file_2.pdf",
       "year": "2008",
-      "venue": "PLoS One 2008;3(9):e3273"
+      "journal": "PLoS One",
+      "journal_location": "PLoS One 2008;3(9):e3273"
     },
     {
       "author": [
@@ -17411,7 +17672,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/msl-complex-attracted-genes-marked-h3k36-trimethylation-using-sequence",
       "pdf_link": "/publications/pdf/1-s2.0-s1097276507005540-main.pdf",
       "year": "2007",
-      "venue": "Mol Cell 2007;28(1):121-33"
+      "journal": "Mol Cell",
+      "journal_location": "Mol Cell 2007;28(1):121-33"
     },
     {
       "author": [
@@ -17450,7 +17712,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/network-based-analysis-affected-biological-processes-type-2-diabetes-models",
       "pdf_link": "/publications/pdf/file_1.pdf",
       "year": "2007",
-      "venue": "PLoS Genet 2007;3(6):e96"
+      "journal": "PLoS Genet",
+      "journal_location": "PLoS Genet 2007;3(6):e96"
     },
     {
       "author": [
@@ -17481,7 +17744,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/normalization-and-experimental-design-chip-chip-data",
       "pdf_link": "/publications/pdf/1471-2105-8-219.pdf",
       "year": "2007",
-      "venue": "BMC Bioinformatics 2007;8:219"
+      "journal": "BMC Bioinformatics",
+      "journal_location": "BMC Bioinformatics 2007;8:219"
     },
     {
       "author": [
@@ -17620,7 +17884,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/sequence-oriented-comparison-gene-expression-measurements-across-different",
       "pdf_link": "",
       "year": "2006",
-      "venue": "Nat Biotechnol 2006;24(7):832-40"
+      "journal": "Nature Biotechnology",
+      "journal_location": "Nat Biotechnol 2006;24(7):832-40"
     },
     {
       "author": [
@@ -17651,7 +17916,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/high-resolution-chip-chip-analysis-reveals-drosophila-msl-complex-selectively",
       "pdf_link": "/publications/pdf/genes_dev.-2006-alekseyenko-848-57.pdf",
       "year": "2006",
-      "venue": "Genes Dev 2006;20(7):848-57"
+      "journal": "Genes",
+      "journal_location": "Genes Dev 2006;20(7):848-57"
     },
     {
       "author": [
@@ -17682,7 +17948,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/msl-complex-associates-clusters-actively-transcribed-genes-along-drosophila",
       "pdf_link": "/publications/pdf/cold_spring_harb_symp_quant_biol-2006-larschan-sqb.2006.71.026.pdf",
       "year": "2006",
-      "venue": "Cold Spring Harb Symp Quant Biol 2006;71:385-94"
+      "journal": "Cold Spring Harb Symp Quant Biol",
+      "journal_location": "Cold Spring Harb Symp Quant Biol 2006;71:385-94"
     },
     {
       "author": [
@@ -17705,7 +17972,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/multivariate-approach-integrating-genome-wide-expression-data-and-biological",
       "pdf_link": "/publications/pdf/bioinformatics_22_19_2373.pdf",
       "year": "2006",
-      "venue": "Bioinformatics 2006;22(19):2373-80"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2006;22(19):2373-80"
     },
     {
       "author": [
@@ -17744,7 +18012,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/postmeiotic-sex-chromatin-male-germline-mice",
       "pdf_link": "/publications/pdf/1-s2.0-s0960982206012784-main.pdf",
       "year": "2006",
-      "venue": "Curr Biol 2006;16(7):660-7"
+      "journal": "Curr Biol",
+      "journal_location": "Curr Biol 2006;16(7):660-7"
     },
     {
       "author": [
@@ -17787,7 +18056,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/angiogenic-profile-soft-tissue-sarcomas-based-analysis-circulating-factors-and",
       "pdf_link": "/publications/pdf/1-s2.0-s0022480406000187-main.pdf",
       "year": "2006",
-      "venue": "J Surg Res 2006;135(2):282-90"
+      "journal": "J Surg Res",
+      "journal_location": "J Surg Res 2006;135(2):282-90"
     },
     {
       "author": [
@@ -17866,7 +18136,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/genome-wide-screen-reveals-functional-gene-clusters-cancer-genome-and",
       "pdf_link": "/publications/pdf/10815.pdf",
       "year": "2006",
-      "venue": "Cancer Res 2006;66(22):10815-23"
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Res 2006;66(22):10815-23"
     },
     {
       "author": [
@@ -17925,7 +18196,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/interferon-alphabeta-mediated-innate-immune-mechanisms-dermatomyositis",
       "pdf_link": "",
       "year": "2005",
-      "venue": "Ann Neurol 2005;57(5):664-78"
+      "journal": "Ann Neurol",
+      "journal_location": "Ann Neurol 2005;57(5):664-78"
     },
     {
       "author": [
@@ -17940,7 +18212,8 @@
       "abstract_link": "N/A",
       "pdf_link": "",
       "year": "2005",
-      "venue": " In: Methods of Microarray Data Analysis IV.  New York City, New York: Springer US; 2005"
+      "journal": "Methods of Microarray Data Analysis IV",
+      "journal_location": " In: Methods of Microarray Data Analysis IV.  New York City, New York: Springer US; 2005"
     },
     {
       "author": [
@@ -17975,7 +18248,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/discovering-statistically-significant-pathways-expression-profiling-studies",
       "pdf_link": "/publications/pdf/pnas.0506577102.pdf",
       "year": "2005",
-      "venue": "Proc Natl Acad Sci U S A 2005;102(38):13544-9"
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "Proc Natl Acad Sci U S A 2005;102(38):13544-9"
     },
     {
       "author": [
@@ -18002,7 +18276,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/global-regulation-x-chromosomal-genes-msl-complex-drosophila-melanogaster",
       "pdf_link": "/publications/pdf/genes_dev.-2005-hamada-2289-94.pdf",
       "year": "2005",
-      "venue": "Genes Dev 2005;19(19):2289-94"
+      "journal": "Genes",
+      "journal_location": "Genes Dev 2005;19(19):2289-94"
     },
     {
       "author": [
@@ -18029,7 +18304,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comparative-analysis-algorithms-identifying-amplifications-and-deletions-array",
       "pdf_link": "/publications/pdf/bioinformatics_21_19_3763.pdf",
       "year": "2005",
-      "venue": "Bioinformatics 2005;21(19):3763-70"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2005;21(19):3763-70"
     },
     {
       "author": [
@@ -18068,7 +18344,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/crosschip-system-supporting-comparative-analysis-different-generations",
       "pdf_link": "/publications/pdf/bioinformatics_21_9_2116.pdf",
       "year": "2005",
-      "venue": "Bioinformatics 2005;21(9):2116-7"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2005;21(9):2116-7"
     },
     {
       "author": [
@@ -18087,7 +18364,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/multiscale-numerical-methods-singularly-perturbed-convection-diffusion",
       "pdf_link": "",
       "year": "2004",
-      "venue": "International Journal of Computational Methods 2004;1(1):17-65"
+      "journal": "International Journal of Computational Methods",
+      "journal_location": "International Journal of Computational Methods 2004;1(1):17-65"
     },
     {
       "author": [
@@ -18114,7 +18392,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/combining-gene-expression-data-different-generations-oligonucleotide-arrays",
       "pdf_link": "/publications/pdf/1471-2105-5-159.pdf",
       "year": "2004",
-      "venue": "BMC Bioinformatics 2004;5:159"
+      "journal": "BMC Bioinformatics",
+      "journal_location": "BMC Bioinformatics 2004;5:159"
     },
     {
       "author": [
@@ -18153,7 +18432,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/current-issues-dna-microarrays-platform-comparison-double-linear-amplification",
       "pdf_link": "",
       "year": "2004",
-      "venue": "J Biotechnol 2004;112(3):225-45"
+      "journal": "J Biotechnol",
+      "journal_location": "J Biotechnol 2004;112(3):225-45"
     },
     {
       "author": [
@@ -18172,7 +18452,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/improving-identification-differentially-expressed-genes-microarray-studies",
       "pdf_link": "/publications/pdf/gb-2004-5-9-r70.pdf",
       "year": "2004",
-      "venue": "Genome Biol 2004;5(9):R70"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol 2004;5(9):R70"
     },
     {
       "author": [
@@ -18195,7 +18476,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/power-comparisons-disease-clustering-tests",
       "pdf_link": "",
       "year": "2003",
-      "venue": "Computational Statistics and Data Analysis 2003;42(4):665-684"
+      "journal": "Computational Statistics and Data Analysis",
+      "journal_location": "Computational Statistics and Data Analysis 2003;42(4):665-684"
     },
     {
       "author": [
@@ -18218,7 +18500,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/rank-based-nonlinear-normalization-oligonucleotide-arrays",
       "pdf_link": "",
       "year": "2003",
-      "venue": "Genomics & Informatics 2003;1(2):94-100"
+      "journal": "Genomics & Informatics",
+      "journal_location": "Genomics & Informatics 2003;1(2):94-100"
     },
     {
       "author": [
@@ -18257,7 +18540,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/functional-relationships-between-gene-pairs-oral-squamous-cell-carcinoma",
       "pdf_link": "/publications/pdf/amia2003_0371.pdf",
       "year": "2003",
-      "venue": "AMIA Annu Symp Proc 2003;:371-5"
+      "journal": "AMIA Annu Symp Proc",
+      "journal_location": "AMIA Annu Symp Proc 2003;:371-5"
     },
     {
       "author": [
@@ -18312,7 +18596,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/human-decidual-natural-killer-cells-are-unique-nk-cell-subset-immunomodulatory",
       "pdf_link": "/publications/pdf/jem19881201.pdf",
       "year": "2003",
-      "venue": "J Exp Med 2003;198(8):1201-12"
+      "journal": "J Exp Med",
+      "journal_location": "J Exp Med 2003;198(8):1201-12"
     },
     {
       "author": [
@@ -18355,7 +18640,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/microarrays-and-clinical-dentistry",
       "pdf_link": "/publications/pdf/1-s2.0-s0002817714641180-main.pdf",
       "year": "2003",
-      "venue": "J Am Dent Assoc 2003;134(4):456-62"
+      "journal": "J Am Dent Assoc",
+      "journal_location": "J Am Dent Assoc 2003;134(4):456-62"
     },
     {
       "author": [
@@ -18402,7 +18688,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/microsage-highly-representative-and-reproducible-reveals-major-differences-gene",
       "pdf_link": "/publications/pdf/gb-2003-4-3-r17.pdf",
       "year": "2003",
-      "venue": "Genome Biol 2003;4(3):R17"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol 2003;4(3):R17"
     },
     {
       "author": [
@@ -18425,7 +18712,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comparing-expression-profiles-genes-similar-promoter-regions",
       "pdf_link": "/publications/pdf/comparing_expression_profiles_of_genes_with_similar_promoter_regions_2002.pdf",
       "year": "2002",
-      "venue": "Bioinformatics 2002;18(12):1576-84"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2002;18(12):1576-84"
     },
     {
       "author": [
@@ -18460,7 +18748,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/gene-expression-levels-different-stages-progression-oral-squamous-cell",
       "pdf_link": "/publications/pdf/gene_expression_levels_in_different_stages_of_progression_in_oral_squamous_cell_carcinoma_2002.pdf",
       "year": "2002",
-      "venue": "Proc AMIA Symp 2002;:415-9"
+      "journal": "Proc AMIA",
+      "journal_location": "Proc AMIA Symp 2002;:415-9"
     },
     {
       "author": [
@@ -18483,7 +18772,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/linking-gene-expression-data-patient-survival-times-using-partial-least-squares",
       "pdf_link": "",
       "year": "2002",
-      "venue": "Bioinformatics 2002;18 Suppl 1:S120-7"
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2002;18 Suppl 1:S120-7"
     },
     {
       "author": [
@@ -18506,7 +18796,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/vector-algebra-analysis-genome-wide-expression-data",
       "pdf_link": "/publications/pdf/vector_algebra_in_the_analysis_of_genome-wide_expression_data_2002.pdf",
       "year": "2002",
-      "venue": "Genome Biol 2002;3(3):RESEARCH0011"
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol 2002;3(3):RESEARCH0011"
     },
     {
       "author": [
@@ -18529,7 +18820,8 @@
       "abstract_link": "https://compbio.hms.harvard.edu/publications/nonparametric-scoring-algorithm-identifying-informative-genes-microarray-data",
       "pdf_link": "/publications/pdf/a_nonparametric_scoring_algorithm_for_identifying_informative_genes_from_microarray_data_2001.pdf",
       "year": "2001",
-      "venue": "Pac Symp Biocomput 2001;6:52-63"
+      "journal": "Pac Symp Biocomput",
+      "journal_location": "Pac Symp Biocomput 2001;6:52-63"
     }
   ]
 }

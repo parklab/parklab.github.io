@@ -48,47 +48,36 @@
         const body = document.querySelector('body');
 
         const modal = document.getElementById('gallery-modal');
-        const modalContent = modal.querySelector('.modal-content');
-        const modalImageElement = modal.querySelector('img');
 
+        if (modal) {
 
-        const closeModalButton = modal.querySelector('.close-modal');
-
-        // Close modal
-        const closeModal = () => {
-            modal.classList.remove('show');
-            body.classList.remove('modal-open');
-            modal.classList.add('modal-open');
+            const modalContent = modal.querySelector('.modal-content');
+            const modalImageElement = modal.querySelector('img');
+    
+    
+            const closeModalButton = modal.querySelector('.close-modal');
+    
+            // Close modal
+            const closeModal = () => {
+                modal.classList.remove('show');
+                body.classList.remove('modal-open');
+                modal.classList.add('modal-open');
+            }
+    
+            modal.addEventListener('click', (e) => {
+                if (e.target !== modalContent && e.target !== modalImageElement) {
+                    closeModal();
+                }
+            });
+            closeModalButton.addEventListener('click', (e) => {
+                closeModal();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {   
+                    closeModal();
+                }
+            });
         }
-
-        modal.addEventListener('click', (e) => {
-            if (e.target !== modalContent && e.target !== modalImageElement) {
-                closeModal();
-            }
-        });
-        closeModalButton.addEventListener('click', (e) => {
-            closeModal();
-        });
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {   
-                closeModal();
-            }
-        });
-
-        // document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
-        //     button.addEventListener('focus', (e) => {
-
-        //         const button = e.target;
-        //         console.log(button);
-        //         const image = e.target.querySelector('img');
-        //         console.log(image.src, image.alt);
-
-        //         // Assign proper image to modal
-        //         modalImageElement.src = image.src;
-        //         modalImageElement.alt = image.alt;
-
-        //     });
-        // });
 
         document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
             button.addEventListener('click', (e) => {

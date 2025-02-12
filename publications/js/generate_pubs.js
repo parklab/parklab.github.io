@@ -1,3 +1,21 @@
+// Script for generating the publications page
+
+// Get the sort field from the URL
+const params = new URLSearchParams(window.location.search);
+const sort_field = params.get('sort') || 'year';
+
+// Listen for change in sort field selector
+const selectElement = document.getElementById('sort-select');
+console.log(selectElement);
+
+selectElement.appendChild(new Option('Year', 'year', false, sort_field === 'year'));
+selectElement.appendChild(new Option('Journal', 'journal', false, sort_field === 'journal'));
+
+selectElement.addEventListener('change', (event) => {
+  console.log(event.target.value);
+  window.location.href = `?sort=${event.target.value}`;
+});
+
 MY_NAME = "NAME";
 
 // DISPLAY OPTIONS -------
@@ -36,25 +54,48 @@ d3.json('/publication-data.json', function(json) {
   createTypeColors(json.publications);
 
   data = json.publications;
+  
+  // Group [data] by [sort_field]
+  const grouped_data = Object.groupBy(data, (d) => d[sort_field]);
 
-  // var nested_data = d3.nest()
-    // .key(function(d) {return d.year;})
-      // .sortKeys(d3.descending)
-  //   .key(function(d) { return USE_CUSTOM_GROUPS ? groupMap.get(d.type) : d.type; })
-  //     .sortKeys(function(a,b) { return GROUP_ORDER.indexOf(a) - GROUP_ORDER.indexOf(b); })
-    // .entries(json.publications);
-  //
-  // buildYears(nested_data, '#publications');
-
-  // Organize by year
-  const data_groups = Object.groupBy(data, ({ year }) => year);
-
-  // Render each year independently
-  Object.keys(data_groups).sort((a, b) => b - a).forEach(year => {
-    renderPubs(data_groups[year], `#publications`, year);
-  })
+  // Sort [grouped_data] by comparing values for various [sort_field] types
+  let sorted_keys;
+  switch (sort_field) {
+    case 'year':
+      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+      break;
+    case 'journal':
+      sorted_keys = Object.keys(grouped_data).sort(
+        (a, b) => 
+          grouped_data[b].length - grouped_data[a].length || b.localeCompare(a)
+      );
+      break;
+    default:
+      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+  }
+  
+  // Render links to the different categories
+  renderCategoryLinks(sorted_keys, grouped_data);
+  
+  // Render each category list
+  renderPubGroups(sorted_keys, grouped_data, `#publications`);
 
 });
+
+function renderCategoryLinks(data, data_groups_by_venue) {
+  const pubsContainer = d3.select('#publications');
+  const categoryLinks = pubsContainer.append('ul').classed('category-links', true);
+
+  // Links to the different categories
+  data.forEach(category => {
+    categoryLinks.append('li')
+      .classed('category-link-item', true)
+      .append('a')
+      .attr('href', `#${category}`)
+      .attr('class', 'category-link')
+      .text(category + ' (' + data_groups_by_venue[category].length + ')');
+  })
+}
 
 function createTypeColors(d) {
   var types = [];
@@ -66,15 +107,28 @@ function createTypeColors(d) {
   tagColor = d3.scale.category10().domain(types);
 }
 
+
+renderPubGroups = function(sorted_keys, pubData, target) {
+  const pubsContainer = d3.select(target);
+  const pubs = pubsContainer.append('div').attr('id', 'pubs').classed('pubs', true);
+  
+  console.log(sorted_keys);
+
+  sorted_keys.forEach(key => {
+    renderPubGroup(pubData[key], "#pubs", key);
+  })
+}
+
 // Generate publications
-function renderPubs(pubData, target, year) {
+function renderPubGroup(pubData, target, category) {
 
   const pubsContainer = d3.select(target);
   
   pubsContainer.append('h3')
-      .classed('year-header', true)
+      .classed('header', true)
+      .attr('id', category)
       .text(function(d) {
-        return year;
+        return category + ' (' + pubData.length + ')';
       });
 
   pubsContainer.append('hr')
@@ -156,7 +210,7 @@ function renderPubs(pubData, target, year) {
   pubInfo.append('div')
     .classed('venue', true)
     .html(function(d) {
-      return '<em>' + d.venue + '</em> ';
+      return '<em>' + d.journal_location + '</em> ';
     });
 
   // add supplemental links
