@@ -6,7 +6,7 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
-thumbnail: "/img/news-images/200px-felix_the_cat.svg_.png"
+thumbnail: "https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_square_100_100/public/parklab/files/200px-felix_the_cat.svg_.png?m=1515617235&itok=bI6Xntsw"
 thumbnail_alt: "Felix the cat"
 date: "2015-10-26"
 

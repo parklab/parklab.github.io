@@ -10,5 +10,5 @@ date: "2022-12-07"
 
 ---
 
-![Image](/img/news-images/20221207_144255_1_01.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/20221207_144255_1_01.jpg?m=1670593684&itok=NUhRjy8D)
 

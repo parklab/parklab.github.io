@@ -6,7 +6,7 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
-thumbnail: "/img/news-images/screenshot_2018-12-27_00.15.01_01.jpg"
+thumbnail: "https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_square_100_100/public/parklab/files/screenshot_2018-12-27_00.15.01_01.jpg?m=1545887957&itok=j3mEAkjL"
 thumbnail_alt: 4DN data portal
 date: "2018-12-05"
 

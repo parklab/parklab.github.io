@@ -12,5 +12,5 @@ date: "2023-06-30"
 
 The lab said goodbye and good luck to Antuan as he heads onto his next adventure in medical school at Mayo Clinic!
 
-![Image](/img/news-images/20230630_180811.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/20230630_180811.jpg?m=1690482808&itok=iEJ3S-dI)
 

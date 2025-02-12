@@ -6,7 +6,7 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
-thumbnail: "/img/news-images/cancer-celllarge.jpg"
+thumbnail: "https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_square_100_100/public/parklab/files/cancer-celllarge.jpg?m=1515616884&itok=scTS5rIc"
 thumbnail_alt: Cancer-cell
 date: "2017-03-21"
 

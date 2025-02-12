@@ -14,5 +14,5 @@ The lab had a fun and adventurous time kayaking together on the Charles this Aug
 
 Unfortunately, we failed to get Peter Park and Dominik Glodzik in the picture but they also attended.
 
-![Image](/img/news-images/img_3634_1.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/img_3634_1.jpg?m=1693495742&itok=Rlc1lEko)
 

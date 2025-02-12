@@ -6,7 +6,7 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
-thumbnail: "/img/news-images/10_lb_peterdoga.jpg"
+thumbnail: "https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_square_100_100/public/parklab/files/10_lb_peterdoga.jpg?m=1515613194&itok=mk5tI1Tp"
 thumbnail_alt: Peter and Doga
 date: "2017-12-04"
 

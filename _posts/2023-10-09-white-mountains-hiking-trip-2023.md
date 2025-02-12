@@ -10,5 +10,5 @@ date: "2023-10-09"
 
 ---
 
-![Image](/img/news-images/20231009_133449_1.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/20231009_133449_1.jpg?m=1697824618&itok=JmGOzcxd)
 

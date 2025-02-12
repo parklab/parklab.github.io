@@ -12,7 +12,7 @@ date: "2020-02-20"
 
 After a brief hiatus, Park Lab went on their annual ski trip to Pats Peak this week!
 
-![Image](/img/news-images/pats_peak_2020.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/pats_peak_2020_2.jpg?m=1582223864&itok=LcGicPw9)
 
-![Image](/img/news-images/pats_peak_2020_2.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/pats_peak_2020.jpg?m=1582224121&itok=W4Y8JFHA)
 

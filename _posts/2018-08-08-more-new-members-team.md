@@ -7,7 +7,6 @@ show_sidebar: false
 hero_image: ""
 hide_footer: true
 date: "2018-08-08"
-
 ---
 
 In the last few months, we had additional members joining our team! We'd like to welcome Hu Jin, Shannon Ehmsen, and Luisa Mercado!

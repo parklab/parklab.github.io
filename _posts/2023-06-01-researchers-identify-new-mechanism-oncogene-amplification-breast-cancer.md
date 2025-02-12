@@ -6,7 +6,7 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
-thumbnail: "/img/news-images/square-m-logo-mark-foundation-640x528.jpg"
+thumbnail: "https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_square_100_100/public/parklab/files/square-m-logo-mark-foundation-640x528.jpg?m=1689000906&itok=sxaBZuoC"
 thumbnail_alt: "The Mark Foundation for Cancer Research logo"
 date: "2023-06-01"
 

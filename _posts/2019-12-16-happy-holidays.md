@@ -12,6 +12,6 @@ date: "2019-12-16"
 
 Our lab has grown quite big this past year! We had a wonderful time gathering with friends, families, and old faces. We hope everyone has a wonderful holiday season and a happy new year!
 
-![Image](/img/news-images/20191214_parklabholidayparty-labonly_02.jpg)
-![Image](/img/news-images/20191214_parklabholidayparty-all.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/20191214_parklabholidayparty-labonly_02.jpg?m=1576511533&itok=sHW9y7qN)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/20191214_parklabholidayparty-all.jpg?m=1576511668&itok=OiH8Ve88)
 

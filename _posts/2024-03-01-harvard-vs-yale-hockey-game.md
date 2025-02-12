@@ -12,5 +12,5 @@ date: "2024-03-01"
 
 Park lab attended the Harvard vs Yale hockey game on Friday! The lab cheered Harvard on to a 2-1 OT win.
 
-![Image](/img/news-images/20240301_193720.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/20240301_193720.jpg?m=1709668627&itok=mlkqD7ND)
 

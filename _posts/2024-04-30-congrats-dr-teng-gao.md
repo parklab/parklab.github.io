@@ -8,5 +8,5 @@ date: "2024-04-30"
 
 Park lab says congratulations to lab member Teng Gao who defended his thesisSomatic genome evolution in cancer and aging through the lens of transcriptionthis April. Congrats Teng!
 
-![Image](/img/news-images/img_4995.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/img_4995.jpg?m=1715198003&itok=4lbdMzjh)
 

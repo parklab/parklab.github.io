@@ -6,7 +6,7 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
-thumbnail: "/img/news-images/f1.medium.gif"
+thumbnail: "https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_square_100_100/public/parklab/files/f1.medium.gif?m=1515617236&itok=xJuDmPex"
 thumbnail_alt: "Single neuron sequencing paper published in Science"
 date: "2015-10-02"
 

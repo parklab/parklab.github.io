@@ -6,7 +6,7 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
-thumbnail: "/img/news-images/images.jpeg"
+thumbnail: "https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_square_100_100/public/parklab/files/images.jpeg?m=1515617235&itok=BkSbQ3hW"
 thumbnail_alt: "STAP cell re-analysis published in Nature"
 date: "2015-09-24"
 

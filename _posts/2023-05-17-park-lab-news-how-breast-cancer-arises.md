@@ -6,7 +6,7 @@ page_name: news-item
 show_sidebar: false
 hero_image: ""
 hide_footer: true
-thumbnail: "/img/news-images/channels4_profile.jpg"
+thumbnail: "https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_square_100_100/public/parklab/files/channels4_profile.jpg?m=1686252618&itok=KPnUR1Ag"
 thumbnail_alt: "Harvard Medical School Logo"
 date: "2023-05-17"
 

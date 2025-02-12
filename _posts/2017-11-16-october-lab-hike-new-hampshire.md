@@ -12,5 +12,5 @@ date: "2017-11-16"
 
 On October 13th, members of the Park lab went on the annual lab hiking trip. This year, they hiked the Welch and Dickey loop trail of the White Mountains in New Hampshire. This was the first New Englad hiking experience for many of our fellows who've come from abroad!
 
-![Image](/img/news-images/20171013_122001.jpg)
+![Image](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/parklab/files/20171013_122001.jpg?m=1515695128&itok=KFXmXPML)
 
