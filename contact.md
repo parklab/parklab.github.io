@@ -16,7 +16,7 @@ hide_footer: true
 #### Location of the Lab
 
 
-![Countway Library](/img/countway.jpg)
+![Countway Library](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_small/public/parklab/files/countway.jpg?m=1443211854&itok=GZHtj3cj)
 
 Department of Biomedical Informatics<br>
 Harvard Medical School<br>
@@ -38,5 +38,5 @@ Fax: 617-432-0693<br>
 
 A Harvard, MIT, or a hospital ID is needed. (If you do not have it, please speak to the guard and explain that you are visitor. A call to Peter's office may be needed). The Library is located next to the Gordon Hall in the main Quad (you can see the top of the library between the buildings):
 
-![Harvard Medical School Quad](/img/rsch_sci_env_quad.jpg)
-![Map of Longwood](/img/longwoodmap.gif)
+![Harvard Medical School Quad](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_large/public/parklab/files/rsch_sci_env_quad.jpg?m=1443211986&itok=RelqH4sC)
+![Map of Longwood](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xlarge/public/parklab/files/longwoodmap.gif?m=1443212023&itok=WmAkLs8i)
