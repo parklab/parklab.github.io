@@ -2,7 +2,8 @@ name: Deploy Jekyll site to GitHub Pages
 
 on:
   push:
-    branches: []  # (currently disabled) Trigger on pushes to the source branch
+    branches:
+      - main  # Trigger on pushes to this branch
 
 jobs:
   build:
