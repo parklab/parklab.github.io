@@ -1,36 +1,18 @@
 <div class="card">
+    <!-- Show image if available -->
     {% if post.image %}
     <div class="card-image">
         <img src="{{ post.image }}" alt="{{ post.title }}">
     </div>
-    {% elsif post.tweets %}
-    <header class="card-header">
-<!--        <a class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>-->
-    <p class="card-header-title"><span class="has-text-primary">{{ post.title}}</span></p>
-<!--        <p class="card-header-item">{{ post.date | date: "%b %Y"}}</p>-->
-<!--        <p class="card-footer-item">{{ post.date | date: "%b %-d, %Y" }}</p>-->
-    </header>
     {% else %}
     <header class="card-header">
-<!--        <a class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>-->
-        <p class="card-header-title">{{ post.date | date: "%b %Y:"}} &nbsp; <span class="has-text-primary">{{ post.title}}</span></p>
-<!--        <p class="card-header-item">{{ post.date | date: "%b %Y"}}</p>-->
-<!--        <p class="card-footer-item">{{ post.date | date: "%b %-d, %Y" }}</p>-->
+        <p class="card-header-title">{{ post.date | date: "%b %Y:"}} &nbsp;
+        <a href="{{post.url}}">
+            <span class="has-text-primary">{{ post.title}}</span></p>
+        </a>
     </header>
     {% endif %}
     <div class="card-content">
-<!--        <div class="content">-->
-<!--            {% if post.image %}-->
-<!--            <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>-->
-<!--            {% endif %}-->
-<!--            <p>{{ post.excerpt }}</p>-->
             {{ post.excerpt }}
-<!--        </div>-->
-<!--        <div class="has-text-centered">-->
-<!--            <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary">Read more</a>-->
-<!--        </div>-->
     </div>
-<!--    <footer class="card-footer">-->
-<!--        <p class="card-footer-item">Published: {{ post.date | date: "%b %-d, %Y" }}</p>-->
-<!--    </footer>-->
 </div>
