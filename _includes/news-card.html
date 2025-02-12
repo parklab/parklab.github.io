@@ -1,0 +1,19 @@
+<div class="news-card card">
+    <div class="card-header">
+        <div class="content">
+            {% if news-item.thumbnail %}
+            <div class="thumbnail">
+                <img src="{{ news-item.thumbnail }}" alt="{{ news-item.thumbnail_alt }}">
+            </div>
+            {% endif %}
+            <div class="text">
+                <a class="card-header-title" href="{{ news-item.baseurl }}{{ news-item.url }}"><span>{{ news-item.title}}</span></a>
+                <span class="card-header-date">{{ news-item.date | date: "%B %d, %Y"}} </span>
+            </div>
+        </div>
+    </div>
+    <div class="card-content">
+            <!-- Note: truncatewords may split a word inside of some text decoration -->
+            {{ news-item.content | truncatewords: 51 }}
+    </div>
+</div>

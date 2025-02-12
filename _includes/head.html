@@ -1,0 +1,17 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | Park Lab | Computational Genomics | Harvard</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.svg" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet"
+    />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    {% seo %}
+    {%- if site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+    {%- include head-scripts.html -%}
+</head>

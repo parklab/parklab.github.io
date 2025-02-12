@@ -1,0 +1,40 @@
+---
+layout: page
+show_sidebar: false
+---
+
+{{ content }}
+
+
+{% assign galleries = site.galleries | sort: "date" | reverse %}
+{% for gallery in galleries %}
+{% assign link = gallery.url %}
+<div class="gallery-container">
+    <a href="{{ link }}">
+        <h1 class="gallery-title">{{ gallery.title }}</h1>
+    </a>
+    <p>{{ gallery.date | date: "%b %-d, %Y" }}</p>
+    <div class="gallery-images-container">
+        {% for item in gallery.items limit:8 %}
+
+        {% comment %} Manually set URL {% endcomment %}
+        {% if item.source_url %}
+        <img src="{{ item.source_url }}" alt="{{ item.alt }}"/>
+
+        {% comment %} Use compbio images {% endcomment %}
+        {% elsif gallery.use_compbio_images and item.compbio_filename %}
+        <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_thumbnail/public/parklab/files/{{ item.compbio_filename }}" alt="{{ item.alt }}"/>
+        
+        {% comment %} Use drupal images {% endcomment %}
+        {% elsif gallery.use_drupal_images and item.drupal_filename %}
+        <img src="https://prod-parklab.drupalsites.harvard.edu/sites/g/files/omnuum5466/files/styles/hwp_1_1__480x480/public/parklab/files/{{ item.drupal_filename }}" alt="{{ item.alt }}"/>
+        
+        {% comment %} Use local images {% endcomment %}
+        {% elsif gallery.use_local_images and item.local_filename %}
+        <img src="./img/{{ item.local_filename }}" alt="{{ item.alt }}"/>
+        {% endif %}
+            
+    {% endfor %}
+    </div>
+</div>
+{% endfor %}

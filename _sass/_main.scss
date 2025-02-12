@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+html {
+  height: 100vh;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &.modal-open {
+    overflow: hidden;
+  }
+}
+
+$family-sans-serif: "Inter", Helvetica, Arial, sans-serif;
+$primary: #155799 !default;
+$tabs-link-active-color: $primary;
+$tabs-link-active-border-bottom-color: $primary;
+
+// Disable the mobile breakpoint
+// $mobile-enabled: false;
+//$tablet-enabled: false;
+//$desktop-enabled: false;
+//$widescreen-enabled: false;
+//$fullhd-enabled: false;
+
+a{
+  &:link{
+    color: $primary;
+    text-decoration: none;
+  }
+  &:visited{
+    color: $primary;
+    text-decoration: none;
+  }
+  &:hover{
+    color: $primary;
+    text-decoration: none;
+  }
+  &:active{
+    color: $primary;
+    text-decoration: none;
+  }
+}
+
+@import "../node_modules/bulma/bulma.sass";
+@import "layout";
+@import "syntax";
+@import "showcase";
+@import "block-list";
+@import "navigation";
+@import "footer";
+
+// Pages
+@import "pages/index";
+@import "modules/index";

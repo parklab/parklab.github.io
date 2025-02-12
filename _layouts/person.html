@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<div class="page-person">
+    <div class="content column is-10">
+        <div class="header">
+            {% if page.name %}
+            <div class="header-container">
+                <h1 class="name">{{ page.name }}</h1>
+            </div>
+            {% endif %}
+            {% if page.professional_title %}
+            <h2 class="title">{{ page.professional_title }}</h2>
+            {% endif %}
+
+            <!-- Tags -->
+             {% if page.tags %}
+                <div class="tags-container">
+                    {% for tag in page.tags %}
+                    <a class="tag" href="/tags/{{ tag | downcase }}">{{ tag }}</a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            
+        </div>
+        
+        <hr />
+
+        <div class="image-and-description">
+            {% if page.image %}
+            <div class="image-container">
+                <img src=".{{ page.image }}" />
+            </div>
+            {% endif %}
+
+            <div class="description-container">
+                {% if page.description %}
+                {{ page.description }}
+                {% else %}
+                {{ page.content }}
+                {% endif %}
+            </div>
+            
+        </div>
+
+        <hr />
+
+        <div class="information-cards-container">
+            
+            {% if page.additional_links %}
+            <div class="information-card">
+                <span class="title">Additional Links</span>
+                <div class="value">
+                    <div class="additional-links-container">
+                        {% if page.additional_links.github %}
+                        <a class="link github" href="{{ page.additional_links.github }}" target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
+                        {% if page.additional_links.linkedin %}
+                        <a class="link linkedin" href="{{ page.additional_links.linkedin }}" target="_blank">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if page.contact_information %}
+            <div class="information-card">
+                <span class="title">Contact Information</span>
+                <span class="value">{{ page.contact_information }}</span>
+            </div>
+            {% endif %}
+
+            <div class="information-card">
+                <span class="title">Status</span>
+                <span class="value">
+                    {% if page.academic < 10 %}
+                    Active Member
+                    {% else %}
+                    Alumni
+                    {% endif %}
+                </span>
+            </div>
+
+            {% if page.subtitle %}
+            <div class="information-card">
+                <span class="title">Position</span>
+                <span class="value">{{ page.subtitle }}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

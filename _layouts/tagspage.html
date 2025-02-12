@@ -1,0 +1,43 @@
+---
+layout: page
+---
+All tags
+
+{% comment %} Table of Contents {% endcomment %}
+<div class="tags-table-of-contents">
+  {% for tag in site.data.tags %}
+    <li>
+      <a href="#{{tag.tag_id}}">{{ tag.tag_name }}</a>
+    </li>
+  {% endfor %}
+</div>
+
+{% comment %} Tag items {% endcomment %}
+{% for tag in site.data.tags %}
+
+  <div class="tag-section">
+    <h2 id="{{ tag.tag_id }}">{{ tag.tag_name }}</h2>
+
+    {% comment %} Tagged POST items {% endcomment %}
+    <div class="tag-list">
+      {% for post in site.tags[tag.tag_id] %}
+        <li>
+          {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </div>
+    
+    {% comment %} Tagged PERSON items {% endcomment %}
+    <div class="tag-list">
+      {% for person in site.people %}
+        {% if person.tags contains tag.tag_id %}
+          <li>
+            <a href="{{ person.url }}">{{ person.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+  </div>
+
+{% endfor %}

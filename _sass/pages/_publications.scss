@@ -1,0 +1,174 @@
+/** Publications page-specific styles */
+.page-publications {
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+
+    .pub
+    {
+    font-size: 15px;
+    }
+
+    .pubInfo
+    {
+    font-size: 100%;
+    margin-bottom: 30px;
+    }
+
+    .lab_member
+    {
+        font-weight: 600;
+        color: black;
+    }
+
+    .title
+    {
+        font-size: 1rem;
+    }
+
+    .comment
+    {
+        font-weight: bolder;
+        font-size: 15px;
+        color: black;
+    }
+
+    .authorship
+    {
+        /*font-weight: bolder;*/
+        /*font-size: 15px;*/
+        color: gray;
+    }
+
+    .venue
+    {
+        color: gray;
+    }
+
+
+    .thumbnail
+    {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        border:1px solid #021a40;
+        border-radius: 0px;
+    }
+
+    .award-icon
+    {
+        margin-left:10px;
+        margin-right:5px;
+    }
+
+    .award-text
+    {
+        font-size:14px;
+        vertical-align:text-top;
+        color: #474747;
+        text-decoration: underline;
+    }
+
+
+
+    .authors
+    {
+        /*color: #185A7C;*/
+        color: #474747;
+        font-weight: 400;
+    }
+
+    .type-tag
+    {
+    font-size:13px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding-left: 7;
+    padding-right: 7;
+    border-radius: 5px;
+    }
+
+    .supp
+    {
+    color: #474747;
+    background-color: white;
+    }
+
+
+    // #sort-select {
+    //     font-size: 2rem;
+    //     padding: 0px 12px;
+    //     border-radius: 4px;
+    //     border: 2px solid lightgray;
+    //     font-family: Inter;
+    //     font-weight: 500;
+    //     color: #4a4a4a;
+
+    //     &:hover {
+    //         cursor: pointer;
+    //     }
+    // }
+
+    .publications-container {
+        display: flex;
+        flex-direction: column;
+        
+        .category-links {
+            display: flex;
+            flex: 1;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style-type: none;
+            height: min-content;
+
+            .category-link-item {
+                display: flex;
+                border-radius: 3px;
+                margin: 0px;
+                height: min-content;
+                
+                .category-link {
+                    padding: 5px 10px;
+                    font-size: 0.875rem;
+                }
+            }
+        }
+        
+        .pubs {
+            flex: 5;
+            margin-top: 20px;
+
+
+            h3.header {
+                margin-top: 60px;
+                margin-bottom: 0px;
+                color: #4a4a4a;
+                scroll-margin: 30px;
+
+                &:first-of-type {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+
+
+    @media screen and (min-width: 1200px) {
+        .publications-container {
+            flex-direction: row-reverse;
+
+            .category-links {
+                flex-direction: column;
+                gap: 0px;
+            }
+        }
+    }
+
+}

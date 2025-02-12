@@ -1,0 +1,23 @@
+<nav class="pagination is-centered">
+    {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination-button pagination-previous is-info">Previous</a>
+    {% else %}
+    <a class="pagination-previous pagination-button " disabled>Previous</a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination-button pagination-next is-info">Next</a>
+    {% else %}
+    <a class="pagination-next pagination-button " disabled >Next</a>
+    {% endif %}
+    <ul class="pagination-list">
+        {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+        <li><a class="pagination-link is-current"><span class="page-number">{{ page }}</span></a></li>
+        {% elsif page == 1 %}
+        <li><a href="/news/" class="pagination-link"><span class="page-number">{{ page }}</span></a></li>
+        {% else %}
+        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link"><span class="page-number">{{ page }}</span></a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
