@@ -7,3 +7,6 @@ galleries/img
 
 # Ignore local supplementary files
 _supplements/files
+
+# Ignore local news images
+img/news-images
