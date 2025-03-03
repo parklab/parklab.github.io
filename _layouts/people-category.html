@@ -41,6 +41,11 @@ show_sidebar: false
                           <i class="fab fa-linkedin"></i>
                         </a>
                         {% endif %}
+                        {% if person.additional_links.organization %}
+                        <a class="link organization" href="{{ person.additional_links.organization }}" target="_blank">
+                            <i class="fas fa-users"></i>
+                        </a>
+                        {% endif %}
                     </div>
                   {% endif %}
                 </div>

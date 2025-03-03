@@ -10,8 +10,12 @@ layout: page
         {% for item in page.items %}
         <button class="gallery-image-button" data-open-modal="true">
 
+            {% comment %} Manually set URL {% endcomment %}
+            {% if item.source_url %}
+            <img src="{{ item.source_url }}" alt="{{ item.alt }}"/>
+
             {% comment %} Use compbio images {% endcomment %}
-            {% if page.use_compbio_images and item.compbio_filename %}
+            {% elsif page.use_compbio_images and item.compbio_filename %}
             <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/{{ item.compbio_filename }}" alt="{{ item.alt }}" />
             
             {% comment %} Use drupal images {% endcomment %}

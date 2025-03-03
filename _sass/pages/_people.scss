@@ -48,6 +48,7 @@
                                 align-items: flex-start;
                                 max-width: 80%;
                                 padding: 10px 20px 0px;
+                                gap: 5px;
                 
                                 .title {
                                     margin: 0px;
@@ -76,14 +77,24 @@
                                 }
                                 .additional-links-container {
                                     display: flex;
-                                    justify-content: center;
+                                    justify-content: flex-start;
                                     gap: 12px;
+                    
                                     .link {
+                                        display: flex;
+                                        justify-content: center;
                                         color: #4A4A4A;
                                         font-size: 1.5rem;
-
+                        
                                         &:hover {
                                             color: #404040;
+                                        }
+                    
+                                        &.organization {
+                                            font-size: 1.25rem;
+                                        }
+                                        &.other {
+                                            font-size: 1.25rem;
                                         }
                                     }
                                 }
