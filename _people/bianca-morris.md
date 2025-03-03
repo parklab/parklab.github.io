@@ -12,5 +12,6 @@ position_category: Staff Scientists and Software Engineers
 additional_links:
     github: https://github.com/Bianca-Morris
     linkedin: https://www.linkedin.com/in/biancamorris/
-    other: https://www.biancamorris.com/
+    others:
+        - https://www.biancamorris.com/
 ---

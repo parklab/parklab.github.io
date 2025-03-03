@@ -55,13 +55,13 @@ layout: default
                     <div class="additional-links-container">
                         {% if page.additional_links.github %}
                         <a class="link github" href="{{ page.additional_links.github }}" target="_blank">
-                            <i class="fa-brands fa-github"></i>
+                            <i class="fab fa-github"></i>
                         </a>
                         {% endif %}
                         
                         {% if page.additional_links.linkedin %}
                         <a class="link linkedin" href="{{ page.additional_links.linkedin }}" target="_blank">
-                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fab fa-linkedin"></i>
                         </a>
                         {% endif %}
                         
@@ -71,9 +71,10 @@ layout: default
                         </a>
                         {% endif %}
                         
-                        {% if page.additional_links.other %}
-                        {% for link in page.additional_links.other %}
+                        {% if page.additional_links.others %}
+                        {% for link in page.additional_links.others %}
                         <a class="link other" href="{{ link }}" target="_blank">
+                            <span className="link-subscript">{{ forloop.index }}</span>
                             <i class="fas fa-link"></i>
                         </a>
                         {% endfor %}
