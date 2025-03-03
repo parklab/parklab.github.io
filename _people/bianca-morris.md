@@ -9,4 +9,8 @@ academic: 5  # Updated academic field
 image: ./img/bianca-morris.jpg
 hide_footer: true
 position_category: Staff Scientists and Software Engineers
+additional_links:
+    github: https://github.com/Bianca-Morris
+    linkedin: https://www.linkedin.com/in/biancamorris/
+    other: https://www.biancamorris.com/
 ---
