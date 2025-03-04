@@ -2,7 +2,9 @@
 layout: page
 ---
 
-<h1>{{ page.tag }}</h1>
+{% assign tag = site.data.tags[page.tag] %}
+
+<h1>{{ tag.display_name }}</h1>
 
 <ul>
     {% for post in site.tags[page.tag] %}
@@ -11,8 +13,3 @@ layout: page
       </li>
     {% endfor %}
 </ul>
-{% comment %} {% for post in site.tags[page.tag] %}
-    <li>
-    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-{% endfor %} {% endcomment %}

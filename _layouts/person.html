@@ -18,7 +18,9 @@ layout: default
              {% if page.tags %}
                 <div class="tags-container">
                     {% for tag in page.tags %}
-                    <a class="tag" href="/tags/{{ tag | downcase }}">{{ tag }}</a>
+                    {% assign tag_info = site.data.tags[tag] %}
+
+                    <a class="tag" href="/tags/{{ tag }}">{{ tag_info.display_name }}</a>
                     {% endfor %}
                 </div>
             {% endif %}

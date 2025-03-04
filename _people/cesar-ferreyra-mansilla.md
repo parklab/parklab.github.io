@@ -11,6 +11,8 @@ position_category: Staff Scientists and Software Engineers
 additional_links:
     github: "https://github.com/crfmc"
     linkedin: "https://www.linkedin.com/in/cesarferreyramansilla/"
+tags:
+    - "smaht"
 ---
 
 I received a BA in Information Science at Cornell University. During my time there, I worked as a Software Developer for the university newspaper organization, the Cornell Daily Sun, where I built interactive web pages for news articles. Afterwards, I worked as a software developer at a digital agency based out of New York City, where I built websites and portals for healthcare startups. Outside of programming I like running, cooking, and admiring my indoor plants.
