@@ -4,7 +4,7 @@ layout: page
 
 {% assign tag = site.data.tags[page.tag] %}
 
-<h1>{{ tag.display_name }}</h1>
+<h1><i class="fas fa-tag"></i>{{ tag.display_name }}</h1>
 
 <ul>
     {% for post in site.tags[page.tag] %}
