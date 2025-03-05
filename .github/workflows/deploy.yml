@@ -17,12 +17,20 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1.3'  # Use your required Ruby version
+          ruby-version: '3.1.3'
 
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
+
+      - name: Set the baseurl in _config.yml
+        run: |
+          if [[ "${GITHUB_REF}" == "refs/heads/staging" ]]; then
+            echo "baseurl: '/staging'" >> _config.yml
+          else
+            echo "baseurl: ''" >> _config.yml
+          fi
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
@@ -32,5 +40,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          destination_dir: ${{ github.ref == 'refs/heads/staging' && 'staging' || '' }}
-          publish_branch: gh-pages  # Correct input for target branch
+          publish_branch: gh-pages
