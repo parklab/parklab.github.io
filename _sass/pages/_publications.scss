@@ -1,5 +1,12 @@
 /** Publications page-specific styles */
 .page-publications {
+
+    .label {
+        .asterisk {
+            margin-top: 10px;
+        }
+    }
+
     h1 {
         font-size: 1.5rem;
         font-weight: 700;
@@ -100,38 +107,57 @@
     }
 
 
-    // #sort-select {
-    //     font-size: 2rem;
-    //     padding: 0px 12px;
-    //     border-radius: 4px;
-    //     border: 2px solid lightgray;
-    //     font-family: Inter;
-    //     font-weight: 500;
-    //     color: #4a4a4a;
+    #sort-select {
+        font-size: 1rem;
+        padding: 0px 8px;
+        border-radius: 4px;
+        border: 2px solid lightgray;
+        font-family: Inter;
+        font-weight: 500;
+        color: #4a4a4a;
+        width: max-content;
 
-    //     &:hover {
-    //         cursor: pointer;
-    //     }
-    // }
+        &:hover {
+            cursor: pointer;
+        }
+    }
 
     .publications-container {
         display: flex;
         flex-direction: column;
+
+        .category-links-container {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin-top: 39px;
+
+            h2 {
+                font-size: 1.25rem;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+                border-bottom: 2px solid whitesmoke;
+            }
+        }
         
         .category-links {
             display: flex;
-            flex: 1;
             justify-content: flex-start;
             flex-wrap: wrap;
             gap: 10px;
             list-style-type: none;
             height: min-content;
+            margin-left: 0px;
+            margin-top: 0px;
+            flex: 1 1 0;
 
             .category-link-item {
                 display: flex;
                 border-radius: 3px;
                 margin: 0px;
                 height: min-content;
+                justify-content: flex-start;
                 
                 .category-link {
                     padding: 5px 10px;
@@ -141,8 +167,9 @@
         }
         
         .pubs {
-            flex: 5;
+            flex: 6;
             margin-top: 20px;
+            padding-right: 30px;
 
 
             h3.header {
@@ -160,7 +187,7 @@
 
 
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1216px) {
         .publications-container {
             flex-direction: row-reverse;
 

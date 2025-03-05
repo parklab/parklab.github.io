@@ -1,33 +1,27 @@
 // Script for generating the publications page
 
-// Get the sort field from the URL
+// Get the sort parameter from the URL
 const params = new URLSearchParams(window.location.search);
-const sort_field = params.get('sort') || 'year';
+const sort_param = params.get('sort') || 'year';
+
+const group_field = sort_param === "key-papers" ? "year" : sort_param;
 
 // Listen for change in sort field selector
 const selectElement = document.getElementById('sort-select');
-console.log(selectElement);
+const selectElementValue = selectElement.value;
 
-selectElement.appendChild(new Option('Year', 'year', false, sort_field === 'year'));
-selectElement.appendChild(new Option('Journal', 'journal', false, sort_field === 'journal'));
+selectElement.appendChild(new Option('Year', 'year', false, sort_param === 'year'));
+selectElement.appendChild(new Option('Journal', 'journal', false, sort_param === 'journal'));
+selectElement.appendChild(new Option('Key Papers', 'key-papers', false, sort_param === 'key-papers'));
 
 selectElement.addEventListener('change', (event) => {
-  console.log(event.target.value);
   window.location.href = `?sort=${event.target.value}`;
 });
 
-MY_NAME = "NAME";
-
 // DISPLAY OPTIONS -------
 SHOW_THUMBNAILS = false;
-SHOW_TYPE_TAGS = false;
 SHOW_YEAR_HEADINGS = false;
-// Note that this is still organized by year,
-// so it doesn't make sense for this to be true
-// and SHOW_YEAR_HEADINGS to be false.
 SHOW_TYPE_HEADINGS = false;
-// If true, assumes that there is a pub_grouping mapping in the json object
-USE_CUSTOM_GROUPS = false;
 //-------------------------
 
 // The order the that types are grouped during each year
@@ -45,22 +39,60 @@ var tagColor;
 // If we use customs group, this maps orig type name to custom group name
 var groupMap;
 
+// Generate a map of authors to their publications
+// const generateAuthorMap = (publications) => {
+
+//   publications.reduce((acc, pub, i) => {
+//     console.log("pub:", pub, acc);
+//     for (const author of pub.author) {
+//       const { name, lab_member } = author;
+
+//       const filtered_name = name?.replace(/\*/g, '');
+
+//       // Author not present in map
+//       if (filtered_name && !acc?.[filtered_name]) {
+//         acc[name] = [];
+//       }
+
+//       // Add publication to author entry
+//       acc?.[name]?.push(pub);
+//     }
+    
+//     return acc;
+//   }, {});
+// }
+
+
+
+// Load category links
+const data = fetch('/publication-data.json').then(response => response.json()).then(data => data.publications.filter(d => d.is_key_paper));
+
+
+// Group [data] by [group_field]
+// const grouped_data = Object.groupBy(data, (d) => d[group_field]);
+
+
 d3.json('/publication-data.json', function(json) {
 
-  if (USE_CUSTOM_GROUPS) {
-    groupMap = d3.map(json.pub_grouping)
-  };
+  // const authorMap = generateAuthorMap(json.publications);
 
   createTypeColors(json.publications);
 
-  data = json.publications;
+  let data = json.publications;
   
-  // Group [data] by [sort_field]
-  const grouped_data = Object.groupBy(data, (d) => d[sort_field]);
+  if (sort_param === 'key-papers') {
+    data = data.filter(d => d.is_key_paper);
+  }
 
-  // Sort [grouped_data] by comparing values for various [sort_field] types
+  // Group [data] by [group_field]
+  const grouped_data = Object.groupBy(data, (d) => d[group_field]);
+
+  // Sort [grouped_data] by comparing values for various [group_field] types
   let sorted_keys;
-  switch (sort_field) {
+  switch (sort_param) {
+    case 'key-papers':
+      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+      break;
     case 'year':
       sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
       break;
@@ -84,9 +116,13 @@ d3.json('/publication-data.json', function(json) {
 
 function renderCategoryLinks(data, data_groups_by_venue) {
   const pubsContainer = d3.select('#publications');
-  const categoryLinks = pubsContainer.append('ul').classed('category-links', true);
+  const categoryLinksContainer = pubsContainer.append('div').classed('category-links-container', true);
+ 
+  // Title of the category links
+  categoryLinksContainer.append('h2').text(sort_param === "key-papers" ? "Year" : selectElement.options[selectElement.selectedIndex].innerText)
 
-  // Links to the different categories
+  // Links to the different category values
+  const categoryLinks = categoryLinksContainer.append('ul').classed('category-links', true);
   data.forEach(category => {
     categoryLinks.append('li')
       .classed('category-link-item', true)
@@ -94,7 +130,7 @@ function renderCategoryLinks(data, data_groups_by_venue) {
       .attr('href', `#${category}`)
       .attr('class', 'category-link')
       .text(category + ' (' + data_groups_by_venue[category].length + ')');
-  })
+  });
 }
 
 function createTypeColors(d) {
@@ -111,8 +147,6 @@ function createTypeColors(d) {
 renderPubGroups = function(sorted_keys, pubData, target) {
   const pubsContainer = d3.select(target);
   const pubs = pubsContainer.append('div').attr('id', 'pubs').classed('pubs', true);
-  
-  console.log(sorted_keys);
 
   sorted_keys.forEach(key => {
     renderPubGroup(pubData[key], "#pubs", key);
@@ -149,19 +183,6 @@ function renderPubGroup(pubData, target, category) {
       })
       .attr('width', ICON_SIZE)
       .attr('height', ICON_SIZE);
-  }
-
-  if (SHOW_TYPE_TAGS) {
-    // tag that shows pub type
-    pubs.append('text')
-      .classed('type-tag', true)
-      .text(function(d) {
-        return d.type + '';
-      })
-      .style('background-color', function(d) {
-        return tagColor(d.type);
-      })
-      .style('opacity', 0.5);
   }
 
   // Div for all the publication info

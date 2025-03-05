@@ -22,12 +22,8 @@ $primary: #155799 !default;
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
 
-// Disable the mobile breakpoint
-// $mobile-enabled: false;
-//$tablet-enabled: false;
-//$desktop-enabled: false;
-//$widescreen-enabled: false;
-//$fullhd-enabled: false;
+// Overwrite the navabar breakpoint for Bulma CSS
+$navbar-breakpoint: 1216px;
 
 a{
   &:link{
