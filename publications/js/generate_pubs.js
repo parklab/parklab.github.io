@@ -20,8 +20,6 @@ selectElement.addEventListener('change', (event) => {
 
 // DISPLAY OPTIONS -------
 SHOW_THUMBNAILS = false;
-SHOW_YEAR_HEADINGS = false;
-SHOW_TYPE_HEADINGS = false;
 //-------------------------
 
 // The order the that types are grouped during each year
