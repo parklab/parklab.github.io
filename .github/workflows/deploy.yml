@@ -27,9 +27,11 @@ jobs:
       - name: Set the baseurl in _config.yml
         run: |
           if [[ "${GITHUB_REF}" == "refs/heads/staging" ]]; then
-            echo "baseurl: '/staging'" >> _config.yml
+            # Modify _config.yml to set baseurl for staging
+            sed -i 's/baseurl: ""/baseurl: "\/staging"/' _config.yml
           else
-            echo "baseurl: ''" >> _config.yml
+            # Modify _config.yml to set baseurl for production
+            sed -i 's/baseurl: ""/baseurl: ""/' _config.yml
           fi
 
       - name: Build Jekyll site
