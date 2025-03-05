@@ -1157,7 +1157,8 @@
       "pdf_link": "/publications/pdf/s41586-023-06057-w.pdf",
       "year": "2023",
       "journal": "Nature",
-      "journal_location": "Nature 2023"
+      "journal_location": "Nature 2023",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -1841,7 +1842,8 @@
       "pdf_link": "/publications/pdf/s41467-022-29697-4.pdf",
       "year": "2022",
       "journal": "Nature",
-      "journal_location": "Nature Communications 2022;13(1):2365"
+      "journal_location": "Nature Communications 2022;13(1):2365",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -1873,7 +1875,8 @@
       "pdf_link": "",
       "year": "2022",
       "journal": "Nature",
-      "journal_location": "Nature Reviews Genetics 2022;23(5):298-314"
+      "journal_location": "Nature Reviews Genetics 2022;23(5):298-314",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -3305,7 +3308,8 @@
       "pdf_link": "/publications/pdf/nihms-1648954_1.pdf",
       "year": "2021",
       "journal": "Nat Neurosci",
-      "journal_location": "Nat Neurosci 2021;24(2):176-185"
+      "journal_location": "Nat Neurosci 2021;24(2):176-185",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -3449,7 +3453,8 @@
       "pdf_link": "/publications/pdf/s41588-019-0576-7.pdf",
       "year": "2020",
       "journal": "Nature",
-      "journal_location": "Nature Genetics 2020;52(3):331-341"
+      "journal_location": "Nature Genetics 2020;52(3):331-341",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -3501,7 +3506,8 @@
       "pdf_link": "/publications/pdf/nihms-1544381_1.pdf",
       "year": "2020",
       "journal": "Nature",
-      "journal_location": "Nature Biotechnology 2020;38(3):314-319"
+      "journal_location": "Nature Biotechnology 2020;38(3):314-319",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -5233,7 +5239,8 @@
       "pdf_link": "",
       "year": "2019",
       "journal": "Nature",
-      "journal_location": "Nature Genetics 2019;51(5):912-919"
+      "journal_location": "Nature Genetics 2019;51(5):912-919",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -5301,7 +5308,8 @@
       "pdf_link": "/publications/pdf/nihms-1061349_1.pdf",
       "year": "2019",
       "journal": "Nature",
-      "journal_location": "Nature Genetics 2019;51:749-754"
+      "journal_location": "Nature Genetics 2019;51:749-754",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -9749,7 +9757,8 @@
       "pdf_link": "/publications/pdf/nihms-735404.pdf",
       "year": "2015",
       "journal": "Science",
-      "journal_location": "Science 2015;350(6256):94-8"
+      "journal_location": "Science 2015;350(6256):94-8",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -10453,7 +10462,8 @@
       "pdf_link": "",
       "year": "2015",
       "journal": "Nature",
-      "journal_location": "Nature 2015;525(7570):E6-9"
+      "journal_location": "Nature 2015;525(7570):E6-9",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -11065,7 +11075,8 @@
       "pdf_link": "/publications/pdf/nature13415.pdf",
       "year": "2014",
       "journal": "Nature",
-      "journal_location": "Nature 2014;512(7515):449-52"
+      "journal_location": "Nature 2014;512(7515):449-52",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -12997,7 +13008,8 @@
       "pdf_link": "/publications/pdf/piis0092867413004510.pdf",
       "year": "2013",
       "journal": "Cell",
-      "journal_location": "Cell 2013;153(4):919-29"
+      "journal_location": "Cell 2013;153(4):919-29",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -13157,7 +13169,8 @@
       "pdf_link": "/publications/pdf/piis0092867413012919.pdf",
       "year": "2013",
       "journal": "Cell",
-      "journal_location": "Cell 2013;155(4):858-68"
+      "journal_location": "Cell 2013;155(4):858-68",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -14261,7 +14274,8 @@
       "pdf_link": "/publications/pdf/science.1222077.pdf",
       "year": "2012",
       "journal": "Science",
-      "journal_location": "Science 2012;337(6097):967-71"
+      "journal_location": "Science 2012;337(6097):967-71",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -15045,7 +15059,8 @@
       "pdf_link": "/publications/pdf/nihms-258585.pdf",
       "year": "2011",
       "journal": "Nature",
-      "journal_location": "Nature 2011;471(7336):115-8"
+      "journal_location": "Nature 2011;471(7336):115-8",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -15301,7 +15316,8 @@
       "pdf_link": "/publications/pdf/nihms256870.pdf",
       "year": "2011",
       "journal": "Nature",
-      "journal_location": "Nature 2011;471(7339):480-5"
+      "journal_location": "Nature 2011;471(7339):480-5",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -16937,7 +16953,8 @@
       "pdf_link": "/publications/pdf/nihms327265.pdf",
       "year": "2009",
       "journal": "Nat Rev Genet",
-      "journal_location": "Nat Rev Genet 2009;10(10):669-80"
+      "journal_location": "Nat Rev Genet 2009;10(10):669-80",
+      "is_key_paper": true
     },
     {
       "author": [
@@ -18249,7 +18266,8 @@
       "pdf_link": "/publications/pdf/pnas.0506577102.pdf",
       "year": "2005",
       "journal": "Proc Natl Acad Sci U S A",
-      "journal_location": "Proc Natl Acad Sci U S A 2005;102(38):13544-9"
+      "journal_location": "Proc Natl Acad Sci U S A 2005;102(38):13544-9",
+      "is_key_paper": true
     },
     {
       "author": [

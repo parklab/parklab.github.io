@@ -56,6 +56,18 @@
 // Styles for a news-item page
 .page-news-item {
     .content {
+        h1.title {
+            margin-bottom: 10px;
+        }
+
+        .date {
+            margin-bottom: 10px;
+        }
+
+        .tags-container {
+            margin-bottom: 20px;
+        }
+        
         img {
             max-width: 100%;
         }

@@ -76,6 +76,7 @@
                 gap: 12px;
 
                 .link {
+                    position: relative;
                     display: flex;
                     justify-content: center;
                     color: #4A4A4A;
@@ -90,6 +91,14 @@
                     }
                     &.other {
                         font-size: 1.25rem;
+
+                        span {
+                            position: absolute;
+                            bottom: 0px;
+                            right: 0px;
+                            font-size: 0.5rem;
+                            font-weight: 600;
+                        }
                     }
                 }
             }
