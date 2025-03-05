@@ -39,42 +39,7 @@ var tagColor;
 // If we use customs group, this maps orig type name to custom group name
 var groupMap;
 
-// Generate a map of authors to their publications
-// const generateAuthorMap = (publications) => {
-
-//   publications.reduce((acc, pub, i) => {
-//     console.log("pub:", pub, acc);
-//     for (const author of pub.author) {
-//       const { name, lab_member } = author;
-
-//       const filtered_name = name?.replace(/\*/g, '');
-
-//       // Author not present in map
-//       if (filtered_name && !acc?.[filtered_name]) {
-//         acc[name] = [];
-//       }
-
-//       // Add publication to author entry
-//       acc?.[name]?.push(pub);
-//     }
-    
-//     return acc;
-//   }, {});
-// }
-
-
-
-// Load category links
-const data = fetch('/publication-data.json').then(response => response.json()).then(data => data.publications.filter(d => d.is_key_paper));
-
-
-// Group [data] by [group_field]
-// const grouped_data = Object.groupBy(data, (d) => d[group_field]);
-
-
 d3.json('/publication-data.json', function(json) {
-
-  // const authorMap = generateAuthorMap(json.publications);
 
   createTypeColors(json.publications);
 
