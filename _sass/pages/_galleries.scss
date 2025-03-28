@@ -1,0 +1,28 @@
+.page-galleries {
+    
+    .gallery-container {
+        margin-top: 40px;
+
+        & > a {
+            display: flex;
+            width: max-content;
+            
+            h1.gallery-title {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+    
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        
+        
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+    
+}

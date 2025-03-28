@@ -1,0 +1,83 @@
+.news-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+// Styles for the news cards on the /news/ page
+.news-card {
+    box-shadow: none;
+    padding: 40px 0px;
+    border-bottom: 1px solid #ebebeb;
+
+    .card-header {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        margin-bottom: 10px;
+        
+        &-title {
+            font-size: 1.25rem;
+            flex-grow: inherit;
+            padding: 0px;
+        }
+        &-date {
+            font-size: 0.875rem;
+            color: #808080;
+            font-style: italic;
+        }
+    }
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+
+        img {
+            margin-top: 10px;
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+        }
+    }
+    .card-header {
+        .content {
+            display: flex;
+
+            .thumbnail {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    &:first-of-type {
+        padding-top: 20px;
+    }
+}
+
+// Styles for a news-item page
+.page-news-item {
+    .content {
+        h1.title {
+            margin-bottom: 10px;
+        }
+
+        .date {
+            margin-bottom: 10px;
+        }
+
+        .tags-container {
+            margin-bottom: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .content {
+            img {
+                max-width: 800px;
+            }
+        }
+    }
+}

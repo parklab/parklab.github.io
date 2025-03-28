@@ -1,0 +1,60 @@
+---
+layout: default
+show_sidebar: false
+---
+
+<div class="people-page-container">
+  <div class="page-header-container">
+    {{ page.content }}
+  </div>
+
+  <div class="page-body-container">
+    {% assign people_by_category = site.people | group_by: "position_category" %}
+
+    {% for category in site.data.categories-order %}
+      <div class="category-container">
+        <h2 class="category-header">{{ category }}</h2>
+        
+        {% assign currentPositionCategory = people_by_category | where: "name" , category | first %}
+  
+        <div class="category-body">
+            {% for person in currentPositionCategory.items %}
+            <div class="person-container" data-person="{{ person.name }}">
+              {% if person.image %}
+              <div class="person-card">
+                <div class="image-container">
+                  <img src="{{ person.image }}" alt="{{ person.name }}" />
+                </div>
+                <div class="person-information">
+                  <p class="title">{{ person.person_title }}</p>
+                  <p class="subtitle">{{ person.subtitle }}</p>
+                  {% comment %} <a class="read-more" href="{{ person.id }}">Read more</a> {% endcomment %}
+                  {% if person.additional_links %}
+                    <div class="additional-links-container">
+                        {% if person.additional_links.github %}
+                        <a class="link github" href="{{ person.additional_links.github }}" target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.additional_links.linkedin %}
+                        <a class="link linkedin" href="{{ person.additional_links.linkedin }}" target="_blank">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.additional_links.organization %}
+                        <a class="link organization" href="{{ person.additional_links.organization }}" target="_blank">
+                            <i class="fas fa-users"></i>
+                        </a>
+                        {% endif %}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+              {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

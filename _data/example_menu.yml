@@ -1,0 +1,9 @@
+- name: ExampleMenu
+  link: /#
+  items:
+    - name: Item1
+      link: Item1link
+    - name: Item2
+      link: Item2Link
+    - name: Item3
+      link: Item3Link

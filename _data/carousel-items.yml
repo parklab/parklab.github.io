@@ -1,0 +1,160 @@
+- caption:
+    header: A New Tool for Mutational Signature Analysis
+    nested_link: https://www.nature.com/articles/s41588-024-01659-0
+    body: Hu and Doga describe MuSiCal (Mutational Signature Calculator) for analysis
+      of somatic mutations (Nat Genetics 2024)
+  image: carousel-images/musical.png
+  link: https://www.nature.com/articles/s41588-024-01659-0
+- caption:
+    header: Tissue-specific proliferative effects underlie tumor CNA patterns
+    nested_link: https://www.nature.com/articles/s41588-024-01665-2
+    body: Chromosome evolution screens using single cell genome sequencing (Emma/Jake,
+      Nat Genetics, 2024)
+  image: carousel-images/chromosome_evolution.png
+  link: https://www.nature.com/articles/s41588-024-01665-2
+- caption:
+    header: Chromoscope for SV analysis
+    nested_link: https://www.nature.com/articles/s41592-023-02056-x
+    body: Interactive multiscale visualization for structural variation by Sehi and Dominik
+      (Nat Methods, 2023)
+  image: carousel-images/chromoscope.png
+  link: https://www.nature.com/articles/s41592-023-02056-x
+- caption:
+    header: Widespread emergence of mosaic CNVs in normal human tissues
+    nested_link: https://www.nature.com/articles/s41588-023-01537-1
+    body: A pan-tissue survey of mosaic chromosomal alterations in 948 individuals (Teng/Kharchenko
+      Lab, Nat Genetics, 2023)
+  image: carousel-images/mcnas.png
+  link: https://www.nature.com/articles/s41588-023-01537-1
+- caption:
+    header: A new mechanism for breast cancers
+    nested_link: https://rdcu.be/ddh89
+    body: Jake discovers Translocation-Bridge Amplification that generates focal amplifications
+      (Nature, 2023)
+  image: carousel-images/tbamplificationfig2.jpg
+  link: https://rdcu.be/ddh89
+- caption:
+    header: Single-cell genome sequencing of human neurons
+    nested_link: https://www.nature.com/articles/s41588-022-01180-2
+    body: Joe finds enrichment of somatic SNVs and indels in regulatory elements (Nat
+      Genetics, 2022)
+  image: carousel-images/thumbnail_image001.png
+  link: https://www.nature.com/articles/s41588-022-01180-2
+- caption:
+    header: Computational analysis of Cancer Genome Sequencing Data
+    nested_link: https://rdcu.be/cCQki
+    body: Isidro et al discuss recent advances in cancer genome analysis (Nature Reviews
+      Genetics, 2022)
+  image: carousel-images/slide-NRG_figure1.png
+  link: https://rdcu.be/cCQki
+- caption:
+    header: Landmarks of embryonic development inscribed in somatic mutations
+    nested_link: https://science.sciencemag.org/content/371/6535/1249
+    body: Mosaic variants in multiple organs resolve post-zygotic lineages (Science,
+      2021)
+  image: carousel-images/untitled-1-01.png
+  link: https://science.sciencemag.org/content/371/6535/1249
+- caption:
+    header: Origins/genetic interactions of KRAS mutations are allele- and tissue-specific
+    nested_link: https://www.nature.com/articles/s41467-021-22125-z
+    body: Analysis of KRAS mutations at the allele level using >13K samples (Nat Comm,
+      2021)
+  image: carousel-images/untitled-2.png
+  link: https://www.nature.com/articles/s41467-021-22125-z
+- caption:
+    header: Comprehensive analysis of chromothripsis using whole-genome data
+    nested_link: https://www.nature.com/articles/s41588-019-0576-7
+    body: Analysis of >2500 cancer genomes shows that chromothripsis events are prevalent
+      across multiple tumor types (Nat Genetics, 2020)
+  image: carousel-images/screenshot_2020-03-08_20.28.59.png
+  link: https://www.nature.com/articles/s41588-019-0576-7
+- caption:
+    header: Detecting mosaic mutations using a ML algorithm (MosaicForecast)
+    nested_link: https://www.nature.com/articles/s41587-019-0368-8
+    body: Yanmei et al develop MosaicForecast, a machine learning-based variant caller
+      for mosaic mutations (Nat Biotech, 2020)
+  image: carousel-images/image.png
+  link: https://www.nature.com/articles/s41587-019-0368-8
+- caption:
+    header: Detecting the mutational signature of homologous recombination deficiency
+    nested_link: https://www.nature.com/articles/s41588-019-0390-2
+    body: Doga et al develop SigMA to identify patients who may benefit from PARP inhibitor
+      treatment (Nat Genetics, 2019)
+  image: carousel-images/gulhan_2019.png
+  link: https://www.nature.com/articles/s41588-019-0390-2
+- caption:
+    header: LiRA identifies mutations in scDNA-seq data
+    nested_link: https://rdcu.be/brEMK
+    body: Craig develops a method for detection of somatic variants in single cells (Nat
+      Genetics, 2019)
+  image: carousel-images/bohrson_NG_fig1.jpg
+  link: https://rdcu.be/brEMK
+- caption:
+    header: 'Review: Detecting somatic mutations in normal cells'
+    nested_link: https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30073-8
+    body: Yanmei, Heather, Joe, and Peter discuss issues in detection of somatic variants
+      (Trends in Genetics, 2018)
+  image: carousel-images/figure_1.jpg
+  link: https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30073-8
+- caption:
+    header: Aging & neurodegeneration assoc. with increased mutations in neurons
+    nested_link: httbody://science.sciencemag.org/content/early/2017/12/06/science.aao4426
+    body: Analysis of the largest single cell WGS dataset to date (Science, 2018)
+  image: carousel-images/untitled.001.jpeg
+  link: httbody://science.sciencemag.org/content/early/2017/12/06/science.aao4426
+- caption:
+    header: 'PaSD-qc: quality control for single cell whole-genome sequencing data'
+    nested_link: https://academic-oup-com.ezp-prod1.hul.harvard.edu/nar/advance-article/doi/10.1093/nar/gkx1195/4658833
+    body: Sherman et al. (Nucleic Acids Research, 2017) develop a QC method based on
+      power density estimation
+  image: carousel-images/untitled.001_01.jpeg
+  link: https://academic-oup-com.ezp-prod1.hul.harvard.edu/nar/advance-article/doi/10.1093/nar/gkx1195/4658833
+- caption:
+    header: Analysis of microsatellite instability identifies patients that may benefit
+      from immunotherapy
+    nested_link: httbody://www.nature.com/articles/ncomms15180
+    body: Cortes-Ciriano et al,Nat Comm, June, 2017
+  image: carousel-images/isidro_figure.png
+  link: httbody://www.nature.com/articles/ncomms15180
+- caption:
+    header: Impact of mutation in a chromatin remodeling protein complex
+    nested_link: https://hms.harvard.edu/news/agent-mischief
+    body: Three papers from a collaboration with the Roberts lab inNature GeneticsandNature
+      Communications
+  image: carousel-images/smarcb1-deficient_g401_cell_line_before_and_after_smarcb1_re-expression.jpg
+  link: https://hms.harvard.edu/news/agent-mischief
+- caption:
+    header: Detecting structural variants from exome data
+    nested_link: null
+    body: Yang et al (AJHG, 2016) analyze nearly 5000 cancer exomes and identify thousands
+      of rearrangements.
+  image: carousel-images/slide1.jpg
+  link: null
+- caption:
+    header: Sequencing single neurons
+    nested_link: httbody://science.sciencemag.org/content/350/6256/94.short
+    body: Lineage tracing of neurons using mutational analysis of single cell whole-genome
+      sequencing data (Science, 2015; cover)
+  image: carousel-images/phylogenycircle.jpg
+  link: httbody://science.sciencemag.org/content/350/6256/94.short
+- caption:
+    header: 4D Nucleome project to understand higher-order nuclear organization
+    nested_link: httbody://4dn-dcic.hms.harvard.edu
+    body: The Park lab, along with the Kharchenko and Gehlenborg labs at DBMI, are leading
+      the Data Coordination and Integration Center
+  image: carousel-images/4C_interactome.png
+  link: httbody://4dn-dcic.hms.harvard.edu
+- caption:
+    header: Cell lineage analysis in human brain using endogenous retroelements
+    nested_link: httbody://www.cell.com/neuron/abstract/S0896-6273(14)01137-4
+    body: Gilad Evrony, Alice Lee, et al. inNeuron, 2015 (Collaboration with the Chris
+      Walsh lab)
+  image: carousel-images/brain-teinsertion-new.jpg
+  link: httbody://www.cell.com/neuron/abstract/S0896-6273(14)01137-4
+- caption:
+    header: Comparative analysis of metazoan chromatin organization
+    nested_link: httbody://www.nature.com/nature/journal/v512/n7515/full/nature13415.html
+    body: A cross-species analysis from the ENCODE and modENCODE consortia, led by Park
+      lab members,Nature, 2014
+  image: carousel-images/front_page.jpg
+  link: httbody://www.nature.com/nature/journal/v512/n7515/full/nature13415.html

@@ -1,0 +1,42 @@
+---
+title: Contact Page Title
+page_name: contact
+subtitle: <br/>
+description: Contact Page Description
+layout: page
+hero_link: heroButtonLink
+hero_link_text: HeroButtonText
+show_sidebar: false
+hero_image: heroImageSrc
+hide_footer: true
+---
+
+# Contact
+
+#### Location of the Lab
+
+
+![Countway Library](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_small/public/parklab/files/countway.jpg?m=1443211854&itok=GZHtj3cj)
+
+Department of Biomedical Informatics<br>
+Harvard Medical School<br>
+10 Shattuck St, 3rd Floor<br>
+Boston, MA 02115<br>
+(Inside Countway Library of Medicine building)<br>
+Phone: 617-432-7373<br>
+Fax: 617-432-0693<br>
+
+#### Directions to the Longwood Medical Area
+
+- If you're coming by the T, Green Lines D ("Longwood" stop) and E ("Brigham Circle" stop) are 2-3 blocks away.
+
+- From the Harvard main campus, take the LMA (Longwood Medical Area) M2 shuttle (click [here](http://www.masco.org/transit/ptsM2.htm) for schedule). A Harvard ID is required. You can catch the bus by Lamont Library; it takes 15-25 minutes depending on traffic.
+
+- From MIT, you can take the Crosstown bus (CT2) (click [here](http://www.mbta.com/traveling_t/schedules_buses_findbus.asp?routenumber=CT2&imageField2.x=60&imageField2.y=14) for route and schedule).
+
+#### Entry to Countway Library
+
+A Harvard, MIT, or a hospital ID is needed. (If you do not have it, please speak to the guard and explain that you are visitor. A call to Peter's office may be needed). The Library is located next to the Gordon Hall in the main Quad (you can see the top of the library between the buildings):
+
+![Harvard Medical School Quad](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_large/public/parklab/files/rsch_sci_env_quad.jpg?m=1443211986&itok=RelqH4sC)
+![Map of Longwood](https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xlarge/public/parklab/files/longwoodmap.gif?m=1443212023&itok=WmAkLs8i)
