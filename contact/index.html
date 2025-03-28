@@ -12,6 +12,7 @@
         rel="stylesheet"
     />
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Contact Page Title | PARK LAB</title>
 <meta name="generator" content="Jekyll v3.8.7" />
@@ -75,34 +76,36 @@
                     closeModal();
                 }
             });
+            
+            // Add event listener to trigger modal on click
+            document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+                button.addEventListener('click', (e) => {
+    
+    
+                    // Assign proper image to modal
+                    const button_image = e.target.querySelector('img');
+                    if (button_image) {
+                        // Use button's child image
+                        const imageSrc = button_image.src;
+                        const imageAlt = button_image.alt;
+                        modalImageElement.src = imageSrc;
+                        modalImageElement.alt = imageAlt;
+                    }
+                    else {
+                        // Use image clicked itself
+                        const imageSrc = e.target.src;
+                        const imageAlt = e.target.alt;
+                        modalImageElement.src = imageSrc;
+                        modalImageElement.alt = imageAlt;
+                    }
+    
+    
+                    body.classList.add('modal-open');
+                    modal.classList.add('show');
+                });
+            });
         }
 
-        document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
-            button.addEventListener('click', (e) => {
-
-
-                // Assign proper image to modal
-                const button_image = e.target.querySelector('img');
-                if (button_image) {
-                    // Use button's child image
-                    const imageSrc = button_image.src;
-                    const imageAlt = button_image.alt;
-                    modalImageElement.src = imageSrc;
-                    modalImageElement.alt = imageAlt;
-                }
-                else {
-                    // Use image clicked itself
-                    const imageSrc = e.target.src;
-                    const imageAlt = e.target.alt;
-                    modalImageElement.src = imageSrc;
-                    modalImageElement.alt = imageAlt;
-                }
-
-
-                body.classList.add('modal-open');
-                modal.classList.add('show');
-            });
-        });
     
     });
 </script></head>
@@ -248,7 +251,7 @@
 
 <h4 id="location-of-thelab">Location of the Lab</h4>
 
-<p><img src="/img/countway.jpg" alt="Countway Library" /></p>
+<p><img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_small/public/parklab/files/countway.jpg?m=1443211854&amp;itok=GZHtj3cj" alt="Countway Library" /></p>
 
 <p>Department of Biomedical Informatics<br />
 Harvard Medical School<br />
@@ -276,8 +279,8 @@ Fax: 617-432-0693<br /></p>
 
 <p>A Harvard, MIT, or a hospital ID is needed. (If you do not have it, please speak to the guard and explain that you are visitor. A call to Peter’s office may be needed). The Library is located next to the Gordon Hall in the main Quad (you can see the top of the library between the buildings):</p>
 
-<p><img src="/img/rsch_sci_env_quad.jpg" alt="Harvard Medical School Quad" />
-<img src="/img/longwoodmap.gif" alt="Map of Longwood" /></p>
+<p><img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_large/public/parklab/files/rsch_sci_env_quad.jpg?m=1443211986&amp;itok=RelqH4sC" alt="Harvard Medical School Quad" />
+<img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xlarge/public/parklab/files/longwoodmap.gif?m=1443212023&amp;itok=WmAkLs8i" alt="Map of Longwood" /></p>
 
 </div>
                 </div>

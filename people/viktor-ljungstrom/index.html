@@ -12,6 +12,7 @@
         rel="stylesheet"
     />
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Viktor Ljungstrom | PARK LAB</title>
 <meta name="generator" content="Jekyll v3.8.7" />
@@ -25,14 +26,14 @@
 <meta property="og:site_name" content="PARK LAB" />
 <meta property="og:image" content="http://example.com/img/viktor-ljungstrom.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-12T18:09:49+00:00" />
+<meta property="article:published_time" content="2025-03-28T18:18:05+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:image" content="http://example.com/img/viktor-ljungstrom.jpg" />
 <meta property="twitter:title" content="Viktor Ljungstrom" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Author" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Author"},"dateModified":"2025-02-12T18:09:49+00:00","datePublished":"2025-02-12T18:09:49+00:00","description":"Viktor graduated with a MD-PhD from Uppsala University, Sweden. His doctoral research focused on next-generation sequencing studies of Chronic Lymphocytic Leukemia under the supervision of Dr. Richard Rosenquist Brandell and Dr. Tobias Sjöblom. He is a resident physician in Clinical Genetics at Uppsala Akademiska Hospital, Sweden with focus on molecular hematology.He joined the Park Lab in 2020 focusing on cancer genomics studies.","headline":"Viktor Ljungstrom","image":"http://example.com/img/viktor-ljungstrom.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/people/viktor-ljungstrom/"},"url":"http://example.com/people/viktor-ljungstrom/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Author"},"dateModified":"2025-03-28T18:18:05+00:00","datePublished":"2025-03-28T18:18:05+00:00","description":"Viktor graduated with a MD-PhD from Uppsala University, Sweden. His doctoral research focused on next-generation sequencing studies of Chronic Lymphocytic Leukemia under the supervision of Dr. Richard Rosenquist Brandell and Dr. Tobias Sjöblom. He is a resident physician in Clinical Genetics at Uppsala Akademiska Hospital, Sweden with focus on molecular hematology.He joined the Park Lab in 2020 focusing on cancer genomics studies.","headline":"Viktor Ljungstrom","image":"http://example.com/img/viktor-ljungstrom.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/people/viktor-ljungstrom/"},"url":"http://example.com/people/viktor-ljungstrom/"}</script>
 <!-- End Jekyll SEO tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=GoogleAnalytics"></script>
 <script>
@@ -78,34 +79,36 @@
                     closeModal();
                 }
             });
+            
+            // Add event listener to trigger modal on click
+            document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+                button.addEventListener('click', (e) => {
+    
+    
+                    // Assign proper image to modal
+                    const button_image = e.target.querySelector('img');
+                    if (button_image) {
+                        // Use button's child image
+                        const imageSrc = button_image.src;
+                        const imageAlt = button_image.alt;
+                        modalImageElement.src = imageSrc;
+                        modalImageElement.alt = imageAlt;
+                    }
+                    else {
+                        // Use image clicked itself
+                        const imageSrc = e.target.src;
+                        const imageAlt = e.target.alt;
+                        modalImageElement.src = imageSrc;
+                        modalImageElement.alt = imageAlt;
+                    }
+    
+    
+                    body.classList.add('modal-open');
+                    modal.classList.add('show');
+                });
+            });
         }
 
-        document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
-            button.addEventListener('click', (e) => {
-
-
-                // Assign proper image to modal
-                const button_image = e.target.querySelector('img');
-                if (button_image) {
-                    // Use button's child image
-                    const imageSrc = button_image.src;
-                    const imageAlt = button_image.alt;
-                    modalImageElement.src = imageSrc;
-                    modalImageElement.alt = imageAlt;
-                }
-                else {
-                    // Use image clicked itself
-                    const imageSrc = e.target.src;
-                    const imageAlt = e.target.alt;
-                    modalImageElement.src = imageSrc;
-                    modalImageElement.alt = imageAlt;
-                }
-
-
-                body.classList.add('modal-open');
-                modal.classList.add('show');
-            });
-        });
     
     });
 </script></head>

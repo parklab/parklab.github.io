@@ -12,6 +12,7 @@
         rel="stylesheet"
     />
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>People | PARK LAB</title>
 <meta name="generator" content="Jekyll v3.8.7" />
@@ -75,34 +76,36 @@
                     closeModal();
                 }
             });
+            
+            // Add event listener to trigger modal on click
+            document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
+                button.addEventListener('click', (e) => {
+    
+    
+                    // Assign proper image to modal
+                    const button_image = e.target.querySelector('img');
+                    if (button_image) {
+                        // Use button's child image
+                        const imageSrc = button_image.src;
+                        const imageAlt = button_image.alt;
+                        modalImageElement.src = imageSrc;
+                        modalImageElement.alt = imageAlt;
+                    }
+                    else {
+                        // Use image clicked itself
+                        const imageSrc = e.target.src;
+                        const imageAlt = e.target.alt;
+                        modalImageElement.src = imageSrc;
+                        modalImageElement.alt = imageAlt;
+                    }
+    
+    
+                    body.classList.add('modal-open');
+                    modal.classList.add('show');
+                });
+            });
         }
 
-        document.querySelectorAll('[data-open-modal="true"]').forEach((button) => {
-            button.addEventListener('click', (e) => {
-
-
-                // Assign proper image to modal
-                const button_image = e.target.querySelector('img');
-                if (button_image) {
-                    // Use button's child image
-                    const imageSrc = button_image.src;
-                    const imageAlt = button_image.alt;
-                    modalImageElement.src = imageSrc;
-                    modalImageElement.alt = imageAlt;
-                }
-                else {
-                    // Use image clicked itself
-                    const imageSrc = e.target.src;
-                    const imageAlt = e.target.alt;
-                    modalImageElement.src = imageSrc;
-                    modalImageElement.alt = imageAlt;
-                }
-
-
-                body.classList.add('modal-open');
-                modal.classList.add('show');
-            });
-        });
     
     });
 </script></head>
@@ -660,22 +663,6 @@
               
             </div>
             
-            <div class="person-container" data-person="Bianca Morris">
-              
-              <div class="person-card">
-                <div class="image-container">
-                  <img src="./img/bianca-morris.jpg" alt="Bianca Morris" />
-                </div>
-                <div class="person-information">
-                  <p class="title"><a href="/people/bianca-morris">Bianca Morris</a></p>
-                  <p class="subtitle">Software Engineer</p>
-                  
-                  
-                </div>
-              </div>
-              
-            </div>
-            
             <div class="person-container" data-person="Cesar Ferreyra-Mansilla">
               
               <div class="person-card">
@@ -697,6 +684,7 @@
                         <a class="link linkedin" href="https://www.linkedin.com/in/cesarferreyramansilla/" target="_blank">
                           <i class="fab fa-linkedin"></i>
                         </a>
+                        
                         
                     </div>
                   
@@ -1017,6 +1005,16 @@
                   <p class="title"><a href="/people/alice-eunjung-lee">Dr. Eunjung (Alice) Lee</a></p>
                   <p class="subtitle">Research Fellow</p>
                   
+                  
+                    <div class="additional-links-container">
+                        
+                        
+                        
+                        <a class="link organization" href="https://labs.childrenshospital.org/lee-lab/" target="_blank">
+                            <i class="fas fa-users"></i>
+                        </a>
+                        
+                    </div>
                   
                 </div>
               </div>
@@ -2477,6 +2475,36 @@
                   <p class="title"><a href="/people/benedikt-geiger">Benedikt Geiger</a></p>
                   <p class="subtitle">Bioinformatics Scientist</p>
                   
+                  
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="person-container" data-person="Bianca Morris">
+              
+              <div class="person-card">
+                <div class="image-container">
+                  <img src="./img/bianca-morris.jpg" alt="Bianca Morris" />
+                </div>
+                <div class="person-information">
+                  <p class="title"><a href="/people/bianca-morris">Bianca Morris</a></p>
+                  <p class="subtitle">Software Engineer</p>
+                  
+                  
+                    <div class="additional-links-container">
+                        
+                        <a class="link github" href="https://github.com/Bianca-Morris" target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        
+                        
+                        <a class="link linkedin" href="https://www.linkedin.com/in/biancamorris/" target="_blank">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        
+                        
+                    </div>
                   
                 </div>
               </div>
