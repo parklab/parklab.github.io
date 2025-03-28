@@ -1,0 +1,148 @@
+.people-page-container {
+    margin: auto 0px 20px auto;
+
+    .page-body-container {
+        margin-top: 50px;
+
+        .category-container {
+            margin-top: 60px;
+
+            .category {
+                &-header {
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                    margin-bottom: 20px;
+                }
+                &-body {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 50px 32px;
+
+                    .person-container {
+                        display: flex;
+                        width: 380px;
+                        min-width: 300px;
+                        height: min-content;
+                        margin: 0px ;
+                        padding: 8px 0px;
+                
+                        .person-card {
+                            height: min-content;
+                            display: flex;
+                            width: 100%;
+                            
+                            .image-container {
+                                display: flex;
+                                max-width: 120px;
+                                
+                                img {
+                                    height: auto;
+                                    width: auto;
+                                    border-radius: 2px;
+                                }
+                            }
+                            .person-information {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: start;
+                                align-items: flex-start;
+                                max-width: 80%;
+                                padding: 10px 20px 0px;
+                                gap: 5px;
+                
+                                .title {
+                                    margin: 0px;
+
+                                    a {
+                                        color: #4A4A4A;
+                                        font-size: 1rem;
+                                        line-height: inherit;
+                                        font-weight: bold;
+                                        text-decoration: underline;
+
+                                        &:hover {
+                                            color: #404040;
+                                        }
+                                    }
+                                }
+                                .subtitle {
+                                    font-size: 0.875rem;
+                                    line-height: inherit;
+                                    font-weight: 400;
+                                    margin: 0px;
+                                }
+                                .description {
+                                    display: none;
+                                    margin-top: 10px;
+                                }
+                                .additional-links-container {
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    gap: 12px;
+                    
+                                    .link {
+                                        display: flex;
+                                        justify-content: center;
+                                        color: #4A4A4A;
+                                        font-size: 1.5rem;
+                        
+                                        &:hover {
+                                            color: #404040;
+                                        }
+                    
+                                        &.organization {
+                                            font-size: 1.25rem;
+                                        }
+                                        &.other {
+                                            font-size: 1.25rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .person-container {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+        
+        @media (min-width: 992px) {
+
+            .category-container {
+
+                .category {
+                    &-header {
+                        margin-top: 30px;
+                    }
+                    
+                    &-body {
+                        .person-container {
+                            max-height: 200px;
+                            padding: 10px 0px;
+            
+                            .person-card {
+                                .person-information {
+                                    .professional_title {
+                                        display: flex;
+                                        font-size: 0.875rem;
+                                        font-weight: 500;
+                                    }
+                                    .description {
+                                        display: flex;
+                                        font-size: 0.875rem;
+                                        line-height: inherit;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

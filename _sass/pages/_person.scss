@@ -1,0 +1,121 @@
+.page-person {
+    flex: 1;
+
+    .content {
+        margin: auto;
+
+        ul {
+            list-style: none;
+            padding-left: 0px;
+            margin-left: 0px;
+        }
+    }
+    
+
+    .header {
+        display: flex;
+        flex-direction: column;
+
+        h1.name {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        .title {
+            font-size: 1rem;
+            margin-top: 8px;
+        }
+    }
+
+    .image-and-description {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        min-height: 230px;
+        
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            float: left;
+            min-width: 250px;
+            padding: 0px 15px 15px 0px;
+        }
+        .description-container {
+
+            .description {
+                font-size: 1rem;
+                margin-left: 0px;
+            }
+        }
+    }
+
+    .information-cards-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .information-card {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 3rem;
+            flex: 1;
+            margin-right: 20px;
+            min-width: 330px;
+
+            .title {
+                font-weight: 700;
+                font-size: 1.25rem;
+                margin-bottom: 8px;
+            }
+            .value {
+                font-size: 1rem;
+            }
+            
+            .additional-links-container {
+                display: flex;
+                justify-content: flex-start;
+                gap: 12px;
+
+                .link {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    color: #4A4A4A;
+                    font-size: 1.5rem;
+    
+                    &:hover {
+                        color: #404040;
+                    }
+
+                    &.organization {
+                        font-size: 1.25rem;
+                    }
+                    &.other {
+                        font-size: 1.25rem;
+
+                        span {
+                            position: absolute;
+                            bottom: 0px;
+                            right: 0px;
+                            font-size: 0.5rem;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 480px) {
+        .image-and-description {
+            display: inline-block;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .image {
+             img {
+                 width: auto;
+             }
+        }
+    }
+}

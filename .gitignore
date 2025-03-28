@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-metadata
+
+# Ignore local gallery images
+galleries/img
+
+# Ignore local supplementary files
+_supplements/files
+
+# Ignore local news images
+img/news-images

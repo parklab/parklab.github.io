@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+{% assign tag = site.data.tags[page.tag] %}
+{% assign display_name = tag.display_name %}
+{% assign id = page.tag %}
+
+<h1><i class="fas fa-tag"></i>{{ display_name }}</h1>
+
+{% comment %} Tagged PERSON items {% endcomment %}
+<div class="tag-list person-list">
+  <h3>People</h3>
+  <ul>
+    {% for person in site.people %}
+      {% if person.tags contains id %}
+        <li>
+          <a href="{{ person.url }}">{{ person.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+{% comment %} Tagged POST items {% endcomment %}
+<div class="tag-list post-list">
+  <h3>Posts</h3>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.tags contains id %}
+      <li>
+        {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

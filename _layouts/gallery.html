@@ -1,0 +1,40 @@
+---
+layout: page
+---
+
+
+<div class="gallery-container">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    <div class="gallery-images-container">
+        {% for item in page.items %}
+        <button class="gallery-image-button" data-open-modal="true">
+
+            {% comment %} Manually set URL {% endcomment %}
+            {% if item.source_url %}
+            <img src="{{ item.source_url }}" alt="{{ item.alt }}"/>
+
+            {% comment %} Use compbio images {% endcomment %}
+            {% elsif page.use_compbio_images and item.compbio_filename %}
+            <img src="https://compbio.hms.harvard.edu/sites/projects.iq.harvard.edu/files/styles/media_gallery_large/public/parklab/files/{{ item.compbio_filename }}" alt="{{ item.alt }}" />
+            
+            {% comment %} Use drupal images {% endcomment %}
+            {% elsif page.use_drupal_images and item.drupal_filename %}
+            <img src="https://prod-parklab.drupalsites.harvard.edu/sites/g/files/omnuum5466/files/styles/hwp_1_1__480x480/public/parklab/files/{{ item.drupal_filename }}" alt="{{ item.alt }}"/>
+            
+            {% comment %} Use local images {% endcomment %}
+            {% elsif page.use_local_images and item.local_filename %}
+            <img src="../img/{{ item.local_filename }}" alt="{{ item.alt }}"/>
+            {% endif %}
+
+        </button>
+        {% endfor %}
+    </div>
+    <div id="gallery-modal">
+        <div class="modal-content">
+        <button class="close-modal" data-close-modal="true" tabIndex="1">
+            <i class="fas fa-times"></i>
+        </button>
+        <img />
+    </div>
+</div>

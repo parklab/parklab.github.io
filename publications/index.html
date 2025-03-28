@@ -1,0 +1,34 @@
+---
+title: Publications
+page_name: publications
+subtitle: <br/>
+layout: page
+description: Publications Description
+show_sidebar: false
+hero_image: heroImageSrc
+hide_footer: true
+hero_link: heroButtonLink
+hero_link_text: heroButtonLinkText
+---
+
+<h1>Publications</h1>
+
+<div class="label">
+    <div class="sort-select">
+            <span>Sort by:</span>
+            <select id="sort-select"></select>
+    </div>
+    <p class="asterisk">'*' Those authors contributed equally.</p>
+    <div id="publications" class="publications-container" style="margin-top:20px;">
+    </div>
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="css/pubs.css" />
+		
+
+
+
+<!-- Load d3.js and generate publications -->
+<script src="js/d3.min.js"></script>
+<script src="js/generate_pubs.js"></script>

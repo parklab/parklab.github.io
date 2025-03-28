@@ -1,0 +1,47 @@
+---
+layout: page
+---
+<h1><i class="fas fa-tags"></i> All tags</h1>
+
+{% comment %} Table of Contents {% endcomment %}
+  {% for tag in site.data.tags %}
+    {% assign id = tag[0] %}
+    {% assign display_name = tag[1].display_name %}
+
+    <li>
+      <a href="/tags/{{ id }}">{{ display_name }}</a>
+    </li>
+  {% endfor %}
+</div>
+
+{% comment %} Tag items (Currently unused) {% endcomment %}
+{% for tag in "" %}
+  {% assign id = tag[0] %}
+  {% assign display_name = tag[1].display_name %}
+
+  <div class="tag-section">
+    <h2 id="{{ id }}">{{ display_name }}</h2>
+
+    {% comment %} Tagged POST items {% endcomment %}
+    <div class="tag-list post-list">
+      {% for post in site.tags[id] %}
+        <li>
+          {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </div>
+    
+    {% comment %} Tagged PERSON items {% endcomment %}
+    <div class="tag-list person-list">
+      {% for person in site.people %}
+        {% if person.tags contains id %}
+          <li>
+            <a href="{{ person.url }}">{{ person.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </div> 
+
+  </div>
+
+{% endfor %}

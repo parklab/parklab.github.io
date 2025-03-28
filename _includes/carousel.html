@@ -1,0 +1,33 @@
+<div class="carousel-container">
+    <div class="carousel">
+        <ul>
+            {% for item in site.data.carousel-items %}
+            {% assign index = forloop.index0 %}
+                <li class="carousel-item{% if index == 0 %} active{% endif %}" data-carousel-item="{{ index }}">
+                    <div class="content">
+                        <div class="image">
+                            <img src="/img/{{ item.image }}" alt="{{ item.caption.header }}">
+                        </div>
+                        <div class="text">
+                            <a href="{{ item.link }}" target="_blank"><h2>{{ item.caption.header }}</h2></a>
+                            <p>{{ item.caption.body }}</p>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="carousel-indicators">
+            <button class="carousel-control prev">
+                <img src="/img/chevron-left.svg" />
+            </button>
+            {% for item in site.data.carousel-items %}
+            {% assign index = forloop.index0 %}
+            <span class="indicator{% if index == 0 %} active{% endif %}" data-carousel-indicator="{{ index }}"></span>
+            {% endfor %}
+            <button class="carousel-control next">
+                <img src="/img/chevron-left.svg" />
+            </button>
+        </div>
+
+    </div>
+</div>
