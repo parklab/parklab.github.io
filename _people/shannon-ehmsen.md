@@ -9,4 +9,8 @@ academic: 5  # Updated academic field
 image: ./img/shannon-ehmsen.jpg
 hide_footer: true
 position_category: Staff
+additional_links:
+    linkedin: "https://www.linkedin.com/in/shannon-ehmsen/"
+tags:
+    - "smaht"
 ---
