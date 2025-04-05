@@ -11,7 +11,7 @@ hide_footer: false
 
 # Positions in the Park lab
 
-#### [updated May 2023]
+#### [updated April 2025]
 
 Applications are invited for multiple positions in the [Park laboratory](/) in the Department of Biomedical Informatics at Harvard Medical School. The aim of the laboratory is to develop and apply innovative computational methods for genome sequencing data to enhance our understanding of cancer genetics, neurogenetics, and epigenetics.
 
