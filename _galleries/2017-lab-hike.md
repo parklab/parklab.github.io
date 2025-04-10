@@ -3,9 +3,9 @@ layout: gallery
 page_name: gallery
 title: "2017 Lab Hike"
 date: "2017-11-14"
-use_compbio_images: true # Use images from compbio site (https://compbio.hms.harvard.edu/)
+use_compbio_images: false # Use images from compbio site (https://compbio.hms.harvard.edu/)
 use_drupal_images: false # Use images from drupal site (https://prod-parklab.drupalsites.harvard.edu)
-use_local_images: false # Use local images
+use_local_images: true # Use local images
 items:
   - alt: "members hiking"
     compbio_filename: "wechatimg1487.jpeg"

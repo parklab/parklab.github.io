@@ -3,9 +3,9 @@ layout: gallery
 page_name: gallery
 title: "Park Lab DBMI Happy Hour"
 date: "2023-05-31"
-use_compbio_images: true # Use images from compbio site (https://compbio.hms.harvard.edu/)
+use_compbio_images: false # Use images from compbio site (https://compbio.hms.harvard.edu/)
 use_drupal_images: false # Use images from drupal site (https://prod-parklab.drupalsites.harvard.edu)
-use_local_images: false # Use local images
+use_local_images: true # Use local images
 items:
     - alt: "Invite"
       compbio_filename: "image001.png"
