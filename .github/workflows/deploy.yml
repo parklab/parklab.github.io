@@ -27,6 +27,10 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
+      # Add CNAME file to _site directory for custom domain
+      - name: Add CNAME file for custom domain
+        run: echo "compbio.hms.harvard.edu" > ./_site/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
