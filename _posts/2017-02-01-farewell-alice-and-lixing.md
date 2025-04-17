@@ -18,8 +18,8 @@ In addition to their academic work, they contributed greatly to the social aspec
 
 Lixing and Alice, we wish you the best!
 
-
+<!-- 
 ![Image](/img/news-images/rsz_20160926_164233_hdr.jpg)
 
-Pictured: Lixing in front of the biological sciences building of U. Chicago
+Pictured: Lixing in front of the biological sciences building of U. Chicago -->
 
