@@ -1,5 +1,5 @@
 ---
-person_title: <a href="/people/christophe_boetto">Christophe Boetto</a>
+person_title: <a href="/people/christophe-boetto">Christophe Boetto</a>
 name: Christophe Boetto
 subtitle: Research Fellow  # Set subtitle to position_link_text
 professional_title: "PhD, Institut Pasteur (Université de Paris Cité)"
