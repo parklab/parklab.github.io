@@ -8831,6 +8831,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       flex-direction: column;
       float: left;
       min-width: 250px;
+      max-width: 300px;
       padding: 0px 15px 15px 0px; }
     .page-person .image-and-description .description-container .description {
       font-size: 1rem;
