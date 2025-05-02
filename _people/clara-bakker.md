@@ -8,5 +8,5 @@ layout: person
 academic: 10  # Updated academic field
 image: ./img/clara-bakker.jpg
 hide_footer: true
-position_category: Alumni: Staff Scientists and Software Engineers
+position_category: "Alumni: Staff Scientists and Software Engineers"
 ---
