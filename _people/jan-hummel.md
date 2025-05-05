@@ -9,4 +9,6 @@ academic: 5  # Updated academic field
 image: ./img/jan-hummel.jpg
 hide_footer: true
 position_category: Students
+additional_links:
+    organization: "https://github.com/github4touchdouble/"
 ---
