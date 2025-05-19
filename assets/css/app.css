@@ -8503,7 +8503,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         gap: 50px 32px; }
         .people-page-container .page-body-container .category-container .category-body .person-container {
           display: flex;
-          width: 380px;
+          width: 600px;
           min-width: 300px;
           height: min-content;
           margin: 0px;
@@ -8512,23 +8512,22 @@ a.has-text-danger:hover, a.has-text-danger:focus {
             height: min-content;
             display: flex;
             width: 100%; }
-            .people-page-container .page-body-container .category-container .category-body .person-container .person-card .image-container {
-              display: flex;
-              max-width: 120px; }
-              .people-page-container .page-body-container .category-container .category-body .person-container .person-card .image-container img {
-                height: auto;
-                width: auto;
-                border-radius: 2px; }
+            .people-page-container .page-body-container .category-container .category-body .person-container .person-card img {
+              width: 130px;
+              height: 150px;
+              border-radius: 2px;
+              object-fit: cover; }
             .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information {
               display: flex;
               flex-direction: column;
               justify-content: start;
               align-items: flex-start;
               max-width: 80%;
-              padding: 10px 20px 0px;
+              padding: 0px 20px 0px;
               gap: 5px; }
               .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title {
-                margin: 0px; }
+                margin: 0px;
+                line-height: 1rem; }
                 .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a {
                   color: #4A4A4A;
                   font-size: 1rem;
@@ -8548,6 +8547,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
               .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container {
                 display: flex;
                 justify-content: flex-start;
+                margin-top: 5px;
                 gap: 12px; }
                 .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .additional-links-container .link {
                   display: flex;
