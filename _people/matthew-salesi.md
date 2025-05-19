@@ -6,7 +6,8 @@ position_category: "Alumni: Students"
 professional_title: "BS Princeton University, Summer student (2009)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/matthew-salesi.jpg
 hide_footer: true
 ---

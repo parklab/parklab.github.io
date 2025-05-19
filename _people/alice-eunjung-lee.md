@@ -5,7 +5,7 @@ subtitle: Research Fellow  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"
 professional_title: "PhD in Bioinformatics, KAIST, <br/>Postdoctoral Fellow (2010-2013) / Instructor (2013-2016), <br/>Assistant Professor, Division of Genetics and Genomics, Boston Children's Hospital & Harvard Medical School"
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/alice-eunjung-lee.jpg
 hide_footer: true
 additional_links:

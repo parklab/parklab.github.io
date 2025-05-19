@@ -4,7 +4,8 @@ name: Cesar Ferreyra-Mansilla
 subtitle: Software Engineer  # Set subtitle to position_link_text
 professional_title: "Front End Engineer"
 layout: person
-academic: 5  # Updated academic field
+status: "Active Member"
+academic: 5
 image: ./img/cesar-ferreyra-mansilla.jpg
 hide_footer: true
 position_category: Staff Scientists and Software Engineers

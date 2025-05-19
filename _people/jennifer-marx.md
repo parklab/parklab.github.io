@@ -6,7 +6,8 @@ position_category: "Alumni: Staff Scientists and Software Engineers"
 professional_title: "MEng in Electrical Engineering, Boston University, Lead Software Developer (2015-2019)"
 description: "Full-stack web developer with a background in electrical engineering and industrial design."
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/jennifer-marx.jpg
 hide_footer: true
 ---

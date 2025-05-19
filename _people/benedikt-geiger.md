@@ -6,7 +6,8 @@ position_category: "Alumni: Staff Scientists and Software Engineers"
 professional_title: "Associate Computational Biologist (2022-2024)"
 description: "Benedikt received a BS and MS in mathematics at the university of Bonn where research involved pattern formation mechanisms in bacteria models. Shifting from mathematical research to computational biology, he completed the MBI program at HMS before joining the lab. In the lab, Benedikt developed new algorithms and software for mutational signature analysis."
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/benedikt-geiger.jpg
 hide_footer: true
 ---

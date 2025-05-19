@@ -6,7 +6,8 @@ position_category: "Alumni: Students"
 professional_title: "Rotation Student"
 description: "Lily graduated from Cornell University with a BA in Biology and Computer Science and is currently pursuing a PhD in Bioinformatics and Integrative Genomics. She is interested in medically relevant applications of computational methods on omics data to discover disease mechanisms."
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/lily-wang.jpg
 hide_footer: true
 ---

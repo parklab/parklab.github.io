@@ -6,7 +6,8 @@ position_category: "Alumni: Staff"
 professional_title: "Project Coordinator (2019-2022), Senior Administrative Partner, Foundation Medicine"
 description: "Joanna is the Project Coordinator for the Park Lab and joins us after working in the Brookline Public Schools."
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/joanna-lee.jpg
 hide_footer: true
 ---

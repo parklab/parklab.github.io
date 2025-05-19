@@ -4,7 +4,8 @@ name: Bianca Morris
 subtitle: Software Engineer  # Set subtitle to position_link_text
 professional_title: "ALM<br/>Sr. Front End Engineer"
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/bianca-morris.jpg
 hide_footer: true
 position_category: "Alumni: Staff Scientists and Software Engineers"
