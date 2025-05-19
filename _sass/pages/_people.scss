@@ -20,7 +20,7 @@
 
                     .person-container {
                         display: flex;
-                        width: 380px;
+                        width: 600px;
                         min-width: 300px;
                         height: min-content;
                         margin: 0px ;
@@ -31,15 +31,11 @@
                             display: flex;
                             width: 100%;
                             
-                            .image-container {
-                                display: flex;
-                                max-width: 120px;
-                                
-                                img {
-                                    height: auto;
-                                    width: auto;
-                                    border-radius: 2px;
-                                }
+                            img {
+                                width: 130px;
+                                height: 150px;
+                                border-radius: 2px;
+                                object-fit: cover;
                             }
                             .person-information {
                                 display: flex;
@@ -47,11 +43,12 @@
                                 justify-content: start;
                                 align-items: flex-start;
                                 max-width: 80%;
-                                padding: 10px 20px 0px;
+                                padding: 0px 20px 0px;
                                 gap: 5px;
                 
                                 .title {
                                     margin: 0px;
+                                    line-height: 1rem;
 
                                     a {
                                         color: #4A4A4A;
@@ -78,6 +75,7 @@
                                 .additional-links-container {
                                     display: flex;
                                     justify-content: flex-start;
+                                    margin-top: 5px;
                                     gap: 12px;
                     
                                     .link {

@@ -22,12 +22,11 @@ show_sidebar: false
             <div class="person-container" data-person="{{ person.name }}">
               {% if person.image %}
               <div class="person-card">
-                <div class="image-container">
-                  <img src="{{ person.image }}" alt="{{ person.name }}" />
-                </div>
+                <img src="{{ person.image }}" alt="{{ person.name }}" />
                 <div class="person-information">
                   <p class="title">{{ person.person_title }}</p>
                   <p class="subtitle">{{ person.subtitle }}</p>
+                  <p class="professional_title">{{ person.professional_title }}</p>
                   {% comment %} <a class="read-more" href="{{ person.id }}">Read more</a> {% endcomment %}
                   {% if person.additional_links %}
                     <div class="additional-links-container">
