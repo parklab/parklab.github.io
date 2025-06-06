@@ -4,3 +4,6 @@ _site
 
 # Ignore local supplementary files
 _supplements/files
+
+.ruby-version
+Gem.win_platform?
