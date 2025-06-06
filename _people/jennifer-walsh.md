@@ -6,7 +6,8 @@ position_category: "Alumni: Students"
 professional_title: "Undergraduate (Physics), Harvard College, Undergraduate Researcher (2017)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/jennifer-walsh.jpg
 hide_footer: true
 ---

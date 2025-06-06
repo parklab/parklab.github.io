@@ -6,7 +6,8 @@ position_category: "Alumni: Students"
 professional_title: "Summer Intern (Yale, 2014)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/jeremy-liu.jpg
 hide_footer: true
 ---

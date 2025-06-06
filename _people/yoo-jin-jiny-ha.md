@@ -5,7 +5,8 @@ subtitle: Research Fellow  # Set subtitle to position_link_text
 professional_title: "PhD in Biomedical Systems Informatics, Yonsei University College of Medicine"
 description: ""
 layout: person
-academic: 5  # Updated academic field
+status: "Active Member"
+academic: 5
 image: ./img/yoo-jin-jiny-ha.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows

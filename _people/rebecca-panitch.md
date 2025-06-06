@@ -6,7 +6,8 @@ position_category: "Alumni: Students"
 professional_title: "Summer Intern (DBMI Summer Institute) (2017), Undergraduate student at Brandeis University, Neuroscience and Biology"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/rebecca-panitch.jpg
 hide_footer: true
 ---

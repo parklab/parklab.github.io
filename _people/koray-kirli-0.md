@@ -6,7 +6,8 @@ position_category: "Alumni: Staff Scientists and Software Engineers"
 professional_title: "Data Curator (2016-2020), 4D Nucleome DCIC, Technical Coordinator, GHGA"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/koray-kirli-0.jpg
 hide_footer: true
 ---

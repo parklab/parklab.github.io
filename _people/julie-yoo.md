@@ -6,7 +6,8 @@ position_category: "Alumni: Students"
 professional_title: "MBA, MS/MBA Student (2007-2008)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/julie-yoo.jpg
 hide_footer: true
 ---

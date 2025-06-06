@@ -6,7 +6,8 @@ position_category: "Alumni: Visiting Scholars"
 professional_title: "Visiting graduate student (2014)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/jae-won-yun.jpg
 hide_footer: true
 ---

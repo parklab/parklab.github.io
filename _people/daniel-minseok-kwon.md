@@ -6,7 +6,8 @@ position_category: "Alumni: Postdoctoral Fellows"
 professional_title: "PhD in Bioinformatics, Seoul National University, Postdoctoral Fellow (2015-2020)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/daniel-minseok-kwon.jpg
 hide_footer: true
 ---

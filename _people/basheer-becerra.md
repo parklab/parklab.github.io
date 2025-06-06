@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "Rotation Student"
 description: "Basheer earned a BS in Computer Science and Statistics with a minor in Biology from Illinois State University. He is now pursuing a PhD in Bioinformatics and Integrative Genomics with an interest in developing statistical methods for single-cell genomics data to understand the underlying mechanisms of disease."
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/basheer-becerra.jpg
 hide_footer: true
 ---

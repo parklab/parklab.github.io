@@ -6,7 +6,8 @@ position_category: "Alumni: Students"
 professional_title: "Undergradute Student, Tufts University, Summer Intern (2019)"
 description: "Undergraduate student at Tufts University School of Engineering, Computer Science '21"
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
+
 image: ./img/ethan-oliver.jpg
 hide_footer: true
 ---
