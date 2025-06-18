@@ -1,6 +1,6 @@
 ---
 layout: news-item
-title: "Farewell Clara B"
+title: "Farewell Clara B!"
 subtitle: "April 12, 2025"
 page_name: news-item
 date: "2025-04-12"
