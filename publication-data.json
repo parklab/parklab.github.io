@@ -60,7 +60,7 @@
       "title_link": "https://compbio.hms.harvard.edu/publications/recent-advances-genomic-approaches-detection-homologous-recombination",
       "abstract": "Accurate detection of homologous recombination deficiency (HRD) in cancer patients is paramount in clinical applications, as HRD confers sensitivity to poly (ADP-ribose) polymerase (PARP) inhibitors. With the advances in genome sequencing technology, mutational profiling on a genome-wide scale has become readily accessible, and our knowledge of the genomic consequences of HRD has been greatly expanded and refined. Here, we review the recent advances in HRD detection methods. We examine the copy number and structural alterations that often accompany the genome instability that results from HRD, describe the advantages of mutational signature-based methods that do not rely on specific gene mutations, and review some of the existing algorithms used for HRD detection. We also discuss the choice of sequencing platforms (panel, exome, or whole-genome) and catalog the HRD detection assays used in key PARP inhibitor trials.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/recent-advances-genomic-approaches-detection-homologous-recombination",
-      "pdf_link": "",
+      "pdf_link": "/publications/pdf/Yoo-Na-Kim-2024-07-17.pdf",
       "year": "2024",
       "type": "2024",
       "journal": "Cancer Research",
