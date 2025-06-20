@@ -130,6 +130,60 @@
     {
       "author": [
         {
+          "name": "Kim Y-N",
+          "lab_member": true
+        },
+        {
+          "name": "Gulhan DC",
+          "lab_member": true
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Glodzik D",
+          "lab_member": true
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Recent Advances in Genomic Approaches for the Detection of Homologous Recombination Deficiency",
+      "title_link": "https://compbio.hms.harvard.edu/publications/recent-advances-genomic-approaches-detection-homologous-recombination",
+      "abstract": "Accurate detection of homologous recombination deficiency (HRD) in cancer patients is paramount in clinical applications, as HRD confers sensitivity to poly (ADP-ribose) polymerase (PARP) inhibitors. With the advances in genome sequencing technology, mutational profiling on a genome-wide scale has become readily accessible, and our knowledge of the genomic consequences of HRD has been greatly expanded and refined. Here, we review the recent advances in HRD detection methods. We examine the copy number and structural alterations that often accompany the genome instability that results from HRD, describe the advantages of mutational signature-based methods that do not rely on specific gene mutations, and review some of the existing algorithms used for HRD detection. We also discuss the choice of sequencing platforms (panel, exome, or whole-genome) and catalog the HRD detection assays used in key PARP inhibitor trials.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/recent-advances-genomic-approaches-detection-homologous-recombination",
+      "pdf_link": "/publications/pdf/Yoo-Na-Kim-2024-07-17.pdf",
+      "year": "2024",
+      "type": "2024",
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Research and Treatment 2024"
+    },
+     {
+      "author": [
+        {
+          "name": "Geiger B",
+          "lab_member": true
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "On the Connection Between Non-negative Matrix Factorization and Latent Dirichlet Allocation",
+      "title_link": "https://compbio.hms.harvard.edu/publications/on-the-connection-between-non-negative-matrix-factorization-and-latent-dirichlet-allocation",
+      "abstract": "Non-negative matrix factorization with the generalized Kullback–Leibler divergence (NMF) and latent Dirichlet allocation (LDA) are two popular approaches for dimensionality reduction of non-negative data. Here, we show that NMF with ℓ1 normalizationconstraints on the columnsof both matrices of the decomposition and a Dirichlet prior on the columns of one matrix is equivalent to LDA. To show this, we demonstrate that explicitly accounting for the scaling ambiguity of NMF by adding ℓ1 normalization constraints to the optimization problem allows a joint update of both matrices in the widely used multiplicative updates (MU) algorithm. When both of the matrices are normalized, the joint MU algorithm leads to probabilistic latent semantic analysis (PLSA), which is LDA without a Dirichlet prior. Our approach of deriving joint updates for NMF also reveals that a Lasso penalty on one matrix together with an ℓ1 normalization constraint on the other matrix is insufficient to induce any sparsity.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/on-the-connection-between-non-negative-matrix-factorization-and-latent-dirichlet-allocation",
+      "pdf_link": "parklab/parklab.github.io/publications/pdf/Benedikt-Geiger-2024-05-30.pdf",
+      "year": "2024",
+      "type": "2024",
+      "journal": "arXiv",
+      "journal_location": "arXiv:2405.20542"
+    },
+    {
+      "author": [
+        {
           "name": "Ganz J*",
           "lab_member": false
         },
