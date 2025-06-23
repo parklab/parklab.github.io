@@ -12,7 +12,7 @@
   },
 
   "publications_format": [
-     {
+   {
       "key": "publication_key",
       "author": ["author1", "author2", "author3"],
       "title": "Publication Title",
@@ -33,7 +33,575 @@
   ],
   
   "publications": [
-   {
+    {
+      "author": [
+          {
+            "name": "Cheng H",
+            "lab_member": false
+          },
+          {
+            "name": "Qu H",
+            "lab_member": true
+          },
+          {
+            "name": "McKenzie S",
+            "lab_member": false
+          },
+          {
+            "name": "Lawrence KR",
+            "lab_member": false
+          },
+          {
+            "name": "Windsor R",
+            "lab_member": false
+          },
+          {
+            "name": "Vella M",
+            "lab_member": false
+          },
+          {
+            "name": "Park PJ**",
+            "lab_member": true
+          },
+          {
+            "name": "Li H**",
+            "lab_member": false
+          }
+      ],
+      "title": "Efficient near telomere-to-telomere assembly of Nanopore Simplex reads",
+      "title_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
+      "abstract": "Telomere-to-telomere (T2T) assembly is the ultimate goal for de novo genome assembly. Existing algorithms capable of near T2T assembly all require Oxford Nanopore Technologies (ONT) ultra-long reads which are costly and experimentally challenging to obtain and are thus often unavailable for samples without established cell lines. Here, we introduce hifiasm (ONT), the first algorithm that can produce near T2T assemblies from standard ONT Simplex reads, eliminating the need for ultra-long sequencing. Compared to existing methods, hifiasm (ONT) reduces the computational demands by an order of magnitude and reconstructs more chromosomes from telomere to telomere on the same datasets. This advancement substantially broadens the feasibility of T2T assembly for applications previously limited by the high cost and experimental requirement of ultra-long reads.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
+      "pdf_link": "/publications/pdf/2025.04.14.648685v1.full.pdf",
+      "year": "2025",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv"
+      },
+      {
+      "author": [
+        {
+          "name": "Shao DD",
+          "lab_member": false
+        },
+        {
+          "name": "Zhao Y",
+          "lab_member": true
+        },
+        {
+          "name": "Brew J",
+          "lab_member": true
+        },
+        {
+          "name": "Ghosh U",
+          "lab_member": false
+        },
+        {
+          "name": "Luquette LJ",
+          "lab_member": true
+        },
+        {
+          "name": "Zhao S",
+          "lab_member": false
+        },
+        {
+          "name": "Kriz AJ",
+          "lab_member": false
+        },
+        {
+          "name": "Qian X",
+          "lab_member": false
+        },
+        {
+          "name": "Viswanadham VV",
+          "lab_member": true
+        },
+        {
+          "name": "Taketomi T",
+          "lab_member": false
+        },
+        {
+          "name": "Tsuruta F",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        },
+        {
+          "name": "Walsh, CA**",
+          "lab_member": false
+        }
+      ],
+      "title": "Perinatal Elimination of Genetically Aberrant Neurons from Human Cerebral Cortex",
+      "title_link": "https://compbio.hms.harvard.edu/publications/perinatal-elimination-of-genetically-aberrant-neurons-from-human-cerebral-cortex",
+      "abstract": "Human neurons are postmitotic and long-lived, requiring precise genomic regulation to maintain function over a lifetime. Normal neuronal function is highly dependent on gene dosage, with copy number variants (CNVs) and heterozygous point mutations associated with a host of neurodevelopmental and neuropsychiatric conditions [1–3]. Here, we investigated the landscape of somatic CNVs arising in fetal human brains, and how they change over development, to understand the processes that generate neurons with low rates of aneuploidy. We identified 7,725 CNVs in >1,200 single neurons from human postmortem brain of 16 neurotypical individuals, ranging in age from gestational week 14 to 90 years old using Tn5-transposase-based single-cell whole-genome amplification. We surveyed CNVs in another 44,861 nuclei with 10X Multiome analysis. Up to 45% of postmitotic neurons in the prenatal cortex showed aberrant genomes, characterized by widespread CNVs of multiple chromosomes, but this reduces sharply after birth (p<0.01). We identified micronuclei in the developing cortex in situ, reflecting chromosomal material missegregated during neurodevelopment [4–6]. The size of CNV appeared to define the trajectory of neuronal elimination, since cells with widespread CNVs were eliminated earlier and faster than cells with smaller CNVs. CNVs in surviving neurons were depleted for genes that are dosage-sensitive or involved in neurodevelopmental disorders (p<0.05), suggesting selective elimination of neurons with CNVs involving these critical genes. Neurons with high CNV burdens also showed abnormal expression of synaptic gene sets, indicating that abnormal synaptic gene regulation may contribute to neuronal elimination. Elimination of defective neuronal genomes during during synaptogenesis may represent a critical process of genome quality control and a vulnerable target of factors that contribute to neurodevelopmental disease.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/perinatal-elimination-of-genetically-aberrant-neurons-from-human-cerebral-cortex",
+      "pdf_link": "/publications/pdf/Diane-Shao-2025-04-03.pdf",
+      "year": "2025",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv"
+      },
+      {
+        "author": [
+          {
+            "name": "Zhou Z",
+            "lab_member": false
+          },
+          {
+            "name": "Luquette LJ",
+            "lab_member": true
+          },
+          {
+            "name": "Dong G",
+            "lab_member": false
+          },
+          {
+            "name": "Kim J",
+            "lab_member": false
+          },
+          {
+            "name": "Ku J",
+            "lab_member": false
+          },
+          {
+            "name": "Kim K",
+            "lab_member": false
+          },
+          {
+            "name": "Bae M",
+            "lab_member": false
+          },
+          {
+            "name": "Shao DD",
+            "lab_member": false
+          },
+          {
+            "name": "Sahile B",
+            "lab_member": false
+          },
+          {
+            "name": "Miller MB",
+            "lab_member": false
+          },
+          {
+            "name": "Huang AY",
+            "lab_member": false
+          },
+          {
+            "name": "Nathan WJ",
+            "lab_member": false
+          },
+          {
+            "name": "Nussenzweig A",
+            "lab_member": false
+          },
+          {
+            "name": "Park PJ**",
+            "lab_member": true
+          },
+          {
+            "name": "Lagier-Tourenne C**",
+            "lab_member": false
+          },
+          {
+            "name": "Lee EA**",
+            "lab_member": false
+          },
+          {
+            "name": "Walsh CA**",
+            "lab_member": false
+          }
+        ],
+        "title": "Recurrent patterns of widespread neuronal genomic damage shared by major neurodegenerative disorders",
+        "title_link": "https://compbio.hms.harvard.edu/publications/recurrent-patterns-of-widespread-neuronal-genomic-damage-shared-by-major-neurodegenerative-disorders",
+        "abstract": "Amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and Alzheimer’s disease (AD) are common neurodegenerative disorders for which the mechanisms driving neuronal death remain unclear. Single-cell whole-genome sequencing of 429 neurons from three C9ORF72 ALS, six C9ORF72 FTD, seven AD, and twenty-three neurotypical control brains revealed significantly increased burdens in somatic single nucleotide variant (sSNV) and insertion/deletion (sIndel) in all three disease conditions. Mutational signature analysis identified a disease-associated sSNV signature suggestive of oxidative damage and an sIndel process, affecting 28% of ALS, 79% of FTD, and 65% of AD neurons but only 5% of control neurons (diseased vs. control: OR=31.20, p = 2.35×10−10). Disease-associated sIndels were primarily two-basepair deletions resembling signature ID4, which was previously linked to topoisomerase 1 (TOP1)-mediated mutagenesis. Duplex sequencing confirmed the presence of sIndels and identified similar single-strand events as potential precursor lesions. TOP1-associated sIndel mutagenesis and resulting genome instability may thus represent a common mechanism of neurodegeneration.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/recurrent-patterns-of-widespread-neuronal-genomic-damage-shared-by-major-neurodegenerative-disorders",
+        "pdf_link": "/publications/pdf/2025.03.03.641186v3.full.pdf",
+        "year": "2025",
+        "type": "2025",
+        "journal": "bioRxiv",
+        "journal_location": "bioRxiv"
+    },
+      {
+      "author": [
+        {
+          "name": "4D Nucleome Consortium",
+          "lab_member": false
+        },
+        {
+          "name": "Dekker J",
+          "lab_member": false
+        },
+        {
+          "name": "Oksuz BA",
+          "lab_member": false
+        },
+        {
+          "name": "Zhang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Wang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Minsk MK",
+          "lab_member": false
+        },
+        {
+          "name": "Kuang S",
+          "lab_member": false
+        },
+        {
+          "name": "Yang L",
+          "lab_member": false
+        },
+        {
+          "name": "Gibcus JH",
+          "lab_member": false
+        },
+        {
+          "name": "Krietenstein N",
+          "lab_member": false
+        },
+        {
+          "name": "Rando OJ",
+          "lab_member": false
+        },
+        {
+          "name": "Xu J",
+          "lab_member": false
+        },
+        {
+          "name": "Janssens DH",
+          "lab_member": false
+        },
+        {
+          "name": "Henikoff S",
+          "lab_member": false
+        },
+        {
+          "name": "Kukalev A",
+          "lab_member": false
+        },
+        {
+          "name": "Willemin A",
+          "lab_member": false
+        },
+        {
+          "name": "Winick-Ng W",
+          "lab_member": false
+        },
+        {
+          "name": "Kempfer R",
+          "lab_member": false
+        },
+        {
+          "name": "Pombo A",
+          "lab_member": false
+        },
+        {
+          "name": "Yu M",
+          "lab_member": false
+        },
+        {
+          "name": "Kumar P",
+          "lab_member": false
+        },
+        {
+          "name": "Zhang L",
+          "lab_member": false
+        },
+        {
+          "name": "Belmont AS",
+          "lab_member": false
+        },
+        {
+          "name": "Sasaki T",
+          "lab_member": false
+        },
+        {
+          "name": "van Schaik T",
+          "lab_member": false
+        },
+        {
+          "name": "Brueckner L",
+          "lab_member": false
+        },
+        {
+          "name": "Peric-Hupkes D",
+          "lab_member": false
+        },
+        {
+          "name": "van Steensel B",
+          "lab_member": false
+        },
+        {
+          "name": "Wang P",
+          "lab_member": false
+        },
+        {
+          "name": "Chai H",
+          "lab_member": false
+        },
+        {
+          "name": "Kim M",
+          "lab_member": false
+        },
+        {
+          "name": "Ruan Y",
+          "lab_member": false
+        },
+        {
+          "name": "Zhang R",
+          "lab_member": false
+        },
+        {
+          "name": "Quinodoz SA",
+          "lab_member": false
+        },
+        {
+          "name": "Bhat P",
+          "lab_member": false
+        },
+        {
+          "name": "Guttman M",
+          "lab_member": false
+        },
+        {
+          "name": "Zhao W",
+          "lab_member": false
+        },
+        {
+          "name": "Chien S",
+          "lab_member": false
+        },
+        {
+          "name": "Liu Y",
+          "lab_member": false
+        },
+        {
+          "name": "Venev SV",
+          "lab_member": false
+        },
+        {
+          "name": "Plewczynski D",
+          "lab_member": false
+        },
+        {
+          "name": "Azcarate II",
+          "lab_member": false
+        },
+        {
+          "name": "Szabó D",
+          "lab_member": false
+        },
+        {
+          "name": "Thieme CJ",
+          "lab_member": false
+        },
+        {
+          "name": "Szczepińska T",
+          "lab_member": false
+        },
+        {
+          "name": "Chiliński M",
+          "lab_member": false
+        },
+        {
+          "name": "Sengupta K",
+          "lab_member": false
+        },
+        {
+          "name": "Conte M",
+          "lab_member": false
+        },
+        {
+          "name": "Esposito A",
+          "lab_member": false
+        },
+        {
+          "name": "Abraham A",
+          "lab_member": false
+        },
+        {
+          "name": "Zhang R",
+          "lab_member": false
+        },
+        {
+          "name": "Wang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Wen X",
+          "lab_member": false
+        },
+        {
+          "name": "Wu Q",
+          "lab_member": false
+        },
+        {
+          "name": "Yang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Liu J",
+          "lab_member": false
+        },
+        {
+          "name": "Boninsegna L",
+          "lab_member": false
+        },
+        {
+          "name": "Yildirim A",
+          "lab_member": false
+        },
+        {
+          "name": "Zhan Y",
+          "lab_member": false
+        },
+        {
+          "name": "Chiariello AM",
+          "lab_member": false
+        },
+        {
+          "name": "Bianco S",
+          "lab_member": false
+        },
+        {
+          "name": "Lee L",
+          "lab_member": false
+        },
+        {
+          "name": "Hu M",
+          "lab_member": false
+        },
+        {
+          "name": "Li Y",
+          "lab_member": false
+        },
+        {
+          "name": "Barnett RJ",
+          "lab_member": false
+        },
+        {
+          "name": "Cook AL",
+          "lab_member": false
+        },
+        {
+          "name": "Emerson DJ",
+          "lab_member": false
+        },
+        {
+          "name": "Marchal C",
+          "lab_member": false
+        },
+        {
+          "name": "Zhao P",
+          "lab_member": false
+        },
+        {
+          "name": "Park P",
+          "lab_member": true
+        },
+        {
+          "name": "Alver BH",
+          "lab_member": true
+        },
+        {
+          "name": "Schroeder A",
+          "lab_member": true
+        },
+        {
+          "name": "Navelkar R",
+          "lab_member": true
+        },
+        {
+          "name": "Bakker C",
+          "lab_member": true
+        },
+        {
+          "name": "Ronchetti W",
+          "lab_member": true
+        },
+        {
+          "name": "Ehmsen S",
+          "lab_member": true
+        },
+        {
+          "name": "Veit A",
+          "lab_member": true
+        },
+        {
+          "name": "Gehlenborg N",
+          "lab_member": false
+        },
+        {
+          "name": "Wang T",
+          "lab_member": false
+        },
+        {
+          "name": "Li D",
+          "lab_member": false
+        },
+        {
+          "name": "Wang X",
+          "lab_member": false
+        },
+        {
+          "name": "Nicodemi M",
+          "lab_member": false
+        },
+        {
+          "name": "Ren B",
+          "lab_member": false
+        },
+        {
+          "name": "Zhong S",
+          "lab_member": false
+        },
+        {
+          "name": "Phillips-Cremins JE",
+          "lab_member": false
+        },
+        {
+          "name": "Gilbert DM",
+          "lab_member": false
+        },
+        {
+          "name": "Pollard KS",
+          "lab_member": false
+        },
+        {
+          "name": "Alber F",
+          "lab_member": false
+        },
+        {
+          "name": "Ma J",
+          "lab_member": false
+        },
+        {
+          "name": "Noble WS",
+          "lab_member": false
+        },
+        {
+          "name": "Yue F",
+          "lab_member": false
+        }
+      ],
+      "title": "An integrated view of the structure and function of the human 4D nucleome",
+      "title_link": "https://compbio.hms.harvard.edu/publications/an-integrated-view-of-the-structure-and-function-of-the-human-4D-nucleome",
+      "abstract": "The dynamic three-dimensional (3D) organization of the human genome (the “4D Nucleome”) is closely linked to genome function. Here, we integrate a wide variety of genomic data generated by the 4D Nucleome Project to provide a detailed view of human 3D genome organization in widely used embryonic stem cells (H1-hESCs) and immortalized fibroblasts (HFFc6). We provide extensive benchmarking of 3D genome mapping assays and integrate these diverse datasets to annotate spatial genomic features across scales. The data reveal a rich complexity of chromatin domains and their sub-nuclear positions, and over one hundred thousand structural loops and promoter-enhancer interactions. We developed 3D models of population-based and individual cell-to-cell variation in genome structure, establishing connections between chromosome folding, nuclear organization, chromatin looping, gene transcription, and DNA replication. We demonstrate the use of computational methods to predict genome folding from DNA sequence, uncovering potential effects of genetic variants on genome structure and function. Together, this comprehensive analysis contributes insights into human genome organization and enhances our understanding of connections between the regulation of genome function and 3D genome organization in general.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/an-integrated-view-of-the-structure-and-function-of-the-human-4D-nucleome",
+      "pdf_link": "/publications/pdf/2024.09.17.4DNucleome.pdf",
+      "year": "2024",
+      "type": "2024",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv"
+    },
+    {
       "author": [
         {
           "name": "Kim Y-N",
