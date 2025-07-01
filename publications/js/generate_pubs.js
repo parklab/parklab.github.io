@@ -225,13 +225,14 @@ function renderPubGroup(pubData, target, category) {
 
   
   pubInfo.append('div')
-    .append('button')
-    .classed('abstract-toggle-button', true)
-    .classed('hidden', true)
-    .attr('data-pub-title', function(d, i) {
-      return d.title;
+    .html((d) => {
+      if (d.hasOwnProperty('abstract') && d.abstract) {
+        return `<button class="abstract-toggle-button hidden" data-pub-title="${d.title}">Abstract <i class="fas fa-chevron-down"></i></button>`;
+      }
+      else {
+        return null;
+      }
     })
-    .html('Abstract <i class="fas fa-chevron-down"></i>')
     .on('click', function(d, i) {
       // Toggle when button clicked
       console.log('Toggle abstract for: ' + d3.event.target);
