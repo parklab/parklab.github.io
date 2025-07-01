@@ -200,15 +200,11 @@ function renderPubGroup(pubData, target, category) {
   // add supplemental links
   pubInfo.append('text')
     .classed('supp', true)
-    .html(function(d) {
+    .html(function(d, i) {
       // First add paper pdf (if there is one)
       var supplementals = ''
-      if (d.hasOwnProperty('abstract_link'))
-        supplementals += '<a target="_blank" href="' + d.abstract_link + '"> Abstract </a>';
-      else
-        supplementals += ''
       if (d.hasOwnProperty('pdf_link') && d.pdf_link !== '')
-        supplementals += '| <a target="_blank" href="' + d.pdf_link + '"> PDF </a>';
+        supplementals += '<a class="pdf_link" target="_blank" href="' + d.pdf_link + '"> PDF <i class="fas fa-external-link-alt"></i></a>';
       else
         supplementals += ''
       if (d.hasOwnProperty('tutorialwebsite'))
@@ -225,19 +221,49 @@ function renderPubGroup(pubData, target, category) {
         supplementals += '| <a href="' + d.supp[link] + '"> ' + link + '</a> ';
       }
       return supplementals;
+    })
+
+  
+  pubInfo.append('div')
+    .append('button')
+    .classed('abstract-toggle-button', true)
+    .classed('hidden', true)
+    .attr('data-pub-title', function(d, i) {
+      return d.title;
+    })
+    .html('Abstract <i class="fas fa-chevron-down"></i>')
+    .on('click', function(d, i) {
+      // Toggle when button clicked
+      console.log('Toggle abstract for: ' + d3.event.target);
+      if ((d3.event.target.localName === "svg" && d3.event.target.classList.contains('fa-chevron-down')) || d3.event.target.localName === "button" && d3.event.target.classList.contains('abstract-toggle-button')) {
+        d3.event.target.classList.toggle('active');
+        document.querySelector('div.abstract[data-pub-title="' + d.title + '"]').classList.toggle('hidden');
+      }
     });
 
-    // comments
+  // Add abstract popup if available
+  pubInfo.append('div')
+    .classed('abstract', true)
+    .classed('hidden', true)
+    .attr('data-pub-title', function(d, i) {
+      return d.title;
+    })
+    .html(function(d, i) {
+      return `<p>${d.abstract}</p>`;
+    });
+
+  // comments
   pubInfo.append('div')
     .classed('comment', true)
     .text(function(d) {
       return d.comment;
     });
 
-    // authorship
+  // authorship
   pubInfo.append('div')
     .classed('authorship', true)
     .text(function(d) {
       return d.authorship;
     });
+
 }
