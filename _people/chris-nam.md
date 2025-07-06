@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "PhD student, Department of Systems Biology, Joint with Jeremy Gunawardena"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/chris-nam.jpg
 hide_footer: true
 ---

@@ -6,7 +6,7 @@ position_category: "Alumni: Staff Scientists and Software Engineers"
 professional_title: "MS in Mathematics, Georgia Institute of Technology, Research Assistant (2009-2010), Data Analyst, TrackMan"
 description: "Research Assistant (2009-2010), a recent MIT graduate in mathematics, now a combinatorics graduate student at Georgia Tech"
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/geehoon-hong.jpg
 hide_footer: true
 ---

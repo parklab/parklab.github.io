@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "Summer Intern (DBMI HST Summer Institute) (2017), Undergraduate student at Dartmouth University, Biology and Math"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/yixuan-he.jpg
 hide_footer: true
 ---

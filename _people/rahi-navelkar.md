@@ -5,7 +5,7 @@ subtitle: Data Wrangler  # Set subtitle to position_link_text
 professional_title: "Masters in Biotechnology, Georgetown University, Data Wrangler, 4DN-DCIC"
 description: ""
 layout: person
-academic: 5  # Updated academic field
+status: "Active Member"
 image: ./img/rahi-navelkar.jpg
 hide_footer: true
 position_category: Staff Scientists and Software Engineers

@@ -96,11 +96,7 @@ layout: default
             <div class="information-card">
                 <span class="title">Status</span>
                 <span class="value">
-                    {% if page.academic < 10 %}
-                    Active Member
-                    {% else %}
-                    Alumni
-                    {% endif %}
+                    {{ page.status }}
                 </span>
             </div>
 

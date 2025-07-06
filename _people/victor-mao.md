@@ -6,7 +6,7 @@ position_category: "Alumni: Staff Scientists and Software Engineers"
 professional_title: "Scientific Programmer (2019-2021), Machine Learning Software Engineer, Google"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/victor-mao.jpg
 hide_footer: true
 ---

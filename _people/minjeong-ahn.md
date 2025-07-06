@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "Summer intern (MIT UROP, 2005-2006)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/minjeong-ahn.jpg
 hide_footer: true
 ---

@@ -6,7 +6,7 @@ position_category: "Alumni: Staff Scientists and Software Engineers"
 professional_title: "HPCGG Bioinformatics Analyst (2003-2005)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/richard-kim.jpg
 hide_footer: true
 ---

@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "Graduate student in immunology (2014-2015)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/niklas-smedemark-margulies.jpg
 hide_footer: true
 ---

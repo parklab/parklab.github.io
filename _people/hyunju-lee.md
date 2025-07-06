@@ -6,7 +6,7 @@ position_category: "Alumni: Postdoctoral Fellows"
 professional_title: "PhD in Computer Science, University of Southern California, Postdoctoral Fellow (2006-2007), Associate Professor, Gwangju Institute of Science and Technology"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/hyunju-lee.jpg
 hide_footer: true
 ---

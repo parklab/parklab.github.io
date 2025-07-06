@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "Rotation Student"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/nathan-joel-nakatsuka.jpg
 hide_footer: true
 ---

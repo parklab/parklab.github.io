@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "Summer Intern (Harvard DBMI Summer Institute) (2017), Undergraduate student at the University of Chicago, Biology"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/danielle-rubin.jpg
 hide_footer: true
 ---

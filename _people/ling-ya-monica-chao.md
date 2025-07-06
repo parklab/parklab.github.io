@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "Harvard Undergraduate Researcher (2014-2015)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/ling-ya-monica-chao.jpg
 hide_footer: true
 ---
