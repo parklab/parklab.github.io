@@ -6,7 +6,7 @@ position_category: "Alumni: Postdoctoral Fellows"
 professional_title: "PhD in Health Sciences and Technology, Massachusetts Institute of Technology, Postdoctoral Fellow (2010-2021), Division of Genetics and Genomics, Boston Children’s Hospital"
 description: "Lucy finished her PhD in the Health Sciences and Technology division at MIT and worked on analysis of chromatin modifications related to theDrosophilamodENCODE project."
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/youngsook-lucy-jung.jpg
 hide_footer: true
 ---

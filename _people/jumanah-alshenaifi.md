@@ -6,7 +6,7 @@ position_category: "Alumni: Visiting Scholars"
 professional_title: "(2016)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/jumanah-alshenaifi.jpg
 hide_footer: true
 ---

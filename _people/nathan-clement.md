@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "BS Brigham Young University, Summer student (2009)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/nathan-clement.jpg
 hide_footer: true
 ---

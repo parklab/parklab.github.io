@@ -6,7 +6,7 @@ position_category: "Alumni: Students"
 professional_title: "High School/Undergraduate Student (Boston Latin School/Princeton, 2014-2015)"
 description: ""
 layout: person
-academic: 10  # Updated academic field
+status: "Alumni"
 image: ./img/anton-xue.jpg
 hide_footer: true
 ---

@@ -5,7 +5,7 @@ subtitle: Research Fellow  # Set subtitle to position_link_text
 professional_title: "PhD"
 description: " "
 layout: person
-academic: 5  # Updated academic field
+status: "Active Member"
 image: ./img/kyung-ah-woo.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
