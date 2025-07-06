@@ -7,7 +7,6 @@ professional_title: "Software Development Lead (2016-2019), 4D Nucleome DCIC"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/jeremy-johnson-0.jpg
 hide_footer: true
 ---

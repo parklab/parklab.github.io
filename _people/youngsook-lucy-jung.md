@@ -7,7 +7,6 @@ professional_title: "PhD in Health Sciences and Technology, Massachusetts Instit
 description: "Lucy finished her PhD in the Health Sciences and Technology division at MIT and worked on analysis of chromatin modifications related to theDrosophilamodENCODE project."
 layout: person
 status: "Alumni"
-
 image: ./img/youngsook-lucy-jung.jpg
 hide_footer: true
 ---

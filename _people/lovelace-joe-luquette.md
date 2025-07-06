@@ -6,7 +6,6 @@ professional_title: "PhD, HMS Bioinformatics and Integrative Genomics, Scientifi
 description: "A graduate of Boston University, Joe comes up with cool algorithms, designs web servers, and helps out with everything else, when he is not taking algebra courses for fun."
 layout: person
 status: "Active Member"
-academic: 5
 image: ./img/lovelace-joe-luquette.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows

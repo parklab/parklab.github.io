@@ -6,7 +6,6 @@ professional_title: "Masters in Biotechnology, Georgetown University, Data Wrang
 description: ""
 layout: person
 status: "Active Member"
-academic: 5
 image: ./img/rahi-navelkar.jpg
 hide_footer: true
 position_category: Staff Scientists and Software Engineers

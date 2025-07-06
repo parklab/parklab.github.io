@@ -7,7 +7,6 @@ professional_title: "Harvard Undergraduate Researcher (2014-2015)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/ling-ya-monica-chao.jpg
 hide_footer: true
 ---

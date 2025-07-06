@@ -7,7 +7,6 @@ professional_title: "PhD student, Department of Systems Biology, Joint with Jere
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/chris-nam.jpg
 hide_footer: true
 ---

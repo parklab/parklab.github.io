@@ -7,7 +7,6 @@ professional_title: "PhD, HMS Bioinformatics and Integrative Genomics (BIG), Pos
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/craig-bohrson.jpg
 hide_footer: true
 ---

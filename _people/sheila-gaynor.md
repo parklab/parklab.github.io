@@ -7,7 +7,6 @@ professional_title: "Rotation Student (2014)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/sheila-gaynor.jpg
 hide_footer: true
 ---

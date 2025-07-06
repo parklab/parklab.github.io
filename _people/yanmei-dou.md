@@ -7,7 +7,6 @@ professional_title: "PhD in Bioinformatics, Peking University (China), Postdocto
 description: "Yanmei completed her PhD in Bioinformatics at Peking University. She co-developed MosaicHunter, a Bayesian-based software to identify post-zygotic mosaicisms in whole-genome sequencing and whole-exome sequencing of non-cancer individuals using unpaired, paired, or trio samples (http://mosaichunter.cbi.pku.edu.cn/), and performed bioinformatic analysis of single nucleotide mosaicisms in exome data of ASD pedigrees. She is interested in somatic mutations in human genome."
 layout: person
 status: "Alumni"
-
 image: ./img/yanmei-dou.jpg
 hide_footer: true
 ---

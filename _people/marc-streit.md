@@ -7,7 +7,6 @@ professional_title: "PhD in Computer Science, Graz University of Technology, Vis
 description: "Marc is an assistant professor in the Institute of Computer Graphics at Johannes Kepler University in Linz. He worked on development of StratomeX, a visualization tool for cancer genomics data."
 layout: person
 status: "Alumni"
-
 image: ./img/marc-streit.jpg
 hide_footer: true
 ---

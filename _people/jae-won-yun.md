@@ -7,7 +7,6 @@ professional_title: "Visiting graduate student (2014)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/jae-won-yun.jpg
 hide_footer: true
 ---

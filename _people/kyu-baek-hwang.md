@@ -7,7 +7,6 @@ professional_title: "PhD in Computer Science and Engineering, Seoul National Uni
 description: "Kyu-Baek received his B.S.E., M.S.E., and Ph.D. degrees all from the School of Computer Science and Engineering, College of Engineering, Seoul National University, Seoul, Korea. He is currently an Assistant Professor in the School of Computing, Soongsil University, Seoul, Korea. Prior to joining Soongsil as a faculty member, he was a Postdoctoral Researcher at the Biointelligence Laboratory, Seoul National University, Seoul, Korea. During the Ph.D. study at Seoul National University, he visited the Children’s Hospital Informatics Program, Harvard Medical School, Boston, MA, as a Short-term Visiting Scholar. His research interests include machine learning, natural language processing, and bioinformatics"
 layout: person
 status: "Alumni"
-
 image: ./img/kyu-baek-hwang.jpg
 hide_footer: true
 ---

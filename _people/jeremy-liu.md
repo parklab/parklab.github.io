@@ -7,7 +7,6 @@ professional_title: "Summer Intern (Yale, 2014)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/jeremy-liu.jpg
 hide_footer: true
 ---

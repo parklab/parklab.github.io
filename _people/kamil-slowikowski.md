@@ -7,7 +7,6 @@ professional_title: "Rotation Student"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/kamil-slowikowski.jpg
 hide_footer: true
 ---

@@ -7,7 +7,6 @@ professional_title: "PhD, V. Karazin Kharkov National University, Postdoctoral F
 description: "Michael received his Ph.D. and was a faculty member at V. Karazin Kharkov National University, Kharkov, Ukraine. He is an expert in the biophysics of nucleosome positioning. He is a special Departmental Fellow in the Molecular Biology Department at the Massachusetts General Hospital."
 layout: person
 status: "Alumni"
-
 image: ./img/mykhaylo-michael-tolstorukov.jpg
 hide_footer: true
 ---

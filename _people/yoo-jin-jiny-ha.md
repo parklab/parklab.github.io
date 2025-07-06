@@ -6,7 +6,6 @@ professional_title: "PhD in Biomedical Systems Informatics, Yonsei University Co
 description: ""
 layout: person
 status: "Active Member"
-academic: 5
 image: ./img/yoo-jin-jiny-ha.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows

@@ -7,7 +7,6 @@ professional_title: "PhD Student, Bioinformatics and Integrative Genomics (BIG),
 description: "Daniel earned his B.A. in Mathematics-Statistics at Columbia University with a minor in Chemistry. There, he used a computational model called the Cellular Potts Model to study segregation patterns of breast cancer cells under Professor Laura Kaufman."
 layout: person
 status: "Alumni"
-
 image: ./img/daniel-lee.jpg
 hide_footer: true
 ---

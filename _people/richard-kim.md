@@ -7,7 +7,6 @@ professional_title: "HPCGG Bioinformatics Analyst (2003-2005)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/richard-kim.jpg
 hide_footer: true
 ---

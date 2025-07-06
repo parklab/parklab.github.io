@@ -7,7 +7,6 @@ professional_title: "Summer intern (MIT UROP, 2005-2006)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/daon-ha.jpg
 hide_footer: true
 ---

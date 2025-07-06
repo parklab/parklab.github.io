@@ -5,7 +5,6 @@ subtitle: Principal Investigator  # Set subtitle to position_link_text
 professional_title: "Professor of Biomedical Informatics"
 layout: person
 status: "Active Member"
-# academic: 0
 image: ./img/peter-j-park.jpg
 hide_footer: true
 position_category: Principal Investigator

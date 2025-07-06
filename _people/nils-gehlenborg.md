@@ -7,7 +7,6 @@ professional_title: "PhD in Bioinformatics, University of Cambridge and European
 description: "Nils obtained his bioinformatics Ph.D. from the University of Cambridge and the European Bioinformatics Institute (EMBL-EBI). Nils is interested in visualization of large data sets, with applications in cancer genomics."
 layout: person
 status: "Alumni"
-
 image: ./img/nils-gehlenborg.jpg
 hide_footer: true
 ---

@@ -7,7 +7,6 @@ professional_title: "(2016)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/jumanah-alshenaifi.jpg
 hide_footer: true
 ---

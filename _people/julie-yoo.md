@@ -7,7 +7,6 @@ professional_title: "MBA, MS/MBA Student (2007-2008)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/julie-yoo.jpg
 hide_footer: true
 ---

@@ -7,7 +7,6 @@ professional_title: "Summer Intern (Wellesley, 2011)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/lucy-y-liu.jpg
 hide_footer: true
 ---

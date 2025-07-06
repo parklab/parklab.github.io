@@ -7,7 +7,6 @@ professional_title: "Data Curator (2016-2020), 4D Nucleome DCIC, Technical Coord
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/koray-kirli-0.jpg
 hide_footer: true
 ---

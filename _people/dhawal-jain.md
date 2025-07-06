@@ -7,7 +7,6 @@ professional_title: "​PhD in chromatin dynamics, Ludwig Maximilians University
 description: "Dhawal has done his doctoral work in chromatin dynamics from the Ludwig Maximilians university, Germany (and as a part of International Max-Planck research school). During doctoral studies, his research focused on assessing changes in chromatin structure in the wake of nucleosome remodeling factors. In the Park lab, Dhawal focuses on exploring roles of chromatin factors in regulating transcription process and explores his interests in immuno-oncology. Besides science, he keeps his active interests in classical music and hiking."
 layout: person
 status: "Alumni"
-
 image: ./img/dhawal-jain.jpg
 hide_footer: true
 ---

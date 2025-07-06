@@ -7,7 +7,6 @@ professional_title: "Scientific Programmer (2019-2021), Machine Learning Softwar
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/victor-mao.jpg
 hide_footer: true
 ---

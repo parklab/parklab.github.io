@@ -7,7 +7,6 @@ professional_title: "BS in Computer Science, Wentworth Institute of Technology, 
 description: "Scott is a recent Comp Sci graduate leveraging his skills to help out the Refinery Team, among other things."
 layout: person
 status: "Alumni"
-
 image: ./img/scott-ouellette.jpg
 hide_footer: true
 ---

@@ -7,7 +7,6 @@ professional_title: "Summer Intern (Harvard DBMI Summer Institute) (2017), Under
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/danielle-rubin.jpg
 hide_footer: true
 ---

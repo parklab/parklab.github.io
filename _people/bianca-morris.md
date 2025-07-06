@@ -5,7 +5,6 @@ subtitle: Software Engineer  # Set subtitle to position_link_text
 professional_title: "ALM<br/>Sr. Front End Engineer"
 layout: person
 status: "Alumni"
-
 image: ./img/bianca-morris.jpg
 hide_footer: true
 position_category: "Alumni: Staff Scientists and Software Engineers"

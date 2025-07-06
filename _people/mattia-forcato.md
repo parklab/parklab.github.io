@@ -7,7 +7,6 @@ professional_title: "PhD in Science and Technologies for Health Products, Univer
 description: "Mattia was a postdoc at the Center for Genome Research, University of Modena and Reggio Emilia. He worked on Hi-C data for higher-order chromatin interactions."
 layout: person
 status: "Alumni"
-
 image: ./img/mattia-forcato.jpg
 hide_footer: true
 ---

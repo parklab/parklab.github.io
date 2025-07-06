@@ -7,7 +7,6 @@ professional_title: "Master of Biomedical Informatics (2022)"
 description: "Catherine is a first-year student in the MBI program at Harvard Medical School. She has previously studied an undergraduate in Biomedical Sciences and a Master's in Engineering specializing in Software Engineering. She has a keen interest in applying software techniques within a more biological context such as those within genomics and human diseases."
 layout: person
 status: "Alumni"
-
 image: ./img/catherine-song.jpg
 hide_footer: true
 ---

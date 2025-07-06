@@ -7,7 +7,6 @@ professional_title: "Rotation Student"
 description: "Graduated at KAIST, South Korea, Jayoung has been working on investigating interesting biological questions using various omics data including epigenomics, Hi-C, single-cell expression and accessibility profile"
 layout: person
 status: "Alumni"
-
 image: ./img/jayoung-ryu.jpg
 hide_footer: true
 ---

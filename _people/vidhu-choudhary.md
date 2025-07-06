@@ -7,7 +7,6 @@ professional_title: "MA, Bioinformatics Programmer (2007-2008), Senior Data Cons
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/vidhu-choudhary.jpg
 hide_footer: true
 ---

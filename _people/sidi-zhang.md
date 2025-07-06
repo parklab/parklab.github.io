@@ -7,7 +7,6 @@ professional_title: "Rotation Student (2013)"
 description: ""
 layout: person
 status: "Alumni"
-
 image: ./img/sidi-zhang.jpg
 hide_footer: true
 ---
