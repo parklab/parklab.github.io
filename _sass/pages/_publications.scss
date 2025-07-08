@@ -20,10 +20,68 @@
     font-size: 15px;
     }
 
-    .pubInfo
-    {
-    font-size: 100%;
-    margin-bottom: 30px;
+    .pubInfo {
+        font-size: 100%;
+        margin-bottom: 30px;
+
+        .pdf_link {
+            svg {
+                width: 15px;
+                margin-left: 2px;
+            }
+        }
+        
+        .abstract-toggle-button {
+            font-size: 15px;
+            font-weight: 700;
+            background-color: transparent;
+            border: none;
+            color: #155799;
+            padding: 0px;
+            margin-right: 5px;
+            
+            svg {
+                width: 12px;
+                transition: transform 0.3s ease;
+                margin: 0px 2px;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &.active {
+                svg {
+                    transform: rotate(180deg);
+                    transition: transform 0.3s ease;
+                }
+            }
+        }
+
+        .abstract {
+            display: flex;
+            border: 1px solid rgb(194, 192, 192);
+            background-color: whitesmoke;
+            border-radius: 4px;
+            font-weight: 400;
+            margin-top: 10px;
+            overflow: hidden;
+            height: auto;
+            max-height: 800px;
+            transition: max-height 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+
+            p {
+                margin: 10px;
+            }
+
+            &.hidden {
+                max-height: 0px;
+                overflow: hidden;
+                transition: max-height 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+                border-color: transparent;
+                background-color: transparent;
+            }
+        }
     }
 
     .lab_member
