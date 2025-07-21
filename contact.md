@@ -16,7 +16,7 @@ hide_footer: true
 #### Location of the Lab
 
 
-![Countway Library](/img/countway.jpg)
+![Countway Library](/img/countway-directions.png)
 
 Department of Biomedical Informatics<br>
 Harvard Medical School<br>
@@ -25,9 +25,9 @@ Boston, MA 02115<br>
 (Inside Countway Library of Medicine building)<br>
 Phone: 617-432-7373<br>
 Fax: 617-432-0693<br>
-Use this address for Uber rides / taking public transportation to arrive at the front entrance and library lobby.
 
 #### Directions to the Longwood Medical Area
+- **Uber Directions:** Use the 695 Huntington Ave Boston, MA 02115 address to arrive at the front entrance (pictured above) lobby.
 
 - If you're coming by the T, Green Lines D ("Longwood" stop) and E ("Brigham Circle" stop) are 2-3 blocks away.
 
