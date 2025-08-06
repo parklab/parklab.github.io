@@ -36,11 +36,11 @@
     {
         "author": [
             {
-                "name": "Cheng H",
+                "name": "Cheng H*",
                 "lab_member": false
             },
             {
-                "name": "Qu H",
+                "name": "Qu H*",
                 "lab_member": true
             },
             {
@@ -60,11 +60,11 @@
                 "lab_member": false
             },
             {
-                "name": "Park PJ**",
+                "name": "Park PJ",
                 "lab_member": true
             },
             {
-                "name": "Li H**",
+                "name": "Li H",
                 "lab_member": false
             }
         ],
