@@ -2,19 +2,8 @@ source "https://rubygems.org"
 
 ruby '3.1.3'
 
-# gem "webrick"
-
 gem 'rexml', '~> 3.2', '>= 3.2.4'
-
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-gem "jekyll", "~> 3.8.6"
+gem "jekyll", "~> 4.4.1"
 gem "liquid", "~> 4.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -44,3 +33,6 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # gem "rexml", "~> 3.2"
 
 gem "webrick", "~> 1.8"
+
+# Upgrade kramdown
+gem "kramdown", ">= 2.3.1"
