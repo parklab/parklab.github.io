@@ -36,6 +36,323 @@
     {
         "author": [
             {
+                "name": "Coorens THH",
+                "lab_member": false
+            },
+            {
+                "name": "Oh JW",
+                "lab_member": false
+            },
+            {
+                "name": "Choi YA",
+                "lab_member": false
+            },
+            {
+                "name": "Lim NS",
+                "lab_member": false
+            },
+            {
+                "name": "Zhao B",
+                "lab_member": false
+            },
+            {
+                "name": "Voshall A",
+                "lab_member": false
+            },
+            {
+                "name": "Abyzov A",
+                "lab_member": false
+            },
+            {
+                "name": "Antonacci-Fulton L",
+                "lab_member": false
+            },
+            {
+                "name": "Aparicio S",
+                "lab_member": false
+            },
+            {
+                "name": "Ardlie KG",
+                "lab_member": false
+            },
+            {
+                "name": "Bell TJ",
+                "lab_member": false
+            },
+            {
+                "name": "Bennett JT",
+                "lab_member": false
+            },
+            {
+                "name": "Bernstein BE",
+                "lab_member": false
+            },
+            {
+                "name": "Blanchard TG",
+                "lab_member": false
+            },
+            {
+                "name": "Boyle AP",
+                "lab_member": false
+            },
+            {
+                "name": "Buenrostro JD",
+                "lab_member": false
+            },
+            {
+                "name": "Burns KH",
+                "lab_member": false
+            },
+            {
+                "name": "Chen F",
+                "lab_member": false
+            },
+            {
+                "name": "Chen R",
+                "lab_member": false
+            },
+            {
+                "name": "Choudhury S",
+                "lab_member": false
+            },
+            {
+                "name": "Doddapaneni HV",
+                "lab_member": false
+            },
+            {
+                "name": "Eichler EE",
+                "lab_member": false
+            },
+            {
+                "name": "Evrony GD",
+                "lab_member": false
+            },
+            {
+                "name": "Faith MA",
+                "lab_member": false
+            },
+            {
+                "name": "Fazzio TG",
+                "lab_member": false
+            },
+            {
+                "name": "Fulton RS",
+                "lab_member": false
+            },
+            {
+                "name": "Garber M",
+                "lab_member": false
+            },
+            {
+                "name": "Gehlenborg N",
+                "lab_member": false
+            },
+            {
+                "name": "Germer S",
+                "lab_member": false
+            },
+            {
+                "name": "Getz G",
+                "lab_member": false
+            },
+            {
+                "name": "Gibbs RA",
+                "lab_member": false
+            },
+            {
+                "name": "Hernandez RG",
+                "lab_member": false
+            },
+            {
+                "name": "Jin F",
+                "lab_member": false
+            },
+            {
+                "name": "Korbel JO",
+                "lab_member": false
+            },
+            {
+                "name": "Landau DA",
+                "lab_member": false
+            },
+            {
+                "name": "Lawson HA",
+                "lab_member": false
+            },
+            {
+                "name": "Lennon NJ",
+                "lab_member": false
+            },
+            {
+                "name": "Li H",
+                "lab_member": false
+            },
+            {
+                "name": "Li Y",
+                "lab_member": false
+            },
+            {
+                "name": "Loh PR",
+                "lab_member": false
+            },
+            {
+                "name": "Marth G",
+                "lab_member": false
+            },
+            {
+                "name": "McConnell MJ",
+                "lab_member": false
+            },
+            {
+                "name": "Mills RE",
+                "lab_member": false
+            },
+            {
+                "name": "Montgomery SB",
+                "lab_member": false
+            },
+            {
+                "name": "Natarajan P",
+                "lab_member": false
+            },
+            {
+                "name": "Park PJ",
+                "lab_member": true
+            },
+            {
+                "name": "Satija R",
+                "lab_member": false
+            },
+            {
+                "name": "Sedlazeck FJ",
+                "lab_member": false
+            },
+            {
+                "name": "Shao DD",
+                "lab_member": false
+            },
+            {
+                "name": "Shen H",
+                "lab_member": false
+            },
+            {
+                "name": "Stergachis AB",
+                "lab_member": false
+            },
+            {
+                "name": "Underhill HR",
+                "lab_member": false
+            },
+            {
+                "name": "Urban AE",
+                "lab_member": false
+            },
+            {
+                "name": "VonDran MW",
+                "lab_member": false
+            },
+            {
+                "name": "Walsh CA",
+                "lab_member": false
+            },
+            {
+                "name": "Wang T",
+                "lab_member": false
+            },
+            {
+                "name": "Wu TP",
+                "lab_member": false
+            },
+            {
+                "name": "Zong C",
+                "lab_member": false
+            },
+            {
+                "name": "Lee EA",
+                "lab_member": false
+            },
+            {
+                "name": "Vaccarino FM",
+                "lab_member": false
+            },
+            {
+                "name": "The Somatic Mosaicism across Human Tissues Network",
+                "lab_member": false
+            }
+        ],
+        "title": "The Somatic Mosaicism across Human Tissues Network",
+        "title_link": "https://www.nature.com/articles/s41586-025-09096-7",
+        "abstract": "From fertilization onwards, the cells of the human body acquire variations in their DNA sequence, known as somatic mutations. These postzygotic mutations arise from intrinsic errors in DNA replication and repair, as well as from exposure to mutagens. Somatic mutations have been implicated in some diseases, but a fundamental understanding of the frequency, type and patterns of mutations across healthy human tissues has been limited. This is primarily due to the small proportion of cells harbouring specific somatic variants within an individual, making them more challenging to detect than inherited variants. Here we describe the Somatic Mosaicism across Human Tissues Network, which aims to create a reference catalogue of somatic mutations and their clonal patterns across 19 different tissue sites from 150 non-diseased donors and develop new technologies and computational tools to detect somatic mutations and assess their phenotypic consequences, including clonal expansions. This strategy enables a comprehensive examination of the mutational landscape across the human body, and provides a comparison baseline for somatic mutation in diseases. This will lead to a deep understanding of somatic mutations and clonal expansions across the lifespan, as well as their roles in health, in ageing and, by comparison, in diseases.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/the-somatic-mosaicism-across-human-tissue-network",
+        "year": "2025",
+        "type": "2025",
+        "journal": "Nature",
+        "journal_location": "Nature 2025"
+    },
+    {
+        "author": [
+            {
+                "name": "Zhao Y",
+                "lab_member": true
+            },
+            {
+                "name": "Luquette JL",
+                "lab_member": true
+            },
+            {
+                "name": "Veit AD",
+                "lab_member": true
+            },
+            {
+                "name": "Wang X",
+                "lab_member": false
+            },
+            {
+                "name": "Xi R",
+                "lab_member": false
+            },
+            {
+                "name": "Viswanadham VV",
+                "lab_member": true
+            },
+            {
+                "name": "Zhang Y",
+                "lab_member": true
+            },
+            {
+                "name": "Shao DD",
+                "lab_member": false
+            },
+            {
+                "name": "Walsh CA",
+                "lab_member": false
+            },
+            {
+                "name": "Yang HW",
+                "lab_member": false
+            },
+            {
+                "name": "Johnson MD**",
+                "lab_member": false
+            },
+            {
+                "name": "Park PJ**",
+                "lab_member": true
+            }
+        ],
+        "title": "High-resolution detection of copy number alterations in single cells with HiScanner",
+        "title_link": "https://www.nature.com/articles/s41467-025-60446-5#Abs1",
+        "abstract": "Improvements in single-cell whole-genome sequencing (scWGS) assays have enabled detailed characterization of somatic copy number alterations (CNAs) at the single-cell level. Yet, current computational methods are mostly designed for detecting chromosome-scale changes in cancer samples with low sequencing coverage. Here, we introduce HiScanner (High-resolution Single-Cell Allelic copy Number callER), which combines read depth, B-allele frequency, and haplotype phasing to identify CNAs with high resolution. In simulated data, HiScanner consistently outperforms state-of-the-art methods across various CNA types and sizes. When applied to high-coverage scWGS data from 65 cells across 11 neurotypical human brains, HiScanner shows a superior ability to detect smaller CNAs, uncovering distinct CNA patterns between neurons and oligodendrocytes. We also generated low-coverage scWGS data from 179 cells sampled from the same meningioma patient at two time points. For this serial dataset, integration of CNAs with point mutations revealed evolutionary trajectories of tumor cells. These findings show that HiScanner enables accurate characterization of frequency, clonality, and distribution of CNAs at the single-cell level in both non-neoplastic and neoplastic cells.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/high-resolution-detection-of-copy-number-alterations-in-single-cells-with-HiScanner",
+        "pdf_link": "/publications/pdf/s41467-025-60446-5.pdf",
+        "year": "2025",
+        "type": "2025",
+        "journal": "Nature Communications",
+        "journal_location": "Nature Communications 2025"
+    },
+    {
+        "author": [
+            {
                 "name": "Cheng H*",
                 "lab_member": false
             },
