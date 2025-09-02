@@ -3,6 +3,7 @@ person_title: <a href="/people/peter-j-park">Dr. Peter J Park</a>
 name: Dr. Peter J Park
 subtitle: Principal Investigator  # Set subtitle to position_link_text
 professional_title: "Professor of Biomedical Informatics"
+academic_title: "PhD in Applied Mathematics, California Institute of Technology"
 layout: person
 status: "Active Member"
 image: ./img/peter-j-park.jpg
