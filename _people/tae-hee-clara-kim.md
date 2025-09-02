@@ -9,4 +9,5 @@ status: "Alumni"
 image: ./img/tae-hee-clara-kim.jpg
 hide_footer: true
 position_category: "Alumni: Staff Scientists and Software Engineers"
+start_date: 2021-01-01
 ---

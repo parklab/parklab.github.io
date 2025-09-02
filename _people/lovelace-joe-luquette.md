@@ -9,4 +9,5 @@ status: "Active Member"
 image: ./img/lovelace-joe-luquette.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
+start_date: 2009-01-01
 ---

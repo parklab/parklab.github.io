@@ -9,4 +9,5 @@ status: "Active Member"
 image: ./img/william-ronchetti.jpg
 hide_footer: true
 position_category: Staff Scientists and Software Engineers
+start_date: 2019-01-01
 ---

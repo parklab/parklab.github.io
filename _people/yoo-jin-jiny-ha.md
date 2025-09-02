@@ -9,4 +9,5 @@ status: "Alumni"
 image: ./img/yoo-jin-jiny-ha.jpg
 hide_footer: true
 position_category: "Alumni: Postdoctoral Fellows"
+start_date: 2024-01-01
 ---

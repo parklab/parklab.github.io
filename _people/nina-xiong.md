@@ -9,4 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/nina-xiong.jpg
 hide_footer: true
+start_date: 2022-01-01
+end_date: 2022-01-01
 ---

@@ -9,4 +9,5 @@ status: "Active Member"
 image: ./img/vinay-viswanadham.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
+start_date: 2019-01-01
 ---

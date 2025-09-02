@@ -9,4 +9,5 @@ status: "Active Member"
 image: ./img/dominik-glodzik.jpg
 hide_footer: true
 position_category: Research Scientists
+start_date: 2021-01-01
 ---
