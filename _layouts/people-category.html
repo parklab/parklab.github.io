@@ -18,16 +18,48 @@ show_sidebar: false
         {% assign currentPositionCategory = people_by_category | where: "name" , category | first %}
   
         <div class="category-body">
+
             {% for person in currentPositionCategory.items %}
             <div class="person-container" data-person="{{ person.name }}">
+
+              {% assign academic_subtitle = "" %}
+
+              <!-- Isolate the PhD part of the professional_title -->
+              {% assign split_professional_title = person.professional_title | split: "," %}
+              
+              {% for i in (0..max_index) %}
+                {% assign current = split_professional_title[i] | strip %}
+
+                {% if current contains "PhD" %}
+                  {% assign next_index = i | plus: 1 %}
+                  {% if next_index <= split_professional_title.size %}
+                    {% assign academic_subtitle = current | append: split_professional_title[next_index] %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+
+              {% comment %} Use professional_title if academic_subtitle is not available {% endcomment %}
+              {% if academic_subtitle == "" %}
+                {% if person.professional_title != person.subtitle %}
+                  {% assign academic_subtitle = person.professional_title %}
+                {% endif %}
+              {% endif %}
+
               {% if person.image %}
               <div class="person-card">
                 <img src="{{ person.image }}" alt="{{ person.name }}" />
                 <div class="person-information">
                   <p class="title">{{ person.person_title }}</p>
-                  <p class="subtitle">{{ person.subtitle }}</p>
-                  <p class="professional_title">{{ person.professional_title }}</p>
-                  {% comment %} <a class="read-more" href="{{ person.id }}">Read more</a> {% endcomment %}
+                  
+                  {% comment %} Use academic_title if available, otherwise try calculated title {% endcomment %}
+                  {% if person.academic_title %}
+                  <p class="professional_title">{{ person.academic_title }}</p>
+                  {% elsif academic_subtitle != "" %}
+                  <p class="professional_title">{{ academic_subtitle }}</p>
+                  {% else %}
+                  <p class="professional_title">{{ person.subtitle }}</p>
+                  {% endif %}
+
                   {% if person.additional_links %}
                     <div class="additional-links-container">
                         {% if person.additional_links.github %}

@@ -3,9 +3,10 @@ person_title: <a href="/people/peter-j-park">Dr. Peter J Park</a>
 name: Dr. Peter J Park
 subtitle: Principal Investigator  # Set subtitle to position_link_text
 professional_title: "Professor of Biomedical Informatics"
+academic_title: "PhD in Applied Mathematics, California Institute of Technology"
 layout: person
 status: "Active Member"
-image: ./img/peter-j-park.jpg
+image: ./img/peter-j-park2.jpg
 hide_footer: true
 position_category: Principal Investigator
 contact_information: "Department of Biomedical Informatics<br/>Countway Library of Medicine, Room 318<br/>10 Shattuck St</br>Boston, MA 02115<br/>p: 617-432-7373"

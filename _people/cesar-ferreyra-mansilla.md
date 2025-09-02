@@ -3,6 +3,7 @@ person_title: <a href="/people/cesar-ferreyra-mansilla">Cesar Ferreyra-Mansilla<
 name: Cesar Ferreyra-Mansilla
 subtitle: Software Engineer  # Set subtitle to position_link_text
 professional_title: "Front End Engineer"
+academic_title: "BA in Information Science, Cornell University"
 layout: person
 status: "Active Member"
 image: ./img/cesar-ferreyra-mansilla.jpg
