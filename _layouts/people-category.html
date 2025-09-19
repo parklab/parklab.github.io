@@ -60,6 +60,11 @@ show_sidebar: false
                   <p class="professional_title">{{ person.subtitle }}</p>
                   {% endif %}
 
+                  {% comment %} Additional line for current_position if provided {% endcomment %}
+                  {% if person.status == "Alumni" and person.current_position %}
+                  <p class="current_position">{{ person.current_position }}</p>
+                  {% endif %}
+
                   {% if person.additional_links %}
                     <div class="additional-links-container">
                         {% if person.additional_links.github %}
