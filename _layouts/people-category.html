@@ -81,7 +81,10 @@ show_sidebar: false
                   {% comment %} <img src="{{ person.image }}" alt="{{ person.name }}" /> {% endcomment %}
                   <div class="person-information">
                     <p class="title">{{ person.person_title }} 
-                      {% if person.start_date and person.end_date %}{{ person.start_date | date: '%B %Y' }}-{{ person.end_date | date: '%B %Y' }}{% endif %}</p>
+                      <span class="dates">
+                        {% if person.start_date and person.end_date %}&lpar;{{ person.start_date | date: '%Y' }}-{{ person.end_date | date: '%Y' }}&rpar;{% endif %}
+                      </span>
+                    </p>
 
                     {% comment %} Form a subtitle line for alumni {% endcomment %}
                      <p class="professional_title">
