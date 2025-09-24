@@ -110,6 +110,24 @@
                             width: 100%;
                         }
                     }
+
+                    &.alumni {
+                        display: block;
+                        .person-container {
+                            width: auto;
+                            max-width: none;
+
+                            .person-card {
+                                .person-information {
+                                    padding: 0px;
+
+                                    .current_position {
+                                        margin-left: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

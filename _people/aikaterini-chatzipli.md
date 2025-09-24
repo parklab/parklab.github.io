@@ -9,4 +9,5 @@ layout: person
 status: "Alumni"
 image: ./img/aikaterini-chatzipli.jpg
 hide_footer: true
+current_position: "Postdoctoral Fellow, Boston Children’s Hospital"
 ---
