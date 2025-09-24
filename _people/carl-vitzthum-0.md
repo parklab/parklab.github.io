@@ -9,4 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/carl-vitzthum-0.jpg
 hide_footer: true
+start_date: 2016-01-01
+end_date: 2020-01-01
 ---

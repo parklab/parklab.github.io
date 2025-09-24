@@ -10,4 +10,5 @@ status: "Active Member"
 image: ./img/ann-caplin.jpg
 hide_footer: true
 position_category: Students
+start_date: 2024-01-01
 ---

@@ -9,5 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/aikaterini-chatzipli.jpg
 hide_footer: true
+start_date: 2020-01-01
+end_date: 2023-01-01
 current_position: "Postdoctoral Fellow, Boston Children’s Hospital"
 ---

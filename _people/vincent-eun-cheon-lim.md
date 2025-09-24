@@ -9,4 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/vincent-eun-cheon-lim.jpg
 hide_footer: true
+start_date: 2016-01-01
+end_date: 2017-01-01
 ---

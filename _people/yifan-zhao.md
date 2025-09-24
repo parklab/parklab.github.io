@@ -10,4 +10,5 @@ academic: 10  # Updated academic field
 image: ./img/yifan-zhao.jpg
 hide_footer: true
 position_category: "Alumni: Students"
+end_date: 2025-01-01
 ---
