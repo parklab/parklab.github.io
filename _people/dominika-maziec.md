@@ -10,4 +10,5 @@ status: "Active Member"
 image: ./img/dominika-maziec.jpg
 hide_footer: true
 position_category: Staff Scientists and Software Engineers
+start_date: 2022-01-01
 ---

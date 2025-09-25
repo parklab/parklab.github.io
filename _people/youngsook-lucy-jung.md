@@ -9,4 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/youngsook-lucy-jung.jpg
 hide_footer: true
+start_date: 2015-01-01
+end_date: 2021-01-01
 ---

@@ -16,78 +16,188 @@ show_sidebar: false
         <h2 class="category-header">{{ category }}</h2>
         
         {% assign currentPositionCategory = people_by_category | where: "name" , category | first %}
-  
-        <div class="category-body">
 
-            {% for person in currentPositionCategory.items %}
-            <div class="person-container" data-person="{{ person.name }}">
+        {% assign items_with_start_date = currentPositionCategory.items | where_exp: "item", "item.start_date" %}
+        {% assign items_without_start_date = currentPositionCategory.items | where_exp: "item", "item.start_date == nil" %}
 
-              {% assign academic_subtitle = "" %}
+        {% assign max_index = 10 %}
 
-              <!-- Isolate the PhD part of the professional_title -->
-              {% assign split_professional_title = person.professional_title | split: "," %}
-              
-              {% for i in (0..max_index) %}
-                {% assign current = split_professional_title[i] | strip %}
+        {% comment %} Sort the items by start date {% endcomment %}
+        {% assign sorted_category_items = items_with_start_date | sort: "start_date" | reverse %}
 
-                {% if current contains "PhD" %}
-                  {% assign next_index = i | plus: 1 %}
-                  {% if next_index <= split_professional_title.size %}
-                    {% assign academic_subtitle = current | append: split_professional_title[next_index] %}
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
+        {% comment %} Add class for alumni members {% endcomment %}
+        <div class="category-body{% if category contains 'Alumni' %} alumni{% endif %}">
+            {% for person in sorted_category_items %}
+              <div class="person-container" data-person="{{ person.name }}">
 
-              {% comment %} Use professional_title if academic_subtitle is not available {% endcomment %}
-              {% if academic_subtitle == "" %}
-                {% if person.professional_title != person.subtitle %}
-                  {% assign academic_subtitle = person.professional_title %}
-                {% endif %}
-              {% endif %}
-
-              {% if person.image %}
-              <div class="person-card">
-                <img src="{{ person.image }}" alt="{{ person.name }}" />
-                <div class="person-information">
-                  <p class="title">{{ person.person_title }}</p>
-                  
-                  {% comment %} Use academic_title if available, otherwise try calculated title {% endcomment %}
-                  {% if person.academic_title %}
-                  <p class="professional_title">{{ person.academic_title }}</p>
-                  {% elsif academic_subtitle != "" %}
-                  <p class="professional_title">{{ academic_subtitle }}</p>
-                  {% else %}
-                  <p class="professional_title">{{ person.subtitle }}</p>
-                  {% endif %}
-
-                  {% comment %} Additional line for current_position if provided {% endcomment %}
-                  {% if person.status == "Alumni" and person.current_position %}
-                  <p class="current_position">{{ person.current_position }}</p>
-                  {% endif %}
-
-                  {% if person.additional_links %}
-                    <div class="additional-links-container">
-                        {% if person.additional_links.github %}
-                        <a class="link github" href="{{ person.additional_links.github }}" target="_blank">
-                          <i class="fab fa-github"></i>
-                        </a>
-                        {% endif %}
-                        {% if person.additional_links.linkedin %}
-                        <a class="link linkedin" href="{{ person.additional_links.linkedin }}" target="_blank">
-                          <i class="fab fa-linkedin"></i>
-                        </a>
-                        {% endif %}
-                        {% if person.additional_links.organization %}
-                        <a class="link organization" href="{{ person.additional_links.organization }}" target="_blank">
-                            <i class="fas fa-users"></i>
-                        </a>
-                        {% endif %}
-                    </div>
-                  {% endif %}
+              {% comment %} Active Member person card {% endcomment %}
+              {% if person.status == "Active Member" and person.image %}
+                <div class="person-card">
+                  <img src="{{ person.image }}" alt="{{ person.name }}" />
+                  <div class="person-information">
+                    <p class="title">{{ person.person_title }}</p>
+                    <p class="subtitle">{{ person.subtitle }}</p>
+                    {% if person.additional_links %}
+                      <div class="additional-links-container">
+                          {% if person.additional_links.github %}
+                          <a class="link github" href="{{ person.additional_links.github }}" target="_blank">
+                            <i class="fab fa-github"></i>
+                          </a>
+                          {% endif %}
+                          {% if person.additional_links.linkedin %}
+                          <a class="link linkedin" href="{{ person.additional_links.linkedin }}" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                          </a>
+                          {% endif %}
+                          {% if person.additional_links.organization %}
+                          <a class="link organization" href="{{ person.additional_links.organization }}" target="_blank">
+                              <i class="fas fa-users"></i>
+                          </a>
+                          {% endif %}
+                      </div>
+                    {% endif %}
+                  </div>
                 </div>
-              </div>
+              {% comment %} Alumni person card {% endcomment %}
+              {% elsif person.status == "Alumni" %}
+
+                {% assign academic_subtitle = "" %}
+
+                <!-- Isolate the PhD part of the professional_title -->
+                {% assign split_professional_title = person.professional_title | split: "," %}
+                
+                {% for i in (0..max_index) %}
+                  {% assign current = split_professional_title[i] | strip %}
+
+                  {% if current contains "PhD" %}
+                    {% assign next_index = i | plus: 1 %}
+                    {% if next_index <= split_professional_title.size %}
+                      {% assign academic_subtitle = current | append: split_professional_title[next_index] %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+
+                {% comment %} Use professional_title if academic_subtitle is not available {% endcomment %}
+                {% if academic_subtitle == "" %}
+                  {% if person.professional_title != person.subtitle %}
+                    {% assign academic_subtitle = person.professional_title %}
+                  {% endif %}
+                {% endif %}
+
+                <div class="person-card">
+                  <div class="person-information">
+                    <p class="title">{{ person.person_title }}
+                      <span class="dates">
+                        {% if person.start_date and person.end_date %} &lpar;{{ person.start_date | date: '%Y' }}-{{ person.end_date | date: '%Y' }}&rpar; {% endif %}
+                      </span>
+                      {% comment %} Form a subtitle line for alumni {% endcomment %}
+                       <span class="professional_title">
+                          {% comment %} Use academic_title if available, otherwise try calculated title {% endcomment %}
+                          {% if person.academic_title %}
+                          {{ person.academic_title }}
+                            {% elsif academic_subtitle != "" %}
+                          {{ academic_subtitle }}
+                            {% else %}
+                          {{ person.subtitle }}
+                          {% endif %}
+  
+                          {% comment %} Additional line for current_position if provided {% endcomment %}
+                          {% if person.current_position %}
+                            &rarr;
+                            <span class="current_position">{{ person.current_position }}</span>
+                          {% endif %}
+                       </span>
+                    </p>
+                  </div>
+                </div>
               {% endif %}
-            </div>
+              </div>
+            {% endfor %}
+            {% for person in items_without_start_date %}
+              <div class="person-container" data-person="{{ person.name }}">
+
+              {% comment %} Active Member person card {% endcomment %}
+              {% if person.status == "Active Member" and person.image %}
+                <div class="person-card">
+                  <img src="{{ person.image }}" alt="{{ person.name }}" />
+                  <div class="person-information">
+                    <p class="title">{{ person.person_title }}</p>
+                    <p class="subtitle">{{ person.subtitle }}</p>
+                    {% if person.additional_links %}
+                      <div class="additional-links-container">
+                          {% if person.additional_links.github %}
+                          <a class="link github" href="{{ person.additional_links.github }}" target="_blank">
+                            <i class="fab fa-github"></i>
+                          </a>
+                          {% endif %}
+                          {% if person.additional_links.linkedin %}
+                          <a class="link linkedin" href="{{ person.additional_links.linkedin }}" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                          </a>
+                          {% endif %}
+                          {% if person.additional_links.organization %}
+                          <a class="link organization" href="{{ person.additional_links.organization }}" target="_blank">
+                              <i class="fas fa-users"></i>
+                          </a>
+                          {% endif %}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              {% comment %} Alumni person card {% endcomment %}
+              {% elsif person.status == "Alumni" %}
+
+                {% assign academic_subtitle = "" %}
+
+                <!-- Isolate the PhD part of the professional_title -->
+                {% assign split_professional_title = person.professional_title | split: "," %}
+                
+                {% for i in (0..max_index) %}
+                  {% assign current = split_professional_title[i] | strip %}
+
+                  {% if current contains "PhD" %}
+                    {% assign next_index = i | plus: 1 %}
+                    {% if next_index <= split_professional_title.size %}
+                      {% assign academic_subtitle = current | append: split_professional_title[next_index] %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+
+                {% comment %} Use professional_title if academic_subtitle is not available {% endcomment %}
+                {% if academic_subtitle == "" %}
+                  {% if person.professional_title != person.subtitle %}
+                    {% assign academic_subtitle = person.professional_title %}
+                  {% endif %}
+                {% endif %}
+
+                <div class="person-card">
+                  <div class="person-information">
+                    <p class="title">{{ person.person_title }}
+                      <span class="dates">
+                        {% if person.start_date and person.end_date %} &lpar;{{ person.start_date | date: '%Y' }}-{{ person.end_date | date: '%Y' }}&rpar; {% endif %}
+                      </span>
+                      {% comment %} Form a subtitle line for alumni {% endcomment %}
+                       <span class="professional_title">
+                          {% comment %} Use academic_title if available, otherwise try calculated title {% endcomment %}
+                          {% if person.academic_title %}
+                          {{ person.academic_title }}
+                            {% elsif academic_subtitle != "" %}
+                          {{ academic_subtitle }}
+                            {% else %}
+                          {{ person.subtitle }}
+                          {% endif %}
+  
+                          {% comment %} Additional line for current_position if provided {% endcomment %}
+                          {% if person.current_position %}
+                            &rarr;
+                            <span class="current_position">{{ person.current_position }}</span>
+                          {% endif %}
+                       </span>
+                    </p>
+                  </div>
+                </div>
+              {% endif %}
+              </div>
             {% endfor %}
         </div>
       </div>

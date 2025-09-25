@@ -10,4 +10,5 @@ status: "Active Member"
 image: ./img/elizabeth-hye-jung-chun.jpg
 hide_footer: true
 position_category: Research Scientists
+start_date: 2022-01-01
 ---

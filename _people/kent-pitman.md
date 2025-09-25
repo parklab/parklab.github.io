@@ -9,4 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/kent-pitman.jpg
 hide_footer: true
+start_date: 2019-01-01
+end_date: 2023-01-01
 ---

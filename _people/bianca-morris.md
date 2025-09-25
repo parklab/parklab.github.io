@@ -13,6 +13,8 @@ additional_links:
     linkedin: https://www.linkedin.com/in/biancamorris/
     others:
         - https://www.biancamorris.com/
+start_date: 2019-01-01
+end_date: 2025-01-01
 ---
 
 Bianca Morris is a Sr. Front End Engineer at Harvard Medical School's Park Lab in the Biomedical Informatics Department. She is currently leading front-end development and maintenance on two research platforms: the Somatic Mosaicism Across Human Tissues (SMaHT) Data Portal and the Computational Genome Analysis Platform (CGAP). Additionally, she supports and contributes to front-end work on the 4D Nucleome (4DN) Data Portal, collaborating closely with their front-end team.

@@ -9,4 +9,5 @@ status: "Active Member"
 image: ./img/christophe-boetto.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
+start_date: 2025-01-01
 ---
