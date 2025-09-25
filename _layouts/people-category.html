@@ -78,33 +78,32 @@ show_sidebar: false
                 {% endif %}
 
                 <div class="person-card">
-                  {% comment %} <img src="{{ person.image }}" alt="{{ person.name }}" /> {% endcomment %}
                   <div class="person-information">
-                    <p class="title">{{ person.person_title }} 
+                    <p class="title">{{ person.person_title }}
                       <span class="dates">
-                        {% if person.start_date and person.end_date %}&lpar;{{ person.start_date | date: '%Y' }}-{{ person.end_date | date: '%Y' }}&rpar;{% endif %}
+                        {% if person.start_date and person.end_date %} &lpar;{{ person.start_date | date: '%Y' }}-{{ person.end_date | date: '%Y' }}&rpar; {% endif %}
                       </span>
+                      {% comment %} Form a subtitle line for alumni {% endcomment %}
+                       <span class="professional_title">
+                          {% comment %} Use academic_title if available, otherwise try calculated title {% endcomment %}
+                          {% if person.academic_title %}
+                          {{ person.academic_title }}
+                            {% elsif academic_subtitle != "" %}
+                          {{ academic_subtitle }}
+                            {% else %}
+                          {{ person.subtitle }}
+                          {% endif %}
+  
+                          {% comment %} Additional line for current_position if provided {% endcomment %}
+                          {% if person.current_position %}
+                            &rarr;
+                            <span class="current_position">{{ person.current_position }}</span>
+                          {% endif %}
+                       </span>
                     </p>
 
-                    {% comment %} Form a subtitle line for alumni {% endcomment %}
-                     <p class="professional_title">
-                        {% comment %} Use academic_title if available, otherwise try calculated title {% endcomment %}
-                        {% if person.academic_title %}
-                        {{ person.academic_title }}
-                          {% elsif academic_subtitle != "" %}
-                        {{ academic_subtitle }}
-                          {% else %}
-                        {{ person.subtitle }}
-                        {% endif %}
 
-                        {% comment %} Additional line for current_position if provided {% endcomment %}
-                        {% if person.current_position %}
-                          &rarr;
-                          <span class="current_position">{{ person.current_position }}</span>
-                        {% endif %}
-                     </p>
-
-                    {% if person.additional_links %}
+                    {% comment %} {% if person.additional_links %}
                       <div class="additional-links-container">
                           {% if person.additional_links.github %}
                           <a class="link github" href="{{ person.additional_links.github }}" target="_blank">
@@ -122,7 +121,7 @@ show_sidebar: false
                           </a>
                           {% endif %}
                       </div>
-                    {% endif %}
+                    {% endif %} {% endcomment %}
                   </div>
                 </div>
               {% endif %}

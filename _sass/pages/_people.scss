@@ -123,10 +123,22 @@
 
                             .person-card {
                                 .person-information {
+                                    display: inline-flex;
                                     padding: 0px;
+                                    font-size: 1rem;
+
+                                    .professional_title {
+                                        display: inline;
+                                        font-size: 1rem;
+                                    }
+                                    
+                                    .dates {
+                                        font-size: 1rem;
+                                    }
 
                                     .current_position {
                                         margin-left: 5px;
+                                        font-size: 1rem;
                                     }
                                 }
                             }
