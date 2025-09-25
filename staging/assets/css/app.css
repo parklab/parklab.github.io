@@ -11377,6 +11377,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a:hover {
   color: #404040;
 }
+.people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title .dates {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
 .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .subtitle {
   font-size: 0.875rem;
   line-height: inherit;
@@ -11416,6 +11420,29 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 .people-page-container .page-body-container .category-container .category-body .person-container .person-container {
   width: 100%;
+}
+.people-page-container .page-body-container .category-container .category-body.alumni {
+  display: block;
+}
+.people-page-container .page-body-container .category-container .category-body.alumni .person-container {
+  width: auto;
+  max-width: none;
+}
+.people-page-container .page-body-container .category-container .category-body.alumni .person-container .person-card .person-information {
+  display: inline-flex;
+  padding: 0px;
+  font-size: 1rem;
+}
+.people-page-container .page-body-container .category-container .category-body.alumni .person-container .person-card .person-information .professional_title {
+  display: inline;
+  font-size: 1rem;
+}
+.people-page-container .page-body-container .category-container .category-body.alumni .person-container .person-card .person-information .dates {
+  font-size: 1rem;
+}
+.people-page-container .page-body-container .category-container .category-body.alumni .person-container .person-card .person-information .current_position {
+  margin-left: 5px;
+  font-size: 1rem;
 }
 @media (min-width: 992px) {
   .people-page-container .page-body-container .category-container .category-header {
