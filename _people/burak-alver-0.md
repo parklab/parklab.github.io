@@ -9,4 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/burak-alver-0.jpg
 hide_footer: true
+start_date: 2010-01-01
+end_date: 2021-01-01
 ---

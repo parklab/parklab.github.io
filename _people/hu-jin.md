@@ -10,4 +10,5 @@ status: "Active Member"
 image: ./img/hu-jin.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
+start_date: 2018-01-01
 ---

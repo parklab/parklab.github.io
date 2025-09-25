@@ -10,4 +10,6 @@ status: "Active Member"
 image: ./img/gregory-brunette.jpg
 hide_footer: true
 position_category: Students
+start_date: 2020-01-01
+end_date: 2020-01-01
 ---

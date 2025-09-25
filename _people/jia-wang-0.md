@@ -9,4 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/jia-wang-0.jpg
 hide_footer: true
+start_date: 2015-01-01
+end_date: 2017-01-01
 ---

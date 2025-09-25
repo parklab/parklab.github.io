@@ -9,4 +9,5 @@ status: "Active Member"
 image: ./img/corinne-sexton.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
+start_date: 2024-01-01
 ---

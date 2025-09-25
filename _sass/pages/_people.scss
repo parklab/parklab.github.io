@@ -61,6 +61,10 @@
                                             color: #404040;
                                         }
                                     }
+                                    .dates {
+                                        font-size: 0.875rem;
+                                        font-weight: 400;
+                                    }
                                 }
                                 .subtitle {
                                     font-size: 0.875rem;
@@ -108,6 +112,36 @@
                         }
                         .person-container {
                             width: 100%;
+                        }
+                    }
+
+                    &.alumni {
+                        display: block;
+                        .person-container {
+                            width: auto;
+                            max-width: none;
+
+                            .person-card {
+                                .person-information {
+                                    display: inline-flex;
+                                    padding: 0px;
+                                    font-size: 1rem;
+
+                                    .professional_title {
+                                        display: inline;
+                                        font-size: 1rem;
+                                    }
+                                    
+                                    .dates {
+                                        font-size: 1rem;
+                                    }
+
+                                    .current_position {
+                                        margin-left: 5px;
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
                         }
                     }
                 }

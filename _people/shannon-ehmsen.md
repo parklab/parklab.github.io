@@ -14,4 +14,5 @@ additional_links:
     linkedin: "https://www.linkedin.com/in/shannon-ehmsen/"
 tags:
     - "smaht"
+start_date: 2018-01-01
 ---

@@ -9,4 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/joanna-lee.jpg
 hide_footer: true
+start_date: 2019-01-01
+end_date: 2022-01-01
 ---
