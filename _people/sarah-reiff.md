@@ -11,4 +11,6 @@ image: ./img/sarah-reiff.jpg
 hide_footer: true
 start_date: 2018-01-01
 end_date: 2022-01-01
+academic_title: "PhD in Cellular Biology, University of Georgia"
+current_position: "Senior Scientific Knowledge Engineer, GSK"
 ---

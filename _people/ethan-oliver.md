@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/ethan-oliver.jpg
 hide_footer: true
+academic_title: "Tufts"
 start_date: 2019-01-01
 end_date: 2019-01-01
 ---

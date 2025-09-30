@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/daon-ha.jpg
 hide_footer: true
+academic_title: "MIT"
+start_date: 2005-01-01
+end_date: 2006-01-01
 ---

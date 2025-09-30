@@ -11,4 +11,6 @@ image: ./img/fritz-lekschas.jpg
 hide_footer: true
 start_date: 2015-01-01
 end_date: 2016-01-01
+academic_title: "Master’s student, Freie Universität Berlin → PhD student, Harvard School of Applied Sciences and Engineering"
+current_position: "Head of Visualization Research, Ozette Technologies"
 ---

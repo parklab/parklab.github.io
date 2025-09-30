@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/jae-won-yun.jpg
 hide_footer: true
+academic_title: "MD, Seoul National University"
+start_date: 2014-01-01
+end_date: 2014-01-01
+current_position: "Fellow, Samsung Medical Center"
 ---

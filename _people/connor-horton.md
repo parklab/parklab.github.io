@@ -9,6 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/connor-horton.jpg
 hide_footer: true
+academic_title: "Harvard College (MCB)"
 start_date: 2017-01-01
 end_date: 2018-01-01
+current_position: "PhD Student, UC Berkeley &rarr; Thesis: &quot;Towards higher standards for quality control and analysis of single-cell Hi-C data.&quot;"
 ---

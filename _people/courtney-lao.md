@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/courtney-lao.jpg
 hide_footer: true
+academic_title: "UCLA"
 start_date: 2021-01-01
 end_date: 2021-01-01
 ---

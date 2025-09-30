@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/yixuan-he.jpg
 hide_footer: true
+academic_title: "Dartmouth"
+start_date: 2017-01-01
+end_date: 2017-01-01
 ---

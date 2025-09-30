@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/rebecca-panitch.jpg
 hide_footer: true
+academic_title: "Brandeis"
 start_date: 2017-01-01
 end_date: 2017-01-01
 ---

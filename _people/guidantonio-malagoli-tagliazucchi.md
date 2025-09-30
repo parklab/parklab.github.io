@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/guidantonio-malagoli-tagliazucchi.jpg
 hide_footer: true
+academic_title: "PhD Student, University of Modena and Reggio Emilia"
+start_date: 2012-01-01
+end_date: 2012-01-01
+current_position: "Research Fellow, University College London"
 ---

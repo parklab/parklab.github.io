@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/mattia-forcato.jpg
 hide_footer: true
+academic_title: "PhD student, University of Modena and Reggio Emilia"
+start_date: 2014-01-01
+end_date: 2014-01-01
+current_position: "Research Assistant Professor, University of Modena and Reggio Emilia"
 ---

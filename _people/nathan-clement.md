@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/nathan-clement.jpg
 hide_footer: true
+academic_title: "BYU"
+start_date: 2009-01-01
+end_date: 2009-01-01
 ---

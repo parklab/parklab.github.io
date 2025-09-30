@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/luca-petiti.jpg
 hide_footer: true
+academic_title: "PhD student in Genome Sciences/Genomics, Università degli Studi di Milano"
+start_date: 2013-01-01
+end_date: 2014-01-01
+current_position: "Postdoctoral Fellow, National Research Council – Institute of Biomedical Technologies"
 ---

@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/psalm-haseley.jpg
 hide_footer: true
+start_date: 2010-01-01
+end_date: 2015-01-01
+academic_title: "MS in Bioinformatics, Rochester Institute of Technology"
+current_position: "Programmer"
 ---

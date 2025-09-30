@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/alexander-lex.jpg
 hide_footer: true
+academic_title: "PhD Student, Graz University of Technology"
+start_date: 2011-01-01
+end_date: 2011-01-01
+current_position: "Assistant Professor of CS, University of Utah"
 ---

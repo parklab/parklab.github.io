@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/beverly-fu.jpg
 hide_footer: true
+academic_title: "Harvard College (Statistics/Chemistry)"
+start_date: 2022-01-01
+end_date: 2024-01-01
+current_position: "MD Student, Stanford &rarr; Thesis: &quot;A Study of the Mutational Signatures of Structural Variation in Human Cancer.&quot; (Hoopes Prize)"
 ---

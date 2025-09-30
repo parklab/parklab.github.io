@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/jeremy-liu.jpg
 hide_footer: true
+academic_title: "Yale"
+start_date: 2014-01-01
+end_date: 2014-01-01
 ---

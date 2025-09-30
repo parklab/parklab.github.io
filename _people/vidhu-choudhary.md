@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/vidhu-choudhary.jpg
 hide_footer: true
+start_date: 2007-01-01
+end_date: 2008-01-01
+academic_title: "MS, University of Rajasthan"
+current_position: "Senior Data Consultant, Kaiser Permanente"
 ---

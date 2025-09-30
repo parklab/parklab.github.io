@@ -11,4 +11,6 @@ image: ./img/scott-ouellette.jpg
 hide_footer: true
 start_date: 2015-01-01
 end_date: 2019-01-01
+academic_title: "BS in Computer Science, Wentworth Institute of Technology"
+current_position: "Software Developer"
 ---

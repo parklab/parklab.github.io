@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/eric-berg.jpg
 hide_footer: true
+academic_title: "BA in English and Computer Science, Tufts"
 start_date: 2020-01-01
 end_date: 2021-01-01
 ---

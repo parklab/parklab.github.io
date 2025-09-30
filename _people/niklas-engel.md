@@ -9,4 +9,8 @@ status: "Alumni"
 image: ./img/niklas-engel.jpg
 hide_footer: true
 position_category: "Alumni: Students"
+start_date: 2023-01-01
+end_date: 2025-01-01
+academic_title: "Master's Student, Heidelberg University"
+current_position: "PhD Candidate, Cambridge University"
 ---

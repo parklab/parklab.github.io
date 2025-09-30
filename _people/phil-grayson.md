@@ -9,6 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/phil-grayson.jpg
 hide_footer: true
+academic_title: "PhD in Organismic and Evolutionary Biology, Harvard"
+current_position: "Bioinformatics Scientist, Beam Therapeutics"
 start_date: 2021-01-01
 end_date: 2022-01-01
 ---

@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/ling-ya-monica-chao.jpg
 hide_footer: true
+academic_title: "Harvard College"
+start_date: 2014-01-01
+end_date: 2015-01-01
 ---

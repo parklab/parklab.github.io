@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/danielle-rubin.jpg
 hide_footer: true
+academic_title: "University of Chicago"
 start_date: 2017-01-01
 end_date: 2017-01-01
 ---

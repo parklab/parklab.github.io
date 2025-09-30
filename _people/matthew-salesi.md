@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/matthew-salesi.jpg
 hide_footer: true
+academic_title: "Princeton"
+start_date: 2009-01-01
+end_date: 2009-01-01
 ---

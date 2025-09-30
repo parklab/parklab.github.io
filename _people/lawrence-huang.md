@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/lawrence-huang.jpg
 hide_footer: true
+academic_title: "Brown"
 start_date: 2019-01-01
 end_date: 2019-01-01
 ---

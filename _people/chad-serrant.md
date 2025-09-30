@@ -9,6 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/chad-serrant.jpg
 hide_footer: true
+academic_title: "BS in Computer Science, MIT"
+current_position: "Software Engineer, VMware Tanzu Labs"
 start_date: 2016-01-01
 end_date: 2019-01-01
 ---

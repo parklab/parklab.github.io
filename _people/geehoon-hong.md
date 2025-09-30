@@ -9,4 +9,8 @@ layout: person
 status: "Alumni"
 image: ./img/geehoon-hong.jpg
 hide_footer: true
+start_date: 2009-01-01
+end_date: 2010-01-01
+academic_title: "MS in Mathematics, Georgia Institute of Technology"
+current_position: "Data Analyst, TrackMan"
 ---

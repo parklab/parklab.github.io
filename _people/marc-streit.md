@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/marc-streit.jpg
 hide_footer: true
+start_date: 2012-01-01
+end_date: 2012-01-01
+current_position: "Assistant Professor, Johannes Kepler University"
 ---

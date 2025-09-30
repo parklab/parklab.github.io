@@ -11,4 +11,6 @@ image: ./img/luisa-mercado.jpg
 hide_footer: true
 start_date: 2018-01-01
 end_date: 2021-01-01
+academic_title: "Webster University &rarr; Master’s student, Simon Fraser University"
+current_position: "Bioinformatics Specialist, University of British Columbia"
 ---

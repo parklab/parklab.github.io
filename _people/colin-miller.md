@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/colin-miller.jpg
 hide_footer: true
+academic_title: "Washington University in St. Louis"
 start_date: 2020-01-01
 end_date: 2020-01-01
 ---

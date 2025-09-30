@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/lucy-y-liu.jpg
 hide_footer: true
+academic_title: "Wellesley"
+start_date: 2011-01-01
+end_date: 2011-01-01
 ---

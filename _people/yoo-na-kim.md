@@ -9,4 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/yoo-na-kim.jpg
 hide_footer: true
+start_date: 2023-01-01
+end_date: 2024-01-01
+academic_title: "Assistant Clinical Research Professor, Yonsei University College of Medicine"
 ---

@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/doug-rioux.jpg
 hide_footer: true
+academic_title: "MD, Yale"
 start_date: 2021-01-01
 end_date: 2024-01-01
 ---

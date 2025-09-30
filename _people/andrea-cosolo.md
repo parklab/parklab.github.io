@@ -11,4 +11,6 @@ image: ./img/andrea-cosolo.jpg
 hide_footer: true
 start_date: 2019-01-01
 end_date: 2023-01-01
+academic_title: "PhD in Biology, Ludwig-Maximilians University of Munich"
+current_position: "Scientist, Roche"
 ---

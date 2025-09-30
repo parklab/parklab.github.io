@@ -9,6 +9,7 @@ layout: person
 status: "Alumni"
 image: ./img/david-geng.jpg
 hide_footer: true
+academic_title: "Duke"
 start_date: 2018-01-01
 end_date: 2018-01-01
 ---
