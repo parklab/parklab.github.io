@@ -2,7 +2,7 @@
 person_title: <a href="/people/bianca-morris">Bianca Morris</a>
 name: Bianca Morris
 subtitle: Software Engineer  # Set subtitle to position_link_text
-professional_title: "ALM<br/>Sr. Front End Engineer"
+professional_title: "ALM, Sr. Front End Engineer"
 layout: person
 status: "Alumni"
 image: ./img/bianca-morris.jpg
