@@ -1,5 +1,5 @@
 ---
-person_title: <a href="/people/mattia-forcato">Dr. Mattia Forcato</a>
+person_title: <a href="/people/mattia-forcato">Mattia Forcato</a>
 name: Mattia Forcato
 subtitle: Visiting Scholar  # Set subtitle to position_link_text
 position_category: "Alumni: Visiting Scholars"
@@ -10,4 +10,5 @@ status: "Alumni"
 image: ./img/mattia-forcato.jpg
 hide_footer: true
 start_date: 2014-01-01
+end_date: 2014-01-02
 ---
