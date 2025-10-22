@@ -3,7 +3,7 @@ person_title: <a href="/people/niklas-smedemark-margulies">Niklas Smedemark-Marg
 name: Niklas Smedemark-Margulies
 subtitle: Graduate Student  # Set subtitle to position_link_text
 position_category: "Alumni: Students"
-professional_title: "BA, Amherst College; Thesis: <i> “Next-Generation Roadmap for Patient-Centered Genomics” </i>"
+professional_title: "BA, Amherst College; Thesis: <i> Next-Generation Roadmap for Patient-Centered Genomics</i>"
 description: ""
 layout: person
 status: "Alumni"
