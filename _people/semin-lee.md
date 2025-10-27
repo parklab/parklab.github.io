@@ -1,9 +1,9 @@
 ---
-person_title: <a href="/people/semin-lee">Dr. Semin Lee</a>
-name: Dr. Semin Lee
+person_title: <a href="/people/semin-lee">Semin Lee</a>
+name: Semin Lee
 subtitle: Research Fellow  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"
-professional_title: "PhD in Biochemistry, University of Cambridge, Postdoctoral Fellow (2011-2016), Assistant Professor, Ulsan National Institute of Science and Technology, South Korea"
+professional_title: "PhD in Biochemistry, University of Cambridge → Assistant Professor, UNIST (Korea)"
 description: "Semin received his PhD in biochemistry from the University of Cambridge, UK, working on properties of nucleic acid-binding proteins and structural bioinformatics."
 layout: person
 status: "Alumni"

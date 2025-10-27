@@ -2,7 +2,7 @@
 person_title: <a href="/people/yoo-jin-jiny-ha">Yoo-Jin (Jiny) Ha</a>
 name: Yoo-Jin (Jiny) Ha
 subtitle: Research Fellow (2024-2025)  # Set subtitle to position_link_text
-professional_title: "PhD in Biomedical Systems Informatics, Yonsei University College of Medicine"
+professional_title: "PhD in Biomedical Systems Informatics, Yonsei University College of Medicine → Assistant Professor in the Department of Life Science, Hanyang University"
 description: ""
 layout: person
 status: "Alumni"
@@ -10,4 +10,5 @@ image: ./img/yoo-jin-jiny-ha.jpg
 hide_footer: true
 position_category: "Alumni: Postdoctoral Fellows"
 start_date: 2024-01-01
+end_date: 2025-01-01
 ---

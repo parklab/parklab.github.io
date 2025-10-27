@@ -1,13 +1,15 @@
 ---
-person_title: <a href="/people/alice-eunjung-lee">Dr. Eunjung (Alice) Lee</a>
-name: Dr. Eunjung (Alice) Lee
+person_title: <a href="/people/alice-eunjung-lee">Eunjung (Alice) Lee</a>
+name: Eunjung (Alice) Lee
 subtitle: Research Fellow  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"
-professional_title: "PhD in Bioinformatics, KAIST, <br/>Postdoctoral Fellow (2010-2013) / Instructor (2013-2016), <br/>Assistant Professor, Division of Genetics and Genomics, Boston Children's Hospital & Harvard Medical School"
+professional_title: "PhD in Bioinformatics, KAIST → Assistant Professor of Pediatrics, Boston Children’s Hospital & HMS"
 layout: person
 status: "Alumni"
 image: ./img/alice-eunjung-lee.jpg
 hide_footer: true
+start_date: 2010-01-01
+end_Date: 2013-01-01
 additional_links:
     organization: "https://labs.childrenshospital.org/lee-lab/"
 ---
