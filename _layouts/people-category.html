@@ -88,7 +88,7 @@ show_sidebar: false
                   <div class="person-information">
                     <p class="title">{{ person.person_title }}
                       <span class="dates">
-                        {% if person.start_date and person.end_date %} &lpar;{{ person.start_date | date: '%Y' }}-{{ person.end_date | date: '%Y' }}&rpar; {% endif %}
+                        {% if person.start_date and person.end_date %} &lpar;{{ person.start_date | date: '%Y' }}-{{ person.end_date | date: '%Y' }}{% if person.end_date_note %}, {{ person.end_date_note }}{% endif %}&rpar; {% endif %}
                       </span>
                       {% comment %} Form a subtitle line for alumni {% endcomment %}
                        <span class="professional_title">
