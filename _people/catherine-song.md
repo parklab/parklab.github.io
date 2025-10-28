@@ -11,4 +11,5 @@ image: ./img/catherine-song.jpg
 hide_footer: true
 start_date: 2022-01-01
 end_date: 2022-01-01
+end_date_note: "MBI"
 ---

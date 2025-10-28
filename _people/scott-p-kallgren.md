@@ -11,4 +11,5 @@ image: ./img/scott-p-kallgren.jpg
 hide_footer: true
 start_date: 2014-01-01
 end_date: 2017-01-01
+end_date_note: "BIRT"
 ---

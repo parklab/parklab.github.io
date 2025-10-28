@@ -11,4 +11,5 @@ image: ./img/niklas-smedemark-margulies.jpg
 hide_footer: true
 start_date: 2014-01-01
 end_date: 2015-01-01
+end_date_note: "HMS Immunology"
 ---

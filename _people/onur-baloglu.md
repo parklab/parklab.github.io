@@ -11,4 +11,5 @@ image: ./img/onur-baloglu.jpg
 hide_footer: true
 start_date: 2018-01-01
 end_date: 2019-01-01
+end_date_note: "student intern"
 ---

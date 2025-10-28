@@ -11,4 +11,5 @@ image: ./img/julie-yoo.jpg
 hide_footer: true
 start_date: 2007-01-01
 end_date: 2008-01-01
+end_date_note: "MBA, HST/MIT"
 ---

@@ -11,4 +11,5 @@ image: ./img/jeewon-grace-hwang.jpg
 hide_footer: true
 start_date: 2016-01-01
 end_date: 2017-01-01
+end_date_note: "Computational Science and Engineering, Harvard SEAS"
 ---
