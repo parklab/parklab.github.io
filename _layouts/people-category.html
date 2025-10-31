@@ -17,6 +17,7 @@ show_sidebar: false
         
         {% assign currentPositionCategory = people_by_category | where: "name" , category | first %}
 
+        {% comment %} Split people into those with and without end_date {% endcomment %}
         {% assign items_with_end_date = currentPositionCategory.items | where_exp: "item", "item.end_date" %}
         {% assign items_without_end_date = currentPositionCategory.items | where_exp: "item", "item.end_date == nil" %}
 
