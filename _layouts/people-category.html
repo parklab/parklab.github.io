@@ -17,13 +17,13 @@ show_sidebar: false
         
         {% assign currentPositionCategory = people_by_category | where: "name" , category | first %}
 
-        {% assign items_with_start_date = currentPositionCategory.items | where_exp: "item", "item.start_date" %}
-        {% assign items_without_start_date = currentPositionCategory.items | where_exp: "item", "item.start_date == nil" %}
+        {% assign items_with_end_date = currentPositionCategory.items | where_exp: "item", "item.end_date" %}
+        {% assign items_without_end_date = currentPositionCategory.items | where_exp: "item", "item.end_date == nil" %}
 
         {% assign max_index = 10 %}
 
-        {% comment %} Sort the items by start date {% endcomment %}
-        {% assign sorted_category_items = items_with_start_date | sort: "start_date" | reverse %}
+        {% comment %} Sort the items by end date {% endcomment %}
+        {% assign sorted_category_items = items_with_end_date | sort: "end_date" | reverse %}
 
         {% comment %} Add class for alumni members {% endcomment %}
         <div class="category-body{% if category contains 'Alumni' %} alumni{% endif %}">
@@ -113,7 +113,7 @@ show_sidebar: false
               {% endif %}
               </div>
             {% endfor %}
-            {% for person in items_without_start_date %}
+            {% for person in items_without_end_date %}
               <div class="person-container" data-person="{{ person.name }}">
 
               {% comment %} Active Member person card {% endcomment %}
