@@ -64,8 +64,10 @@ show_sidebar: false
 
                 {% assign academic_subtitle = "" %}
 
+                {% assign split_professional_title = person.professional_title %}
+
                 <!-- Isolate the PhD part of the professional_title -->
-                {% assign split_professional_title = person.professional_title | split: "," %}
+                {% comment %} {% assign split_professional_title = person.professional_title | split: "," %}
                 
                 {% for i in (0..max_index) %}
                   {% assign current = split_professional_title[i] | strip %}
@@ -76,7 +78,7 @@ show_sidebar: false
                       {% assign academic_subtitle = current | append: split_professional_title[next_index] %}
                     {% endif %}
                   {% endif %}
-                {% endfor %}
+                {% endfor %} {% endcomment %}
 
                 {% comment %} Use professional_title if academic_subtitle is not available {% endcomment %}
                 {% if academic_subtitle == "" %}
@@ -96,9 +98,9 @@ show_sidebar: false
                           {% comment %} Use academic_title if available, otherwise try calculated title {% endcomment %}
                           {% if person.academic_title %}
                           {{ person.academic_title }}
-                            {% elsif academic_subtitle != "" %}
+                          {% elsif academic_subtitle != "" %}
                           {{ academic_subtitle }}
-                            {% else %}
+                          {% else %}
                           {{ person.subtitle }}
                           {% endif %}
   
