@@ -3,7 +3,7 @@ person_title: <a href="/people/jumanah-alshenaifi">Jumanah Alshenaifi</a>
 name: Jumanah Alshenaifi
 subtitle: Visiting Scholar  # Set subtitle to position_link_text
 position_category: "Alumni: Visiting Scholars"
-professional_title: "PhD in Biomedical Sciences, UT → Assistant Propject Manager, MD Anderson Cancer Center"
+professional_title: "PhD in Biomedical Sciences, UT → Assistant Project Manager, MD Anderson Cancer Center"
 description: ""
 layout: person
 status: "Alumni"
