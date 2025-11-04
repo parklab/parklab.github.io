@@ -11,7 +11,8 @@ hide_footer: false
 
 # Positions in the Park lab
 
-#### [updated April 2025]
+#### [updated November 2025]
+#### Applicants to the BIG PhD program - Please see my note at the bottom of the page
 
 Applications are invited for multiple positions in the [Park laboratory](/) in the Department of Biomedical Informatics at Harvard Medical School. The aim of the laboratory is to develop and apply innovative computational methods for genome sequencing data to enhance our understanding of cancer genetics, neurogenetics, and epigenetics.
 
@@ -50,6 +51,9 @@ The immediate positions after leaving the lab for the recent alumni:
 - Victor Mao (Berkeley): Google, Inc.
 - Alon Galor (Brown): DPhil student at Oxford
 - Victoria Stevens (Yale): MD-PhD program at Mayo Clinic
+- Antuan Tran (Harvard): Medical student at Mayo Clinic
+- Benedikt Geiger (Friedrich-Wilhelms-Universität Bonn, Harvard): PhD student in Bioinformatics & Integrative Genomics at Harvard
+- Clara Kim (Wellesley): Medical student at Boston University
 
 
 ### Graduate Students
