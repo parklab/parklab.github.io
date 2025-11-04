@@ -12,7 +12,7 @@ hide_footer: false
 # Positions in the Park lab
 
 #### [updated November 2025]
-#### Applicants to the BIG PhD program - Please see my note at the bottom of the page
+<ins>Applicants to the BIG PhD program - Please see my note at the bottom of the page</ins>
 
 Applications are invited for multiple positions in the [Park laboratory](/) in the Department of Biomedical Informatics at Harvard Medical School. The aim of the laboratory is to develop and apply innovative computational methods for genome sequencing data to enhance our understanding of cancer genetics, neurogenetics, and epigenetics.
 
@@ -34,7 +34,9 @@ An ideal candidate will have a PhD in computational biology/bioinformatics/stati
 
 The successful candidates will join a group of supportive and productive computational biologists and have an opportunity to collaborate with world-class biologists in the Harvard medical area. Many of our fellows have gone on to faculty positions at top institutions, including three at Harvard.
 
-Please send your CV with '[POSTDOC]' and your name in the subject line. A research statement that demonstrates one's expertise in an area is helpful but not required.
+Please send your CV with '[POSTDOC]' and your name in the subject line. A research statement that demonstrates one's expertise in an area is helpful but not required. 
+
+Due to a large number of indiscriminant applications, I cannot respond to every applicantion. <ins>If you send me a link to a short video recording (1-2 min, could be longer if you would like but not necessary) on your background and why you believe this laboratory is a good fit, I will respond.</ins>
 
 ### Bioinformatics Scientist
 
