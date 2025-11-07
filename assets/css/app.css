@@ -11956,8 +11956,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   justify-content: center;
 }
 .page-gallery #gallery-modal .modal-content {
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 90vh;
+  max-width: 90%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -11987,8 +11987,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: rgba(0, 0, 0, 0.4588235294);
 }
 .page-gallery #gallery-modal .modal-content img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 85vh;
 }
 .page-gallery #gallery-modal.show {
   display: flex;
