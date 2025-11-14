@@ -35,6 +35,417 @@
   "publications": [
     {
         "author": [
+    {
+        "name": "Zhang Y",
+        "lab_member": true
+    },
+    {
+            "name": "English AC",
+            "lab_member": false
+     },
+     {
+            "name": "Paulin LF",
+            "lab_member": false
+     },
+     {
+            "name": "Grochowski CM",
+            "lab_member": false
+    },
+    {
+            "name": "Maheshwari S",
+            "lab_member": false
+    },
+    {
+            "name": "Mack T",
+            "lab_member": false
+    },
+    {
+            "name": "Berselli M",
+            "lab_member": true
+    },
+    {
+            "name": "Veit AD",
+            "lab_member": true
+    },
+    {
+            "name": "Fu Y",
+            "lab_member": false
+    },
+    {
+            "name": "Park PJ",
+            "lab_member": true
+    },
+    {
+            "name": "Sedlazeck FJ",
+            "lab_member": false
+    }
+        ],
+        "title": "Comprehensive benchmarking of somatic structural variant detection at ultra-low allele fractions",
+        "title_link": "https://www.biorxiv.org/content/10.1101/2025.09.18.677206v1",
+        "abstract": "Postzygotic mosaicism gives rise to somatic structural variants (SVs) at ultra-low variant allele fractions (VAFs), which pose challenges for detection due to the high-coverage sequencing required and noise introduced by sequencing artifacts. Although somatic SV detection has been extensively studied in cancer, these studies are not directly applicable to the study of tissue mosaicism, as they rely on matched normals, target higher VAF ranges, and are enriched for different types of SVs. We present comprehensive benchmark data and best practices for non-cancer somatic SV detection. We created a synthetic mosaic sample by combining six HapMap individuals at varying proportions, generating allele fractions as low as 0.25%. This sample was sequenced to ~2,300x total coverage using Illumina, PacBio, and Nanopore technologies across multiple sequencing centers. A high-confidence benchmark SV set containing over 21,000 pseudo-somatic insertions and deletions ≥50bp was derived from haplotype-resolved assemblies. We evaluated 12 SV discovery pipelines and identified caller-specific strengths and sequencing platform-specific shortcomings. We find that short read-based approaches show reduced recall for insertions and repeat-associated SVs, whereas long-read sequencing achieves high accuracy throughout the genome, increasing linearly with coverage. The best algorithm's sensitivity exceeded 80% for VAFs ≥4% and 15% for VAFs of 0.5-1% with 60x coverage. The publicly available benchmarking data and comparative analysis of current methods provide a foundation for robust discovery of SV mosaicism in non-cancer tissues.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-structural-variant-detection-at-ultra-low-allele-fractions",
+        "year": "2025",
+        "type": "2025",
+        "journal": "bioRxiv",
+        "journal_location": "bioRxiv"
+    },
+    
+    {
+        "author": [
+            {
+                "name": "Navelkar R",
+                "lab_member": true
+            },
+            {
+                "name": "Cosolo A",
+                "lab_member": true
+            },
+            {
+                "name": "Bintu B",
+                "lab_member": false
+            },
+            {
+                "name": "Cheng Y",
+                "lab_member": false
+            },
+            {
+                "name": "Gardeux V",
+                "lab_member": false
+            },
+            {
+                "name": "Gutnik S",
+                "lab_member": false
+            },
+            {
+                "name": "Fujimori T",
+                "lab_member": false
+            },
+            {
+                "name": "Hafner A",
+                "lab_member": false
+            },
+            {
+                "name": "Jay A",
+                "lab_member": false
+            },
+            {
+                "name": "Jia BB",
+                "lab_member": false
+            },
+            {
+                "name": "Jussila AP",
+                "lab_member": false
+            },
+            {
+                "name": "Llimos G",
+                "lab_member": false
+            },
+            {
+                "name": "Lioutas A",
+                "lab_member": false
+            },
+            {
+                "name": "Martins NMC",
+                "lab_member": false
+            },
+            {
+                "name": "Moore WJ",
+                "lab_member": false
+            },
+            {
+                "name": "Takei Y",
+                "lab_member": false
+            },
+            {
+                "name": "Wong F",
+                "lab_member": false
+            },
+            {
+                "name": "Yang K",
+                "lab_member": false
+            },
+            {
+                "name": "Zhang H",
+                "lab_member": false
+            },
+            {
+                "name": "Zhu Q",
+                "lab_member": false
+            },
+            {
+                "name": "Bienko M",
+                "lab_member": false
+            },
+            {
+                "name": "Bintu L",
+                "lab_member": false
+            },
+            {
+                "name": "Cai L",
+                "lab_member": false
+            },
+            {
+                "name": "Deplancke B",
+                "lab_member": false
+            },
+            {
+                "name": "Nollmann M",
+                "lab_member": false
+            },
+            {
+                "name": "Mango SE",
+                "lab_member": false
+            },
+            {
+                "name": "Ren B",
+                "lab_member": false
+            },
+            {
+                "name": "Park PJ",
+                "lab_member": true
+            },
+            {
+                "name": "Sawh AN",
+                "lab_member": false
+            },
+            {
+                "name": "Schroeder A",
+                "lab_member": true
+            },
+            {
+                "name": "Swedlow JR",
+                "lab_member": false
+            },
+            {
+                "name": "Vahedi G",
+                "lab_member": false
+            },
+            {
+                "name": "Wu CT",
+                "lab_member": false
+            },
+            {
+                "name": "Aufmkolk S",
+                "lab_member": false
+            },
+            {
+                "name": "Boettiger AN",
+                "lab_member": false
+            },
+            {
+                "name": "Farabella I",
+                "lab_member": false
+            },
+            {
+                "name": "Strambio-De-Castillia C",
+                "lab_member": false
+            },
+            {
+                "name": "Wang S",
+                "lab_member": false
+            }
+            ],
+        "title": "FAIR sharing of Chromatin Tracing datasets using the newly developed 4DN FISH Omics Format",
+        "title_link": "https://pubmed.ncbi.nlm.nih.gov/40895078/",
+        "abstract": "A key output of the NIH-Common Fund 4D Nucleome (4DN) project 1,2 is the open publication of datasets related to the structure of the human cell nucleus and the genome. Recent years have seen a rapid expansion of multiplexed Fluorescence In Situ Hybridization (FISH) or FISH-omics methods, which quantify the spatial organization of chromatin in single cells, sometimes together with RNA and protein measurements, and provide an expanded understanding of how 3D higher-order chromosome structure relates to transcriptional activity and cell development in both health and disease. Despite this progress, results from Chromatin Tracing FISH-omics experiments are difficult to share, reuse, and subject to third-party downstream analysis due to the lack of standard specifications for data exchange. Following up on the recent publication of Microscopy Metadata specifications 3,4, we present the 4DN FISH Omics Format - Chromatin Tracing (FOF-CT), a community-developed data standard for processed results derived from a wide variety of imaging techniques for Chromatin Tracing, with the most recent studies falling roughly into two categories: ball-and-stick and volumetric based on whether they represent the targeted genomic segment as individual fluorescence spots or as clouds of single-molecule localizations. To demonstrate the value and potential use of FOF-CT to promote the FAIR sharing of the results obtained from Chromatin Tracing techniques, this manuscript will focus on ball-and-stick Chromatin Tracing techniques, including those described by the pioneering Chromatin Tracing study of Wang et al. 5 as well as Optical Reconstruction of Chromatin Architecture (ORCA) 6, microscopy-based chromosome conformation capture (Hi-M) 7, Multiplexed Imaging of Nucleome Architectures (MINA) 8, DNA Sequential Fluorescence In Situ Hybridization (DNA seqFISH/seqFISH+) 9-11, Oligopaint Fluorescent In Situ Sequencing (OligoFISSEQ) 12, DNA Multiplexed error-robust fluorescence in situ hybridization (DNA-MERFISH) 13, and In-situ Genomic Sequencing (IGS) 14. The manuscript will describe the structure of the format and present a collection of FOF-CT datasets that were recently deposited to the 4DN Data Portal 15 and the Open Microscopy Environment (OME) Image Data Resource (IDR) platform 16 and are ideally suited for promoting reuse, exchange, further processing, and integrative modeling. Furthermore, the manuscript will present examples of analysis pipelines that could be applied more widely due to the existence of the FOF-CT exchange data format and provide examples of biological conclusions that could be drawn thanks to the availability of such datasets.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/fair-sharing-of-chromatin-tracing-datasets-using-the-newly-developed-4dn-fish-omics-format",
+        "year": "2025",
+        "type": "2025",
+        "journal": "arXiv",
+        "journal_location": "arXiv"
+    },
+
+    {
+        "author": [
+            {
+                "name": "Ahooyi TM",
+                "lab_member": false
+            },
+            {
+                "name": "Stear B",
+                "lab_member": false
+            },
+            {
+                "name": "Simmons JA",
+                "lab_member": false
+            },
+            {
+                "name": "Metzger VT",
+                "lab_member": false
+            },
+            {
+                "name": "Kumar P",
+                "lab_member": false
+            },
+            {
+                "name": "Evangelista JE",
+                "lab_member": false
+            },
+            {
+                "name": "Clarke DJB",
+                "lab_member": false
+            },
+            {
+                "name": "Xie Z",
+                "lab_member": false
+            },
+            {
+                "name": "Kim H",
+                "lab_member": false
+            },
+            {
+                "name": "Jenkins SL",
+                "lab_member": false
+            },
+            {
+                "name": "Maurya MR",
+                "lab_member": false
+            },
+            {
+                "name": "Ramachandran S",
+                "lab_member": false
+            },
+            {
+                "name": "Fahy E",
+                "lab_member": false
+            },
+            {
+                "name": "Gillespie TH",
+                "lab_member": false
+            },
+            {
+                "name": "Imam FT",
+                "lab_member": false
+            },
+            {
+                "name": "Kokash N",
+                "lab_member": false
+            },
+            {
+                "name": "Roth ME",
+                "lab_member": false
+            },
+            {
+                "name": "Fullem R",
+                "lab_member": false
+            },
+            {
+                "name": "Jevtic D",
+                "lab_member": false
+            },
+            {
+                "name": "Mihajlovic A",
+                "lab_member": false
+            },
+            {
+                "name": "Tiemeyer M",
+                "lab_member": false
+            },
+            {
+                "name": "Bakker C",
+                "lab_member": true
+            },
+            {
+                "name": "Schroeder AJ",
+                "lab_member": true
+            },
+            {
+                "name": "Markowski J",
+                "lab_member": true
+            },
+            {
+                "name": "Nedzel J",
+                "lab_member": false
+            },
+            {
+                "name": "Hill DD",
+                "lab_member": false
+            },
+            {
+                "name": "Terry J",
+                "lab_member": false
+            },
+            {
+                "name": "Nemarich C",
+                "lab_member": false
+            },
+            {
+                "name": "Boline J",
+                "lab_member": false
+            },
+            {
+                "name": "Park PJ",
+                "lab_member": true
+            },
+            {
+                "name": "Ardlie KG",
+                "lab_member": false
+            },
+            {
+                "name": "Vora J",
+                "lab_member": false
+            },
+            {
+                "name": "Mazumder R",
+                "lab_member": false
+            },
+            {
+                "name": "Ranzinger R",
+                "lab_member": false
+            },
+            {
+                "name": "de Bono B",
+                "lab_member": false
+            },
+            {
+                "name": "Subramaniam S",
+                "lab_member": false
+            },
+            {
+                "name": "Grethe JS",
+                "lab_member": false
+            },
+            {
+                "name": "Yang JJ",
+                "lab_member": false
+            },
+            {
+                "name": "Lambert CG",
+                "lab_member": false
+            },
+            {
+                "name": "Resnick A",
+                "lab_member": false
+            },
+            {
+                "name": "Milosavljevic A",
+                "lab_member": false
+            },
+            {
+                "name": "Ma'ayan A",
+                "lab_member": false
+            },
+            {
+                "name": "Silverstein JC",
+                "lab_member": false
+            },
+            {
+                "name": "Taylor DM",
+                "lab_member": false
+            }
+],
+        "title": "The Data Distillery: A Graph Framework for Semantic Integration and Querying of Biomedical Data",
+        "title_link": "https://doi.org/10.1101/2025.08.11.666099",
+        "abstract": "The Data Distillery Knowledge Graph (DDKG) is a framework for semantic integration and querying of biomedical data across domains. Built for the NIH Common Fund Data Ecosystem, it supports translational research by linking clinical and experimental datasets in a unified graph model. Clinical standards such as ICD-10, SNOMED, and DrugBank are integrated through UMLS, while genomics and basic science data are structured using ontologies and standards such as HPO, GENCODE, Ensembl, STRING, and ClinVar. The DDKG uses a property graph architecture based on the UBKG infrastructure and supports ontology-based ingestion, identifier normalization, and graph-native querying. The system is modular and can be extended with new datasets or schema modules. We demonstrate its utility for informatics queries across eight use cases, including regulatory variant analysis, tissue-specific expression, biomarker discovery, and cross-species variant prioritization. The DDKG is accessible via a public interface, a programmatic API, and downloadable builds for local use.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/the-data-distillery-a-graph-framework-for-semantic-integration-and-querying-of-biomedical-data",
+        "year": "2025",
+        "type": "2025",
+        "journal": "bioRxiv",
+        "journal_location": "bioRxiv"
+    },
+
+    {
+        "author": [
             {
                 "name": "Coorens THH",
                 "lab_member": false
