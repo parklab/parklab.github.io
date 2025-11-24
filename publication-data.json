@@ -35,6 +35,119 @@
   "publications": [
     {
         "author": [
+        {
+    "name": "Viswanadham VV",
+    "lab_member": true
+    },
+    {
+    "name": "Kim SN",
+    "lab_member": false
+    },
+    {
+    "name": "Caglayan E",
+    "lab_member": false
+    },
+    {
+    "name": "Doan RN",
+    "lab_member": false
+    },
+    {
+    "name": "Dou Y",
+    "lab_member": false
+    },
+    {
+    "name": "Bizzotto S",
+    "lab_member": false
+    },
+    {
+    "name": "Khoshkhoo S",
+    "lab_member": false
+    },
+    {
+    "name": "Huang AY",
+    "lab_member": false
+    },
+    {
+    "name": "Yeh R",
+    "lab_member": false
+    },
+    {
+    "name": "Chhouk BH",
+    "lab_member": false
+    },
+    {
+    "name": "Truong A",
+    "lab_member": false
+    },
+    {
+    "name": "Chappell KM",
+    "lab_member": false
+    },
+    {
+    "name": "Beaudin M",
+    "lab_member": false
+    },
+    {
+    "name": "Barton A",
+    "lab_member": false
+    },
+    {
+    "name": "Akula SK",
+    "lab_member": false
+    },
+    {
+    "name": "Zhao Y",
+    "lab_member": true
+    },
+    {
+    "name": "Rento L",
+    "lab_member": false
+    },
+    {
+    "name": "Lodato M",
+    "lab_member": false
+    },
+    {
+    "name": "Szeto RA",
+    "lab_member": false
+    },
+    {
+    "name": "Ganz J",
+    "lab_member": false
+    },
+    {
+    "name": "Li P",
+    "lab_member": false
+    },
+    {
+    "name": "Tsai JW",
+    "lab_member": false
+    },
+    {
+    "name": "Hill RS",
+    "lab_member": false
+    },
+    {
+    "name": "Park PJ**",
+    "lab_member": true
+    },
+    {
+    "name": "Walsh CA**",
+    "lab_member": false
+    }
+        ],
+        "title": "Combined somatic mutation and transcriptome analysis reveals region-specific differences in clonal architecture in human cortex",
+        "title_link": "https://www.sciencedirect.com/science/article/pii/S221112472501229X",
+        "abstract": "The human cerebral cortex is specialized into regions, but little is known about how human cellular lineages shape cortical regional variation and neuronal cell-type distribution during development. Here, we map single-cell lineages of human cortical regions and neuronal subtypes using >1,000 somatic single-nucleotide variants (sSNVs) identified from deep bulk whole-genome sequencing and analyzed over 25 regions and >72,000 single cells. In the fronto-parietal cortex, sSNVs are rarely restricted, marking neuron-generating clones that disperse into neighboring regions. In contrast, the primary visual cortex harbors 30%–70% more sSNVs than the neighboring secondary visual cortex. Clones at this border exhibit more restricted dispersion, suggesting late developmental lineage segregation. Single-nucleus sSNV and whole-transcriptome analysis reveal glutamatergic neuron clones with modest regional restrictions that share low-mosaic sSNVs with some GABAergic neurons, suggesting a recent dorsal cortical progenitor. Our analysis reveals human-specific cortical lineage patterns, regional differences in clonal patterns, and late divergence of some glutamatergic/GABAergic lineages.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/combined-somatic-mutation-and-transcriptome-analysis-reveals-region-specific-differences-in-clonal-architecture-in-human-cortex",
+        "year": "2025",
+        "type": "2025",
+        "journal": "Cell Reports",
+        "journal_location": "Cell Reports",
+        "pdf_link": "/publications/pdf/2025-combined-somatic-mutation.pdf"
+    },
+    {
+        "author": [
     {
         "name": "Zhang Y",
         "lab_member": true
