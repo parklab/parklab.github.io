@@ -2,7 +2,6 @@
 layout: default
 show_sidebar: false
 ---
-
 <div class="people-page-container">
   <div class="page-header-container">
     {{ page.content }}
@@ -37,7 +36,6 @@ show_sidebar: false
                   <img src="{{ person.image }}" alt="{{ person.name }}" />
                   <div class="person-information">
                     <p class="title">{{ person.person_title }}</p>
-                    <p class="subtitle">{{ person.subtitle }}</p>
                     {% if person.additional_links %}
                       <div class="additional-links-container">
                           {% if person.additional_links.github %}
@@ -125,7 +123,10 @@ show_sidebar: false
                   <img src="{{ person.image }}" alt="{{ person.name }}" />
                   <div class="person-information">
                     <p class="title">{{ person.person_title }}</p>
-                    <p class="subtitle">{{ person.subtitle }}</p>
+                    <div>
+                      <p class="subtitle">{{ person.professional_title }}</p>
+                      <p class="subtitle">{{ person.academic_title }}</p>
+                    </div>
                     {% if person.additional_links %}
                       <div class="additional-links-container">
                           {% if person.additional_links.github %}
