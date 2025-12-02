@@ -7,7 +7,7 @@ academic_title: "MD and PhD in Translational Medicine from Seoul National Univer
 description: " "
 layout: person
 status: "Active Member"
-image: ./img/kyung-ah-woo.jpg
+image: ./img/kyung-ah-woo-pic.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
 start_date: 2024-01-01

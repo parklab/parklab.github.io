@@ -9,5 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/rahi-navelkar.jpg
 hide_footer: true
-position_category: Staff Scientists and Software Engineers
+position_category: "Alumni: Staff Scientists and Software Engineers"
+
 ---
