@@ -10,5 +10,6 @@ status: "Alumni"
 image: ./img/rahi-navelkar.jpg
 hide_footer: true
 position_category: "Alumni: Staff Scientists and Software Engineers"
-
+start_date: 2022-01-01
+end_date: 2025-01-01
 ---
