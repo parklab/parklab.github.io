@@ -11,7 +11,7 @@ hide_footer: true
 position_category: Principal Investigator
 contact_information: "Department of Biomedical Informatics<br/>Countway Library of Medicine, Room 318<br/>10 Shattuck St</br>Boston, MA 02115<br/>p: 617-432-7373"
 ---
-[Curriculum Vitae(2023)](./_supplements/Short CV-Peter J Park-Oct 2023.pdf)
+[Curriculum Vitae (2023)]\ (./_supplements/Short-CV-Peter-Park-Oct-2023.pdf)
 
 Peter is a computational biologist in the Department of Biomedical Informatics at Harvard Medical School (HMS), specializing in epigenomics and cancer genomics. He was originally trained in applied mathematics at Harvard (AB/SM, 1994) and Caltech (PhD, 1999), writing his doctoral thesis on numerical analysis of partial differential equations. He became interested in molecular biology and genomics as a postdoctoral fellow in the Department of Biostatistics at the Harvard School of Public Health. He moved to Children's Hospital Boston in 2001 as an instructor at Harvard Medical School and was promoted to an assistant professor in 2006 and to an associate professor in 2010. He became a founding member of the Department of Biomedical Informatics in 2015 and was appointed a full professor in 2016.
 
