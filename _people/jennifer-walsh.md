@@ -2,7 +2,7 @@
 person_title: <a href="/people/jennifer-walsh">Jennifer Walsh</a>
 name: Jennifer Walsh
 subtitle: Undergraduate Student  # Set subtitle to position_link_text
-position_category: "Alumni: Students"
+position_category: "Alumni: Undergraduate Thesis Students"
 professional_title: "Harvard College (Physics) → PhD Student, Harvard"
 description: ""
 layout: person

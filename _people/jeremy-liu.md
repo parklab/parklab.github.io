@@ -2,7 +2,7 @@
 person_title: <a href="/people/jeremy-liu">Jeremy Liu</a>
 name: Jeremy Liu
 subtitle: Undergraduate Student  # Set subtitle to position_link_text
-position_category: "Alumni: Students"
+position_category: "Alumni: Research Assistants / Summer Interns"
 professional_title: "Yale"
 description: ""
 layout: person

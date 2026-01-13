@@ -2,7 +2,7 @@
 person_title: <a href="/people/alison-barton">Alison Barton</a>
 name: Alison Barton
 subtitle: Programmer  # Set subtitle to position_link_text
-position_category: "Alumni: Staff Scientists and Software Engineers"
+position_category: "Alumni: Associate Computational Biologists"
 professional_title: "Biology and Archaeological Studies, Yale; MPhil in Biological Science (Genetics), University of Cambridge → PhD Student, BIG, Harvard"
 description: ""
 layout: person

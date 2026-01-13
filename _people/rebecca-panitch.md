@@ -2,7 +2,7 @@
 person_title: <a href="/people/rebecca-panitch">Rebecca Panitch</a>
 name: Rebecca Panitch
 subtitle: Undergraduate Student  # Set subtitle to position_link_text
-position_category: "Alumni: Students"
+position_category: "Alumni: Research Assistants / Summer Interns"
 professional_title: "Brandeis"
 description: ""
 layout: person

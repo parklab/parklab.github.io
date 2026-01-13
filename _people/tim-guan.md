@@ -9,5 +9,5 @@ layout: person
 status: "Active Member"
 image: ./img/tim-guan.jpg
 hide_footer: true
-position_category: Students
+position_category: Students # Also in "Alumni: Research Assistants / Summer Interns", but is active
 ---

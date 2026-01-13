@@ -2,7 +2,7 @@
 person_title: <a href="/people/vidhu-choudhary">Vidhu  Choudhary</a>
 name: Vidhu  Choudhary
 subtitle: Programmer  # Set subtitle to position_link_text
-position_category: "Alumni: Staff Scientists and Software Engineers"
+position_category: "Alumni: Staff Scientists"
 professional_title: "MS, University of Rajasthan → Senior Data Consultant, Kaiser Permanente"
 description: ""
 layout: person

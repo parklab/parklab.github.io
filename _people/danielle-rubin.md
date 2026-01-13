@@ -2,7 +2,7 @@
 person_title: <a href="/people/danielle-rubin">Danielle Rubin</a>
 name: Danielle Rubin
 subtitle: Undergraduate Student  # Set subtitle to position_link_text
-position_category: "Alumni: Students"
+position_category: "Alumni: Research Assistants / Summer Interns"
 professional_title: "University of Chicago"
 description: ""
 layout: person

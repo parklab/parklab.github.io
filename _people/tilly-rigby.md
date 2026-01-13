@@ -9,7 +9,7 @@ status: "Alumni"
 academic: 10  # Updated academic field
 image: ./img/tilly-rigby.jpg
 hide_footer: true
-position_category: "Alumni: Students"
+position_category: "Alumni: Masters Students"
 start_date: 2024-01-01
 end_date: 2024-01-02
 end_date_note: "MBI"

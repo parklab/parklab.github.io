@@ -2,7 +2,7 @@
 person_title: <a href="/people/jae-won-yun">Jae Won Yun</a>
 name: Jae Won Yun
 subtitle: Visiting Scholar  # Set subtitle to position_link_text
-position_category: "Alumni: Visiting Scholars"
+position_category: "Alumni: Visiting Students and Faculty"
 professional_title: "MD, Seoul National University; Fellow, Samsung Medical Center"
 description: ""
 layout: person

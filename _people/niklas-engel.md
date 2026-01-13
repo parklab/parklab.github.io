@@ -8,7 +8,7 @@ layout: person
 status: "Alumni"
 image: ./img/niklas-engel.jpg
 hide_footer: true
-position_category: "Alumni: Students"
+position_category: "Alumni: Visiting Students and Faculty"
 start_date: 2023-01-01
 end_date: 2025-01-01
 ---

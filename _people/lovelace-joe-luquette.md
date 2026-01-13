@@ -9,6 +9,6 @@ layout: person
 status: "Active Member"
 image: ./img/lovelace-joe-luquette.jpg
 hide_footer: true
-position_category: Postdoctoral Fellows
+position_category: Postdoctoral Fellows # Also in "Alumni: PhD Students" but is active
 start_date: 2009-01-01
 ---

@@ -2,7 +2,7 @@
 person_title: <a href="/people/richard-park">Richard Park</a>
 name: Richard Park
 subtitle: Graduate Student  # Set subtitle to position_link_text
-position_category: "Alumni: Students"
+position_category: "Alumni: PhD Students"
 professional_title: "PhD student, Bioinformatics, Boston University – Thesis: <i> Visualization and Analysis of Large-Scale Sequencing Studies </i> → Director of Data Platforms, Syntelli"
 description: "Richard received his PhD from Boston University in May 2014 with a thesis entitled \"Visualization and analysis of cancer genome sequencing studies\". An expert in data visualization, Richard worked on several projects related to visualization of structural variation as well as germline variants in cancer data. With his visualization work, he was a finalist in the Illumina iDEA Challenge in 2011."
 layout: person

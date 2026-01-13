@@ -2,7 +2,7 @@
 person_title: <a href="/people/ethan-oliver">Ethan  Oliver</a>
 name: Ethan  Oliver
 subtitle: Undergraduate Student  # Set subtitle to position_link_text
-position_category: "Alumni: Students"
+position_category: "Alumni: Research Assistants / Summer Interns"
 professional_title: "Tufts"
 description: "Undergraduate student at Tufts University School of Engineering, Computer Science '21"
 layout: person

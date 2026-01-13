@@ -9,7 +9,7 @@ status: "Alumni"
 academic: 10  # Updated academic field
 image: ./img/yifan-zhao.jpg
 hide_footer: true
-position_category: "Alumni: Students"
+position_category: "Alumni: PhD Students"
 start_date: 2020-01-01
 end_date: 2025-01-01
 ---

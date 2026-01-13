@@ -2,7 +2,7 @@
 person_title: <a href="/people/richard-kim">Richard Kim</a>
 name: Richard Kim
 subtitle: Programmer  # Set subtitle to position_link_text
-position_category: "Alumni: Staff Scientists and Software Engineers"
+position_category: "Alumni: Associate Computational Biologists"
 professional_title: "CS, Harvard → Medical Student, UCSF"
 description: ""
 layout: person

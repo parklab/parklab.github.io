@@ -2,7 +2,7 @@
 person_title: <a href="/people/joanna-lee">Joanna Lee</a>
 name: Joanna Lee
 subtitle: Project Coordinator  # Set subtitle to position_link_text
-position_category: "Alumni: Staff"
+position_category: "Alumni: Project Coordinators"
 professional_title: "Project Coordinator → Senior Administrative Partner, Foundation Medicine"
 description: "Joanna is the Project Coordinator for the Park Lab and joins us after working in the Brookline Public Schools."
 layout: person
