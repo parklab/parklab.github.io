@@ -11988,7 +11988,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 .page-gallery #gallery-modal .modal-content img {
   width: auto;
-  height: 85vh;
+  max-height: 85vh;
 }
 .page-gallery #gallery-modal.show {
   display: flex;
