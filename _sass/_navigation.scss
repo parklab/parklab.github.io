@@ -2,11 +2,21 @@
 
 .navbar {
     background: linear-gradient(to right, #155799 0%, #159957 100%) !important;
+    min-height: auto;
+    
+    .container {
+        min-height: auto;
+    }
 
     .navbar-brand {
         color: white;
         font-weight: 700;
         font-size: 1.875rem;
+        min-height: auto;
+    }
+
+    &-burger {
+        height: auto;
     }
 
     .navbar-menu {
