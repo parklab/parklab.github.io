@@ -11202,11 +11202,19 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 .navbar {
   background: linear-gradient(to right, #155799 0%, #159957 100%) !important;
+  min-height: auto;
+}
+.navbar .container {
+  min-height: auto;
 }
 .navbar .navbar-brand {
   color: white;
   font-weight: 700;
   font-size: 1.875rem;
+  min-height: auto;
+}
+.navbar-burger {
+  height: auto;
 }
 .navbar .navbar-menu .navbar-content .navbar-item {
   padding: 0px;
@@ -11988,7 +11996,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 .page-gallery #gallery-modal .modal-content img {
   width: auto;
-  height: 85vh;
+  max-height: 85vh;
 }
 .page-gallery #gallery-modal.show {
   display: flex;
