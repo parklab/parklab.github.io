@@ -33,6 +33,51 @@
   ],
   
   "publications": [
+       {
+        "author": [
+            {
+                "name": "Cheng H*",
+                "lab_member": false
+            },
+            {
+                "name": "Qu H*",
+                "lab_member": true
+            },
+            {
+                "name": "McKenzie S",
+                "lab_member": false
+            },
+            {
+                "name": "Lawrence KR",
+                "lab_member": false
+            },
+            {
+                "name": "Windsor R",
+                "lab_member": false
+            },
+            {
+                "name": "Vella M",
+                "lab_member": false
+            },
+            {
+                "name": "Park PJ",
+                "lab_member": true
+            },
+            {
+                "name": "Li H",
+                "lab_member": false
+            }
+        ],
+        "title": "Efficient near telomere-to-telomere assembly of nanopore simplex reads",
+        "title_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
+        "abstract": "Telomere-to-telomere (T2T) assembly is the ultimate goal for de novo genome assembly. Existing algorithms capable of near-T2T assembly all require Oxford Nanopore Technologies (ONT) ultra-long reads, which are costly and experimentally challenging to obtain and are thus often unavailable for samples without established cell lines. Here we introduce hifiasm (ONT), an algorithm that can produce near-T2T assemblies from standard ONT simplex reads, eliminating the need for ultra-long sequencing. Compared with existing methods, hifiasm (ONT) reduces computational demands by an order of magnitude and reconstructs more chromosomes from telomere to telomere on the same datasets. This advance substantially broadens the feasibility of T2T assembly for applications previously limited by the high cost and experimental requirement of ultra-long reads.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
+        "pdf_link": "/publications/pdf/s41586-026-10105-6.pdf",
+        "year": "2026",
+        "type": "2026",
+        "journal": "Nature",
+        "journal_location": "Nature"
+    },
     {
         "author": [
         {
@@ -873,51 +918,6 @@
         "type": "2025",
         "journal": "Nature Communications",
         "journal_location": "Nature Communications 2025"
-    },
-    {
-        "author": [
-            {
-                "name": "Cheng H*",
-                "lab_member": false
-            },
-            {
-                "name": "Qu H*",
-                "lab_member": true
-            },
-            {
-                "name": "McKenzie S",
-                "lab_member": false
-            },
-            {
-                "name": "Lawrence KR",
-                "lab_member": false
-            },
-            {
-                "name": "Windsor R",
-                "lab_member": false
-            },
-            {
-                "name": "Vella M",
-                "lab_member": false
-            },
-            {
-                "name": "Park PJ",
-                "lab_member": true
-            },
-            {
-                "name": "Li H",
-                "lab_member": false
-            }
-        ],
-        "title": "Efficient near telomere-to-telomere assembly of Nanopore Simplex reads",
-        "title_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
-        "abstract": "Telomere-to-telomere (T2T) assembly is the ultimate goal for de novo genome assembly. Existing algorithms capable of near T2T assembly all require Oxford Nanopore Technologies (ONT) ultra-long reads which are costly and experimentally challenging to obtain and are thus often unavailable for samples without established cell lines. Here, we introduce hifiasm (ONT), the first algorithm that can produce near T2T assemblies from standard ONT Simplex reads, eliminating the need for ultra-long sequencing. Compared to existing methods, hifiasm (ONT) reduces the computational demands by an order of magnitude and reconstructs more chromosomes from telomere to telomere on the same datasets. This advancement substantially broadens the feasibility of T2T assembly for applications previously limited by the high cost and experimental requirement of ultra-long reads.",
-        "abstract_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
-        "pdf_link": "/publications/pdf/2025.04.14.648685v1.full.pdf",
-        "year": "2025",
-        "type": "2025",
-        "journal": "bioRxiv",
-        "journal_location": "bioRxiv"
     },
     {
         "author": [
