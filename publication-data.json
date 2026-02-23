@@ -69,7 +69,7 @@
             }
         ],
         "title": "Efficient near telomere-to-telomere assembly of nanopore simplex reads",
-        "title_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
+        "title_link": "https://www.nature.com/articles/s41586-026-10105-6",
         "abstract": "Telomere-to-telomere (T2T) assembly is the ultimate goal for de novo genome assembly. Existing algorithms capable of near-T2T assembly all require Oxford Nanopore Technologies (ONT) ultra-long reads, which are costly and experimentally challenging to obtain and are thus often unavailable for samples without established cell lines. Here we introduce hifiasm (ONT), an algorithm that can produce near-T2T assemblies from standard ONT simplex reads, eliminating the need for ultra-long sequencing. Compared with existing methods, hifiasm (ONT) reduces computational demands by an order of magnitude and reconstructs more chromosomes from telomere to telomere on the same datasets. This advance substantially broadens the feasibility of T2T assembly for applications previously limited by the high cost and experimental requirement of ultra-long reads.",
         "abstract_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
         "pdf_link": "/publications/pdf/s41586-026-10105-6.pdf",
@@ -77,6 +77,151 @@
         "type": "2026",
         "journal": "Nature",
         "journal_location": "Nature"
+    },
+    {
+    "author": [
+        {
+            "name": "Kanellos G",
+            "lab_member": false
+        },
+        {
+            "name": "Giacomelli C",
+            "lab_member": false
+        },
+        {
+            "name": "Raven A",
+            "lab_member": false
+        },
+        {
+            "name": "Vlahov N",
+            "lab_member": false
+        },
+        {
+            "name": "Jin H",
+            "lab_member": true
+        },
+        {
+            "name": "Herviou P",
+            "lab_member": false
+        },
+        {
+            "name": "Malla SB",
+            "lab_member": false
+        },
+        {
+            "name": "Nasreddin N",
+            "lab_member": false
+        },
+        {
+            "name": "Centeno PP",
+            "lab_member": false
+        },
+        {
+            "name": "Alexandrou C",
+            "lab_member": false
+        },
+        {
+            "name": "Gilroy K",
+            "lab_member": false
+        },
+        {
+            "name": "Baird RL",
+            "lab_member": false
+        },
+        {
+            "name": "Pennel K",
+            "lab_member": false
+        },
+        {
+            "name": "Munro J",
+            "lab_member": false
+        },
+        {
+            "name": "Waldron JA",
+            "lab_member": false
+        },
+        {
+            "name": "Hall H",
+            "lab_member": false
+        },
+        {
+            "name": "Officer-Jones L",
+            "lab_member": false
+        },
+        {
+            "name": "Bryson S",
+            "lab_member": false
+        },
+        {
+            "name": "Strathdee D",
+            "lab_member": false
+        },
+        {
+            "name": "Lilla S",
+            "lab_member": false
+        },
+        {
+            "name": "Zanivan S",
+            "lab_member": false
+        },
+        {
+            "name": "Morrison V",
+            "lab_member": false
+        },
+        {
+            "name": "Nixon C",
+            "lab_member": false
+        },
+        {
+            "name": "Ridgway RA",
+            "lab_member": false
+        },
+        {
+            "name": "Miller C",
+            "lab_member": false
+        },
+        {
+            "name": "Knight JRP",
+            "lab_member": false
+        },
+        {
+            "name": "Campbell AD",
+            "lab_member": false
+        },
+        {
+            "name": "Dunne PD",
+            "lab_member": false
+        },
+        {
+            "name": "Le Quesne J",
+            "lab_member": false
+        },
+        {
+            "name": "Edwards J",
+            "lab_member": false
+        },
+        {
+            "name": "Park PJ",
+            "lab_member": true
+        },
+        {
+            "name": "Bushell M",
+            "lab_member": false
+        },
+        {
+            "name": "Sansom OJ",
+            "lab_member": false
+        }
+        ],
+        "title": "Nucleophosmin supports WNT-driven hyperproliferation and tumor initiation",
+        "title_link": "https://www.nature.com/articles/s41588-025-02408-7",
+        "abstract": "Nucleophosmin (NPM1), a nucleolar protein frequently mutated in hematopoietic malignancies, is overexpressed in several solid tumors with poorly understood functional roles. Here, we demonstrate that Npm1 is upregulated after APC loss in WNT-responsive tissues and supports WNT-driven intestinal and liver tumorigenesis. Mechanistically, NPM1 loss induces ribosome pausing and accumulation at the 5’-end of coding sequences, triggering a protein synthesis stress response and p53 activation, which mediate this antitumorigenic effect. Collectively, our data identify NPM1 as a critical WNT effector that sustains WNT-driven hyperproliferation and tumorigenesis by attenuating the integrated stress response and p53 activation. Notably, NPM1 expression correlates with elevated WNT signaling and proliferation in human colorectal cancer (CRC), while CRCs harboring NPM1 deletions exhibit preferential TP53 inactivation, underscoring the clinical relevance of our findings. Being dispensable for adult epithelial homeostasis, NPM1 represents a promising therapeutic target in p53-proficient WNT-driven tumors, including treatment-refractory KRAS-mutant CRC, and hepatic cancers.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/nucleophosmin-supports-wnt-driven-hyperproliferation-and-tumor-initiation",
+        "pdf_link": "/publications/pdf/s41588-025-02408-7.pdf",
+        "year": "2025",
+        "type": "2025",
+        "journal": "Nature Genetics",
+        "journal_location": "Nature Genetics"
     },
     {
         "author": [
