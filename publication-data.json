@@ -598,7 +598,156 @@
     },
     {
         "author": [
-        {
+            {
+                "name": "Raven A",
+                "lab_member": false
+            },
+            {
+                "name": "Gilroy K",
+                "lab_member": false
+            },
+            {
+                "name": "Jin H",
+                "lab_member": true
+            },
+            {
+                "name": "Waldron JA",
+                "lab_member": false
+            },
+            {
+                "name": "Leslie H",
+                "lab_member": false
+            },
+            {
+                "name": "Munro J",
+                "lab_member": false
+            },
+            {
+                "name": "Hall H",
+                "lab_member": false
+            },
+            {
+                "name": "Ridgway RA",
+                "lab_member": false
+            },
+            {
+                "name": "Ford CA",
+                "lab_member": false
+            },
+            {
+                "name": "Gulhan DC",
+                "lab_member": true
+            },
+            {
+                "name": "Vlahov N",
+                "lab_member": false
+            },
+            {
+                "name": "Mills ML",
+                "lab_member": false
+            },
+            {
+                "name": "Hartley A",
+                "lab_member": false
+            },
+            {
+                "name": "Anderson E",
+                "lab_member": false
+            },
+            {
+                "name": "Bryson S",
+                "lab_member": false
+            },
+            {
+                "name": "Sphyris N",
+                "lab_member": false
+            },
+            {
+                "name": "Müller M",
+                "lab_member": false
+            },
+            {
+                "name": "May S",
+                "lab_member": false
+            },
+            {
+                "name": "Cadden B",
+                "lab_member": false
+            },
+            {
+                "name": "Nixon C",
+                "lab_member": false
+            },
+            {
+                "name": "Waddell SH",
+                "lab_member": false
+            },
+            {
+                "name": "Guest R",
+                "lab_member": false
+            },
+            {
+                "name": "Boulter L",
+                "lab_member": false
+            },
+            {
+                "name": "Barker N",
+                "lab_member": false
+            },
+            {
+                "name": "Clevers H",
+                "lab_member": false
+            },
+            {
+                "name": "Zhu H",
+                "lab_member": false
+            },
+            {
+                "name": "Ivaska J",
+                "lab_member": false
+            },
+            {
+                "name": "Strathdee D",
+                "lab_member": false
+            },
+            {
+                "name": "Miller CJ",
+                "lab_member": false
+            },
+            {
+                "name": "Jamieson NB",
+                "lab_member": false
+            },
+            {
+                "name": "Bushell M",
+                "lab_member": false
+            },
+            {
+                "name": "Park PJ",
+                "lab_member": true
+            },
+            {
+                "name": "Bird TG",
+                "lab_member": false
+            },
+            {
+                "name": "Sansom OJ",
+                "lab_member": false
+            }
+        ],
+        "title": "Hepatic zonation determines tumorigenic potential of mutant β-catenin",
+        "title_link": "https://www.nature.com/articles/s41586-025-09733-1",
+        "abstract": "Oncogenic mutations in phenotypically normal tissue are common across adult organs. This suggests that multiple events need to converge to drive tumorigenesis and that many processes such as tissue differentiation may protect against carcinogenesis. WNT–β-catenin signalling maintains zonal differentiation during liver homeostasis. However, the CTNNB1 oncogene—encoding β-catenin—is also frequently mutated in hepatocellular carcinoma, resulting in aberrant WNT signalling that promotes cell growth. Here we investigated the antagonistic interplay between WNT-driven growth and differentiation in zonal hepatocyte populations during liver tumorigenesis. We found that β-catenin mutations co-operate with exogenous MYC expression to drive a proliferative translatome. Differentiation of hepatocytes to an extreme zone 3 fate suppressed this proliferative translatome. Furthermore, a GLUL and Lgr5-positive perivenous subpopulation of zone 3 hepatocytes were refractory to WNT-induced and MYC-induced tumorigenesis. However, when mutant CTNNB1 and MYC alleles were activated sporadically across the liver lobule, a subset of mutant hepatocytes became proliferative and tumorigenic. These early lesions were characterized by reduced WNT pathway activation and elevated MAPK signalling, which suppresses zone 3 differentiation. The proliferative lesions were also dependent on IGFBP2–mTOR–cyclin D1 pathway signalling, in which inhibition of either IGFBP2 or mTOR suppressed proliferation and tumorigenesis. Therefore, we propose that zonal identity dictates hepatocyte susceptibility to WNT-driven tumorigenesis and that escaping WNT-induced differentiation is essential for liver cancer.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/hepatic-zonation-determines-tumorigenic-potential-of-mutant-beta-catenin",
+        "pdf_link": "",
+        "year": "2025",
+        "type": "2025",
+        "journal": "Nature",
+        "journal_location": "Nature"
+    },
+    {
+        "author": [
+    {
     "name": "Viswanadham VV",
     "lab_member": true
     },
@@ -709,7 +858,7 @@
         "journal_location": "Cell Reports",
         "pdf_link": "/publications/pdf/2025-combined-somatic-mutation.pdf"
     },
-    {
+       {
         "author": [
     {
         "name": "Zhang Y",
@@ -756,6 +905,38 @@
             "lab_member": false
     }
         ],
+        "title": "A recurrent sequencing artifact on Illumina sequencers with two-color fluorescent dye chemistry and its impact on somatic variant detection",
+        "title_link": "https://www.biorxiv.org/content/10.1101/2025.09.27.678978v1",
+        "abstract": "Background: The sequencing-by-synthesis technology by Illumina, Inc. enables efficient and scalable readouts of mutations from genomic data. To enhance sequencing speed and efficiency, Illumina has shifted from the four-color base calling chemistry of the HiSeq series to a two-color fluorescent dye chemistry in the NovaSeq series. Benchmarking sequencing artifacts due to biases in the newer chemistry is important to evaluate the quality of identified mutations. Results: We re-analyzed a series of whole-genome sequencing experiments in which the same samples were sequenced on the NovaSeq 6000 (two-color) and HiSeq X10 (four-color) platforms by independent groups. In several samples, we observed a higher frequency of T-to-G and A-to-C substitutions ('T>G') at the read level for NovaSeq 6000 versus HiSeq X10. As the per-base error rate is still low, the artifactual substitutions have a negligible effect in identifying germline or high variant allele frequency (VAF) somatic mutations. However, such errors can confound the detection of low-VAF somatic variants in high-depth sequencing samples, particularly in studies of mosaic mutations in normal tissues, where variants have low read support and are called without a matched normal. The artifactual T>G variant calls disproportionately occur at NT[TG] trinucleotides, and we leveraged this observation to bioinformatically reduce the T>G excess in somatic mutation callsets. Conclusions: We identified a recurrent artifact specific to the Illumina two-color chemistry platform on the NovaSeq 6000 with the potential to contaminate low-VAF somatic mutation calls. Thus, an unexpected enrichment of T>G mutations in mosaicism studies warrants caution. Keywords: Illumina NovaSeq 6000; Next-generation sequencing; mosaic mutations; sequencing artifacts; somatic mutations.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/a-recurrent-sequencing-artifact-on-illumina-sequencers-with-two-color-fluorescent-dye-chemistry-and-its-impacts-on-somatic-variant-detection",
+        "year": "2025",
+        "type": "2025",
+        "journal": "bioRxiv",
+        "journal_location": "bioRxiv"
+    },
+    {
+        "author": [
+            {
+                "name": "Fu BJ",
+                "lab_member": true
+            },
+            {
+                    "name": "Viswanadham VV",
+                    "lab_member": true
+            },
+            {
+                    "name": "Maziec D",
+                    "lab_member": true
+            },
+            {
+                    "name": "Jin H",
+                    "lab_member": true
+            },
+            {
+                    "name": "Park PJ",
+                    "lab_member": true
+            }
+            ],
         "title": "Comprehensive benchmarking of somatic structural variant detection at ultra-low allele fractions",
         "title_link": "https://www.biorxiv.org/content/10.1101/2025.09.18.677206v1",
         "abstract": "Postzygotic mosaicism gives rise to somatic structural variants (SVs) at ultra-low variant allele fractions (VAFs), which pose challenges for detection due to the high-coverage sequencing required and noise introduced by sequencing artifacts. Although somatic SV detection has been extensively studied in cancer, these studies are not directly applicable to the study of tissue mosaicism, as they rely on matched normals, target higher VAF ranges, and are enriched for different types of SVs. We present comprehensive benchmark data and best practices for non-cancer somatic SV detection. We created a synthetic mosaic sample by combining six HapMap individuals at varying proportions, generating allele fractions as low as 0.25%. This sample was sequenced to ~2,300x total coverage using Illumina, PacBio, and Nanopore technologies across multiple sequencing centers. A high-confidence benchmark SV set containing over 21,000 pseudo-somatic insertions and deletions ≥50bp was derived from haplotype-resolved assemblies. We evaluated 12 SV discovery pipelines and identified caller-specific strengths and sequencing platform-specific shortcomings. We find that short read-based approaches show reduced recall for insertions and repeat-associated SVs, whereas long-read sequencing achieves high accuracy throughout the genome, increasing linearly with coverage. The best algorithm's sensitivity exceeded 80% for VAFs ≥4% and 15% for VAFs of 0.5-1% with 60x coverage. The publicly available benchmarking data and comparative analysis of current methods provide a foundation for robust discovery of SV mosaicism in non-cancer tissues.",
@@ -765,8 +946,7 @@
         "journal": "bioRxiv",
         "journal_location": "bioRxiv"
     },
-    
-    {
+        {
         "author": [
             {
                 "name": "Navelkar R",
