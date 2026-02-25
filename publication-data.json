@@ -225,6 +225,379 @@
     },
     {
         "author": [
+            {
+                "name": "Dekker J",
+                "lab_member": false
+            },
+            {
+                "name": "Oksuz BA",
+                "lab_member": false
+            },
+            {
+                "name": "Zhang Y",
+                "lab_member": false
+            },
+            {
+                "name": "Wang Y",
+                "lab_member": false
+            },
+            {
+                "name": "Minsk MK",
+                "lab_member": false
+            },
+            {
+                "name": "Kuang S",
+                "lab_member": false
+            },
+            {
+                "name": "Yang L",
+                "lab_member": false
+            },
+            {
+                "name": "Gibcus JH",
+                "lab_member": false
+            },
+            {
+                "name": "Krietenstein N",
+                "lab_member": false
+            },
+            {
+                "name": "Rando OJ",
+                "lab_member": false
+            },
+            {
+                "name": "Xu J",
+                "lab_member": false
+            },
+            {
+                "name": "Janssens DH",
+                "lab_member": false
+            },
+            {
+                "name": "Henikoff S",
+                "lab_member": false
+            },
+            {
+                "name": "Kukalev A",
+                "lab_member": false
+            },
+            {
+                "name": "Willemin A",
+                "lab_member": false
+            },
+            {
+                "name": "Winick-Ng W",
+                "lab_member": false
+            },
+            {
+                "name": "Kempfer R",
+                "lab_member": false
+            },
+            {
+                "name": "Pombo A",
+                "lab_member": false
+            },
+            {
+                "name": "Yu M",
+                "lab_member": false
+            },
+            {
+                "name": "Kumar P",
+                "lab_member": false
+            },
+            {
+                "name": "Zhang L",
+                "lab_member": false
+            },
+            {
+                "name": "Belmont AS",
+                "lab_member": false
+            },
+            {
+                "name": "Sasaki T",
+                "lab_member": false
+            },
+            {
+                "name": "van Schaik T",
+                "lab_member": false
+            },
+            {
+                "name": "Brueckner L",
+                "lab_member": false
+            },
+            {
+                "name": "Peric-Hupkes D",
+                "lab_member": false
+            },
+            {
+                "name": "van Steensel B",
+                "lab_member": false
+            },
+            {
+                "name": "Wang P",
+                "lab_member": false
+            },
+            {
+                "name": "Chai H",
+                "lab_member": false
+            },
+            {
+                "name": "Kim M",
+                "lab_member": false
+            },
+            {
+                "name": "Ruan Y",
+                "lab_member": false
+            },
+            {
+                "name": "Zhang R",
+                "lab_member": false
+            },
+            {
+                "name": "Quinodoz SA",
+                "lab_member": false
+            },
+            {
+                "name": "Bhat P",
+                "lab_member": false
+            },
+            {
+                "name": "Guttman M",
+                "lab_member": false
+            },
+            {
+                "name": "Zhao W",
+                "lab_member": false
+            },
+            {
+                "name": "Chien S",
+                "lab_member": false
+            },
+            {
+                "name": "Liu Y",
+                "lab_member": false
+            },
+            {
+                "name": "Venev SV",
+                "lab_member": false
+            },
+            {
+                "name": "Plewczynski D",
+                "lab_member": false
+            },
+            {
+                "name": "Azcarate II",
+                "lab_member": false
+            },
+            {
+                "name": "Szabó D",
+                "lab_member": false
+            },
+            {
+                "name": "Thieme CJ",
+                "lab_member": false
+            },
+            {
+                "name": "Szczepińska T",
+                "lab_member": false
+            },
+            {
+                "name": "Chiliński M",
+                "lab_member": false
+            },
+            {
+                "name": "Sengupta K",
+                "lab_member": false
+            },
+            {
+                "name": "Conte M",
+                "lab_member": false
+            },
+            {
+                "name": "Esposito A",
+                "lab_member": false
+            },
+            {
+                "name": "Abraham A",
+                "lab_member": false
+            },
+            {
+                "name": "Zhang R",
+                "lab_member": false
+            },
+            {
+                "name": "Wang Y",
+                "lab_member": false
+            },
+            {
+                "name": "Wen X",
+                "lab_member": false
+            },
+            {
+                "name": "Wu Q",
+                "lab_member": false
+            },
+            {
+                "name": "Yang Y",
+                "lab_member": false
+            },
+            {
+                "name": "Liu J",
+                "lab_member": false
+            },
+            {
+                "name": "Boninsegna L",
+                "lab_member": false
+            },
+            {
+                "name": "Yildirim A",
+                "lab_member": false
+            },
+            {
+                "name": "Zhan Y",
+                "lab_member": false
+            },
+            {
+                "name": "Chiariello AM",
+                "lab_member": false
+            },
+            {
+                "name": "Bianco S",
+                "lab_member": false
+            },
+            {
+                "name": "Lee L",
+                "lab_member": false
+            },
+            {
+                "name": "Hu M",
+                "lab_member": false
+            },
+            {
+                "name": "Li Y",
+                "lab_member": false
+            },
+            {
+                "name": "Barnett RJ",
+                "lab_member": false
+            },
+            {
+                "name": "Cook AL",
+                "lab_member": false
+            },
+            {
+                "name": "Emerson DJ",
+                "lab_member": false
+            },
+            {
+                "name": "Marchal C",
+                "lab_member": false
+            },
+            {
+                "name": "Zhao P",
+                "lab_member": false
+            },
+            {
+                "name": "Park PJ",
+                "lab_member": true
+            },
+            {
+                "name": "Alver BH",
+                "lab_member": true
+            },
+            {
+                "name": "Schroeder A",
+                "lab_member": true
+            },
+            {
+                "name": "Navelkar R",
+                "lab_member": true
+            },
+            {
+                "name": "Bakker C",
+                "lab_member": true
+            },
+            {
+                "name": "Ronchetti W",
+                "lab_member": true
+            },
+            {
+                "name": "Ehmsen S",
+                "lab_member": true
+            },
+            {
+                "name": "Veit A",
+                "lab_member": true
+            },
+            {
+                "name": "Gehlenborg N",
+                "lab_member": false
+            },
+            {
+                "name": "Wang T",
+                "lab_member": false
+            },
+            {
+                "name": "Li D",
+                "lab_member": false
+            },
+            {
+                "name": "Wang X",
+                "lab_member": false
+            },
+            {
+                "name": "Nicodemi M",
+                "lab_member": false
+            },
+            {
+                "name": "Ren B",
+                "lab_member": false
+            },
+            {
+                "name": "Zhong S",
+                "lab_member": false
+            },
+            {
+                "name": "Phillips-Cremins JE",
+                "lab_member": false
+            },
+            {
+                "name": "Gilbert DM",
+                "lab_member": false
+            },
+            {
+                "name": "Pollard KS",
+                "lab_member": false
+            },
+            {
+                "name": "Alber F",
+                "lab_member": false
+            },
+            {
+                "name": "Ma J",
+                "lab_member": false
+            },
+            {
+                "name": "Noble WS",
+                "lab_member": false
+            },
+            {
+                "name": "Yue F",
+                "lab_member": false
+            }
+        ],
+        "title": "An integrated view of the structure and function of the human 4D nucleome",
+        "title_link": "https://www.nature.com/articles/s41586-025-09890-3#Abs1",
+        "abstract": "The dynamic three-dimensional (3D) organization of the human genome (the 4D nucleome) is linked to genome function. Here we describe efforts by the 4D Nucleome Project1 to map and analyse the 4D nucleome in widely used H1 human embryonic stem cells and immortalized fibroblasts (HFFc6). We produced and integrated diverse genomic datasets of the 4D nucleome, each contributing unique observations, which enabled us to assemble extensive catalogues of more than 140,000 looping interactions per cell type, to generate detailed classifications and annotations of chromosomal domain types and their subnuclear positions, and to obtain single-cell 3D models of the nuclear environment of all genes including their long-range interactions with distal elements. Through extensive benchmarking, we describe the unique strengths of different genomic assays for studying the 4D nucleome, providing guidelines for future studies. Three-dimensional models of population-based and individual cell-to-cell variation in genome structure showed connections between chromosome folding, nuclear organization, chromatin looping, gene transcription and DNA replication. Finally, we demonstrate the use of computational methods to predict genome folding from DNA sequence, which will facilitate the discovery of potential effects of genetic variants, including variants associated with disease, on genome structure and function.",
+        "abstract_link": "https://compbio.hms.harvard.edu/publications/an-integrated-view-of-the-structure-and-function-of-the-human-4D-nucleome",
+        "pdf_link": "/publications/pdf/s41586-025-09890-3.pdf",
+        "year": "2025",
+        "type": "2025",
+        "journal": "Nature",
+        "journal_location": "Nature"
+    },
+    {
+        "author": [
         {
     "name": "Viswanadham VV",
     "lab_member": true
@@ -1207,383 +1580,6 @@
         "pdf_link": "/publications/pdf/2025.03.03.641186v3.full.pdf",
         "year": "2025",
         "type": "2025",
-        "journal": "bioRxiv",
-        "journal_location": "bioRxiv"
-    },
-    {
-        "author": [
-            {
-                "name": "4D Nucleome Consortium",
-                "lab_member": false
-            },
-            {
-                "name": "Dekker J",
-                "lab_member": false
-            },
-            {
-                "name": "Oksuz BA",
-                "lab_member": false
-            },
-            {
-                "name": "Zhang Y",
-                "lab_member": false
-            },
-            {
-                "name": "Wang Y",
-                "lab_member": false
-            },
-            {
-                "name": "Minsk MK",
-                "lab_member": false
-            },
-            {
-                "name": "Kuang S",
-                "lab_member": false
-            },
-            {
-                "name": "Yang L",
-                "lab_member": false
-            },
-            {
-                "name": "Gibcus JH",
-                "lab_member": false
-            },
-            {
-                "name": "Krietenstein N",
-                "lab_member": false
-            },
-            {
-                "name": "Rando OJ",
-                "lab_member": false
-            },
-            {
-                "name": "Xu J",
-                "lab_member": false
-            },
-            {
-                "name": "Janssens DH",
-                "lab_member": false
-            },
-            {
-                "name": "Henikoff S",
-                "lab_member": false
-            },
-            {
-                "name": "Kukalev A",
-                "lab_member": false
-            },
-            {
-                "name": "Willemin A",
-                "lab_member": false
-            },
-            {
-                "name": "Winick-Ng W",
-                "lab_member": false
-            },
-            {
-                "name": "Kempfer R",
-                "lab_member": false
-            },
-            {
-                "name": "Pombo A",
-                "lab_member": false
-            },
-            {
-                "name": "Yu M",
-                "lab_member": false
-            },
-            {
-                "name": "Kumar P",
-                "lab_member": false
-            },
-            {
-                "name": "Zhang L",
-                "lab_member": false
-            },
-            {
-                "name": "Belmont AS",
-                "lab_member": false
-            },
-            {
-                "name": "Sasaki T",
-                "lab_member": false
-            },
-            {
-                "name": "van Schaik T",
-                "lab_member": false
-            },
-            {
-                "name": "Brueckner L",
-                "lab_member": false
-            },
-            {
-                "name": "Peric-Hupkes D",
-                "lab_member": false
-            },
-            {
-                "name": "van Steensel B",
-                "lab_member": false
-            },
-            {
-                "name": "Wang P",
-                "lab_member": false
-            },
-            {
-                "name": "Chai H",
-                "lab_member": false
-            },
-            {
-                "name": "Kim M",
-                "lab_member": false
-            },
-            {
-                "name": "Ruan Y",
-                "lab_member": false
-            },
-            {
-                "name": "Zhang R",
-                "lab_member": false
-            },
-            {
-                "name": "Quinodoz SA",
-                "lab_member": false
-            },
-            {
-                "name": "Bhat P",
-                "lab_member": false
-            },
-            {
-                "name": "Guttman M",
-                "lab_member": false
-            },
-            {
-                "name": "Zhao W",
-                "lab_member": false
-            },
-            {
-                "name": "Chien S",
-                "lab_member": false
-            },
-            {
-                "name": "Liu Y",
-                "lab_member": false
-            },
-            {
-                "name": "Venev SV",
-                "lab_member": false
-            },
-            {
-                "name": "Plewczynski D",
-                "lab_member": false
-            },
-            {
-                "name": "Azcarate II",
-                "lab_member": false
-            },
-            {
-                "name": "Szabó D",
-                "lab_member": false
-            },
-            {
-                "name": "Thieme CJ",
-                "lab_member": false
-            },
-            {
-                "name": "Szczepińska T",
-                "lab_member": false
-            },
-            {
-                "name": "Chiliński M",
-                "lab_member": false
-            },
-            {
-                "name": "Sengupta K",
-                "lab_member": false
-            },
-            {
-                "name": "Conte M",
-                "lab_member": false
-            },
-            {
-                "name": "Esposito A",
-                "lab_member": false
-            },
-            {
-                "name": "Abraham A",
-                "lab_member": false
-            },
-            {
-                "name": "Zhang R",
-                "lab_member": false
-            },
-            {
-                "name": "Wang Y",
-                "lab_member": false
-            },
-            {
-                "name": "Wen X",
-                "lab_member": false
-            },
-            {
-                "name": "Wu Q",
-                "lab_member": false
-            },
-            {
-                "name": "Yang Y",
-                "lab_member": false
-            },
-            {
-                "name": "Liu J",
-                "lab_member": false
-            },
-            {
-                "name": "Boninsegna L",
-                "lab_member": false
-            },
-            {
-                "name": "Yildirim A",
-                "lab_member": false
-            },
-            {
-                "name": "Zhan Y",
-                "lab_member": false
-            },
-            {
-                "name": "Chiariello AM",
-                "lab_member": false
-            },
-            {
-                "name": "Bianco S",
-                "lab_member": false
-            },
-            {
-                "name": "Lee L",
-                "lab_member": false
-            },
-            {
-                "name": "Hu M",
-                "lab_member": false
-            },
-            {
-                "name": "Li Y",
-                "lab_member": false
-            },
-            {
-                "name": "Barnett RJ",
-                "lab_member": false
-            },
-            {
-                "name": "Cook AL",
-                "lab_member": false
-            },
-            {
-                "name": "Emerson DJ",
-                "lab_member": false
-            },
-            {
-                "name": "Marchal C",
-                "lab_member": false
-            },
-            {
-                "name": "Zhao P",
-                "lab_member": false
-            },
-            {
-                "name": "Park PJ",
-                "lab_member": true
-            },
-            {
-                "name": "Alver BH",
-                "lab_member": true
-            },
-            {
-                "name": "Schroeder A",
-                "lab_member": true
-            },
-            {
-                "name": "Navelkar R",
-                "lab_member": true
-            },
-            {
-                "name": "Bakker C",
-                "lab_member": true
-            },
-            {
-                "name": "Ronchetti W",
-                "lab_member": true
-            },
-            {
-                "name": "Ehmsen S",
-                "lab_member": true
-            },
-            {
-                "name": "Veit A",
-                "lab_member": true
-            },
-            {
-                "name": "Gehlenborg N",
-                "lab_member": false
-            },
-            {
-                "name": "Wang T",
-                "lab_member": false
-            },
-            {
-                "name": "Li D",
-                "lab_member": false
-            },
-            {
-                "name": "Wang X",
-                "lab_member": false
-            },
-            {
-                "name": "Nicodemi M",
-                "lab_member": false
-            },
-            {
-                "name": "Ren B",
-                "lab_member": false
-            },
-            {
-                "name": "Zhong S",
-                "lab_member": false
-            },
-            {
-                "name": "Phillips-Cremins JE",
-                "lab_member": false
-            },
-            {
-                "name": "Gilbert DM",
-                "lab_member": false
-            },
-            {
-                "name": "Pollard KS",
-                "lab_member": false
-            },
-            {
-                "name": "Alber F",
-                "lab_member": false
-            },
-            {
-                "name": "Ma J",
-                "lab_member": false
-            },
-            {
-                "name": "Noble WS",
-                "lab_member": false
-            },
-            {
-                "name": "Yue F",
-                "lab_member": false
-            }
-        ],
-        "title": "An integrated view of the structure and function of the human 4D nucleome",
-        "title_link": "https://compbio.hms.harvard.edu/publications/an-integrated-view-of-the-structure-and-function-of-the-human-4D-nucleome",
-        "abstract": "The dynamic three-dimensional (3D) organization of the human genome (the “4D Nucleome”) is closely linked to genome function. Here, we integrate a wide variety of genomic data generated by the 4D Nucleome Project to provide a detailed view of human 3D genome organization in widely used embryonic stem cells (H1-hESCs) and immortalized fibroblasts (HFFc6). We provide extensive benchmarking of 3D genome mapping assays and integrate these diverse datasets to annotate spatial genomic features across scales. The data reveal a rich complexity of chromatin domains and their sub-nuclear positions, and over one hundred thousand structural loops and promoter-enhancer interactions. We developed 3D models of population-based and individual cell-to-cell variation in genome structure, establishing connections between chromosome folding, nuclear organization, chromatin looping, gene transcription, and DNA replication. We demonstrate the use of computational methods to predict genome folding from DNA sequence, uncovering potential effects of genetic variants on genome structure and function. Together, this comprehensive analysis contributes insights into human genome organization and enhances our understanding of connections between the regulation of genome function and 3D genome organization in general.",
-        "abstract_link": "https://compbio.hms.harvard.edu/publications/an-integrated-view-of-the-structure-and-function-of-the-human-4D-nucleome",
-        "pdf_link": "/publications/pdf/2024.09.17.4DNucleome.pdf",
-        "year": "2024",
-        "type": "2024",
         "journal": "bioRxiv",
         "journal_location": "bioRxiv"
     },
