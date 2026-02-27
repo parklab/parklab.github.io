@@ -1,6 +1,6 @@
 ---
 person_title: <a href="/people/soohyun-lee">Dr. Soohyun Lee</a>
-name: Dr. Soohyun Lee
+name: Soohyun Lee
 subtitle: Senior Bioinformatics Scientist  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"
 professional_title: "PhD in Bioinformatics, Boston University → Senior Bioinformatics Scientist, Park Lab → Senior Bioinformatics Scientist, Exact Sciences"

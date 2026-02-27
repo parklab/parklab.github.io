@@ -1,6 +1,6 @@
 ---
 person_title: <a href="/people/michele-berselli">Dr. Michele Berselli</a>
-name: Dr. Michele Berselli
+name: Michele Berselli
 subtitle: Bioinformatics Scientist  # Set subtitle to position_link_text
 professional_title: "Bioinformatics Scientist"
 academic_title: "PhD in Bioinformatics, University of Padova"

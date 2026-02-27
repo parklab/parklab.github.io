@@ -1,6 +1,6 @@
 ---
 person_title: <a href="/people/burak-alver-0">Dr. Burak H Alver</a>
-name: Dr. Burak H Alver
+name: Burak H Alver
 subtitle: Scientific Director  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"
 professional_title: "PhD in Physics, MIT → Scientific Director, 4D Nucleome DCIC, Park Lab → Head of Data Science, Cystic Fibrosis Foundation"
