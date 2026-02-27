@@ -203,8 +203,10 @@ function renderPubGroup(pubData, target, category) {
     .html(function(d, i) {
       // First add paper pdf (if there is one)
       var supplementals = ''
-      if (d.hasOwnProperty('pdf_link') && d.pdf_link !== '')
-        supplementals += '<a class="pdf_link" target="_blank" href="' + d.pdf_link + '"> PDF <i class="fas fa-external-link-alt"></i></a>';
+      if (d.hasOwnProperty('pdf_link') && d.pdf_link !== '') {
+        const isGitHubReleaseLink = d.pdf_link.startsWith('https://github.com/parklab/parklab.github.io/releases/download/large-assets/');
+        supplementals += `<a class="pdf_link" target="_blank" href="${d.pdf_link}"> ${isGitHubReleaseLink ? "Download" : "View"} PDF <i class="fas ${isGitHubReleaseLink ? "fa-download" : "fa-external-link-alt"}"></i></a>`;
+      }
       else
         supplementals += ''
       if (d.hasOwnProperty('tutorialwebsite'))
