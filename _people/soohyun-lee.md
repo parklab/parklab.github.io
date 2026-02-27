@@ -1,5 +1,5 @@
 ---
-person_title: <a href="/people/soohyun-lee">Dr. Soohyun Lee</a>
+person_title: <a href="/people/soohyun-lee">Soohyun Lee</a>
 name: Soohyun Lee
 subtitle: Senior Bioinformatics Scientist  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"

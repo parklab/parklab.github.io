@@ -1,5 +1,5 @@
 ---
-person_title: <a href="/people/andrea-cosolo">Dr. Andrea Cosolo</a>
+person_title: <a href="/people/andrea-cosolo">Andrea Cosolo</a>
 name: Andrea Cosolo
 subtitle: Data Curator  # Set subtitle to position_link_text
 position_category: "Alumni: Staff Scientists"

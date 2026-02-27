@@ -1,5 +1,5 @@
 ---
-person_title: <a href="/people/peter-j-park">Dr. Peter J Park</a>
+person_title: <a href="/people/peter-j-park">Peter J Park</a>
 name: Peter J Park
 subtitle: Principal Investigator  # Set subtitle to position_link_text
 professional_title: "Professor of Biomedical Informatics"

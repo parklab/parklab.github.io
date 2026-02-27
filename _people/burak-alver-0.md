@@ -1,5 +1,5 @@
 ---
-person_title: <a href="/people/burak-alver-0">Dr. Burak H Alver</a>
+person_title: <a href="/people/burak-alver-0">Burak H Alver</a>
 name: Burak H Alver
 subtitle: Scientific Director  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"
