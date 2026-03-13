@@ -11,7 +11,8 @@ hide_footer: false
 
 # Positions in the Park lab
 
-#### [updated November 2025]
+#### [updated Feb 2026]
+
 <ins>Applicants to the BIG PhD program - Please see my note at the bottom of the page</ins>
 
 Applications are invited for multiple positions in the [Park laboratory](/) in the Department of Biomedical Informatics at Harvard Medical School. The aim of the laboratory is to develop and apply innovative computational methods for genome sequencing data to enhance our understanding of cancer genetics, neurogenetics, and epigenetics.

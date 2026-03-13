@@ -9,7 +9,7 @@ status: "Alumni"
 image: ./img/alice-eunjung-lee.jpg
 hide_footer: true
 start_date: 2010-01-01
-end_Date: 2013-01-01
+end_date: 2013-01-01
 additional_links:
     organization: "https://labs.childrenshospital.org/lee-lab/"
 ---
