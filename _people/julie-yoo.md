@@ -3,7 +3,7 @@ person_title: <a href="/people/julie-yoo">Julie Yoo</a>
 name: Julie Yoo
 subtitle: Graduate Student  # Set subtitle to position_link_text
 position_category: "Alumni: Masters Students"
-professional_title: "MBA, HST/MIT"
+professional_title: "BS, MIT"
 description: ""
 layout: person
 status: "Alumni"
