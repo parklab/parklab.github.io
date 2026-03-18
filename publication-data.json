@@ -3180,6 +3180,90 @@
             {
                 "name": "Galor A",
                 "lab_member": true
+            },
+            {
+                "name": "Hart J",
+                "lab_member": false
+            },
+            {
+                "name": "Jones KB",
+                "lab_member": false
+            },
+            {
+                "name": "Jordan JT",
+                "lab_member": false
+            },
+            {
+                "name": "Kim RH",
+                "lab_member": false
+            },
+            {
+                "name": "Lindsay D",
+                "lab_member": false
+            },
+            {
+                "name": "Miller C",
+                "lab_member": false
+            },
+            {
+                "name": "Nishida Y",
+                "lab_member": false
+            },
+            {
+                "name": "Proszek PZ",
+                "lab_member": false
+            },
+            {
+                "name": "Serrano J",
+                "lab_member": false
+            },
+            {
+                "name": "Sundby RT",
+                "lab_member": false
+            },
+            {
+                "name": "Szymanski JJ",
+                "lab_member": false
+            },
+            {
+                "name": "Ullrich NJ",
+                "lab_member": false
+            },
+            {
+                "name": "Viskochil D",
+                "lab_member": false
+            },
+            {
+                "name": "Wang X",
+                "lab_member": false
+            },
+            {
+                "name": "Snuderl M",
+                "lab_member": false
+            },
+            {
+                "name": "Park PJ",
+                "lab_member": true
+            },
+            {
+                "name": "Flanagan AM",
+                "lab_member": false
+            },
+            {
+                "name": "Hirbe AC",
+                "lab_member": false
+            },
+            {
+                "name": "Pillay N",
+                "lab_member": false
+            },
+            {
+                "name": "Miller DT",
+                "lab_member": false
+            },
+            {
+                "name": "for the Genomics of MPNST (GeM) Consortium",
+                "lab_member": false
             }
         ],
         "title": "Genomic patterns of malignant peripheral nerve sheath tumor (MPNST) evolution correlate with clinical outcome and are detectable in cell-free DNA",

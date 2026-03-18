@@ -3,7 +3,7 @@ person_title: <a href="/people/weil-lai">Weil R Lai</a>
 name: Weil R Lai
 subtitle: Programmer  # Set subtitle to position_link_text
 position_category: "Alumni: Associate Computational Biologists"
-professional_title: "Chemical Engineering, MIT → Medical Student, Tufts University → later Urologist, Hunterdon Medical Center"
+professional_title: "Chemical Engineering, MIT → Medical Student, Tufts University → Urologist, Hunterdon Medical Center"
 description: ""
 layout: person
 status: "Alumni"

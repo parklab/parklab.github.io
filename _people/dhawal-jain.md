@@ -3,7 +3,7 @@ person_title: <a href="/people/dhawal-jain">Dhawal Jain</a>
 name: Dhawal Jain
 subtitle: Research Fellow  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"
-professional_title: "PhD, Ludwig-Maximilians-Universität München → Bayer"
+professional_title: "PhD, Ludwig-Maximilians-Universität München → Associate Director, Bayer → Head of Bioinformatics Morphic Theraputics & Senior Advisor, Eli Lilly and Company"
 description: "Dhawal has done his doctoral work in chromatin dynamics from the Ludwig Maximilians university, Germany (and as a part of International Max-Planck research school). During doctoral studies, his research focused on assessing changes in chromatin structure in the wake of nucleosome remodeling factors. In the Park lab, Dhawal focuses on exploring roles of chromatin factors in regulating transcription process and explores his interests in immuno-oncology. Besides science, he keeps his active interests in classical music and hiking."
 layout: person
 status: "Alumni"
