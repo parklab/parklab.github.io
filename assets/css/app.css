@@ -11333,10 +11333,19 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .people-page-container .page-body-container .category-container {
   margin-top: 60px;
 }
-.people-page-container .page-body-container .category-container .category-header {
+.people-page-container .page-body-container .category-container .category-header-container .category-header {
   font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 20px;
+}
+.people-page-container .page-body-container .category-container .category-header-container:has(.abbreviations-legend) {
+  margin-bottom: 20px;
+}
+.people-page-container .page-body-container .category-container .category-header-container:has(.abbreviations-legend) .category-header {
+  margin-bottom: 10px;
+}
+.people-page-container .page-body-container .category-container .category-header-container:has(.abbreviations-legend) .abbreviations-legend {
+  font-size: 0.875rem;
 }
 .people-page-container .page-body-container .category-container .category-body {
   display: flex;
@@ -11367,7 +11376,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-  max-width: 80%;
+  max-width: 85%;
   padding: 0px 20px 0px;
   gap: 5px;
 }
