@@ -64,6 +64,12 @@ show_sidebar: false
 
                 {% assign split_professional_title = person.professional_title %}
 
+
+                {% comment %} Get last name for lab link {% endcomment %}
+                {% assign full_name = person.name %}
+                {% assign name_array = full_name | split: " " %}
+                {% assign last_name = name_array | last %}
+
                 <!-- Isolate the PhD part of the professional_title -->
                 {% comment %} {% assign split_professional_title = person.professional_title | split: "," %}
                 
@@ -108,12 +114,21 @@ show_sidebar: false
                             <span class="current_position">{{ person.current_position }}</span>
                           {% endif %}
                        </span>
+                       {% if person.additional_links.organization  %}
+                         <span class="organization">
+                           <a href="{{ person.additional_links.organization }}" target="_blank">
+                             [{{ last_name }} Lab]
+                           </a>
+                         </span>
+                       {% endif %}
                     </p>
                   </div>
                 </div>
               {% endif %}
               </div>
             {% endfor %}
+
+            {% comment %} Current Members: AKA no end date {% endcomment %}
             {% for person in items_without_end_date %}
               <div class="person-container" data-person="{{ person.name }}">
 
