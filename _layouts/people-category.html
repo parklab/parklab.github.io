@@ -12,7 +12,15 @@ show_sidebar: false
 
     {% for category in site.data.new-categories-order %}
       <div class="category-container">
-        <h2 class="category-header">{{ category }}</h2>
+        <div class="category-header-container">
+          <h2 class="category-header">{{ category }}</h2>
+  
+          {% if category == "Alumni: Masters Students" %}
+            <span class="abbreviations-legend">
+              <b>MBI = Master's in Biomedical Informatics; BIRT = Biomedical Informatics and Data Science Research Training Program</b>
+            </span>
+          {% endif %}
+        </div>
         
         {% assign currentPositionCategory = people_by_category | where: "name" , category | first %}
 
