@@ -11,4 +11,6 @@ image: ./img/hyunju-lee.jpg
 hide_footer: true
 start_date: 2006-01-01
 end_date: 2007-01-01
+additional_links:
+    organization: "https://combio.gist.ac.kr/combio/index.do"
 ---

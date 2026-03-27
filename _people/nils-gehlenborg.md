@@ -11,4 +11,6 @@ image: ./img/nils-gehlenborg.jpg
 hide_footer: true
 start_date: 2010-01-01
 end_date: 2015-01-01
+additional_links:
+    organization: "https://hidivelab.org/"
 ---

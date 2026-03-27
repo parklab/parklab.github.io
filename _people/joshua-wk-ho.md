@@ -11,4 +11,6 @@ image: ./img/joshua-wk-ho.jpg
 hide_footer: true
 start_date: 2010-01-01
 end_date: 2013-01-01
+additional_links:
+    organization: "https://holab-hku.github.io/"
 ---
