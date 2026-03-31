@@ -77,7 +77,7 @@
       "year": "2026",
       "type": "2026",
       "journal": "Nature",
-      "journal_location": "Nature"
+      "journal_location": "Nature 2026;644:10105"
     },
     {
       "author": [
@@ -222,7 +222,7 @@
       "year": "2025",
       "type": "2025",
       "journal": "Nature Genetics",
-      "journal_location": "Nature Genetics"
+      "journal_location": "Nature Genetics 2026;58(1):100-115"
     },
     {
       "author": [
@@ -595,7 +595,7 @@
       "year": "2025",
       "type": "2025",
       "journal": "Nature",
-      "journal_location": "Nature"
+      "journal_location": "Nature 2026;649(8097):759-776"
     },
     {
       "author": [
@@ -744,7 +744,7 @@
       "year": "2025",
       "type": "2025",
       "journal": "Nature",
-      "journal_location": "Nature"
+      "journal_location": "Nature 2026;649(8097):739-748"
     },
     {
       "author": [
@@ -856,7 +856,7 @@
       "year": "2025",
       "type": "2025",
       "journal": "Cell Reports",
-      "journal_location": "Cell Reports",
+      "journal_location": "Cell Reports 2025;44(11):116458",
       "pdf_link": "/publications/pdf/2025-combined-somatic-mutation.pdf"
     },
     {
@@ -1557,7 +1557,7 @@
       "year": "2025",
       "type": "2025",
       "journal": "Nature",
-      "journal_location": "Nature 2025",
+      "journal_location": "Nature 2025;643(8070):47-59",
       "pdf_link": "/publications/pdf/coorens_2025_somatic_mosaicism_network.pdf"
     },
     {
@@ -1619,7 +1619,7 @@
       "year": "2025",
       "type": "2025",
       "journal": "Nature Communications",
-      "journal_location": "Nature Communications 2025"
+      "journal_location": "Nature Communications 2025;16(1):5477"
     },
     {
       "author": [
@@ -1798,7 +1798,7 @@
       "year": "2024",
       "type": "2024",
       "journal": "Cancer Research",
-      "journal_location": "Cancer Research and Treatment 2024"
+      "journal_location": "Cancer Research and Treatment 2024;56(4):975-990"
     },
     {
       "author": [
@@ -1859,7 +1859,7 @@
       "year": "2024",
       "type": "2024",
       "journal": "Nature",
-      "journal_location": "Nature Communications 2024"
+      "journal_location": "Nature Communications 2024;15(1):2106"
     },
     {
       "author": [
@@ -1957,7 +1957,7 @@
       "year": "2024",
       "type": "2024",
       "journal": "Cell",
-      "journal_location": "Cell 2024"
+      "journal_location": "Cell 2024;187(8):1955-1970.e23"
     },
     {
       "author": [
@@ -2022,7 +2022,7 @@
       "year": "2024",
       "type": "2024",
       "journal": "Nature",
-      "journal_location": "Nature Genetics 2024"
+      "journal_location": "Nature Genetics 2024;56(5):900-912"
     },
     {
       "author": [
@@ -2063,7 +2063,7 @@
       "year": "2024",
       "type": "2024",
       "journal": "Nature",
-      "journal_location": "Nature Genetics 2024"
+      "journal_location": "Nature Genetics 2024;56(3):541-552"
     },
     {
       "author": [
@@ -2308,7 +2308,7 @@
       "pdf_link": "/publications/pdf/s41597-023-02645-7.pdf",
       "year": "2023",
       "journal": "Scientific Data",
-      "journal_location": "Scientific Data 2023"
+      "journal_location": "Scientific Data 2023;10(1):813"
     },
     {
       "author": [
@@ -2360,7 +2360,7 @@
       "pdf_link": "/publications/pdf/s41588-023-01537-1.pdf",
       "year": "2023",
       "journal": "Nature",
-      "journal_location": "Nature Genetics 2023"
+      "journal_location": "Nature Genetics 2023;55(11):1901-1911"
     },
     {
       "author": [
@@ -2408,7 +2408,7 @@
       "pdf_link": "/publications/pdf/s41592-023-02056-x.pdf",
       "year": "2023",
       "journal": "Nature",
-      "journal_location": "Nature Methods 2023"
+      "journal_location": "Nature Methods 2023;20(12):1834-1835"
     },
     {
       "author": [
@@ -2460,7 +2460,7 @@
       "pdf_link": "/publications/pdf/gkad821.pdf",
       "year": "2023",
       "journal": "Nucleic Acids Res",
-      "journal_location": "Nucleic Acids Research 2023"
+      "journal_location": "Nucleic Acids Research 2023;51(21):11453-11465"
     },
     {
       "author": [
@@ -2560,7 +2560,7 @@
       "pdf_link": "/publications/pdf/CCR-23-0998.pdf",
       "year": "2023",
       "journal": "Clinical Cancer Research",
-      "journal_location": "Clinical Cancer Research 2023"
+      "journal_location": "Clinical Cancer Research 2023;29(24):5128-5139"
     },
     {
       "author": [
@@ -2912,7 +2912,7 @@
       "pdf_link": "/publications/pdf/s41586-023-06057-w.pdf",
       "year": "2023",
       "journal": "Nature",
-      "journal_location": "Nature 2023",
+      "journal_location": "Nature 2023;618(7967):1024-1032",
       "is_key_paper": true
     },
     {
@@ -3747,7 +3747,7 @@
       "pdf_link": "/publications/pdf/btab870.pdf",
       "year": "2022",
       "journal": "Bioinformatics",
-      "journal_location": "Bioinformatics 2022"
+      "journal_location": "Bioinformatics 2022;38(6):1729-1731"
     },
     {
       "author": [
@@ -3955,7 +3955,7 @@
       "pdf_link": "/publications/pdf/nihms-1793898_1.pdf",
       "year": "2022",
       "journal": "Cancer Discovery",
-      "journal_location": "Cancer Discovery 2022"
+      "journal_location": "Cancer Discovery 2022;12(6):1462-1481"
     },
     {
       "author": [
@@ -5454,7 +5454,7 @@
       "pdf_link": "/publications/pdf/gkaa745.pdf",
       "year": "2020",
       "journal": "Nucleic Acids Res",
-      "journal_location": "Nucleic Acids Res 2020"
+      "journal_location": "Nucleic Acids Research 2020;48(18):10241-10258"
     },
     {
       "author": [
@@ -6814,7 +6814,7 @@
       "pdf_link": "/publications/pdf/btaa048.pdf",
       "year": "2020",
       "journal": "Bioinformatics",
-      "journal_location": "Bioinformatics 2020"
+      "journal_location": "Bioinformatics 2020;36(9):2902-2904"
     },
     {
       "author": [
@@ -7018,7 +7018,7 @@
       "pdf_link": "/publications/pdf/nejmoa1813279.pdf",
       "year": "2019",
       "journal": "N Engl J Med",
-      "journal_location": "N Engl J Med 2019"
+      "journal_location": "N Engl J Med 2019;381(17):1644-1652"
     },
     {
       "author": [
@@ -7460,7 +7460,7 @@
       "pdf_link": "/publications/pdf/btz379.pdf",
       "year": "2019",
       "journal": "Bioinformatics",
-      "journal_location": "Bioinformatics 2019"
+      "journal_location": "Bioinformatics 2019;35(21):4424-4426"
     },
     {
       "author": [
@@ -7892,7 +7892,7 @@
       "pdf_link": "/publications/pdf/s41467-019-09891-7.pdf",
       "year": "2019",
       "journal": "Nature",
-      "journal_location": "Nature Communications 2019"
+      "journal_location": "Nature Communications 2019;10(1):1881"
     },
     {
       "author": [
@@ -9308,7 +9308,7 @@
       "pdf_link": "/publications/pdf/3502.pdf",
       "year": "2017",
       "journal": "Cancer Research",
-      "journal_location": "Cancer Res 2017"
+      "journal_location": "Cancer Research 2017;77(13):3502-3512"
     },
     {
       "author": [
@@ -9784,7 +9784,7 @@
       "pdf_link": "/publications/pdf/gkx193.pdf",
       "year": "2017",
       "journal": "Nucleic Acids Res",
-      "journal_location": "Nucleic Acids Res 2017"
+      "journal_location": "Nucleic Acids Research 2017;45(11):e103-e103"
     },
     {
       "author": [
@@ -10232,7 +10232,7 @@
       "pdf_link": "/publications/pdf/gkw491.pdf",
       "year": "2016",
       "journal": "Nucleic Acids Res",
-      "journal_location": "Nucleic Acids Res 2016"
+      "journal_location": "Nucleic Acids Res 2016;44(13):6274-6286"
     },
     {
       "author": [
@@ -10452,7 +10452,7 @@
       "pdf_link": "/publications/pdf/annurev-pathol-012615-044446.pdf",
       "year": "2016",
       "journal": "Annu Rev Pathol",
-      "journal_location": "Annu Rev Pathol 2016"
+      "journal_location": "Annu Rev Pathol 2016;11(1):283-312"
     },
     {
       "author": [
@@ -10740,7 +10740,7 @@
       "pdf_link": "/publications/pdf/correspondence_of_drosophila_polycomb_group_proteins_with_broad_h3k27me3_silent_domains.pdf",
       "year": "2016",
       "journal": "Fly",
-      "journal_location": "Fly 2016"
+      "journal_location": "Fly 2015;9(4):178-182"
     },
     {
       "author": [
@@ -10792,7 +10792,7 @@
       "pdf_link": "/publications/pdf/1-s2.0-s0893395222021299-main.pdf",
       "year": "2016",
       "journal": "Mod Pathol",
-      "journal_location": "Mod Pathol 2016"
+      "journal_location": "Modern Pathology 2016;29(5):500-510"
     },
     {
       "author": [
@@ -11164,7 +11164,7 @@
       "pdf_link": "/publications/pdf/1-s2.0-s2211124716301279-main.pdf",
       "year": "2016",
       "journal": "Cell",
-      "journal_location": "Cell Rep 2016"
+      "journal_location": "Cell Reports 2016;14(10):2476-2489"
     },
     {
       "author": [
@@ -12101,7 +12101,7 @@
       "pdf_link": "/publications/pdf/ddv006.pdf",
       "year": "2015",
       "journal": "Hum Mol Genet",
-      "journal_location": "Hum Mol Genet 2015"
+      "journal_location": "Human Molecular Genetics 2015;24(9):2442-2457"
     },
     {
       "author": [
