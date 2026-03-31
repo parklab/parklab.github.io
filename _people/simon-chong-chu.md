@@ -3,6 +3,7 @@ person_title: <a href="/people/simon-chong-chu">Simon (Chong) Chu</a>
 name: Simon (Chong) Chu
 subtitle: Research Fellow  # Set subtitle to position_link_text
 position_category: "Alumni: Postdoctoral Fellows"
+professional_title: "PhD in CS & Engineering, University of Connecticut → Principal Data Scientist, ROME Therapeutics → Wistar Fellow, The Wistar Institute"
 layout: person
 status: "Alumni"
 image: ./img/simon-chong-chu.jpg
