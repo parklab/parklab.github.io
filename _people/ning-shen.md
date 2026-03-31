@@ -11,4 +11,6 @@ image: ./img/ning-shen.jpg
 hide_footer: true
 start_date: 2019-01-01
 end_date: 2021-01-01
+additional_links:
+    organization: "http://shenlab-genomics.org/"
 ---

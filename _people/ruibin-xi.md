@@ -11,4 +11,6 @@ image: ./img/ruibin-xi.jpg
 hide_footer: true
 start_date: 2009-01-01
 end_date: 2012-01-01
+additional_links:
+    organization: "https://www.math.pku.edu.cn/teachers/xirb/Homepage.html"
 ---

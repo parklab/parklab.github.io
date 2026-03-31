@@ -11,4 +11,6 @@ image: ./img/lixing-yang.jpg
 hide_footer: true
 start_date: 2010-01-01
 end_date: 2017-01-01
+additional_links:
+    organization: "http://yanglab.me/index.html"
 ---

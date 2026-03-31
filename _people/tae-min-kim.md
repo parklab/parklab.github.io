@@ -11,4 +11,6 @@ image: ./img/tae-min-kim.jpg
 hide_footer: true
 start_date: 2008-01-01
 end_date: 2012-01-01
+additional_links:
+    organization: "https://www.systemsbiology.co.kr/"
 ---
