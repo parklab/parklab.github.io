@@ -8,7 +8,7 @@ layout: person
 status: "Alumni"
 image: ./img/lovelace-joe-luquette.jpg
 hide_footer: true
-position_category: Postdoctoral Fellows # Also in "Alumni: PhD Students" but is active
+position_category: "Alumni: Associate Computational Biologists"
 start_date: 2009-01-01
 end_date: 2014-01-01
 ---
