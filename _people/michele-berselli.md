@@ -9,7 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/michele-berselli.jpg
 hide_footer: true
-position_category: Staff Scientists and Software Engineers
 start_date: 2019-01-01
 end_date: 2026-04-01
 ---
