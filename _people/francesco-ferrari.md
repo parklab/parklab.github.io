@@ -9,6 +9,6 @@ layout: person
 status: "Alumni"
 image: ./img/francesco-ferrari.jpg
 hide_footer: true
-start_date: 2020-01-01
-end_date: 2023-01-01
+start_date: 2010-01-01
+end_date: 2014-01-01
 ---
