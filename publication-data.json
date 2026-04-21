@@ -34,6 +34,67 @@
     }
   ],
   "publications": [
+     {
+      "author": [
+        {
+          "name": "Fu BJ",
+          "lab_member": true
+        },
+        {
+          "name": "Viswanadham VV",
+          "lab_member": true
+        },
+        {
+          "name": "Maziec D",
+          "lab_member": true
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "A recurrent sequencing artifact on Illumina sequencers with two-color fluorescent dye chemistry and its impact on somatic variant detection",
+      "title_link": "https://link.springer.com/article/10.1186/s13059-026-04081-3",
+      "abstract": "Background: The sequencing-by-synthesis technology by Illumina, Inc. enables efficient and scalable readouts of mutations from genomic data. To enhance sequencing speed and efficiency, Illumina has shifted from the four-color base calling chemistry of the HiSeq series to a two-color fluorescent dye chemistry in the NovaSeq series. Benchmarking sequencing artifacts due to biases in the newer chemistry is important to evaluate the quality of identified mutations. Results: We re-analyze a series of whole-genome sequencing experiments in which the same samples were sequenced on the NovaSeq 6000 (two-color) and HiSeq X10 (four-color) platforms by independent groups. In several samples, we observe a higher frequency of T-to-G and A-to-C putative substitutions (“T > G”) at the read level for NovaSeq 6000 versus HiSeq X10. As the per-base error rate is still low, the artifactual substitutions have a negligible effect in identifying germline or high variant allele frequency (VAF) somatic mutations. However, such errors can confound the detection of low-VAF somatic variants in high-depth sequencing samples, particularly in studies of mosaic mutations in normal tissues, where variants have low read support and are called without a matched normal. The artifactual T > G variant calls disproportionately occur at NT[TG] trinucleotides, and we leverage this observation to bioinformatically reduce the T > G excess in somatic mutation callsets. Conclusions: We identified a recurrent artifact specific to the Illumina two-color chemistry platform on the NovaSeq 6000 with the potential to contaminate low-VAF somatic mutation calls. Thus, an unexpected enrichment of T > G mutations in mosaicism studies warrants caution.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/a-recurrent-sequencing-artifact-on-illumina-sequencers-with-two-color-fluorescent-dye-chemistry-and-its-impacts-on-somatic-variant-detection",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Genome Biology",
+      "journal_location": "Genome Biol (2026)",
+      "pdf_link": "/publications/pdf/s13059-026-04081-3_reference.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Woo KA",
+          "lab_member": true
+        },
+        {
+          "name": "Jang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Kim H",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "GLP1R expression and parkinson’s disease and related disorders in GLP-1RA-treated type 2 diabetes",
+      "title_link": "https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awag130/8651260?redirectedFrom=fulltext&login=false",
+      "abstract": "Preclinical and epidemiologic data suggest that glucagon-like peptide-1 receptor agonists (GLP-1RAs) may reduce the risk of Parkinson's disease and related disorders (PDRD), yet clinical trial findings have been mixed, raising the possibility of biologically meaningful heterogeneity. We tested whether interindividual differences in systemic GLP1R expression are associated with PDRD risk among adults with type 2 diabetes initiating GLP-1RAs. We conducted an electronic health record (EHR)-based new-user cohort study in the National Institutes of Health All of Us Research Program, focusing on adults with type 2 diabetes aged 50 years or older who initiated a GLP-1RA between 2005 and 2023 and had no prior PDRD or Alzheimer's disease and related dementias (ADRD). Systemic GLP1R expression was genetically proxied by a 15-variant cis-expression quantitative trait locus (cis-eQTL) genetic risk score dichotomized at the cohort median. Follow-up ended at the earliest of incident PDRD, death, or October 1, 2023. Hazard ratios were estimated using multivariable Cox proportional hazards models adjusting for baseline covariates, and incidence rates and rate differences per 1,000 person-years were estimated using Poisson models. Prespecified sensitivity analyses excluded early outcome events and short drug exposure; an exploratory analysis evaluated incident ADRD. The cohort included 7,039 initiators (3,520 high vs 3,519 low genetic score; mean age 61.7 ± 8.4 years; 59.8% female; mean follow-up 3.8 ± 3.1 years). Compared with the low-score group, the high-score group had a lower hazard of incident PDRD (hazard ratio 0.78; 95% confidence interval 0.62 to 0.98) and a lower incidence rate (rate difference -1.36 per 1,000 person-years; 95% confidence interval -2.51 to -0.20). Associations were consistent across sensitivity analyses. No association was observed for incident ADRD (hazard ratio 1.02; 95% confidence interval 0.81 to 1.28). These findings link a mechanism-anchored genetic proxy for higher systemic GLP1R expression to a lower risk of incident PDRD among GLP-1RA-treated adults with type 2 diabetes. Systemic GLP1R-mediated pathways may be relevant to interindividual differences in observed PDRD risk, and genetic instruments for GLP1R expression may inform hypotheses for future PDRD trial design.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/GLP1R-expression-and-parkinsons-disease-and-related-disorders-in-GLP-1RA-treatedtype-2-diabetes",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Brain",
+      "journal_location": "Brain, 2026;, awag130"
+    },
     {
       "author": [
         {
@@ -1742,39 +1803,6 @@
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
       "pdf_link": "/publications/pdf/zhang_2025_biorxiv_benchmarking_somatic_sv.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Fu BJ",
-          "lab_member": true
-        },
-        {
-          "name": "Viswanadham VV",
-          "lab_member": true
-        },
-        {
-          "name": "Maziec D",
-          "lab_member": true
-        },
-        {
-          "name": "Jin H",
-          "lab_member": true
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "A recurrent sequencing artifact on Illumina sequencers with two-color fluorescent dye chemistry and its impact on somatic variant detection",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.09.27.678978v1",
-      "abstract": "Background: The sequencing-by-synthesis technology by Illumina, Inc. enables efficient and scalable readouts of mutations from genomic data. To enhance sequencing speed and efficiency, Illumina has shifted from the four-color base calling chemistry of the HiSeq series to a two-color fluorescent dye chemistry in the NovaSeq series. Benchmarking sequencing artifacts due to biases in the newer chemistry is important to evaluate the quality of identified mutations. Results: We re-analyzed a series of whole-genome sequencing experiments in which the same samples were sequenced on the NovaSeq 6000 (two-color) and HiSeq X10 (four-color) platforms by independent groups. In several samples, we observed a higher frequency of T-to-G and A-to-C substitutions ('T>G') at the read level for NovaSeq 6000 versus HiSeq X10. As the per-base error rate is still low, the artifactual substitutions have a negligible effect in identifying germline or high variant allele frequency (VAF) somatic mutations. However, such errors can confound the detection of low-VAF somatic variants in high-depth sequencing samples, particularly in studies of mosaic mutations in normal tissues, where variants have low read support and are called without a matched normal. The artifactual T>G variant calls disproportionately occur at NT[TG] trinucleotides, and we leveraged this observation to bioinformatically reduce the T>G excess in somatic mutation callsets. Conclusions: We identified a recurrent artifact specific to the Illumina two-color chemistry platform on the NovaSeq 6000 with the potential to contaminate low-VAF somatic mutation calls. Thus, an unexpected enrichment of T>G mutations in mosaicism studies warrants caution. Keywords: Illumina NovaSeq 6000; Next-generation sequencing; mosaic mutations; sequencing artifacts; somatic mutations.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/a-recurrent-sequencing-artifact-on-illumina-sequencers-with-two-color-fluorescent-dye-chemistry-and-its-impacts-on-somatic-variant-detection",
-      "year": "2025",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/fu_2025_biorxiv_recurrent_sequencing_artifact.pdf"
     },
     {
       "author": [
