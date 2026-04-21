@@ -600,6 +600,171 @@
     {
       "author": [
         {
+          "name": "Zhang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Viswanadham VV",
+          "lab_member": true
+        },
+        {
+          "name": "Andreopoulos M",
+          "lab_member": true
+        },
+        {
+          "name": "Glodzik D",
+          "lab_member": true
+        },
+        {
+          "name": "Liu R",
+          "lab_member": false
+        },
+        {
+          "name": "Luquette LJ",
+          "lab_member": true
+        },
+        {
+          "name": "Jo S",
+          "lab_member": false
+        },
+        {
+          "name": "Narayan A",
+          "lab_member": false
+        },
+        {
+          "name": "Niu M",
+          "lab_member": false
+        },
+        {
+          "name": "Anderson L",
+          "lab_member": false
+        },
+        {
+          "name": "Brew JA",
+          "lab_member": true
+        },
+        {
+          "name": "Chao H",
+          "lab_member": false
+        },
+        {
+          "name": "Cibulskis C",
+          "lab_member": false
+        },
+        {
+          "name": "Dong G",
+          "lab_member": false
+        },
+        {
+          "name": "Evani US",
+          "lab_member": false
+        },
+        {
+          "name": "Feng WC",
+          "lab_member": true
+        },
+        {
+          "name": "Helland A",
+          "lab_member": false
+        },
+        {
+          "name": "Hilal N",
+          "lab_member": false
+        },
+        {
+          "name": "Jabara NT",
+          "lab_member": false
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Li N",
+          "lab_member": false
+        },
+        {
+          "name": "Manam MD",
+          "lab_member": false
+        },
+        {
+          "name": "Mallett SL",
+          "lab_member": false
+        },
+        {
+          "name": "Runnels A",
+          "lab_member": false
+        },
+        {
+          "name": "Scharlee C",
+          "lab_member": false
+        },
+        {
+          "name": "Smith C",
+          "lab_member": false
+        },
+        {
+          "name": "Walsh CA",
+          "lab_member": false
+        },
+        {
+          "name": "Adalsteinsson VA",
+          "lab_member": false
+        },
+        {
+          "name": "Lee EA",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Ardlie KG",
+          "lab_member": false
+        },
+        {
+          "name": "Germer S",
+          "lab_member": false
+        },
+        {
+          "name": "Gibbs RA",
+          "lab_member": false
+        },
+        {
+          "name": "Choudhury S",
+          "lab_member": false
+        },
+        {
+          "name": "Doddapaneni HV",
+          "lab_member": false
+        },
+        {
+          "name": "Evrony GD",
+          "lab_member": false
+        },
+        {
+          "name": "Zong C",
+          "lab_member": false
+        },
+        {
+          "name": "Coorens THH",
+          "lab_member": false
+        }
+      ],
+      "title": "Benchmarking of duplex sequencing approaches to reveal somatic mutation landscapes",
+      "title_link": "https://www.biorxiv.org/content/10.64898/2025.12.12.692823v1",
+      "abstract": "Detecting somatic mutations in normal tissues is challenging due to sequencing errors and the low allele fractions of post-zygotic variants. Duplex sequencing greatly reduces errors and can detect mutations at any allele fraction, but systematic, cross-platform comparisons are lacking. We present a comprehensive benchmarking of six duplex sequencing technologies used by the SMaHT Network: CODEC, CompDuplex-seq, HiDEF-seq, NanoSeq, ppmSeq, and VISTA-seq. We evaluated their performance using cord blood DNA, a tumor-normal cell line mixture, and homogenates from six human tissues. Each method shows distinct profiles in genomic footprint, sensitivity, and cost. Despite differences in library construction and sequencing platforms, estimates of mutation rates and mutational signatures are highly concordant. Integration with ultra-deep whole-genome sequencing shows that duplex approaches sensitively capture mutations and signatures beyond embryonic or clonally expanded variants. These results provide a foundation for selecting duplex methods and interpreting their data, enabling scalable single-molecule analyses of somatic mutation landscapes.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/benchmarking-of-duplex-sequencing-approaches-to-reveal-somatic-mutation-landscapes",
+      "year": "2025",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2025.12.12.692823v1.full.pdf"
+    },
+    {
+      "author": [
+        {
           "name": "Raven A",
           "lab_member": false
         },
@@ -858,6 +1023,240 @@
       "journal": "Cell Reports",
       "journal_location": "Cell Reports 2025;44(11):116458",
       "pdf_link": "/publications/pdf/2025-combined-somatic-mutation.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Luquette LJ",
+          "lab_member": true
+        },
+        {
+          "name": "Coorens THH",
+          "lab_member": false
+        },
+        {
+          "name": "Natu A",
+          "lab_member": false
+        },
+        {
+          "name": "Suvakov M",
+          "lab_member": false
+        },
+        {
+          "name": "Caplin A",
+          "lab_member": true
+        },
+        {
+          "name": "Jun MS",
+          "lab_member": false
+        },
+        {
+          "name": "Mo A",
+          "lab_member": false
+        },
+        {
+          "name": "Pelt J",
+          "lab_member": false
+        },
+        {
+          "name": "Anderson L",
+          "lab_member": false
+        },
+        {
+          "name": "Berselli M",
+          "lab_member": true
+        },
+        {
+          "name": "Bhamidipati S",
+          "lab_member": false
+        },
+        {
+          "name": "Blanchard T",
+          "lab_member": false
+        },
+        {
+          "name": "Brew J",
+          "lab_member": true
+        },
+        {
+          "name": "Chun HE",
+          "lab_member": true
+        },
+        {
+          "name": "Chun H",
+          "lab_member": true
+        },
+        {
+          "name": "Dehankar MK",
+          "lab_member": false
+        },
+        {
+          "name": "Feng WC",
+          "lab_member": true
+        },
+        {
+          "name": "Furatero R",
+          "lab_member": false
+        },
+        {
+          "name": "Grochowski CM",
+          "lab_member": false
+        },
+        {
+          "name": "Ho E",
+          "lab_member": false
+        },
+        {
+          "name": "Jang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Kottapalli K",
+          "lab_member": false
+        },
+        {
+          "name": "Leonard MK",
+          "lab_member": false
+        },
+        {
+          "name": "Lim NS",
+          "lab_member": false
+        },
+        {
+          "name": "Lindsay T",
+          "lab_member": false
+        },
+        {
+          "name": "Nicholson S",
+          "lab_member": true
+        },
+        {
+          "name": "Raimondi I",
+          "lab_member": false
+        },
+        {
+          "name": "Runnels A",
+          "lab_member": false
+        },
+        {
+          "name": "Scharlee C",
+          "lab_member": false
+        },
+        {
+          "name": "Shin J",
+          "lab_member": false
+        },
+        {
+          "name": "Veit AD",
+          "lab_member": true
+        },
+        {
+          "name": "VonDran M",
+          "lab_member": false
+        },
+        {
+          "name": "Wang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Yuan DJ",
+          "lab_member": false
+        },
+        {
+          "name": "Zhao Y",
+          "lab_member": true
+        },
+        {
+          "name": "  SMaHT Single Cell Focus Group",
+          "lab_member": false
+        },
+        {
+          "name": "Bell TJ",
+          "lab_member": false
+        },
+        {
+          "name": "Ardlie K",
+          "lab_member": false
+        },
+        {
+          "name": "Doddapaneni H",
+          "lab_member": false
+        },
+        {
+          "name": "Fulton R",
+          "lab_member": false
+        },
+        {
+          "name": "Germer S",
+          "lab_member": false
+        },
+        {
+          "name": "Landau D",
+          "lab_member": false
+        },
+        {
+          "name": "Oh JW",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Vaccarino FM",
+          "lab_member": false
+        },
+        {
+          "name": "Walsh C",
+          "lab_member": false
+        },
+        {
+          "name": "Abyzov A",
+          "lab_member": false
+        }
+      ],
+      "title": "A comprehensive view of somatic mosaicism by single-cell DNA analysis",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.31.685648v1",
+      "abstract": "Single-cell DNA sequencing offers a powerful means of studying somatic mosaicism but requires careful analysis to mitigate DNA amplification-related artifacts. We performed primary template-directed amplification (PTA) and sequencing of 102 nuclei from postmortem lung and colon tissues of a 74-year-old male. Single-cell mutation burdens and spectra were validated by duplex sequencing and revealed heterogeneity across organs and cells, including signatures of APOBEC activity and tobacco exposure. Cells from both tissues exhibited chromosomal aneuploidies, loss of chromosome Y, and chromosomal rearrangements including rearrangements of the T-cell receptor loci indicative of T-cells. Shared embryonic mutations between cells enabled reconstruction of cellular ancestries from the zygote, which were validated by bulk sequencing. Collectively, we demonstrate a comprehensive approach for single-cell genomics that yields an expansive view of diverse somatic mutation types from development through aging across diverse tissues-insights that are obscured in bulk sequencing and only partially captured by other single-cell methods.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/a-comprehensive-view-of-somatic-mosaicism-by-single-cell-dna-analysis",
+      "year": "2025",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2025.10.31.685648v1.full.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Zhang Y",
+          "lab_member": true
+        },
+        {
+          "name": "Qu H",
+          "lab_member": true
+        },
+        {
+          "name": "Qin Q",
+          "lab_member": false
+        },
+        {
+          "name": "Li H",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Diploid donor-specific assembly enhances somatic structural variant detection in cancer genomes",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.28.685155v1",
+      "abstract": "Somatic structural variants (SVs) play a crucial role in tumor development and evolution, yet their identification remains challenging, partly due to limitations in current reference genomes. We present a systematic evaluation of diploid donor-specific assemblies (DSAs)-generated based on hybrid long-read sequencing data-as the reference genome for detecting somatic SVs. We analyzed six tumor-normal cell line pairs, using the EchoSV tool we developed to consolidate haplotype-based SVs into a single DSA-based set and to compare SVs across reference genomes. Across Illumina, PacBio HiFi, and Oxford Nanopore Technology (ONT) data, DSA-based analysis improved read-mapping quality, identified over 20% additional SVs compared to GRCh38 and CHM13, and reduced germline artifacts. Most DSA-specific SVs were isolated deletions or insertions in repetitive elements, especially in satellite regions. By tracking sequence-context differences, we identified scenarios in which DSAs enabled detection of SVs missed on GRCh38/CHM13, and confirmed their functional impact with RNA-seq. These results highlight the value of integrating diploid DSAs into somatic SV analysis.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/diploid-donor-specific-assembly-enhances-somatic-structural-variant-detection-in-cancer-genomes",
+      "year": "2025",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2025.10.28.685155v1.full.pdf"
     },
     {
       "author": [
