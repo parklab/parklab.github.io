@@ -860,6 +860,289 @@
       "pdf_link": "/publications/pdf/2025-combined-somatic-mutation.pdf"
     },
     {
+      "author": [
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Andreopoulos M",
+          "lab_member": true
+        },
+        {
+          "name": "Viswanadham VV",
+          "lab_member": true
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Systematic artifacts from Illumina two-color chemistry confound variant identification and actionability in clinical panels",
+      "title_link": "https://www.medrxiv.org/content/10.1101/2025.10.17.25338254v1?__cf_chl_tk=XDms6Lq35wBFf052HDlub709OMRJAwFlIbaLUxhKUhQ-1776806759-1.0.1.1-c.gmOYM1xa5PN_fLFutNfr.vaq7K_vy4K1Bd3zhGbT0",
+      "abstract": "Illumina short-read sequencing underpins clinical cancer genomics, with targeted panels widely used to detect actionable variants. Newer Illumina platforms employ a two-color chemistry to accelerate sequencing, but its impact on variant identification has not been systematically evaluated. Here we show that two-color platforms generate recurrent T>G artifacts in targeted panels at low variant allele fractions, predominantly occurring in specific trinucleotide contexts. These artifacts can produce spurious pathogenic variants in key cancer genes such as TP53 and KIT , and inflate tumor mutational burden, a metric considered when assessing patient eligibility for immunotherapy. Accounting for such artifacts is therefore essential for accurate interpretation of clinical panel data.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/systematic-artifacts-from-illumina-two-color-chemistry-confound-variant-identification-and-actionability-in-clinical-panels",
+      "year": "2025",
+      "type": "2025",
+      "journal": "medRxiv",
+      "journal_location": "medRxiv",
+      "pdf_link": "/publications/pdf/2025.10.17.25338254v1.full.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Ha YJ",
+          "lab_member": true
+        },
+        {
+          "name": "Maziec D",
+          "lab_member": true
+        },
+        {
+          "name": "Markowski J",
+          "lab_member": true
+        },
+        {
+          "name": "Georges SJ",
+          "lab_member": false
+        },
+        {
+          "name": "Parmalee NL",
+          "lab_member": false
+        },
+        {
+          "name": "Berselli M",
+          "lab_member": true
+        },
+        {
+          "name": "Coorens THH",
+          "lab_member": false
+        },
+        {
+          "name": "Dong S",
+          "lab_member": false
+        },
+        {
+          "name": "Gardiner S",
+          "lab_member": false
+        },
+        {
+          "name": "Kalra D",
+          "lab_member": false
+        },
+        {
+          "name": "Li D",
+          "lab_member": false
+        },
+        {
+          "name": "Miao B",
+          "lab_member": false
+        },
+        {
+          "name": "Musunuri R",
+          "lab_member": false
+        },
+        {
+          "name": "Xue L",
+          "lab_member": false
+        },
+        {
+          "name": "Yu Z",
+          "lab_member": false
+        },
+        {
+          "name": "Walker K",
+          "lab_member": false
+        },
+        {
+          "name": "Anderson L",
+          "lab_member": false
+        },
+        {
+          "name": "Au NYT",
+          "lab_member": false
+        },
+        {
+          "name": "Cibulskis C",
+          "lab_member": false
+        },
+        {
+          "name": "Doddapaneni H",
+          "lab_member": false
+        },
+        {
+          "name": "Grochowski CM",
+          "lab_member": false
+        },
+        {
+          "name": "Jensen DM",
+          "lab_member": false
+        },
+        {
+          "name": "Lindsay T",
+          "lab_member": false
+        },
+        {
+          "name": "Loy K",
+          "lab_member": false
+        },
+        {
+          "name": "Narayan A",
+          "lab_member": false
+        },
+        {
+          "name": "Narzisi G",
+          "lab_member": false
+        },
+        {
+          "name": "Ou J",
+          "lab_member": false
+        },
+        {
+          "name": "Pham MM",
+          "lab_member": false
+        },
+        {
+          "name": "Runnels AM",
+          "lab_member": false
+        },
+        {
+          "name": "Stergachis AB",
+          "lab_member": false
+        },
+        {
+          "name": "Sutherlin LM",
+          "lab_member": false
+        },
+        {
+          "name": "Wang T",
+          "lab_member": false
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Feng WC",
+          "lab_member": true
+        },
+        {
+          "name": "Zhang Y",
+          "lab_member": true
+        },
+        {
+          "name": "Veit AD",
+          "lab_member": true
+        },
+        {
+          "name": "Kim CT",
+          "lab_member": true
+        },
+        {
+          "name": "Chun HE",
+          "lab_member": true
+        },
+        {
+          "name": "Fulton RS",
+          "lab_member": false
+        },
+        {
+          "name": "Germer S",
+          "lab_member": false
+        },
+        {
+          "name": "Gibbs R",
+          "lab_member": false
+        },
+        {
+          "name": "Marth GT",
+          "lab_member": false
+        },
+        {
+          "name": "Bennett JT",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Comprehensive benchmarking of somatic single-nucleotide variant and indel detection at ultra-low allele fractions using short- and long-read data",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681545v1",
+      "abstract": "Mosaic mutations in normal tissues occur at low variant allele fractions (VAFs), complicating detection. To benchmark strategies, the SMaHT Network created a cell-line mixture (1:49) and produced ultra-deep whole-genome sequencing using short and long reads (five centers, 180-500× each). We assembled a reference of 44,008 mosaic SNVs and 2,059 Indels, cross-validation between platforms to expose limits of short-read analysis. We also partitioned the genome by mappability to examine the impact of genomic context, added a negative reference set, and accounted for culture-derived mutations. When seven institutions applied eleven algorithms to mixture data, call sets were largely discordant across tools and replicates, partly reflecting stochastic presence of low-VAF mutations in biological replicants. For >2% VAF SNVs, sensitivity and precision approached ~80% at ≥300×, with little gain from additional sequencing. This work provides a comprehensive framework for reliable detection of low-VAF mutations in non-cancer tissues and a valuable resource for the community.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-single-nucleotide-variant-and-indel-detection-at-ultra-low-allele-fractions-using-short-and-long-read-data",
+      "year": "2025",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2025.10.13.681545v1.full.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Gulhan DC",
+          "lab_member": false
+        },
+        {
+          "name": "Barras D",
+          "lab_member": false
+        },
+        {
+          "name": "Mina M",
+          "lab_member": false
+        },
+        {
+          "name": "Ghisoni E",
+          "lab_member": false
+        },
+        {
+          "name": "Kim Y",
+          "lab_member": false
+        },
+        {
+          "name": "Viswanadham V",
+          "lab_member": true
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Huber F",
+          "lab_member": false
+        },
+        {
+          "name": "Homicsko K",
+          "lab_member": false
+        },
+        {
+          "name": "Bassani-Sternberg M",
+          "lab_member": false
+        },
+        {
+          "name": "Ciriello G",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Laniti DD",
+          "lab_member": false
+        }
+      ],
+      "title": "Tissue specificity and chromosomal alterations shape divergent immune programs in HRD tumors",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681986v1",
+      "abstract": "Homologous recombination deficiency (HRD) activates pro-inflammatory cGAS/STING signaling, positioning it as a biomarker for combining immune checkpoint blockade (ICB) and PARP inhibition (PARPi). However, the consequences of HRD on the immune landscape across cancers remain unclear. Here, we applied a pan-cancer HRD classifier to >10,000 tumors from The Cancer Genome Atlas and uncovered striking heterogeneity in immune activity. Compared to HR-proficient tumors, HRD tumors showed elevated inflammation in breast, ovarian, and endometrial cancers. These tumors exhibited robust activation of innate and adaptive immune pathways (IFN, NF-κB) and transcriptional hallmarks of senescence, angiogenesis, and adenosine signaling. In contrast, lung, head and neck, and melanoma HRD tumors displayed suppressed inflammation and evidence of immune escape through large-scale loss-of-heterozygosity (LOH) at IFNA/B, STING, and other loci. These tumors also frequently presented HLA LOH and oncogene amplifications, suggesting selection under immune pressure and replication stress. Together, our study resolves HRD tumors into two immune archetypes, immune-inflamed and immune-evasive, linked to chromosomal instability and lineage, informing biomarker-driven evaluation of immune checkpoint blockade/PARPi combinatorial therapies.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/tissue-specificity-and-chromosomal-alterations-shape-divergent-immune-programs-in-hrd-tumors",
+      "year": "2025",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2025.10.13.681986v1.full.pdf"
+    },
+    {
   "author": [
     {
       "name": "Wang S",
