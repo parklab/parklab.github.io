@@ -63,7 +63,7 @@
         {
           "name": "Ramesh N",
           "lab_member": false
-        }
+        },
         {
           "name": "Bae M",
           "lab_member": false
@@ -175,7 +175,7 @@
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
       "pdf_link": "/publications/pdf/2026.04.18.719374v1.full.pdf"
-      },  
+    },  
      {
       "author": [
         {
