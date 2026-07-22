@@ -8,4 +8,4 @@ date: "2026-06-25"
 
 With sadness but excitement for their futures, we said farewell to Dominik as he begins his own lab and a faculty position at Beth Israel Deaconess, and to Dominika, Joseph, and Michail who are starting their PhDs at Boston University, Tri-I, and Harvard (BIG) respectively. They will all be greatly missed in Park Lab!
 
-![Image](/img/news-images/dominik_dominika_joseph_michail_farewell.jpg)
+![Image] (/img/news-images/Domink_Dominika_Joseph_Michail_Farewell_1.png)
