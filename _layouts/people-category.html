@@ -10,7 +10,7 @@ show_sidebar: false
   <div class="page-body-container">
     {% assign people_by_category = site.people | group_by: "position_category" %}
 
-    {% for category in site.data.new-categories-order %}
+    {% for category in site.data.categories-order %}
       <div class="category-container">
         <div class="category-header-container">
           <h2 class="category-header">{{ category }}</h2>
