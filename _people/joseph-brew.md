@@ -8,7 +8,7 @@ layout: person
 status: "Alumni"
 image: ./img/joseph-brew.jpg
 hide_footer: true
-osition_category: "Alumni: Staff Scientists"
+position_category: "Alumni: Staff Scientists"
 start_date: 2023-01-01
 end_date: 2026-07-10
 ---

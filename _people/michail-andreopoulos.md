@@ -8,7 +8,7 @@ layout: person
 status: "Alumni"
 image: ./img/michail-andreopoulos.jpg
 hide_footer: true
-osition_category: "Alumni: Staff Scientists"
+position_category: "Alumni: Staff Scientists"
 start_date: 2024-01-01
 end_date: 2026-07-17
 ---
