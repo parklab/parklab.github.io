@@ -38,13 +38,14 @@
             max-width: 400px;
         }
     }
-    .card-header {
-        .content {
-            display: flex;
+    .thumbnail {
+        margin-top: 20px;
 
-            .thumbnail {
-                margin-right: 20px;
-            }
+        img {
+            width: auto;
+            height: auto;
+            max-width: 400px;
+            max-height: 400px;
         }
     }
 
