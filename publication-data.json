@@ -34,6 +34,148 @@
     }
   ],
   "publications": [
+    {
+      "author": [
+        {
+          "name": "Zhou Z",
+          "lab_member": false
+        },
+        {
+          "name": "Luquette JL",
+          "lab_member": true
+        },
+        {
+          "name": "Dong G",
+          "lab_member": false
+        },
+        {
+          "name": "Kim J",
+          "lab_member": false
+        },
+        {
+          "name": "Ku J",
+          "lab_member": false
+        },
+        {
+          "name": "Kim K",
+          "lab_member": false
+        },
+        {
+          "name": "Ramesh N",
+          "lab_member": false
+        },
+        {
+          "name": "Bae M",
+          "lab_member": false
+        },
+        {
+          "name": "Caplin A",
+          "lab_member": true
+        },
+        {
+          "name": "Shao DD",
+          "lab_member": false
+        },
+        {
+          "name": "Sahile B",
+          "lab_member": false
+        },
+        {
+          "name": "Essuman K",
+          "lab_member": false
+        },
+        {
+          "name": "Goodman E",
+          "lab_member": false
+        },
+        {
+          "name": "Miller MB",
+          "lab_member": false
+        },
+        {
+          "name": "Huang AY",
+          "lab_member": false
+        },
+        {
+          "name": "Nathan WJ",
+          "lab_member": false
+        },
+        {
+          "name": "Nussenzweig A",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        },
+        {
+          "name": "Lagier-Tourenne C**",
+          "lab_member": false
+        },
+        {
+          "name": "Lee EA**",
+          "lab_member": false
+        },
+        {
+          "name": "Walsh CA**",
+          "lab_member": false
+        }
+      ],
+      "title": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders",
+      "title_link": "https://www.cell.com/cell/fulltext/S0092-8674(26)00700-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867426007002%3Fshowall%3Dtrue",
+      "abstract": "Amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and Alzheimer's disease (AD) represent two major categories of neurodegenerative disorders-TAR DNA-binding protein 43 (TDP-43) and tau proteinopathies-for which the mechanisms driving neuronal death remain unclear. Single-cell whole-genome sequencing of 469 neurons from C9ORF72 ALS, C9ORF72 FTD, AD, and control brains revealed increased somatic single-nucleotide variants (sSNVs) and insertions/deletions (sIndels) in all three diseases. Mutational signature analysis identified a disease-associated sSNV signature consistent with oxidative damage and an sIndel process affecting 22% of ALS, 76% of FTD, and 61% of AD neurons-but only 2% of control neurons-resembling signature ID4, previously linked to topoisomerase 1 (TOP1)-mediated mutagenesis. Rapid approach to DNA adduct recovery (RADAR) assays confirmed increased TOP1-DNA covalent complexes, and duplex sequencing confirmed the increased sIndels and identified single-strand events as likely precursor lesions. TOP1-associated sIndel mutagenesis and genome instability thus represent a mechanism shared by both TDP-43 and tau neurodegeneration.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/recurrent-patterns-of-top1-mediated-neuronal-genomic-damage-shared-by-major-neurodegenerative-disorders",
+      "pdf_link": "/publications/pdf/PIIS0092867426007002.pdf",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Cell",
+      "journal_location": "Cell 2026 Jul 1:S0092-8674(26)00700-2"
+      },
+      {
+        "author": [
+        {
+          "name": "Lynch AW",
+          "lab_member": true
+        },
+        {
+          "name": "Lee SS",
+          "lab_member": true
+        },
+        {
+          "name": "Hummel JP",
+          "lab_member": true
+        },
+        {
+          "name": "Geiger B",
+          "lab_member": true
+        },
+        {
+          "name": "Lawrence MS",
+          "lab_member": false
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Gulhan DC",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Topographical archetypes of somatic mutagenesis in cancer",
+      "title_link": "https://www.biorxiv.org/content/10.64898/2026.04.18.719374v1",
+      "abstract": "The genome of every cancer cell carries a record of the mutational processes that have acted throughout its history. Mutational signature analysis, which infers the activity of mutagenic processes from their characteristic base-change patterns, has become an indispensable tool for interpreting somatic mutations. However, this framework captures only which types of mutations a process generates and not where in the genome they occur - a distribution influenced by replication timing, chromatin organization, transcription, DNA secondary structure, and other genomic features. Here, we present a generative probabilistic framework (MuTopia) that jointly infers mutational spectra and their genome-wide topography as nonlinear functions of genomic and epigenomic state. Applied to whole-genome sequencing data from 15 tumor types, MuTopia reveals that mutational processes fall into eight conserved topographic archetypes, or topotypes, shaped primarily by replication timing and chromatin state. Diverse mutational processes converge upon this limited repertoire, indicating that the genomic distribution of mutagenesis is constrained less by the source of damage than by how that damage is processed. Individual mutational processes exhibit state-dependent variation in their genomic distributions: the same signature can adopt distinct topotypes depending on repair proficiency and replication stress. For instance, SBS8 shifts from a canonical late-replicating profile in homologous recombination-proficient tumors to an early-replicating, stress-associated topotype in HR-deficient tumors, and replication stress similarly reshapes the genomic distribution of APOBEC editing. Topotypes, therefore, provide a classification of mutagenesis distinct from spectral signatures, capturing aspects of tumor biology that spectra alone cannot resolve.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/topographical-archetypes-of-somatic-mutagenesis-in-cancer",
+      "year": "2026",
+      "type": "2026",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2026.04.18.719374v1.full.pdf"
+    },  
      {
       "author": [
         {
@@ -2536,87 +2678,6 @@
       "abstract": "Human neurons are postmitotic and long-lived, requiring precise genomic regulation to maintain function over a lifetime. Normal neuronal function is highly dependent on gene dosage, with copy number variants (CNVs) and heterozygous point mutations associated with a host of neurodevelopmental and neuropsychiatric conditions [1–3]. Here, we investigated the landscape of somatic CNVs arising in fetal human brains, and how they change over development, to understand the processes that generate neurons with low rates of aneuploidy. We identified 7,725 CNVs in >1,200 single neurons from human postmortem brain of 16 neurotypical individuals, ranging in age from gestational week 14 to 90 years old using Tn5-transposase-based single-cell whole-genome amplification. We surveyed CNVs in another 44,861 nuclei with 10X Multiome analysis. Up to 45% of postmitotic neurons in the prenatal cortex showed aberrant genomes, characterized by widespread CNVs of multiple chromosomes, but this reduces sharply after birth (p<0.01). We identified micronuclei in the developing cortex in situ, reflecting chromosomal material missegregated during neurodevelopment [4–6]. The size of CNV appeared to define the trajectory of neuronal elimination, since cells with widespread CNVs were eliminated earlier and faster than cells with smaller CNVs. CNVs in surviving neurons were depleted for genes that are dosage-sensitive or involved in neurodevelopmental disorders (p<0.05), suggesting selective elimination of neurons with CNVs involving these critical genes. Neurons with high CNV burdens also showed abnormal expression of synaptic gene sets, indicating that abnormal synaptic gene regulation may contribute to neuronal elimination. Elimination of defective neuronal genomes during during synaptogenesis may represent a critical process of genome quality control and a vulnerable target of factors that contribute to neurodevelopmental disease.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/perinatal-elimination-of-genetically-aberrant-neurons-from-human-cerebral-cortex",
       "pdf_link": "/publications/pdf/Diane-Shao-2025-04-03.pdf",
-      "year": "2025",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv"
-    },
-    {
-      "author": [
-        {
-          "name": "Zhou Z",
-          "lab_member": false
-        },
-        {
-          "name": "Luquette JL",
-          "lab_member": true
-        },
-        {
-          "name": "Dong G",
-          "lab_member": false
-        },
-        {
-          "name": "Kim J",
-          "lab_member": false
-        },
-        {
-          "name": "Ku J",
-          "lab_member": false
-        },
-        {
-          "name": "Kim K",
-          "lab_member": false
-        },
-        {
-          "name": "Bae M",
-          "lab_member": false
-        },
-        {
-          "name": "Shao DD",
-          "lab_member": false
-        },
-        {
-          "name": "Sahile B",
-          "lab_member": false
-        },
-        {
-          "name": "Miller MB",
-          "lab_member": false
-        },
-        {
-          "name": "Huang AY",
-          "lab_member": false
-        },
-        {
-          "name": "Nathan WJ",
-          "lab_member": false
-        },
-        {
-          "name": "Nussenzweig A",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ**",
-          "lab_member": true
-        },
-        {
-          "name": "Lagier-Tourenne C**",
-          "lab_member": false
-        },
-        {
-          "name": "Lee EA**",
-          "lab_member": false
-        },
-        {
-          "name": "Walsh CA**",
-          "lab_member": false
-        }
-      ],
-      "title": "Recurrent patterns of widespread neuronal genomic damage shared by major neurodegenerative disorders",
-      "title_link": "https://compbio.hms.harvard.edu/publications/recurrent-patterns-of-widespread-neuronal-genomic-damage-shared-by-major-neurodegenerative-disorders",
-      "abstract": "Amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and Alzheimer’s disease (AD) are common neurodegenerative disorders for which the mechanisms driving neuronal death remain unclear. Single-cell whole-genome sequencing of 429 neurons from three C9ORF72 ALS, six C9ORF72 FTD, seven AD, and twenty-three neurotypical control brains revealed significantly increased burdens in somatic single nucleotide variant (sSNV) and insertion/deletion (sIndel) in all three disease conditions. Mutational signature analysis identified a disease-associated sSNV signature suggestive of oxidative damage and an sIndel process, affecting 28% of ALS, 79% of FTD, and 65% of AD neurons but only 5% of control neurons (diseased vs. control: OR=31.20, p = 2.35×10−10). Disease-associated sIndels were primarily two-basepair deletions resembling signature ID4, which was previously linked to topoisomerase 1 (TOP1)-mediated mutagenesis. Duplex sequencing confirmed the presence of sIndels and identified similar single-strand events as potential precursor lesions. TOP1-associated sIndel mutagenesis and resulting genome instability may thus represent a common mechanism of neurodegeneration.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/recurrent-patterns-of-widespread-neuronal-genomic-damage-shared-by-major-neurodegenerative-disorders",
-      "pdf_link": "/publications/pdf/2025.03.03.641186v3.full.pdf",
       "year": "2025",
       "type": "2025",
       "journal": "bioRxiv",
