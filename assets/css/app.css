@@ -11520,11 +11520,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   height: auto;
   max-width: 400px;
 }
-.news-card .card-header .content {
-  display: flex;
+.news-card .thumbnail {
+  margin-top: 20px;
 }
-.news-card .card-header .content .thumbnail {
-  margin-right: 20px;
+.news-card .thumbnail img {
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
 }
 .news-card:first-of-type {
   padding-top: 20px;
