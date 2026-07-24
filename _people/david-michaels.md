@@ -9,5 +9,6 @@ status: "Alumni"
 image: ./img/david-michaels.jpg
 hide_footer: true
 position_category: "Alumni: Staff Scientists and Software Engineers"
+start_date: 2022-05-01
 end_date: 2024-01-01
 ---
