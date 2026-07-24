@@ -1,11 +1,6 @@
 <div class="news-card card">
     <div class="card-header">
         <div class="content">
-            {% if news-item.thumbnail %}
-            <div class="thumbnail">
-                <img src="{{ news-item.thumbnail }}" alt="{{ news-item.thumbnail_alt }}">
-            </div>
-            {% endif %}
             <div class="text">
                 <a class="card-header-title" href="{{ news-item.baseurl }}{{ news-item.url }}"><span>{{ news-item.title }}</span></a>
                 <span class="card-header-date">{{ news-item.date | date: "%B %d, %Y"}} </span>
@@ -14,6 +9,20 @@
     </div>
     <div class="card-content">
             <!-- Note: truncatewords may split a word inside of some text decoration -->
+            {% if news-item.thumbnail %}
             {{ news-item.content | truncatewords: 51 }}
+            {% else %}
+            {{ news-item.content | without_images | truncatewords: 51 }}
+            {% endif %}
     </div>
+    {% assign first_image = news-item.content | first_image %}
+    {% if news-item.thumbnail %}
+    <div class="thumbnail">
+        <img src="{{ news-item.thumbnail }}" alt="{{ news-item.thumbnail_alt }}">
+    </div>
+    {% elsif first_image %}
+    <div class="thumbnail">
+        <img src="{{ first_image }}" alt="{{ news-item.title }}">
+    </div>
+    {% endif %}
 </div>
