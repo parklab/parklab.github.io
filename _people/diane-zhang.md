@@ -1,7 +1,7 @@
 ---
-person_title: <a href="/people/anton-xue">Diane Zhang</a>
+person_title: <a href="/people/diane-zhang">Diane Zhang</a>
 name: Diane Zhang
-subtitle: Undergraduate Student  # Set subtitle to position_link_text
+subtitle: High School Student  # Set subtitle to position_link_text
 position_category: "Alumni: High School Students"
 professional_title: "Fox Lane High School, NY → MIT → Duke MD/PhD"
 description: ""
