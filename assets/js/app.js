@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const carousel = carouselContainer.querySelector("div.carousel");
     const CarouselTimer = {
       intervalId: null,
-      interval: 2000, // in milliseconds
+      interval: 6000, // in milliseconds
+      isHovering: false,
       currentSlide: parseInt(carousel.querySelector(".carousel-item.active").getAttribute("data-carousel-item")),
       totalSlides: carousel.querySelectorAll(".carousel-item").length,
       moveToSlide: function(slideNumber) {
@@ -65,21 +66,25 @@ document.addEventListener('DOMContentLoaded', () => {
         clearInterval(this.intervalId);
       },
       reset: function() {
-        if (this.intervalId) clearInterval(this.intervalId);
-        this.start();
+        this.stop();
+        // Don't resume auto-advancing while the mouse is still hovering;
+        // mouseleave will restart it once the user actually moves away.
+        if (!this.isHovering) this.start();
       }
     }
-  
+
     // Begin the timer
     CarouselTimer.start();
-  
+
     // Pause the carousel when the mouse is over the carousel
     carouselContainer.addEventListener("mouseover", () => {
+      CarouselTimer.isHovering = true;
       CarouselTimer.stop();
     });
-  
+
     // Resume the carousel when the mouse leaves the carousel
     carouselContainer.addEventListener("mouseleave", () => {
+      CarouselTimer.isHovering = false;
       CarouselTimer.start();
     });
   
