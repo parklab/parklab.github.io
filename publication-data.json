@@ -134,19 +134,222 @@
     {
       "author": [
         {
-          "name": "Ha YJ",
+          "name": "The Somatic Mosaicism across Human Tissues Network",
+          "lab_member": false
+        }
+      ],
+      "title": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.09.678885v2",
+      "abstract": "Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The SMaHT Network conducted four large-scale benchmarking experiments involving cell-lines and donor tissues, to evaluate sequencing technologies, experimental approaches, and computational methods for detecting different types of somatic mutations, generating community resource with >1,000x short-read and 100-400x long-read data for each of the nine analyzed samples. We determined effective strategies for utilizing short- and long-reads sequencing for mutation detection and demonstrated that using donor-specific assemblies and human pangenome improved calling, extending mutation catalogs to challenging genomic regions. We benchmarked six duplex technologies and showed that single-cell sequencing resolves cell type-specific mutational patterns and heterogeneity. Our results indicate that bulk, single-cell, and duplex analyses are complementary - and leveraging all three provides comprehensive characterization of mosaicism within tissues. Together, these findings provide a roadmap for accurate, genome-wide somatic mutation discovery and analysis.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-mutation-detection-by-the-smaht-network",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Cell",
+      "journal_location": "Cell, in press"
+    },
+    {
+      "author": [
+        {
+          "name": "Zhou Z*",
+          "lab_member": false
+        },
+        {
+          "name": "Luquette JL*",
           "lab_member": true
         },
         {
-          "name": "Maziec D",
+          "name": "Dong G",
+          "lab_member": false
+        },
+        {
+          "name": "Kim J",
+          "lab_member": false
+        },
+        {
+          "name": "Ku J",
+          "lab_member": false
+        },
+        {
+          "name": "Kim K",
+          "lab_member": false
+        },
+        {
+          "name": "Ramesh N",
+          "lab_member": false
+        },
+        {
+          "name": "Bae M",
+          "lab_member": false
+        },
+        {
+          "name": "Caplin A",
           "lab_member": true
         },
         {
-          "name": "Markowski J",
+          "name": "Shao DD",
+          "lab_member": false
+        },
+        {
+          "name": "Sahile B",
+          "lab_member": false
+        },
+        {
+          "name": "Essuman K",
+          "lab_member": false
+        },
+        {
+          "name": "Goodman E",
+          "lab_member": false
+        },
+        {
+          "name": "Miller MB",
+          "lab_member": false
+        },
+        {
+          "name": "Huang AY",
+          "lab_member": false
+        },
+        {
+          "name": "Nathan WJ",
+          "lab_member": false
+        },
+        {
+          "name": "Nussenzweig A",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
           "lab_member": true
         },
         {
-          "name": "Georges SJ",
+          "name": "Lagier-Tourenne C**",
+          "lab_member": false
+        },
+        {
+          "name": "Lee EA**",
+          "lab_member": false
+        },
+        {
+          "name": "Walsh CA**",
+          "lab_member": false
+        }
+      ],
+      "title": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders",
+      "title_link": "https://www.cell.com/cell/fulltext/S0092-8674(26)00700-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867426007002%3Fshowall%3Dtrue",
+      "abstract": "Amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and Alzheimer's disease (AD) represent two major categories of neurodegenerative disorders-TAR DNA-binding protein 43 (TDP-43) and tau proteinopathies-for which the mechanisms driving neuronal death remain unclear. Single-cell whole-genome sequencing of 469 neurons from C9ORF72 ALS, C9ORF72 FTD, AD, and control brains revealed increased somatic single-nucleotide variants (sSNVs) and insertions/deletions (sIndels) in all three diseases. Mutational signature analysis identified a disease-associated sSNV signature consistent with oxidative damage and an sIndel process affecting 22% of ALS, 76% of FTD, and 61% of AD neurons-but only 2% of control neurons-resembling signature ID4, previously linked to topoisomerase 1 (TOP1)-mediated mutagenesis. Rapid approach to DNA adduct recovery (RADAR) assays confirmed increased TOP1-DNA covalent complexes, and duplex sequencing confirmed the increased sIndels and identified single-strand events as likely precursor lesions. TOP1-associated sIndel mutagenesis and genome instability thus represent a mechanism shared by both TDP-43 and tau neurodegeneration.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/recurrent-patterns-of-top1-mediated-neuronal-genomic-damage-shared-by-major-neurodegenerative-disorders",
+      "pdf_link": "/publications/pdf/PIIS0092867426007002.pdf",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Cell",
+      "journal_location": "Cell 2026 Jul 1:S0092-8674(26)00700-2"
+      },
+    {
+      "author": [
+        {
+          "name": "Cheng H*",
+          "lab_member": false
+        },
+        {
+          "name": "Qu H*",
+          "lab_member": true
+        },
+        {
+          "name": "McKenzie S",
+          "lab_member": false
+        },
+        {
+          "name": "Lawrence KR",
+          "lab_member": false
+        },
+        {
+          "name": "Windsor R",
+          "lab_member": false
+        },
+        {
+          "name": "Vella M",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Li H",
+          "lab_member": false
+        }
+      ],
+      "title": "Efficient near telomere-to-telomere assembly of nanopore simplex reads",
+      "title_link": "https://www.nature.com/articles/s41586-026-10105-6",
+      "abstract": "Telomere-to-telomere (T2T) assembly is the ultimate goal for de novo genome assembly. Existing algorithms capable of near-T2T assembly all require Oxford Nanopore Technologies (ONT) ultra-long reads, which are costly and experimentally challenging to obtain and are thus often unavailable for samples without established cell lines. Here we introduce hifiasm (ONT), an algorithm that can produce near-T2T assemblies from standard ONT simplex reads, eliminating the need for ultra-long sequencing. Compared with existing methods, hifiasm (ONT) reduces computational demands by an order of magnitude and reconstructs more chromosomes from telomere to telomere on the same datasets. This advance substantially broadens the feasibility of T2T assembly for applications previously limited by the high cost and experimental requirement of ultra-long reads.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
+      "pdf_link": "/publications/pdf/s41586-026-10105-6.pdf",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Nature",
+      "journal_location": "Nature 2026;644:10105"
+    },
+      {
+        "author": [
+        {
+          "name": "Lynch AW",
+          "lab_member": true
+        },
+        {
+          "name": "Lee SS",
+          "lab_member": true
+        },
+        {
+          "name": "Hummel JP",
+          "lab_member": true
+        },
+        {
+          "name": "Geiger B",
+          "lab_member": true
+        },
+        {
+          "name": "Lawrence MS",
+          "lab_member": false
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Gulhan DC**",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        }
+      ],
+      "title": "Topographical archetypes of somatic mutagenesis in cancer",
+      "title_link": "https://www.biorxiv.org/content/10.64898/2026.04.18.719374v1",
+      "abstract": "The genome of every cancer cell carries a record of the mutational processes that have acted throughout its history. Mutational signature analysis, which infers the activity of mutagenic processes from their characteristic base-change patterns, has become an indispensable tool for interpreting somatic mutations. However, this framework captures only which types of mutations a process generates and not where in the genome they occur - a distribution influenced by replication timing, chromatin organization, transcription, DNA secondary structure, and other genomic features. Here, we present a generative probabilistic framework (MuTopia) that jointly infers mutational spectra and their genome-wide topography as nonlinear functions of genomic and epigenomic state. Applied to whole-genome sequencing data from 15 tumor types, MuTopia reveals that mutational processes fall into eight conserved topographic archetypes, or topotypes, shaped primarily by replication timing and chromatin state. Diverse mutational processes converge upon this limited repertoire, indicating that the genomic distribution of mutagenesis is constrained less by the source of damage than by how that damage is processed. Individual mutational processes exhibit state-dependent variation in their genomic distributions: the same signature can adopt distinct topotypes depending on repair proficiency and replication stress. For instance, SBS8 shifts from a canonical late-replicating profile in homologous recombination-proficient tumors to an early-replicating, stress-associated topotype in HR-deficient tumors, and replication stress similarly reshapes the genomic distribution of APOBEC editing. Topotypes, therefore, provide a classification of mutagenesis distinct from spectral signatures, capturing aspects of tumor biology that spectra alone cannot resolve.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/topographical-archetypes-of-somatic-mutagenesis-in-cancer",
+      "year": "bioRxiv",
+      "type": "2026",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2026.04.18.719374v1.full.pdf"
+    },  
+     {
+      "author": [
+        {
+          "name": "Ha YJ*",
+          "lab_member": true
+        },
+        {
+          "name": "Maziec D*",
+          "lab_member": true
+        },
+        {
+          "name": "Markowski J*",
+          "lab_member": true
+        },
+        {
+          "name": "Georges SJ*",
           "lab_member": false
         },
         {
@@ -321,164 +524,151 @@
       "pdf_link": "/publications/pdf/2025.10.13.681545v1.full.pdf"
     },
     {
-      "author": [
-        {
-          "name": "The Somatic Mosaicism across Human Tissues Network",
-          "lab_member": false
-        }
-      ],
-      "title": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.09.678885v2",
-      "abstract": "Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The SMaHT Network conducted four large-scale benchmarking experiments involving cell-lines and donor tissues, to evaluate sequencing technologies, experimental approaches, and computational methods for detecting different types of somatic mutations, generating community resource with >1,000x short-read and 100-400x long-read data for each of the nine analyzed samples. We determined effective strategies for utilizing short- and long-reads sequencing for mutation detection and demonstrated that using donor-specific assemblies and human pangenome improved calling, extending mutation catalogs to challenging genomic regions. We benchmarked six duplex technologies and showed that single-cell sequencing resolves cell type-specific mutational patterns and heterogeneity. Our results indicate that bulk, single-cell, and duplex analyses are complementary - and leveraging all three provides comprehensive characterization of mosaicism within tissues. Together, these findings provide a roadmap for accurate, genome-wide somatic mutation discovery and analysis.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-mutation-detection-by-the-smaht-network",
-      "year": "2026",
-      "type": "2026",
-      "journal": "Cell",
-      "journal_location": "Cell, in press"
+  "author": [
+    {
+      "name": "Wang S",
+      "lab_member": false
     },
     {
-      "author": [
-        {
-          "name": "Zhou Z",
-          "lab_member": false
-        },
-        {
-          "name": "Luquette JL",
-          "lab_member": true
-        },
-        {
-          "name": "Dong G",
-          "lab_member": false
-        },
-        {
-          "name": "Kim J",
-          "lab_member": false
-        },
-        {
-          "name": "Ku J",
-          "lab_member": false
-        },
-        {
-          "name": "Kim K",
-          "lab_member": false
-        },
-        {
-          "name": "Ramesh N",
-          "lab_member": false
-        },
-        {
-          "name": "Bae M",
-          "lab_member": false
-        },
-        {
-          "name": "Caplin A",
-          "lab_member": true
-        },
-        {
-          "name": "Shao DD",
-          "lab_member": false
-        },
-        {
-          "name": "Sahile B",
-          "lab_member": false
-        },
-        {
-          "name": "Essuman K",
-          "lab_member": false
-        },
-        {
-          "name": "Goodman E",
-          "lab_member": false
-        },
-        {
-          "name": "Miller MB",
-          "lab_member": false
-        },
-        {
-          "name": "Huang AY",
-          "lab_member": false
-        },
-        {
-          "name": "Nathan WJ",
-          "lab_member": false
-        },
-        {
-          "name": "Nussenzweig A",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ**",
-          "lab_member": true
-        },
-        {
-          "name": "Lagier-Tourenne C**",
-          "lab_member": false
-        },
-        {
-          "name": "Lee EA**",
-          "lab_member": false
-        },
-        {
-          "name": "Walsh CA**",
-          "lab_member": false
-        }
-      ],
-      "title": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders",
-      "title_link": "https://www.cell.com/cell/fulltext/S0092-8674(26)00700-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867426007002%3Fshowall%3Dtrue",
-      "abstract": "Amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and Alzheimer's disease (AD) represent two major categories of neurodegenerative disorders-TAR DNA-binding protein 43 (TDP-43) and tau proteinopathies-for which the mechanisms driving neuronal death remain unclear. Single-cell whole-genome sequencing of 469 neurons from C9ORF72 ALS, C9ORF72 FTD, AD, and control brains revealed increased somatic single-nucleotide variants (sSNVs) and insertions/deletions (sIndels) in all three diseases. Mutational signature analysis identified a disease-associated sSNV signature consistent with oxidative damage and an sIndel process affecting 22% of ALS, 76% of FTD, and 61% of AD neurons-but only 2% of control neurons-resembling signature ID4, previously linked to topoisomerase 1 (TOP1)-mediated mutagenesis. Rapid approach to DNA adduct recovery (RADAR) assays confirmed increased TOP1-DNA covalent complexes, and duplex sequencing confirmed the increased sIndels and identified single-strand events as likely precursor lesions. TOP1-associated sIndel mutagenesis and genome instability thus represent a mechanism shared by both TDP-43 and tau neurodegeneration.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/recurrent-patterns-of-top1-mediated-neuronal-genomic-damage-shared-by-major-neurodegenerative-disorders",
-      "pdf_link": "/publications/pdf/PIIS0092867426007002.pdf",
+      "name": "Bae M",
+      "lab_member": false
+    },
+    {
+      "name": "Wang J",
+      "lab_member": false
+    },
+    {
+      "name": "Zhao B",
+      "lab_member": false
+    },
+    {
+      "name": "Nguyen K",
+      "lab_member": false
+    },
+    {
+      "name": "Mallett S",
+      "lab_member": false
+    },
+    {
+      "name": "Switzenberg JA",
+      "lab_member": false
+    },
+    {
+      "name": "Losh SJ",
+      "lab_member": false
+    },
+    {
+      "name": "Sexton CE",
+      "lab_member": true
+    },
+    {
+      "name": "Miao B",
+      "lab_member": false
+    },
+    {
+      "name": "Dong S",
+      "lab_member": false
+    },
+    {
+      "name": "Zeng X",
+      "lab_member": false
+    },
+    {
+      "name": "Wang Z",
+      "lab_member": false
+    },
+    {
+      "name": "McDonald TL",
+      "lab_member": false
+    },
+    {
+      "name": "Mumm C",
+      "lab_member": false
+    },
+    {
+      "name": "Gadde RK",
+      "lab_member": false
+    },
+    {
+      "name": "Tariq AM",
+      "lab_member": false
+    },
+    {
+      "name": "Chen Z",
+      "lab_member": false
+    },
+    {
+      "name": "Feng WC",
+      "lab_member": true
+    },
+    {
+      "name": "Burn A",
+      "lab_member": false
+    },
+    {
+      "name": "Park J",
+      "lab_member": false
+    },
+    {
+      "name": "Chu C",
+      "lab_member": true
+    },
+    {
+      "name": "Shen H",
+      "lab_member": false
+    },
+    {
+      "name": "Wang T",
+      "lab_member": false
+    },
+    {
+      "name": "Urban AE",
+      "lab_member": false
+    },
+    {
+      "name": "Zhu X",
+      "lab_member": false
+    },
+    {
+      "name": "Li H",
+      "lab_member": false
+    },
+    {
+      "name": "Burns KH",
+      "lab_member": false
+    },
+    {
+      "name": "Chun HE",
+      "lab_member": true
+    },
+    {
+      "name": "Park PJ",
+      "lab_member": true
+    },
+    {
+      "name": "Mills RE",
+      "lab_member": false
+    },
+    {
+      "name": "Zhou W",
+      "lab_member": false
+    },
+    {
+      "name": "Lee EA",
+      "lab_member": true
+    }
+    ],
+      "title": "Multi-platform framework for mapping somatic retrotransposition in human tissues",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.07.680917v1",
+      "abstract": "Mobile element insertions (MEI) shape the human genome in both germline and somatic tissues. While inherited MEIs are well characterized, mapping somatic MEIs (sMEI) in non-cancer tissues remains challenging due to their low allelic fraction and repetitive nature. We established an integrative framework for sMEI analysis leveraging modern sequencing technologies and analytical innovations. We first benchmarked sMEI detection and demonstrated advantages of long-read and MEI-targeted sequencing for ultra-low-frequency events using a mixture of well-established cell lines. We then showed that haplotype phasing and donor-specific assemblies refine sMEI detection, effectively distinguishing from germline and false signals in in-silico tumor-normal mixtures. We further developed a source-tracing strategy based on internal sequence variation, expanding the catalogue of active source elements beyond traditional transduction-based methods. Applying this framework to donor tissues, we identified 18 rare somatic L1 insertions, revealing structural and source diversity. Our work provides a foundational framework and biological insight into sMEIs.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/multi-platform-framework-for-mapping-somatic-retrotransposition-in-human-tissue",
       "year": "2026",
       "type": "2026",
-      "journal": "Cell",
-      "journal_location": "Cell 2026 Jul 1:S0092-8674(26)00700-2"
-      },
-      {
-        "author": [
-        {
-          "name": "Lynch AW",
-          "lab_member": true
-        },
-        {
-          "name": "Lee SS",
-          "lab_member": true
-        },
-        {
-          "name": "Hummel JP",
-          "lab_member": true
-        },
-        {
-          "name": "Geiger B",
-          "lab_member": true
-        },
-        {
-          "name": "Lawrence MS",
-          "lab_member": false
-        },
-        {
-          "name": "Jin H",
-          "lab_member": true
-        },
-        {
-          "name": "Gulhan DC",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "Topographical archetypes of somatic mutagenesis in cancer",
-      "title_link": "https://www.biorxiv.org/content/10.64898/2026.04.18.719374v1",
-      "abstract": "The genome of every cancer cell carries a record of the mutational processes that have acted throughout its history. Mutational signature analysis, which infers the activity of mutagenic processes from their characteristic base-change patterns, has become an indispensable tool for interpreting somatic mutations. However, this framework captures only which types of mutations a process generates and not where in the genome they occur - a distribution influenced by replication timing, chromatin organization, transcription, DNA secondary structure, and other genomic features. Here, we present a generative probabilistic framework (MuTopia) that jointly infers mutational spectra and their genome-wide topography as nonlinear functions of genomic and epigenomic state. Applied to whole-genome sequencing data from 15 tumor types, MuTopia reveals that mutational processes fall into eight conserved topographic archetypes, or topotypes, shaped primarily by replication timing and chromatin state. Diverse mutational processes converge upon this limited repertoire, indicating that the genomic distribution of mutagenesis is constrained less by the source of damage than by how that damage is processed. Individual mutational processes exhibit state-dependent variation in their genomic distributions: the same signature can adopt distinct topotypes depending on repair proficiency and replication stress. For instance, SBS8 shifts from a canonical late-replicating profile in homologous recombination-proficient tumors to an early-replicating, stress-associated topotype in HR-deficient tumors, and replication stress similarly reshapes the genomic distribution of APOBEC editing. Topotypes, therefore, provide a classification of mutagenesis distinct from spectral signatures, capturing aspects of tumor biology that spectra alone cannot resolve.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/topographical-archetypes-of-somatic-mutagenesis-in-cancer",
-      "year": "bioRxiv",
-      "type": "2026",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/2026.04.18.719374v1.full.pdf"
-    },  
-     {
+      "journal": "Cell Genomics",
+      "journal_location": "Cell Genomics, in press",
+      "pdf_link": "/publications/pdf/2025.10.07.680917v1.full.pdf"
+    },
+    {
       "author": [
         {
           "name": "Fu BJ*",
@@ -510,224 +700,6 @@
       "journal": "Genome Biology",
       "journal_location": "Genome Biol (2026)",
       "pdf_link": "/publications/pdf/s13059-026-04081-3_reference.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Woo KA",
-          "lab_member": true
-        },
-        {
-          "name": "Jang Y",
-          "lab_member": false
-        },
-        {
-          "name": "Kim H",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "GLP1R expression and parkinson’s disease and related disorders in GLP-1RA-treated type 2 diabetes",
-      "title_link": "https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awag130/8651260?redirectedFrom=fulltext&login=false",
-      "abstract": "Preclinical and epidemiologic data suggest that glucagon-like peptide-1 receptor agonists (GLP-1RAs) may reduce the risk of Parkinson's disease and related disorders (PDRD), yet clinical trial findings have been mixed, raising the possibility of biologically meaningful heterogeneity. We tested whether interindividual differences in systemic GLP1R expression are associated with PDRD risk among adults with type 2 diabetes initiating GLP-1RAs. We conducted an electronic health record (EHR)-based new-user cohort study in the National Institutes of Health All of Us Research Program, focusing on adults with type 2 diabetes aged 50 years or older who initiated a GLP-1RA between 2005 and 2023 and had no prior PDRD or Alzheimer's disease and related dementias (ADRD). Systemic GLP1R expression was genetically proxied by a 15-variant cis-expression quantitative trait locus (cis-eQTL) genetic risk score dichotomized at the cohort median. Follow-up ended at the earliest of incident PDRD, death, or October 1, 2023. Hazard ratios were estimated using multivariable Cox proportional hazards models adjusting for baseline covariates, and incidence rates and rate differences per 1,000 person-years were estimated using Poisson models. Prespecified sensitivity analyses excluded early outcome events and short drug exposure; an exploratory analysis evaluated incident ADRD. The cohort included 7,039 initiators (3,520 high vs 3,519 low genetic score; mean age 61.7 ± 8.4 years; 59.8% female; mean follow-up 3.8 ± 3.1 years). Compared with the low-score group, the high-score group had a lower hazard of incident PDRD (hazard ratio 0.78; 95% confidence interval 0.62 to 0.98) and a lower incidence rate (rate difference -1.36 per 1,000 person-years; 95% confidence interval -2.51 to -0.20). Associations were consistent across sensitivity analyses. No association was observed for incident ADRD (hazard ratio 1.02; 95% confidence interval 0.81 to 1.28). These findings link a mechanism-anchored genetic proxy for higher systemic GLP1R expression to a lower risk of incident PDRD among GLP-1RA-treated adults with type 2 diabetes. Systemic GLP1R-mediated pathways may be relevant to interindividual differences in observed PDRD risk, and genetic instruments for GLP1R expression may inform hypotheses for future PDRD trial design.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/GLP1R-expression-and-parkinsons-disease-and-related-disorders-in-GLP-1RA-treatedtype-2-diabetes",
-      "year": "2026",
-      "type": "2026",
-      "journal": "Brain",
-      "journal_location": "Brain, 2026; https://doi.org/10.1093/brain/awag130"
-    },
-    {
-      "author": [
-        {
-          "name": "Cheng H*",
-          "lab_member": false
-        },
-        {
-          "name": "Qu H*",
-          "lab_member": true
-        },
-        {
-          "name": "McKenzie S",
-          "lab_member": false
-        },
-        {
-          "name": "Lawrence KR",
-          "lab_member": false
-        },
-        {
-          "name": "Windsor R",
-          "lab_member": false
-        },
-        {
-          "name": "Vella M",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Li H",
-          "lab_member": false
-        }
-      ],
-      "title": "Efficient near telomere-to-telomere assembly of nanopore simplex reads",
-      "title_link": "https://www.nature.com/articles/s41586-026-10105-6",
-      "abstract": "Telomere-to-telomere (T2T) assembly is the ultimate goal for de novo genome assembly. Existing algorithms capable of near-T2T assembly all require Oxford Nanopore Technologies (ONT) ultra-long reads, which are costly and experimentally challenging to obtain and are thus often unavailable for samples without established cell lines. Here we introduce hifiasm (ONT), an algorithm that can produce near-T2T assemblies from standard ONT simplex reads, eliminating the need for ultra-long sequencing. Compared with existing methods, hifiasm (ONT) reduces computational demands by an order of magnitude and reconstructs more chromosomes from telomere to telomere on the same datasets. This advance substantially broadens the feasibility of T2T assembly for applications previously limited by the high cost and experimental requirement of ultra-long reads.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/efficient-near-telomere-to-telomere-assembly-of-nanopore-simplex-reads",
-      "pdf_link": "/publications/pdf/s41586-026-10105-6.pdf",
-      "year": "2026",
-      "type": "2026",
-      "journal": "Nature",
-      "journal_location": "Nature 2026;644:10105"
-    },
-    {
-      "author": [
-        {
-          "name": "Kanellos G",
-          "lab_member": false
-        },
-        {
-          "name": "Giacomelli C",
-          "lab_member": false
-        },
-        {
-          "name": "Raven A",
-          "lab_member": false
-        },
-        {
-          "name": "Vlahov N",
-          "lab_member": false
-        },
-        {
-          "name": "Jin H",
-          "lab_member": true
-        },
-        {
-          "name": "Herviou P",
-          "lab_member": false
-        },
-        {
-          "name": "Malla SB",
-          "lab_member": false
-        },
-        {
-          "name": "Nasreddin N",
-          "lab_member": false
-        },
-        {
-          "name": "Centeno PP",
-          "lab_member": false
-        },
-        {
-          "name": "Alexandrou C",
-          "lab_member": false
-        },
-        {
-          "name": "Gilroy K",
-          "lab_member": false
-        },
-        {
-          "name": "Baird RL",
-          "lab_member": false
-        },
-        {
-          "name": "Pennel K",
-          "lab_member": false
-        },
-        {
-          "name": "Munro J",
-          "lab_member": false
-        },
-        {
-          "name": "Waldron JA",
-          "lab_member": false
-        },
-        {
-          "name": "Hall H",
-          "lab_member": false
-        },
-        {
-          "name": "Officer-Jones L",
-          "lab_member": false
-        },
-        {
-          "name": "Bryson S",
-          "lab_member": false
-        },
-        {
-          "name": "Strathdee D",
-          "lab_member": false
-        },
-        {
-          "name": "Lilla S",
-          "lab_member": false
-        },
-        {
-          "name": "Zanivan S",
-          "lab_member": false
-        },
-        {
-          "name": "Morrison V",
-          "lab_member": false
-        },
-        {
-          "name": "Nixon C",
-          "lab_member": false
-        },
-        {
-          "name": "Ridgway RA",
-          "lab_member": false
-        },
-        {
-          "name": "Miller C",
-          "lab_member": false
-        },
-        {
-          "name": "Knight JRP",
-          "lab_member": false
-        },
-        {
-          "name": "Campbell AD",
-          "lab_member": false
-        },
-        {
-          "name": "Dunne PD",
-          "lab_member": false
-        },
-        {
-          "name": "Le Quesne J",
-          "lab_member": false
-        },
-        {
-          "name": "Edwards J",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Bushell M",
-          "lab_member": false
-        },
-        {
-          "name": "Sansom OJ",
-          "lab_member": false
-        }
-      ],
-      "title": "Nucleophosmin supports WNT-driven hyperproliferation and tumor initiation",
-      "title_link": "https://www.nature.com/articles/s41588-025-02408-7",
-      "abstract": "Nucleophosmin (NPM1), a nucleolar protein frequently mutated in hematopoietic malignancies, is overexpressed in several solid tumors with poorly understood functional roles. Here, we demonstrate that Npm1 is upregulated after APC loss in WNT-responsive tissues and supports WNT-driven intestinal and liver tumorigenesis. Mechanistically, NPM1 loss induces ribosome pausing and accumulation at the 5’-end of coding sequences, triggering a protein synthesis stress response and p53 activation, which mediate this antitumorigenic effect. Collectively, our data identify NPM1 as a critical WNT effector that sustains WNT-driven hyperproliferation and tumorigenesis by attenuating the integrated stress response and p53 activation. Notably, NPM1 expression correlates with elevated WNT signaling and proliferation in human colorectal cancer (CRC), while CRCs harboring NPM1 deletions exhibit preferential TP53 inactivation, underscoring the clinical relevance of our findings. Being dispensable for adult epithelial homeostasis, NPM1 represents a promising therapeutic target in p53-proficient WNT-driven tumors, including treatment-refractory KRAS-mutant CRC, and hepatic cancers.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/nucleophosmin-supports-wnt-driven-hyperproliferation-and-tumor-initiation",
-      "pdf_link": "/publications/pdf/s41588-025-02408-7.pdf",
-      "year": "2025",
-      "type": "2025",
-      "journal": "Nature Genetics",
-      "journal_location": "Nature Genetics 2026;58(1):100-115"
     },
     {
       "author": [
@@ -1105,15 +1077,164 @@
     {
       "author": [
         {
-          "name": "Zhang Y",
+          "name": "Raven A",
           "lab_member": false
         },
         {
-          "name": "Viswanadham VV",
+          "name": "Gilroy K",
+          "lab_member": false
+        },
+        {
+          "name": "Jin H",
           "lab_member": true
         },
         {
-          "name": "Andreopoulos M",
+          "name": "Waldron JA",
+          "lab_member": false
+        },
+        {
+          "name": "Leslie H",
+          "lab_member": false
+        },
+        {
+          "name": "Munro J",
+          "lab_member": false
+        },
+        {
+          "name": "Hall H",
+          "lab_member": false
+        },
+        {
+          "name": "Ridgway RA",
+          "lab_member": false
+        },
+        {
+          "name": "Ford CA",
+          "lab_member": false
+        },
+        {
+          "name": "Gulhan DC",
+          "lab_member": true
+        },
+        {
+          "name": "Vlahov N",
+          "lab_member": false
+        },
+        {
+          "name": "Mills ML",
+          "lab_member": false
+        },
+        {
+          "name": "Hartley A",
+          "lab_member": false
+        },
+        {
+          "name": "Anderson E",
+          "lab_member": false
+        },
+        {
+          "name": "Bryson S",
+          "lab_member": false
+        },
+        {
+          "name": "Sphyris N",
+          "lab_member": false
+        },
+        {
+          "name": "Müller M",
+          "lab_member": false
+        },
+        {
+          "name": "May S",
+          "lab_member": false
+        },
+        {
+          "name": "Cadden B",
+          "lab_member": false
+        },
+        {
+          "name": "Nixon C",
+          "lab_member": false
+        },
+        {
+          "name": "Waddell SH",
+          "lab_member": false
+        },
+        {
+          "name": "Guest R",
+          "lab_member": false
+        },
+        {
+          "name": "Boulter L",
+          "lab_member": false
+        },
+        {
+          "name": "Barker N",
+          "lab_member": false
+        },
+        {
+          "name": "Clevers H",
+          "lab_member": false
+        },
+        {
+          "name": "Zhu H",
+          "lab_member": false
+        },
+        {
+          "name": "Ivaska J",
+          "lab_member": false
+        },
+        {
+          "name": "Strathdee D",
+          "lab_member": false
+        },
+        {
+          "name": "Miller CJ",
+          "lab_member": false
+        },
+        {
+          "name": "Jamieson NB",
+          "lab_member": false
+        },
+        {
+          "name": "Bushell M",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Bird TG",
+          "lab_member": false
+        },
+        {
+          "name": "Sansom OJ",
+          "lab_member": false
+        }
+      ],
+      "title": "Hepatic zonation determines tumorigenic potential of mutant β-catenin",
+      "title_link": "https://www.nature.com/articles/s41586-025-09733-1",
+      "abstract": "Oncogenic mutations in phenotypically normal tissue are common across adult organs. This suggests that multiple events need to converge to drive tumorigenesis and that many processes such as tissue differentiation may protect against carcinogenesis. WNT–β-catenin signalling maintains zonal differentiation during liver homeostasis. However, the CTNNB1 oncogene—encoding β-catenin—is also frequently mutated in hepatocellular carcinoma, resulting in aberrant WNT signalling that promotes cell growth. Here we investigated the antagonistic interplay between WNT-driven growth and differentiation in zonal hepatocyte populations during liver tumorigenesis. We found that β-catenin mutations co-operate with exogenous MYC expression to drive a proliferative translatome. Differentiation of hepatocytes to an extreme zone 3 fate suppressed this proliferative translatome. Furthermore, a GLUL and Lgr5-positive perivenous subpopulation of zone 3 hepatocytes were refractory to WNT-induced and MYC-induced tumorigenesis. However, when mutant CTNNB1 and MYC alleles were activated sporadically across the liver lobule, a subset of mutant hepatocytes became proliferative and tumorigenic. These early lesions were characterized by reduced WNT pathway activation and elevated MAPK signalling, which suppresses zone 3 differentiation. The proliferative lesions were also dependent on IGFBP2–mTOR–cyclin D1 pathway signalling, in which inhibition of either IGFBP2 or mTOR suppressed proliferation and tumorigenesis. Therefore, we propose that zonal identity dictates hepatocyte susceptibility to WNT-driven tumorigenesis and that escaping WNT-induced differentiation is essential for liver cancer.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/hepatic-zonation-determines-tumorigenic-potential-of-mutant-beta-catenin",
+      "pdf_link": "https://github.com/parklab/parklab.github.io/releases/download/large-assets/s41586-025-09733-1.pdf",
+      "year": "2025",
+      "type": "2025",
+      "journal": "Nature",
+      "journal_location": "Nature 2026;649(8097):739-748"
+    },
+    {
+      "author": [
+        {
+          "name": "Zhang Y*",
+          "lab_member": false
+        },
+        {
+          "name": "Viswanadham VV*",
+          "lab_member": true
+        },
+        {
+          "name": "Andreopoulos M*",
           "lab_member": true
         },
         {
@@ -1266,1152 +1387,6 @@
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
       "pdf_link": "/publications/pdf/2025.12.12.692823v1.full.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Raven A",
-          "lab_member": false
-        },
-        {
-          "name": "Gilroy K",
-          "lab_member": false
-        },
-        {
-          "name": "Jin H",
-          "lab_member": true
-        },
-        {
-          "name": "Waldron JA",
-          "lab_member": false
-        },
-        {
-          "name": "Leslie H",
-          "lab_member": false
-        },
-        {
-          "name": "Munro J",
-          "lab_member": false
-        },
-        {
-          "name": "Hall H",
-          "lab_member": false
-        },
-        {
-          "name": "Ridgway RA",
-          "lab_member": false
-        },
-        {
-          "name": "Ford CA",
-          "lab_member": false
-        },
-        {
-          "name": "Gulhan DC",
-          "lab_member": true
-        },
-        {
-          "name": "Vlahov N",
-          "lab_member": false
-        },
-        {
-          "name": "Mills ML",
-          "lab_member": false
-        },
-        {
-          "name": "Hartley A",
-          "lab_member": false
-        },
-        {
-          "name": "Anderson E",
-          "lab_member": false
-        },
-        {
-          "name": "Bryson S",
-          "lab_member": false
-        },
-        {
-          "name": "Sphyris N",
-          "lab_member": false
-        },
-        {
-          "name": "Müller M",
-          "lab_member": false
-        },
-        {
-          "name": "May S",
-          "lab_member": false
-        },
-        {
-          "name": "Cadden B",
-          "lab_member": false
-        },
-        {
-          "name": "Nixon C",
-          "lab_member": false
-        },
-        {
-          "name": "Waddell SH",
-          "lab_member": false
-        },
-        {
-          "name": "Guest R",
-          "lab_member": false
-        },
-        {
-          "name": "Boulter L",
-          "lab_member": false
-        },
-        {
-          "name": "Barker N",
-          "lab_member": false
-        },
-        {
-          "name": "Clevers H",
-          "lab_member": false
-        },
-        {
-          "name": "Zhu H",
-          "lab_member": false
-        },
-        {
-          "name": "Ivaska J",
-          "lab_member": false
-        },
-        {
-          "name": "Strathdee D",
-          "lab_member": false
-        },
-        {
-          "name": "Miller CJ",
-          "lab_member": false
-        },
-        {
-          "name": "Jamieson NB",
-          "lab_member": false
-        },
-        {
-          "name": "Bushell M",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Bird TG",
-          "lab_member": false
-        },
-        {
-          "name": "Sansom OJ",
-          "lab_member": false
-        }
-      ],
-      "title": "Hepatic zonation determines tumorigenic potential of mutant β-catenin",
-      "title_link": "https://www.nature.com/articles/s41586-025-09733-1",
-      "abstract": "Oncogenic mutations in phenotypically normal tissue are common across adult organs. This suggests that multiple events need to converge to drive tumorigenesis and that many processes such as tissue differentiation may protect against carcinogenesis. WNT–β-catenin signalling maintains zonal differentiation during liver homeostasis. However, the CTNNB1 oncogene—encoding β-catenin—is also frequently mutated in hepatocellular carcinoma, resulting in aberrant WNT signalling that promotes cell growth. Here we investigated the antagonistic interplay between WNT-driven growth and differentiation in zonal hepatocyte populations during liver tumorigenesis. We found that β-catenin mutations co-operate with exogenous MYC expression to drive a proliferative translatome. Differentiation of hepatocytes to an extreme zone 3 fate suppressed this proliferative translatome. Furthermore, a GLUL and Lgr5-positive perivenous subpopulation of zone 3 hepatocytes were refractory to WNT-induced and MYC-induced tumorigenesis. However, when mutant CTNNB1 and MYC alleles were activated sporadically across the liver lobule, a subset of mutant hepatocytes became proliferative and tumorigenic. These early lesions were characterized by reduced WNT pathway activation and elevated MAPK signalling, which suppresses zone 3 differentiation. The proliferative lesions were also dependent on IGFBP2–mTOR–cyclin D1 pathway signalling, in which inhibition of either IGFBP2 or mTOR suppressed proliferation and tumorigenesis. Therefore, we propose that zonal identity dictates hepatocyte susceptibility to WNT-driven tumorigenesis and that escaping WNT-induced differentiation is essential for liver cancer.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/hepatic-zonation-determines-tumorigenic-potential-of-mutant-beta-catenin",
-      "pdf_link": "https://github.com/parklab/parklab.github.io/releases/download/large-assets/s41586-025-09733-1.pdf",
-      "year": "2025",
-      "type": "2025",
-      "journal": "Nature",
-      "journal_location": "Nature 2026;649(8097):739-748"
-    },
-    {
-      "author": [
-        {
-          "name": "Viswanadham VV",
-          "lab_member": true
-        },
-        {
-          "name": "Kim SN",
-          "lab_member": false
-        },
-        {
-          "name": "Caglayan E",
-          "lab_member": false
-        },
-        {
-          "name": "Doan RN",
-          "lab_member": false
-        },
-        {
-          "name": "Dou Y",
-          "lab_member": false
-        },
-        {
-          "name": "Bizzotto S",
-          "lab_member": false
-        },
-        {
-          "name": "Khoshkhoo S",
-          "lab_member": false
-        },
-        {
-          "name": "Huang AY",
-          "lab_member": false
-        },
-        {
-          "name": "Yeh R",
-          "lab_member": false
-        },
-        {
-          "name": "Chhouk BH",
-          "lab_member": false
-        },
-        {
-          "name": "Truong A",
-          "lab_member": false
-        },
-        {
-          "name": "Chappell KM",
-          "lab_member": false
-        },
-        {
-          "name": "Beaudin M",
-          "lab_member": false
-        },
-        {
-          "name": "Barton A",
-          "lab_member": false
-        },
-        {
-          "name": "Akula SK",
-          "lab_member": false
-        },
-        {
-          "name": "Zhao Y",
-          "lab_member": true
-        },
-        {
-          "name": "Rento L",
-          "lab_member": false
-        },
-        {
-          "name": "Lodato M",
-          "lab_member": false
-        },
-        {
-          "name": "Szeto RA",
-          "lab_member": false
-        },
-        {
-          "name": "Ganz J",
-          "lab_member": false
-        },
-        {
-          "name": "Li P",
-          "lab_member": false
-        },
-        {
-          "name": "Tsai JW",
-          "lab_member": false
-        },
-        {
-          "name": "Hill RS",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ**",
-          "lab_member": true
-        },
-        {
-          "name": "Walsh CA**",
-          "lab_member": false
-        }
-      ],
-      "title": "Combined somatic mutation and transcriptome analysis reveals region-specific differences in clonal architecture in human cortex",
-      "title_link": "https://www.sciencedirect.com/science/article/pii/S221112472501229X",
-      "abstract": "The human cerebral cortex is specialized into regions, but little is known about how human cellular lineages shape cortical regional variation and neuronal cell-type distribution during development. Here, we map single-cell lineages of human cortical regions and neuronal subtypes using >1,000 somatic single-nucleotide variants (sSNVs) identified from deep bulk whole-genome sequencing and analyzed over 25 regions and >72,000 single cells. In the fronto-parietal cortex, sSNVs are rarely restricted, marking neuron-generating clones that disperse into neighboring regions. In contrast, the primary visual cortex harbors 30%–70% more sSNVs than the neighboring secondary visual cortex. Clones at this border exhibit more restricted dispersion, suggesting late developmental lineage segregation. Single-nucleus sSNV and whole-transcriptome analysis reveal glutamatergic neuron clones with modest regional restrictions that share low-mosaic sSNVs with some GABAergic neurons, suggesting a recent dorsal cortical progenitor. Our analysis reveals human-specific cortical lineage patterns, regional differences in clonal patterns, and late divergence of some glutamatergic/GABAergic lineages.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/combined-somatic-mutation-and-transcriptome-analysis-reveals-region-specific-differences-in-clonal-architecture-in-human-cortex",
-      "year": "2025",
-      "type": "2025",
-      "journal": "Cell Reports",
-      "journal_location": "Cell Reports 2025;44(11):116458",
-      "pdf_link": "/publications/pdf/2025-combined-somatic-mutation.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Luquette LJ",
-          "lab_member": true
-        },
-        {
-          "name": "Coorens THH",
-          "lab_member": false
-        },
-        {
-          "name": "Natu A",
-          "lab_member": false
-        },
-        {
-          "name": "Suvakov M",
-          "lab_member": false
-        },
-        {
-          "name": "Caplin A",
-          "lab_member": true
-        },
-        {
-          "name": "Jun MS",
-          "lab_member": false
-        },
-        {
-          "name": "Mo A",
-          "lab_member": false
-        },
-        {
-          "name": "Pelt J",
-          "lab_member": false
-        },
-        {
-          "name": "Anderson L",
-          "lab_member": false
-        },
-        {
-          "name": "Berselli M",
-          "lab_member": true
-        },
-        {
-          "name": "Bhamidipati S",
-          "lab_member": false
-        },
-        {
-          "name": "Blanchard T",
-          "lab_member": false
-        },
-        {
-          "name": "Brew J",
-          "lab_member": true
-        },
-        {
-          "name": "Chun HE",
-          "lab_member": true
-        },
-        {
-          "name": "Chun H",
-          "lab_member": true
-        },
-        {
-          "name": "Dehankar MK",
-          "lab_member": false
-        },
-        {
-          "name": "Feng WC",
-          "lab_member": true
-        },
-        {
-          "name": "Furatero R",
-          "lab_member": false
-        },
-        {
-          "name": "Grochowski CM",
-          "lab_member": false
-        },
-        {
-          "name": "Ho E",
-          "lab_member": false
-        },
-        {
-          "name": "Jang Y",
-          "lab_member": false
-        },
-        {
-          "name": "Kottapalli K",
-          "lab_member": false
-        },
-        {
-          "name": "Leonard MK",
-          "lab_member": false
-        },
-        {
-          "name": "Lim NS",
-          "lab_member": false
-        },
-        {
-          "name": "Lindsay T",
-          "lab_member": false
-        },
-        {
-          "name": "Nicholson S",
-          "lab_member": true
-        },
-        {
-          "name": "Raimondi I",
-          "lab_member": false
-        },
-        {
-          "name": "Runnels A",
-          "lab_member": false
-        },
-        {
-          "name": "Scharlee C",
-          "lab_member": false
-        },
-        {
-          "name": "Shin J",
-          "lab_member": false
-        },
-        {
-          "name": "Veit AD",
-          "lab_member": true
-        },
-        {
-          "name": "VonDran M",
-          "lab_member": false
-        },
-        {
-          "name": "Wang Y",
-          "lab_member": false
-        },
-        {
-          "name": "Yuan DJ",
-          "lab_member": false
-        },
-        {
-          "name": "Zhao Y",
-          "lab_member": true
-        },
-        {
-          "name": "  SMaHT Single Cell Focus Group",
-          "lab_member": false
-        },
-        {
-          "name": "Bell TJ",
-          "lab_member": false
-        },
-        {
-          "name": "Ardlie K",
-          "lab_member": false
-        },
-        {
-          "name": "Doddapaneni H",
-          "lab_member": false
-        },
-        {
-          "name": "Fulton R",
-          "lab_member": false
-        },
-        {
-          "name": "Germer S",
-          "lab_member": false
-        },
-        {
-          "name": "Landau D",
-          "lab_member": false
-        },
-        {
-          "name": "Oh JW",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Vaccarino FM",
-          "lab_member": false
-        },
-        {
-          "name": "Walsh C",
-          "lab_member": false
-        },
-        {
-          "name": "Abyzov A",
-          "lab_member": false
-        }
-      ],
-      "title": "A comprehensive view of somatic mosaicism by single-cell DNA analysis",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.31.685648v1",
-      "abstract": "Single-cell DNA sequencing offers a powerful means of studying somatic mosaicism but requires careful analysis to mitigate DNA amplification-related artifacts. We performed primary template-directed amplification (PTA) and sequencing of 102 nuclei from postmortem lung and colon tissues of a 74-year-old male. Single-cell mutation burdens and spectra were validated by duplex sequencing and revealed heterogeneity across organs and cells, including signatures of APOBEC activity and tobacco exposure. Cells from both tissues exhibited chromosomal aneuploidies, loss of chromosome Y, and chromosomal rearrangements including rearrangements of the T-cell receptor loci indicative of T-cells. Shared embryonic mutations between cells enabled reconstruction of cellular ancestries from the zygote, which were validated by bulk sequencing. Collectively, we demonstrate a comprehensive approach for single-cell genomics that yields an expansive view of diverse somatic mutation types from development through aging across diverse tissues-insights that are obscured in bulk sequencing and only partially captured by other single-cell methods.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/a-comprehensive-view-of-somatic-mosaicism-by-single-cell-dna-analysis",
-      "year": "bioRxiv",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/2025.10.31.685648v1.full.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Zhang Y",
-          "lab_member": true
-        },
-        {
-          "name": "Qu H",
-          "lab_member": true
-        },
-        {
-          "name": "Qin Q",
-          "lab_member": false
-        },
-        {
-          "name": "Li H",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "Diploid donor-specific assembly enhances somatic structural variant detection in cancer genomes",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.28.685155v1",
-      "abstract": "Somatic structural variants (SVs) play a crucial role in tumor development and evolution, yet their identification remains challenging, partly due to limitations in current reference genomes. We present a systematic evaluation of diploid donor-specific assemblies (DSAs)-generated based on hybrid long-read sequencing data-as the reference genome for detecting somatic SVs. We analyzed six tumor-normal cell line pairs, using the EchoSV tool we developed to consolidate haplotype-based SVs into a single DSA-based set and to compare SVs across reference genomes. Across Illumina, PacBio HiFi, and Oxford Nanopore Technology (ONT) data, DSA-based analysis improved read-mapping quality, identified over 20% additional SVs compared to GRCh38 and CHM13, and reduced germline artifacts. Most DSA-specific SVs were isolated deletions or insertions in repetitive elements, especially in satellite regions. By tracking sequence-context differences, we identified scenarios in which DSAs enabled detection of SVs missed on GRCh38/CHM13, and confirmed their functional impact with RNA-seq. These results highlight the value of integrating diploid DSAs into somatic SV analysis.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/diploid-donor-specific-assembly-enhances-somatic-structural-variant-detection-in-cancer-genomes",
-      "year": "bioRxiv",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/2025.10.28.685155v1.full.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Jin H",
-          "lab_member": true
-        },
-        {
-          "name": "Andreopoulos M",
-          "lab_member": true
-        },
-        {
-          "name": "Viswanadham VV",
-          "lab_member": true
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "Systematic artifacts from Illumina two-color chemistry confound variant identification and actionability in clinical panels",
-      "title_link": "https://www.medrxiv.org/content/10.1101/2025.10.17.25338254v1?__cf_chl_tk=XDms6Lq35wBFf052HDlub709OMRJAwFlIbaLUxhKUhQ-1776806759-1.0.1.1-c.gmOYM1xa5PN_fLFutNfr.vaq7K_vy4K1Bd3zhGbT0",
-      "abstract": "Illumina short-read sequencing underpins clinical cancer genomics, with targeted panels widely used to detect actionable variants. Newer Illumina platforms employ a two-color chemistry to accelerate sequencing, but its impact on variant identification has not been systematically evaluated. Here we show that two-color platforms generate recurrent T>G artifacts in targeted panels at low variant allele fractions, predominantly occurring in specific trinucleotide contexts. These artifacts can produce spurious pathogenic variants in key cancer genes such as TP53 and KIT , and inflate tumor mutational burden, a metric considered when assessing patient eligibility for immunotherapy. Accounting for such artifacts is therefore essential for accurate interpretation of clinical panel data.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/systematic-artifacts-from-illumina-two-color-chemistry-confound-variant-identification-and-actionability-in-clinical-panels",
-      "year": "2025",
-      "type": "2025",
-      "journal": "medRxiv",
-      "journal_location": "medRxiv",
-      "pdf_link": "/publications/pdf/2025.10.17.25338254v1.full.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Gulhan DC",
-          "lab_member": false
-        },
-        {
-          "name": "Barras D",
-          "lab_member": false
-        },
-        {
-          "name": "Mina M",
-          "lab_member": false
-        },
-        {
-          "name": "Ghisoni E",
-          "lab_member": false
-        },
-        {
-          "name": "Kim Y",
-          "lab_member": false
-        },
-        {
-          "name": "Viswanadham V",
-          "lab_member": true
-        },
-        {
-          "name": "Jin H",
-          "lab_member": true
-        },
-        {
-          "name": "Huber F",
-          "lab_member": false
-        },
-        {
-          "name": "Homicsko K",
-          "lab_member": false
-        },
-        {
-          "name": "Bassani-Sternberg M",
-          "lab_member": false
-        },
-        {
-          "name": "Ciriello G",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Laniti DD",
-          "lab_member": false
-        }
-      ],
-      "title": "Tissue specificity and chromosomal alterations shape divergent immune programs in HRD tumors",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681986v1",
-      "abstract": "Homologous recombination deficiency (HRD) activates pro-inflammatory cGAS/STING signaling, positioning it as a biomarker for combining immune checkpoint blockade (ICB) and PARP inhibition (PARPi). However, the consequences of HRD on the immune landscape across cancers remain unclear. Here, we applied a pan-cancer HRD classifier to >10,000 tumors from The Cancer Genome Atlas and uncovered striking heterogeneity in immune activity. Compared to HR-proficient tumors, HRD tumors showed elevated inflammation in breast, ovarian, and endometrial cancers. These tumors exhibited robust activation of innate and adaptive immune pathways (IFN, NF-κB) and transcriptional hallmarks of senescence, angiogenesis, and adenosine signaling. In contrast, lung, head and neck, and melanoma HRD tumors displayed suppressed inflammation and evidence of immune escape through large-scale loss-of-heterozygosity (LOH) at IFNA/B, STING, and other loci. These tumors also frequently presented HLA LOH and oncogene amplifications, suggesting selection under immune pressure and replication stress. Together, our study resolves HRD tumors into two immune archetypes, immune-inflamed and immune-evasive, linked to chromosomal instability and lineage, informing biomarker-driven evaluation of immune checkpoint blockade/PARPi combinatorial therapies.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/tissue-specificity-and-chromosomal-alterations-shape-divergent-immune-programs-in-hrd-tumors",
-      "year": "bioRxiv",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/2025.10.13.681986v1.full.pdf"
-    },
-    {
-  "author": [
-    {
-      "name": "Wang S",
-      "lab_member": false
-    },
-    {
-      "name": "Bae M",
-      "lab_member": false
-    },
-    {
-      "name": "Wang J",
-      "lab_member": false
-    },
-    {
-      "name": "Zhao B",
-      "lab_member": false
-    },
-    {
-      "name": "Nguyen K",
-      "lab_member": false
-    },
-    {
-      "name": "Mallett S",
-      "lab_member": false
-    },
-    {
-      "name": "Switzenberg JA",
-      "lab_member": false
-    },
-    {
-      "name": "Losh SJ",
-      "lab_member": false
-    },
-    {
-      "name": "Sexton CE",
-      "lab_member": true
-    },
-    {
-      "name": "Miao B",
-      "lab_member": false
-    },
-    {
-      "name": "Dong S",
-      "lab_member": false
-    },
-    {
-      "name": "Zeng X",
-      "lab_member": false
-    },
-    {
-      "name": "Wang Z",
-      "lab_member": false
-    },
-    {
-      "name": "McDonald TL",
-      "lab_member": false
-    },
-    {
-      "name": "Mumm C",
-      "lab_member": false
-    },
-    {
-      "name": "Gadde RK",
-      "lab_member": false
-    },
-    {
-      "name": "Tariq AM",
-      "lab_member": false
-    },
-    {
-      "name": "Chen Z",
-      "lab_member": false
-    },
-    {
-      "name": "Feng WC",
-      "lab_member": true
-    },
-    {
-      "name": "Burn A",
-      "lab_member": false
-    },
-    {
-      "name": "Park J",
-      "lab_member": false
-    },
-    {
-      "name": "Chu C",
-      "lab_member": true
-    },
-    {
-      "name": "Shen H",
-      "lab_member": false
-    },
-    {
-      "name": "Wang T",
-      "lab_member": false
-    },
-    {
-      "name": "Urban AE",
-      "lab_member": false
-    },
-    {
-      "name": "Zhu X",
-      "lab_member": false
-    },
-    {
-      "name": "Li H",
-      "lab_member": false
-    },
-    {
-      "name": "Burns KH",
-      "lab_member": false
-    },
-    {
-      "name": "Chun HE",
-      "lab_member": true
-    },
-    {
-      "name": "Park PJ",
-      "lab_member": true
-    },
-    {
-      "name": "Mills RE",
-      "lab_member": false
-    },
-    {
-      "name": "Zhou W",
-      "lab_member": false
-    },
-    {
-      "name": "Lee EA",
-      "lab_member": true
-    }
-    ],
-      "title": "Multi-platform framework for mapping somatic retrotransposition in human tissues",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.07.680917v1",
-      "abstract": "Mobile element insertions (MEI) shape the human genome in both germline and somatic tissues. While inherited MEIs are well characterized, mapping somatic MEIs (sMEI) in non-cancer tissues remains challenging due to their low allelic fraction and repetitive nature. We established an integrative framework for sMEI analysis leveraging modern sequencing technologies and analytical innovations. We first benchmarked sMEI detection and demonstrated advantages of long-read and MEI-targeted sequencing for ultra-low-frequency events using a mixture of well-established cell lines. We then showed that haplotype phasing and donor-specific assemblies refine sMEI detection, effectively distinguishing from germline and false signals in in-silico tumor-normal mixtures. We further developed a source-tracing strategy based on internal sequence variation, expanding the catalogue of active source elements beyond traditional transduction-based methods. Applying this framework to donor tissues, we identified 18 rare somatic L1 insertions, revealing structural and source diversity. Our work provides a foundational framework and biological insight into sMEIs.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/multi-platform-framework-for-mapping-somatic-retrotransposition-in-human-tissue",
-      "year": "bioRxiv",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/2025.10.07.680917v1.full.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Zhang Y",
-          "lab_member": true
-        },
-        {
-          "name": "English AC",
-          "lab_member": false
-        },
-        {
-          "name": "Paulin LF",
-          "lab_member": false
-        },
-        {
-          "name": "Grochowski CM",
-          "lab_member": false
-        },
-        {
-          "name": "Maheshwari S",
-          "lab_member": false
-        },
-        {
-          "name": "Mack T",
-          "lab_member": false
-        },
-        {
-          "name": "Berselli M",
-          "lab_member": true
-        },
-        {
-          "name": "Veit AD",
-          "lab_member": true
-        },
-        {
-          "name": "Fu Y",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Sedlazeck FJ",
-          "lab_member": false
-        }
-      ],
-      "title": "Comprehensive benchmarking of somatic structural variant detection at ultra-low allele fractions",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.09.18.677206v1",
-      "abstract": "Postzygotic mosaicism gives rise to somatic structural variants (SVs) at ultra-low variant allele fractions (VAFs), which pose challenges for detection due to the high-coverage sequencing required and noise introduced by sequencing artifacts. Although somatic SV detection has been extensively studied in cancer, these studies are not directly applicable to the study of tissue mosaicism, as they rely on matched normals, target higher VAF ranges, and are enriched for different types of SVs. We present comprehensive benchmark data and best practices for non-cancer somatic SV detection. We created a synthetic mosaic sample by combining six HapMap individuals at varying proportions, generating allele fractions as low as 0.25%. This sample was sequenced to ~2,300x total coverage using Illumina, PacBio, and Nanopore technologies across multiple sequencing centers. A high-confidence benchmark SV set containing over 21,000 pseudo-somatic insertions and deletions ≥50bp was derived from haplotype-resolved assemblies. We evaluated 12 SV discovery pipelines and identified caller-specific strengths and sequencing platform-specific shortcomings. We find that short read-based approaches show reduced recall for insertions and repeat-associated SVs, whereas long-read sequencing achieves high accuracy throughout the genome, increasing linearly with coverage. The best algorithm's sensitivity exceeded 80% for VAFs ≥4% and 15% for VAFs of 0.5-1% with 60x coverage. The publicly available benchmarking data and comparative analysis of current methods provide a foundation for robust discovery of SV mosaicism in non-cancer tissues.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-structural-variant-detection-at-ultra-low-allele-fractions",
-      "year": "bioRxiv",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/zhang_2025_biorxiv_benchmarking_somatic_sv.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Navelkar R",
-          "lab_member": true
-        },
-        {
-          "name": "Cosolo A",
-          "lab_member": true
-        },
-        {
-          "name": "Bintu B",
-          "lab_member": false
-        },
-        {
-          "name": "Cheng Y",
-          "lab_member": false
-        },
-        {
-          "name": "Gardeux V",
-          "lab_member": false
-        },
-        {
-          "name": "Gutnik S",
-          "lab_member": false
-        },
-        {
-          "name": "Fujimori T",
-          "lab_member": false
-        },
-        {
-          "name": "Hafner A",
-          "lab_member": false
-        },
-        {
-          "name": "Jay A",
-          "lab_member": false
-        },
-        {
-          "name": "Jia BB",
-          "lab_member": false
-        },
-        {
-          "name": "Jussila AP",
-          "lab_member": false
-        },
-        {
-          "name": "Llimos G",
-          "lab_member": false
-        },
-        {
-          "name": "Lioutas A",
-          "lab_member": false
-        },
-        {
-          "name": "Martins NMC",
-          "lab_member": false
-        },
-        {
-          "name": "Moore WJ",
-          "lab_member": false
-        },
-        {
-          "name": "Takei Y",
-          "lab_member": false
-        },
-        {
-          "name": "Wong F",
-          "lab_member": false
-        },
-        {
-          "name": "Yang K",
-          "lab_member": false
-        },
-        {
-          "name": "Zhang H",
-          "lab_member": false
-        },
-        {
-          "name": "Zhu Q",
-          "lab_member": false
-        },
-        {
-          "name": "Bienko M",
-          "lab_member": false
-        },
-        {
-          "name": "Bintu L",
-          "lab_member": false
-        },
-        {
-          "name": "Cai L",
-          "lab_member": false
-        },
-        {
-          "name": "Deplancke B",
-          "lab_member": false
-        },
-        {
-          "name": "Nollmann M",
-          "lab_member": false
-        },
-        {
-          "name": "Mango SE",
-          "lab_member": false
-        },
-        {
-          "name": "Ren B",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Sawh AN",
-          "lab_member": false
-        },
-        {
-          "name": "Schroeder A",
-          "lab_member": true
-        },
-        {
-          "name": "Swedlow JR",
-          "lab_member": false
-        },
-        {
-          "name": "Vahedi G",
-          "lab_member": false
-        },
-        {
-          "name": "Wu CT",
-          "lab_member": false
-        },
-        {
-          "name": "Aufmkolk S",
-          "lab_member": false
-        },
-        {
-          "name": "Boettiger AN",
-          "lab_member": false
-        },
-        {
-          "name": "Farabella I",
-          "lab_member": false
-        },
-        {
-          "name": "Strambio-De-Castillia C",
-          "lab_member": false
-        },
-        {
-          "name": "Wang S",
-          "lab_member": false
-        }
-      ],
-      "title": "FAIR sharing of Chromatin Tracing datasets using the newly developed 4DN FISH Omics Format",
-      "title_link": "https://pubmed.ncbi.nlm.nih.gov/40895078/",
-      "abstract": "A key output of the NIH-Common Fund 4D Nucleome (4DN) project 1,2 is the open publication of datasets related to the structure of the human cell nucleus and the genome. Recent years have seen a rapid expansion of multiplexed Fluorescence In Situ Hybridization (FISH) or FISH-omics methods, which quantify the spatial organization of chromatin in single cells, sometimes together with RNA and protein measurements, and provide an expanded understanding of how 3D higher-order chromosome structure relates to transcriptional activity and cell development in both health and disease. Despite this progress, results from Chromatin Tracing FISH-omics experiments are difficult to share, reuse, and subject to third-party downstream analysis due to the lack of standard specifications for data exchange. Following up on the recent publication of Microscopy Metadata specifications 3,4, we present the 4DN FISH Omics Format - Chromatin Tracing (FOF-CT), a community-developed data standard for processed results derived from a wide variety of imaging techniques for Chromatin Tracing, with the most recent studies falling roughly into two categories: ball-and-stick and volumetric based on whether they represent the targeted genomic segment as individual fluorescence spots or as clouds of single-molecule localizations. To demonstrate the value and potential use of FOF-CT to promote the FAIR sharing of the results obtained from Chromatin Tracing techniques, this manuscript will focus on ball-and-stick Chromatin Tracing techniques, including those described by the pioneering Chromatin Tracing study of Wang et al. 5 as well as Optical Reconstruction of Chromatin Architecture (ORCA) 6, microscopy-based chromosome conformation capture (Hi-M) 7, Multiplexed Imaging of Nucleome Architectures (MINA) 8, DNA Sequential Fluorescence In Situ Hybridization (DNA seqFISH/seqFISH+) 9-11, Oligopaint Fluorescent In Situ Sequencing (OligoFISSEQ) 12, DNA Multiplexed error-robust fluorescence in situ hybridization (DNA-MERFISH) 13, and In-situ Genomic Sequencing (IGS) 14. The manuscript will describe the structure of the format and present a collection of FOF-CT datasets that were recently deposited to the 4DN Data Portal 15 and the Open Microscopy Environment (OME) Image Data Resource (IDR) platform 16 and are ideally suited for promoting reuse, exchange, further processing, and integrative modeling. Furthermore, the manuscript will present examples of analysis pipelines that could be applied more widely due to the existence of the FOF-CT exchange data format and provide examples of biological conclusions that could be drawn thanks to the availability of such datasets.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/fair-sharing-of-chromatin-tracing-datasets-using-the-newly-developed-4dn-fish-omics-format",
-      "year": "2025",
-      "type": "2025",
-      "journal": "arXiv",
-      "journal_location": "arXiv",
-      "pdf_link": "/publications/pdf/navelkar_2025_arxiv_fair_chromatin_tracing.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Ahooyi TM",
-          "lab_member": false
-        },
-        {
-          "name": "Stear B",
-          "lab_member": false
-        },
-        {
-          "name": "Simmons JA",
-          "lab_member": false
-        },
-        {
-          "name": "Metzger VT",
-          "lab_member": false
-        },
-        {
-          "name": "Kumar P",
-          "lab_member": false
-        },
-        {
-          "name": "Evangelista JE",
-          "lab_member": false
-        },
-        {
-          "name": "Clarke DJB",
-          "lab_member": false
-        },
-        {
-          "name": "Xie Z",
-          "lab_member": false
-        },
-        {
-          "name": "Kim H",
-          "lab_member": false
-        },
-        {
-          "name": "Jenkins SL",
-          "lab_member": false
-        },
-        {
-          "name": "Maurya MR",
-          "lab_member": false
-        },
-        {
-          "name": "Ramachandran S",
-          "lab_member": false
-        },
-        {
-          "name": "Fahy E",
-          "lab_member": false
-        },
-        {
-          "name": "Gillespie TH",
-          "lab_member": false
-        },
-        {
-          "name": "Imam FT",
-          "lab_member": false
-        },
-        {
-          "name": "Kokash N",
-          "lab_member": false
-        },
-        {
-          "name": "Roth ME",
-          "lab_member": false
-        },
-        {
-          "name": "Fullem R",
-          "lab_member": false
-        },
-        {
-          "name": "Jevtic D",
-          "lab_member": false
-        },
-        {
-          "name": "Mihajlovic A",
-          "lab_member": false
-        },
-        {
-          "name": "Tiemeyer M",
-          "lab_member": false
-        },
-        {
-          "name": "Bakker C",
-          "lab_member": true
-        },
-        {
-          "name": "Schroeder AJ",
-          "lab_member": true
-        },
-        {
-          "name": "Markowski J",
-          "lab_member": true
-        },
-        {
-          "name": "Nedzel J",
-          "lab_member": false
-        },
-        {
-          "name": "Hill DD",
-          "lab_member": false
-        },
-        {
-          "name": "Terry J",
-          "lab_member": false
-        },
-        {
-          "name": "Nemarich C",
-          "lab_member": false
-        },
-        {
-          "name": "Boline J",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Ardlie KG",
-          "lab_member": false
-        },
-        {
-          "name": "Vora J",
-          "lab_member": false
-        },
-        {
-          "name": "Mazumder R",
-          "lab_member": false
-        },
-        {
-          "name": "Ranzinger R",
-          "lab_member": false
-        },
-        {
-          "name": "de Bono B",
-          "lab_member": false
-        },
-        {
-          "name": "Subramaniam S",
-          "lab_member": false
-        },
-        {
-          "name": "Grethe JS",
-          "lab_member": false
-        },
-        {
-          "name": "Yang JJ",
-          "lab_member": false
-        },
-        {
-          "name": "Lambert CG",
-          "lab_member": false
-        },
-        {
-          "name": "Resnick A",
-          "lab_member": false
-        },
-        {
-          "name": "Milosavljevic A",
-          "lab_member": false
-        },
-        {
-          "name": "Ma'ayan A",
-          "lab_member": false
-        },
-        {
-          "name": "Silverstein JC",
-          "lab_member": false
-        },
-        {
-          "name": "Taylor DM",
-          "lab_member": false
-        }
-      ],
-      "title": "The Data Distillery: A Graph Framework for Semantic Integration and Querying of Biomedical Data",
-      "title_link": "https://doi.org/10.1101/2025.08.11.666099",
-      "abstract": "The Data Distillery Knowledge Graph (DDKG) is a framework for semantic integration and querying of biomedical data across domains. Built for the NIH Common Fund Data Ecosystem, it supports translational research by linking clinical and experimental datasets in a unified graph model. Clinical standards such as ICD-10, SNOMED, and DrugBank are integrated through UMLS, while genomics and basic science data are structured using ontologies and standards such as HPO, GENCODE, Ensembl, STRING, and ClinVar. The DDKG uses a property graph architecture based on the UBKG infrastructure and supports ontology-based ingestion, identifier normalization, and graph-native querying. The system is modular and can be extended with new datasets or schema modules. We demonstrate its utility for informatics queries across eight use cases, including regulatory variant analysis, tissue-specific expression, biomarker discovery, and cross-species variant prioritization. The DDKG is accessible via a public interface, a programmatic API, and downloadable builds for local use.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/the-data-distillery-a-graph-framework-for-semantic-integration-and-querying-of-biomedical-data",
-      "year": "bioRxiv",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/ahooyi_2025_biorxiv_data_distillery.pdf"
     },
     {
       "author": [
@@ -2673,6 +1648,648 @@
     {
       "author": [
         {
+          "name": "Kanellos G",
+          "lab_member": false
+        },
+        {
+          "name": "Giacomelli C",
+          "lab_member": false
+        },
+        {
+          "name": "Raven A",
+          "lab_member": false
+        },
+        {
+          "name": "Vlahov N",
+          "lab_member": false
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Herviou P",
+          "lab_member": false
+        },
+        {
+          "name": "Malla SB",
+          "lab_member": false
+        },
+        {
+          "name": "Nasreddin N",
+          "lab_member": false
+        },
+        {
+          "name": "Centeno PP",
+          "lab_member": false
+        },
+        {
+          "name": "Alexandrou C",
+          "lab_member": false
+        },
+        {
+          "name": "Gilroy K",
+          "lab_member": false
+        },
+        {
+          "name": "Baird RL",
+          "lab_member": false
+        },
+        {
+          "name": "Pennel K",
+          "lab_member": false
+        },
+        {
+          "name": "Munro J",
+          "lab_member": false
+        },
+        {
+          "name": "Waldron JA",
+          "lab_member": false
+        },
+        {
+          "name": "Hall H",
+          "lab_member": false
+        },
+        {
+          "name": "Officer-Jones L",
+          "lab_member": false
+        },
+        {
+          "name": "Bryson S",
+          "lab_member": false
+        },
+        {
+          "name": "Strathdee D",
+          "lab_member": false
+        },
+        {
+          "name": "Lilla S",
+          "lab_member": false
+        },
+        {
+          "name": "Zanivan S",
+          "lab_member": false
+        },
+        {
+          "name": "Morrison V",
+          "lab_member": false
+        },
+        {
+          "name": "Nixon C",
+          "lab_member": false
+        },
+        {
+          "name": "Ridgway RA",
+          "lab_member": false
+        },
+        {
+          "name": "Miller C",
+          "lab_member": false
+        },
+        {
+          "name": "Knight JRP",
+          "lab_member": false
+        },
+        {
+          "name": "Campbell AD",
+          "lab_member": false
+        },
+        {
+          "name": "Dunne PD",
+          "lab_member": false
+        },
+        {
+          "name": "Le Quesne J",
+          "lab_member": false
+        },
+        {
+          "name": "Edwards J",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Bushell M",
+          "lab_member": false
+        },
+        {
+          "name": "Sansom OJ",
+          "lab_member": false
+        }
+      ],
+      "title": "Nucleophosmin supports WNT-driven hyperproliferation and tumor initiation",
+      "title_link": "https://www.nature.com/articles/s41588-025-02408-7",
+      "abstract": "Nucleophosmin (NPM1), a nucleolar protein frequently mutated in hematopoietic malignancies, is overexpressed in several solid tumors with poorly understood functional roles. Here, we demonstrate that Npm1 is upregulated after APC loss in WNT-responsive tissues and supports WNT-driven intestinal and liver tumorigenesis. Mechanistically, NPM1 loss induces ribosome pausing and accumulation at the 5’-end of coding sequences, triggering a protein synthesis stress response and p53 activation, which mediate this antitumorigenic effect. Collectively, our data identify NPM1 as a critical WNT effector that sustains WNT-driven hyperproliferation and tumorigenesis by attenuating the integrated stress response and p53 activation. Notably, NPM1 expression correlates with elevated WNT signaling and proliferation in human colorectal cancer (CRC), while CRCs harboring NPM1 deletions exhibit preferential TP53 inactivation, underscoring the clinical relevance of our findings. Being dispensable for adult epithelial homeostasis, NPM1 represents a promising therapeutic target in p53-proficient WNT-driven tumors, including treatment-refractory KRAS-mutant CRC, and hepatic cancers.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/nucleophosmin-supports-wnt-driven-hyperproliferation-and-tumor-initiation",
+      "pdf_link": "/publications/pdf/s41588-025-02408-7.pdf",
+      "year": "2025",
+      "type": "2025",
+      "journal": "Nature Genetics",
+      "journal_location": "Nature Genetics 2026;58(1):100-115"
+    },
+    {
+      "author": [
+        {
+          "name": "Luquette LJ**",
+          "lab_member": true
+        },
+        {
+          "name": "Coorens THH",
+          "lab_member": false
+        },
+        {
+          "name": "Natu A",
+          "lab_member": false
+        },
+        {
+          "name": "Suvakov M",
+          "lab_member": false
+        },
+        {
+          "name": "Caplin A",
+          "lab_member": true
+        },
+        {
+          "name": "Jun MS",
+          "lab_member": false
+        },
+        {
+          "name": "Mo A",
+          "lab_member": false
+        },
+        {
+          "name": "Pelt J",
+          "lab_member": false
+        },
+        {
+          "name": "Anderson L",
+          "lab_member": false
+        },
+        {
+          "name": "Berselli M",
+          "lab_member": true
+        },
+        {
+          "name": "Bhamidipati S",
+          "lab_member": false
+        },
+        {
+          "name": "Blanchard T",
+          "lab_member": false
+        },
+        {
+          "name": "Brew J",
+          "lab_member": true
+        },
+        {
+          "name": "Chun HE",
+          "lab_member": true
+        },
+        {
+          "name": "Chun H",
+          "lab_member": true
+        },
+        {
+          "name": "Dehankar MK",
+          "lab_member": false
+        },
+        {
+          "name": "Feng WC",
+          "lab_member": true
+        },
+        {
+          "name": "Furatero R",
+          "lab_member": false
+        },
+        {
+          "name": "Grochowski CM",
+          "lab_member": false
+        },
+        {
+          "name": "Ho E",
+          "lab_member": false
+        },
+        {
+          "name": "Jang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Kottapalli K",
+          "lab_member": false
+        },
+        {
+          "name": "Leonard MK",
+          "lab_member": false
+        },
+        {
+          "name": "Lim NS",
+          "lab_member": false
+        },
+        {
+          "name": "Lindsay T",
+          "lab_member": false
+        },
+        {
+          "name": "Nicholson S",
+          "lab_member": true
+        },
+        {
+          "name": "Raimondi I",
+          "lab_member": false
+        },
+        {
+          "name": "Runnels A",
+          "lab_member": false
+        },
+        {
+          "name": "Scharlee C",
+          "lab_member": false
+        },
+        {
+          "name": "Shin J",
+          "lab_member": false
+        },
+        {
+          "name": "Veit AD",
+          "lab_member": true
+        },
+        {
+          "name": "VonDran M",
+          "lab_member": false
+        },
+        {
+          "name": "Wang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Yuan DJ",
+          "lab_member": false
+        },
+        {
+          "name": "Zhao Y",
+          "lab_member": true
+        },
+        {
+          "name": "  SMaHT Single Cell Focus Group",
+          "lab_member": false
+        },
+        {
+          "name": "Bell TJ",
+          "lab_member": false
+        },
+        {
+          "name": "Ardlie K",
+          "lab_member": false
+        },
+        {
+          "name": "Doddapaneni H",
+          "lab_member": false
+        },
+        {
+          "name": "Fulton R",
+          "lab_member": false
+        },
+        {
+          "name": "Germer S",
+          "lab_member": false
+        },
+        {
+          "name": "Landau D",
+          "lab_member": false
+        },
+        {
+          "name": "Oh JW",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Vaccarino FM",
+          "lab_member": false
+        },
+        {
+          "name": "Walsh C",
+          "lab_member": false
+        },
+        {
+          "name": "Abyzov A**",
+          "lab_member": false
+        }
+      ],
+      "title": "A comprehensive view of somatic mosaicism by single-cell DNA analysis",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.31.685648v1",
+      "abstract": "Single-cell DNA sequencing offers a powerful means of studying somatic mosaicism but requires careful analysis to mitigate DNA amplification-related artifacts. We performed primary template-directed amplification (PTA) and sequencing of 102 nuclei from postmortem lung and colon tissues of a 74-year-old male. Single-cell mutation burdens and spectra were validated by duplex sequencing and revealed heterogeneity across organs and cells, including signatures of APOBEC activity and tobacco exposure. Cells from both tissues exhibited chromosomal aneuploidies, loss of chromosome Y, and chromosomal rearrangements including rearrangements of the T-cell receptor loci indicative of T-cells. Shared embryonic mutations between cells enabled reconstruction of cellular ancestries from the zygote, which were validated by bulk sequencing. Collectively, we demonstrate a comprehensive approach for single-cell genomics that yields an expansive view of diverse somatic mutation types from development through aging across diverse tissues-insights that are obscured in bulk sequencing and only partially captured by other single-cell methods.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/a-comprehensive-view-of-somatic-mosaicism-by-single-cell-dna-analysis",
+      "year": "bioRxiv",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2025.10.31.685648v1.full.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Zhang Y",
+          "lab_member": true
+        },
+        {
+          "name": "Qu H",
+          "lab_member": true
+        },
+        {
+          "name": "Qin Q",
+          "lab_member": false
+        },
+        {
+          "name": "Li H",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Diploid donor-specific assembly enhances somatic structural variant detection in cancer genomes",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.28.685155v1",
+      "abstract": "Somatic structural variants (SVs) play a crucial role in tumor development and evolution, yet their identification remains challenging, partly due to limitations in current reference genomes. We present a systematic evaluation of diploid donor-specific assemblies (DSAs)-generated based on hybrid long-read sequencing data-as the reference genome for detecting somatic SVs. We analyzed six tumor-normal cell line pairs, using the EchoSV tool we developed to consolidate haplotype-based SVs into a single DSA-based set and to compare SVs across reference genomes. Across Illumina, PacBio HiFi, and Oxford Nanopore Technology (ONT) data, DSA-based analysis improved read-mapping quality, identified over 20% additional SVs compared to GRCh38 and CHM13, and reduced germline artifacts. Most DSA-specific SVs were isolated deletions or insertions in repetitive elements, especially in satellite regions. By tracking sequence-context differences, we identified scenarios in which DSAs enabled detection of SVs missed on GRCh38/CHM13, and confirmed their functional impact with RNA-seq. These results highlight the value of integrating diploid DSAs into somatic SV analysis.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/diploid-donor-specific-assembly-enhances-somatic-structural-variant-detection-in-cancer-genomes",
+      "year": "bioRxiv",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2025.10.28.685155v1.full.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Viswanadham VV*",
+          "lab_member": true
+        },
+        {
+          "name": "Kim SN*",
+          "lab_member": false
+        },
+        {
+          "name": "Caglayan E",
+          "lab_member": false
+        },
+        {
+          "name": "Doan RN",
+          "lab_member": false
+        },
+        {
+          "name": "Dou Y",
+          "lab_member": false
+        },
+        {
+          "name": "Bizzotto S",
+          "lab_member": false
+        },
+        {
+          "name": "Khoshkhoo S",
+          "lab_member": false
+        },
+        {
+          "name": "Huang AY",
+          "lab_member": false
+        },
+        {
+          "name": "Yeh R",
+          "lab_member": false
+        },
+        {
+          "name": "Chhouk BH",
+          "lab_member": false
+        },
+        {
+          "name": "Truong A",
+          "lab_member": false
+        },
+        {
+          "name": "Chappell KM",
+          "lab_member": false
+        },
+        {
+          "name": "Beaudin M",
+          "lab_member": false
+        },
+        {
+          "name": "Barton A",
+          "lab_member": false
+        },
+        {
+          "name": "Akula SK",
+          "lab_member": false
+        },
+        {
+          "name": "Zhao Y",
+          "lab_member": true
+        },
+        {
+          "name": "Rento L",
+          "lab_member": false
+        },
+        {
+          "name": "Lodato M",
+          "lab_member": false
+        },
+        {
+          "name": "Szeto RA",
+          "lab_member": false
+        },
+        {
+          "name": "Ganz J",
+          "lab_member": false
+        },
+        {
+          "name": "Li P",
+          "lab_member": false
+        },
+        {
+          "name": "Tsai JW",
+          "lab_member": false
+        },
+        {
+          "name": "Hill RS",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        },
+        {
+          "name": "Walsh CA**",
+          "lab_member": false
+        }
+      ],
+      "title": "Combined somatic mutation and transcriptome analysis reveals region-specific differences in clonal architecture in human cortex",
+      "title_link": "https://www.sciencedirect.com/science/article/pii/S221112472501229X",
+      "abstract": "The human cerebral cortex is specialized into regions, but little is known about how human cellular lineages shape cortical regional variation and neuronal cell-type distribution during development. Here, we map single-cell lineages of human cortical regions and neuronal subtypes using >1,000 somatic single-nucleotide variants (sSNVs) identified from deep bulk whole-genome sequencing and analyzed over 25 regions and >72,000 single cells. In the fronto-parietal cortex, sSNVs are rarely restricted, marking neuron-generating clones that disperse into neighboring regions. In contrast, the primary visual cortex harbors 30%–70% more sSNVs than the neighboring secondary visual cortex. Clones at this border exhibit more restricted dispersion, suggesting late developmental lineage segregation. Single-nucleus sSNV and whole-transcriptome analysis reveal glutamatergic neuron clones with modest regional restrictions that share low-mosaic sSNVs with some GABAergic neurons, suggesting a recent dorsal cortical progenitor. Our analysis reveals human-specific cortical lineage patterns, regional differences in clonal patterns, and late divergence of some glutamatergic/GABAergic lineages.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/combined-somatic-mutation-and-transcriptome-analysis-reveals-region-specific-differences-in-clonal-architecture-in-human-cortex",
+      "year": "2025",
+      "type": "2025",
+      "journal": "Cell Reports",
+      "journal_location": "Cell Reports 2025;44(11):116458",
+      "pdf_link": "/publications/pdf/2025-combined-somatic-mutation.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Gulhan DC",
+          "lab_member": false
+        },
+        {
+          "name": "Barras D",
+          "lab_member": false
+        },
+        {
+          "name": "Mina M",
+          "lab_member": false
+        },
+        {
+          "name": "Ghisoni E",
+          "lab_member": false
+        },
+        {
+          "name": "Kim Y",
+          "lab_member": false
+        },
+        {
+          "name": "Viswanadham V",
+          "lab_member": true
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Huber F",
+          "lab_member": false
+        },
+        {
+          "name": "Homicsko K",
+          "lab_member": false
+        },
+        {
+          "name": "Bassani-Sternberg M",
+          "lab_member": false
+        },
+        {
+          "name": "Ciriello G",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Laniti DD",
+          "lab_member": false
+        }
+      ],
+      "title": "Tissue specificity and chromosomal alterations shape divergent immune programs in HRD tumors",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681986v1",
+      "abstract": "Homologous recombination deficiency (HRD) activates pro-inflammatory cGAS/STING signaling, positioning it as a biomarker for combining immune checkpoint blockade (ICB) and PARP inhibition (PARPi). However, the consequences of HRD on the immune landscape across cancers remain unclear. Here, we applied a pan-cancer HRD classifier to >10,000 tumors from The Cancer Genome Atlas and uncovered striking heterogeneity in immune activity. Compared to HR-proficient tumors, HRD tumors showed elevated inflammation in breast, ovarian, and endometrial cancers. These tumors exhibited robust activation of innate and adaptive immune pathways (IFN, NF-κB) and transcriptional hallmarks of senescence, angiogenesis, and adenosine signaling. In contrast, lung, head and neck, and melanoma HRD tumors displayed suppressed inflammation and evidence of immune escape through large-scale loss-of-heterozygosity (LOH) at IFNA/B, STING, and other loci. These tumors also frequently presented HLA LOH and oncogene amplifications, suggesting selection under immune pressure and replication stress. Together, our study resolves HRD tumors into two immune archetypes, immune-inflamed and immune-evasive, linked to chromosomal instability and lineage, informing biomarker-driven evaluation of immune checkpoint blockade/PARPi combinatorial therapies.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/tissue-specificity-and-chromosomal-alterations-shape-divergent-immune-programs-in-hrd-tumors",
+      "year": "bioRxiv",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2025.10.13.681986v1.full.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Woo KA",
+          "lab_member": true
+        },
+        {
+          "name": "Jang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Kim H**",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        }
+      ],
+      "title": "GLP1R expression and parkinson’s disease and related disorders in GLP-1RA-treated type 2 diabetes",
+      "title_link": "https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awag130/8651260?redirectedFrom=fulltext&login=false",
+      "abstract": "Preclinical and epidemiologic data suggest that glucagon-like peptide-1 receptor agonists (GLP-1RAs) may reduce the risk of Parkinson's disease and related disorders (PDRD), yet clinical trial findings have been mixed, raising the possibility of biologically meaningful heterogeneity. We tested whether interindividual differences in systemic GLP1R expression are associated with PDRD risk among adults with type 2 diabetes initiating GLP-1RAs. We conducted an electronic health record (EHR)-based new-user cohort study in the National Institutes of Health All of Us Research Program, focusing on adults with type 2 diabetes aged 50 years or older who initiated a GLP-1RA between 2005 and 2023 and had no prior PDRD or Alzheimer's disease and related dementias (ADRD). Systemic GLP1R expression was genetically proxied by a 15-variant cis-expression quantitative trait locus (cis-eQTL) genetic risk score dichotomized at the cohort median. Follow-up ended at the earliest of incident PDRD, death, or October 1, 2023. Hazard ratios were estimated using multivariable Cox proportional hazards models adjusting for baseline covariates, and incidence rates and rate differences per 1,000 person-years were estimated using Poisson models. Prespecified sensitivity analyses excluded early outcome events and short drug exposure; an exploratory analysis evaluated incident ADRD. The cohort included 7,039 initiators (3,520 high vs 3,519 low genetic score; mean age 61.7 ± 8.4 years; 59.8% female; mean follow-up 3.8 ± 3.1 years). Compared with the low-score group, the high-score group had a lower hazard of incident PDRD (hazard ratio 0.78; 95% confidence interval 0.62 to 0.98) and a lower incidence rate (rate difference -1.36 per 1,000 person-years; 95% confidence interval -2.51 to -0.20). Associations were consistent across sensitivity analyses. No association was observed for incident ADRD (hazard ratio 1.02; 95% confidence interval 0.81 to 1.28). These findings link a mechanism-anchored genetic proxy for higher systemic GLP1R expression to a lower risk of incident PDRD among GLP-1RA-treated adults with type 2 diabetes. Systemic GLP1R-mediated pathways may be relevant to interindividual differences in observed PDRD risk, and genetic instruments for GLP1R expression may inform hypotheses for future PDRD trial design.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/GLP1R-expression-and-parkinsons-disease-and-related-disorders-in-GLP-1RA-treatedtype-2-diabetes",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Brain",
+      "journal_location": "Brain, 2026; https://doi.org/10.1093/brain/awag130"
+    },
+    {
+      "author": [
+        {
+          "name": "Zhang Y",
+          "lab_member": true
+        },
+        {
+          "name": "English AC",
+          "lab_member": false
+        },
+        {
+          "name": "Paulin LF",
+          "lab_member": false
+        },
+        {
+          "name": "Grochowski CM",
+          "lab_member": false
+        },
+        {
+          "name": "Maheshwari S",
+          "lab_member": false
+        },
+        {
+          "name": "Mack T",
+          "lab_member": false
+        },
+        {
+          "name": "Berselli M",
+          "lab_member": true
+        },
+        {
+          "name": "Veit AD",
+          "lab_member": true
+        },
+        {
+          "name": "Fu Y",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        },
+        {
+          "name": "Sedlazeck FJ**",
+          "lab_member": false
+        }
+      ],
+      "title": "Comprehensive benchmarking of somatic structural variant detection at ultra-low allele fractions",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.09.18.677206v1",
+      "abstract": "Postzygotic mosaicism gives rise to somatic structural variants (SVs) at ultra-low variant allele fractions (VAFs), which pose challenges for detection due to the high-coverage sequencing required and noise introduced by sequencing artifacts. Although somatic SV detection has been extensively studied in cancer, these studies are not directly applicable to the study of tissue mosaicism, as they rely on matched normals, target higher VAF ranges, and are enriched for different types of SVs. We present comprehensive benchmark data and best practices for non-cancer somatic SV detection. We created a synthetic mosaic sample by combining six HapMap individuals at varying proportions, generating allele fractions as low as 0.25%. This sample was sequenced to ~2,300x total coverage using Illumina, PacBio, and Nanopore technologies across multiple sequencing centers. A high-confidence benchmark SV set containing over 21,000 pseudo-somatic insertions and deletions ≥50bp was derived from haplotype-resolved assemblies. We evaluated 12 SV discovery pipelines and identified caller-specific strengths and sequencing platform-specific shortcomings. We find that short read-based approaches show reduced recall for insertions and repeat-associated SVs, whereas long-read sequencing achieves high accuracy throughout the genome, increasing linearly with coverage. The best algorithm's sensitivity exceeded 80% for VAFs ≥4% and 15% for VAFs of 0.5-1% with 60x coverage. The publicly available benchmarking data and comparative analysis of current methods provide a foundation for robust discovery of SV mosaicism in non-cancer tissues.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-structural-variant-detection-at-ultra-low-allele-fractions",
+      "year": "bioRxiv",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/zhang_2025_biorxiv_benchmarking_somatic_sv.pdf"
+    },
+    {
+      "author": [
+        {
           "name": "Zhao Y",
           "lab_member": true
         },
@@ -2734,19 +2351,204 @@
     {
       "author": [
         {
-          "name": "Kim Y-N",
+          "name": "Ahooyi TM",
+          "lab_member": false
+        },
+        {
+          "name": "Stear B",
+          "lab_member": false
+        },
+        {
+          "name": "Simmons JA",
+          "lab_member": false
+        },
+        {
+          "name": "Metzger VT",
+          "lab_member": false
+        },
+        {
+          "name": "Kumar P",
+          "lab_member": false
+        },
+        {
+          "name": "Evangelista JE",
+          "lab_member": false
+        },
+        {
+          "name": "Clarke DJB",
+          "lab_member": false
+        },
+        {
+          "name": "Xie Z",
+          "lab_member": false
+        },
+        {
+          "name": "Kim H",
+          "lab_member": false
+        },
+        {
+          "name": "Jenkins SL",
+          "lab_member": false
+        },
+        {
+          "name": "Maurya MR",
+          "lab_member": false
+        },
+        {
+          "name": "Ramachandran S",
+          "lab_member": false
+        },
+        {
+          "name": "Fahy E",
+          "lab_member": false
+        },
+        {
+          "name": "Gillespie TH",
+          "lab_member": false
+        },
+        {
+          "name": "Imam FT",
+          "lab_member": false
+        },
+        {
+          "name": "Kokash N",
+          "lab_member": false
+        },
+        {
+          "name": "Roth ME",
+          "lab_member": false
+        },
+        {
+          "name": "Fullem R",
+          "lab_member": false
+        },
+        {
+          "name": "Jevtic D",
+          "lab_member": false
+        },
+        {
+          "name": "Mihajlovic A",
+          "lab_member": false
+        },
+        {
+          "name": "Tiemeyer M",
+          "lab_member": false
+        },
+        {
+          "name": "Bakker C",
           "lab_member": true
         },
         {
-          "name": "Gulhan DC",
+          "name": "Schroeder AJ",
           "lab_member": true
         },
         {
-          "name": "Jin H",
+          "name": "Markowski J",
           "lab_member": true
         },
         {
-          "name": "Glodzik D",
+          "name": "Nedzel J",
+          "lab_member": false
+        },
+        {
+          "name": "Hill DD",
+          "lab_member": false
+        },
+        {
+          "name": "Terry J",
+          "lab_member": false
+        },
+        {
+          "name": "Nemarich C",
+          "lab_member": false
+        },
+        {
+          "name": "Boline J",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Ardlie KG",
+          "lab_member": false
+        },
+        {
+          "name": "Vora J",
+          "lab_member": false
+        },
+        {
+          "name": "Mazumder R",
+          "lab_member": false
+        },
+        {
+          "name": "Ranzinger R",
+          "lab_member": false
+        },
+        {
+          "name": "de Bono B",
+          "lab_member": false
+        },
+        {
+          "name": "Subramaniam S",
+          "lab_member": false
+        },
+        {
+          "name": "Grethe JS",
+          "lab_member": false
+        },
+        {
+          "name": "Yang JJ",
+          "lab_member": false
+        },
+        {
+          "name": "Lambert CG",
+          "lab_member": false
+        },
+        {
+          "name": "Resnick A",
+          "lab_member": false
+        },
+        {
+          "name": "Milosavljevic A",
+          "lab_member": false
+        },
+        {
+          "name": "Ma'ayan A",
+          "lab_member": false
+        },
+        {
+          "name": "Silverstein JC",
+          "lab_member": false
+        },
+        {
+          "name": "Taylor DM",
+          "lab_member": false
+        }
+      ],
+      "title": "The Data Distillery: A Graph Framework for Semantic Integration and Querying of Biomedical Data",
+      "title_link": "https://doi.org/10.1101/2025.08.11.666099",
+      "abstract": "The Data Distillery Knowledge Graph (DDKG) is a framework for semantic integration and querying of biomedical data across domains. Built for the NIH Common Fund Data Ecosystem, it supports translational research by linking clinical and experimental datasets in a unified graph model. Clinical standards such as ICD-10, SNOMED, and DrugBank are integrated through UMLS, while genomics and basic science data are structured using ontologies and standards such as HPO, GENCODE, Ensembl, STRING, and ClinVar. The DDKG uses a property graph architecture based on the UBKG infrastructure and supports ontology-based ingestion, identifier normalization, and graph-native querying. The system is modular and can be extended with new datasets or schema modules. We demonstrate its utility for informatics queries across eight use cases, including regulatory variant analysis, tissue-specific expression, biomarker discovery, and cross-species variant prioritization. The DDKG is accessible via a public interface, a programmatic API, and downloadable builds for local use.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/the-data-distillery-a-graph-framework-for-semantic-integration-and-querying-of-biomedical-data",
+      "year": "bioRxiv",
+      "type": "2025",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/ahooyi_2025_biorxiv_data_distillery.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Jin H*",
+          "lab_member": true
+        },
+        {
+          "name": "Andreopoulos M*",
+          "lab_member": true
+        },
+        {
+          "name": "Viswanadham VV",
           "lab_member": true
         },
         {
@@ -2754,15 +2556,180 @@
           "lab_member": true
         }
       ],
-      "title": "Recent Advances in Genomic Approaches for the Detection of Homologous Recombination Deficiency",
-      "title_link": "https://e-crt.org/journal/view.php?doi=10.4143/crt.2024.154",
-      "abstract": "Accurate detection of homologous recombination deficiency (HRD) in cancer patients is paramount in clinical applications, as HRD confers sensitivity to poly (ADP-ribose) polymerase (PARP) inhibitors. With the advances in genome sequencing technology, mutational profiling on a genome-wide scale has become readily accessible, and our knowledge of the genomic consequences of HRD has been greatly expanded and refined. Here, we review the recent advances in HRD detection methods. We examine the copy number and structural alterations that often accompany the genome instability that results from HRD, describe the advantages of mutational signature-based methods that do not rely on specific gene mutations, and review some of the existing algorithms used for HRD detection. We also discuss the choice of sequencing platforms (panel, exome, or whole-genome) and catalog the HRD detection assays used in key PARP inhibitor trials.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/recent-advances-genomic-approaches-detection-homologous-recombination",
-      "pdf_link": "/publications/pdf/Yoo-Na-Kim-2024-07-17.pdf",
-      "year": "2024",
-      "type": "2024",
-      "journal": "Cancer Research",
-      "journal_location": "Cancer Research and Treatment 2024;56(4):975-990"
+      "title": "Systematic artifacts from Illumina two-color chemistry confound variant identification and actionability in clinical panels",
+      "title_link": "https://www.medrxiv.org/content/10.1101/2025.10.17.25338254v1?__cf_chl_tk=XDms6Lq35wBFf052HDlub709OMRJAwFlIbaLUxhKUhQ-1776806759-1.0.1.1-c.gmOYM1xa5PN_fLFutNfr.vaq7K_vy4K1Bd3zhGbT0",
+      "abstract": "Illumina short-read sequencing underpins clinical cancer genomics, with targeted panels widely used to detect actionable variants. Newer Illumina platforms employ a two-color chemistry to accelerate sequencing, but its impact on variant identification has not been systematically evaluated. Here we show that two-color platforms generate recurrent T>G artifacts in targeted panels at low variant allele fractions, predominantly occurring in specific trinucleotide contexts. These artifacts can produce spurious pathogenic variants in key cancer genes such as TP53 and KIT , and inflate tumor mutational burden, a metric considered when assessing patient eligibility for immunotherapy. Accounting for such artifacts is therefore essential for accurate interpretation of clinical panel data.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/systematic-artifacts-from-illumina-two-color-chemistry-confound-variant-identification-and-actionability-in-clinical-panels",
+      "year": "bioRxiv",
+      "type": "2025",
+      "journal": "medRxiv",
+      "journal_location": "medRxiv",
+      "pdf_link": "/publications/pdf/2025.10.17.25338254v1.full.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Navelkar R",
+          "lab_member": true
+        },
+        {
+          "name": "Cosolo A",
+          "lab_member": true
+        },
+        {
+          "name": "Bintu B",
+          "lab_member": false
+        },
+        {
+          "name": "Cheng Y",
+          "lab_member": false
+        },
+        {
+          "name": "Gardeux V",
+          "lab_member": false
+        },
+        {
+          "name": "Gutnik S",
+          "lab_member": false
+        },
+        {
+          "name": "Fujimori T",
+          "lab_member": false
+        },
+        {
+          "name": "Hafner A",
+          "lab_member": false
+        },
+        {
+          "name": "Jay A",
+          "lab_member": false
+        },
+        {
+          "name": "Jia BB",
+          "lab_member": false
+        },
+        {
+          "name": "Jussila AP",
+          "lab_member": false
+        },
+        {
+          "name": "Llimos G",
+          "lab_member": false
+        },
+        {
+          "name": "Lioutas A",
+          "lab_member": false
+        },
+        {
+          "name": "Martins NMC",
+          "lab_member": false
+        },
+        {
+          "name": "Moore WJ",
+          "lab_member": false
+        },
+        {
+          "name": "Takei Y",
+          "lab_member": false
+        },
+        {
+          "name": "Wong F",
+          "lab_member": false
+        },
+        {
+          "name": "Yang K",
+          "lab_member": false
+        },
+        {
+          "name": "Zhang H",
+          "lab_member": false
+        },
+        {
+          "name": "Zhu Q",
+          "lab_member": false
+        },
+        {
+          "name": "Bienko M",
+          "lab_member": false
+        },
+        {
+          "name": "Bintu L",
+          "lab_member": false
+        },
+        {
+          "name": "Cai L",
+          "lab_member": false
+        },
+        {
+          "name": "Deplancke B",
+          "lab_member": false
+        },
+        {
+          "name": "Nollmann M",
+          "lab_member": false
+        },
+        {
+          "name": "Mango SE",
+          "lab_member": false
+        },
+        {
+          "name": "Ren B",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Sawh AN",
+          "lab_member": false
+        },
+        {
+          "name": "Schroeder A",
+          "lab_member": true
+        },
+        {
+          "name": "Swedlow JR",
+          "lab_member": false
+        },
+        {
+          "name": "Vahedi G",
+          "lab_member": false
+        },
+        {
+          "name": "Wu CT",
+          "lab_member": false
+        },
+        {
+          "name": "Aufmkolk S",
+          "lab_member": false
+        },
+        {
+          "name": "Boettiger AN",
+          "lab_member": false
+        },
+        {
+          "name": "Farabella I",
+          "lab_member": false
+        },
+        {
+          "name": "Strambio-De-Castillia C",
+          "lab_member": false
+        },
+        {
+          "name": "Wang S",
+          "lab_member": false
+        }
+      ],
+      "title": "FAIR sharing of Chromatin Tracing datasets using the newly developed 4DN FISH Omics Format",
+      "title_link": "https://pubmed.ncbi.nlm.nih.gov/40895078/",
+      "abstract": "A key output of the NIH-Common Fund 4D Nucleome (4DN) project 1,2 is the open publication of datasets related to the structure of the human cell nucleus and the genome. Recent years have seen a rapid expansion of multiplexed Fluorescence In Situ Hybridization (FISH) or FISH-omics methods, which quantify the spatial organization of chromatin in single cells, sometimes together with RNA and protein measurements, and provide an expanded understanding of how 3D higher-order chromosome structure relates to transcriptional activity and cell development in both health and disease. Despite this progress, results from Chromatin Tracing FISH-omics experiments are difficult to share, reuse, and subject to third-party downstream analysis due to the lack of standard specifications for data exchange. Following up on the recent publication of Microscopy Metadata specifications 3,4, we present the 4DN FISH Omics Format - Chromatin Tracing (FOF-CT), a community-developed data standard for processed results derived from a wide variety of imaging techniques for Chromatin Tracing, with the most recent studies falling roughly into two categories: ball-and-stick and volumetric based on whether they represent the targeted genomic segment as individual fluorescence spots or as clouds of single-molecule localizations. To demonstrate the value and potential use of FOF-CT to promote the FAIR sharing of the results obtained from Chromatin Tracing techniques, this manuscript will focus on ball-and-stick Chromatin Tracing techniques, including those described by the pioneering Chromatin Tracing study of Wang et al. 5 as well as Optical Reconstruction of Chromatin Architecture (ORCA) 6, microscopy-based chromosome conformation capture (Hi-M) 7, Multiplexed Imaging of Nucleome Architectures (MINA) 8, DNA Sequential Fluorescence In Situ Hybridization (DNA seqFISH/seqFISH+) 9-11, Oligopaint Fluorescent In Situ Sequencing (OligoFISSEQ) 12, DNA Multiplexed error-robust fluorescence in situ hybridization (DNA-MERFISH) 13, and In-situ Genomic Sequencing (IGS) 14. The manuscript will describe the structure of the format and present a collection of FOF-CT datasets that were recently deposited to the 4DN Data Portal 15 and the Open Microscopy Environment (OME) Image Data Resource (IDR) platform 16 and are ideally suited for promoting reuse, exchange, further processing, and integrative modeling. Furthermore, the manuscript will present examples of analysis pipelines that could be applied more widely due to the existence of the FOF-CT exchange data format and provide examples of biological conclusions that could be drawn thanks to the availability of such datasets.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/fair-sharing-of-chromatin-tracing-datasets-using-the-newly-developed-4dn-fish-omics-format",
+      "year": "2025",
+      "type": "2025",
+      "journal": "arXiv",
+      "journal_location": "arXiv",
+      "pdf_link": "/publications/pdf/navelkar_2025_arxiv_fair_chromatin_tracing.pdf"
     },
     {
       "author": [
@@ -2824,27 +2791,6 @@
       "type": "2024",
       "journal": "Nature",
       "journal_location": "Nature Communications 2024;15(1):2106"
-    },
-    {
-      "author": [
-        {
-          "name": "Geiger B",
-          "lab_member": true
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "On the Connection Between Non-negative Matrix Factorization and Latent Dirichlet Allocation",
-      "title_link": "https://compbio.hms.harvard.edu/publications/on-the-connection-between-non-negative-matrix-factorization-and-latent-dirichlet-allocation",
-      "abstract": "Non-negative matrix factorization with the generalized Kullback–Leibler divergence (NMF) and latent Dirichlet allocation (LDA) are two popular approaches for dimensionality reduction of non-negative data. Here, we show that NMF with ℓ1 normalizationconstraints on the columnsof both matrices of the decomposition and a Dirichlet prior on the columns of one matrix is equivalent to LDA. To show this, we demonstrate that explicitly accounting for the scaling ambiguity of NMF by adding ℓ1 normalization constraints to the optimization problem allows a joint update of both matrices in the widely used multiplicative updates (MU) algorithm. When both of the matrices are normalized, the joint MU algorithm leads to probabilistic latent semantic analysis (PLSA), which is LDA without a Dirichlet prior. Our approach of deriving joint updates for NMF also reveals that a Lasso penalty on one matrix together with an ℓ1 normalization constraint on the other matrix is insufficient to induce any sparsity.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/on-the-connection-between-non-negative-matrix-factorization-and-latent-dirichlet-allocation",
-      "pdf_link": "/publications/pdf/Benedikt-Geiger-2024-05-30.pdf",
-      "year": "2024",
-      "type": "2024",
-      "journal": "arXiv",
-      "journal_location": "arXiv"
     },
     {
       "author": [
@@ -3032,6 +2978,39 @@
     {
       "author": [
         {
+          "name": "Kim Y-N",
+          "lab_member": true
+        },
+        {
+          "name": "Gulhan DC",
+          "lab_member": true
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Glodzik D",
+          "lab_member": true
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Recent Advances in Genomic Approaches for the Detection of Homologous Recombination Deficiency",
+      "title_link": "https://e-crt.org/journal/view.php?doi=10.4143/crt.2024.154",
+      "abstract": "Accurate detection of homologous recombination deficiency (HRD) in cancer patients is paramount in clinical applications, as HRD confers sensitivity to poly (ADP-ribose) polymerase (PARP) inhibitors. With the advances in genome sequencing technology, mutational profiling on a genome-wide scale has become readily accessible, and our knowledge of the genomic consequences of HRD has been greatly expanded and refined. Here, we review the recent advances in HRD detection methods. We examine the copy number and structural alterations that often accompany the genome instability that results from HRD, describe the advantages of mutational signature-based methods that do not rely on specific gene mutations, and review some of the existing algorithms used for HRD detection. We also discuss the choice of sequencing platforms (panel, exome, or whole-genome) and catalog the HRD detection assays used in key PARP inhibitor trials.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/recent-advances-genomic-approaches-detection-homologous-recombination",
+      "pdf_link": "/publications/pdf/Yoo-Na-Kim-2024-07-17.pdf",
+      "year": "2024",
+      "type": "2024",
+      "journal": "Cancer Research",
+      "journal_location": "Cancer Research and Treatment 2024;56(4):975-990"
+    },
+    {
+      "author": [
+        {
           "name": "Boiarsky D",
           "lab_member": false
         },
@@ -3097,182 +3076,23 @@
     {
       "author": [
         {
-          "name": "Yang HW",
-          "lab_member": false
-        },
-        {
-          "name": "Lee S",
-          "lab_member": false
-        },
-        {
-          "name": "Berry BC",
-          "lab_member": false
-        },
-        {
-          "name": "Yang D",
-          "lab_member": false
-        },
-        {
-          "name": "Zheng S",
-          "lab_member": false
-        },
-        {
-          "name": "Carroll RS",
-          "lab_member": false
+          "name": "Geiger B",
+          "lab_member": true
         },
         {
           "name": "Park PJ",
           "lab_member": true
-        },
-        {
-          "name": "Johnson MD",
-          "lab_member": false
         }
       ],
-      "title": "A role for mutations in AK9 and other genes affecting ependymal cells in idiopathic normal pressure hydrocephalus",
-      "title_link": "https://www.pnas.org/doi/abs/10.1073/pnas.2300681120?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%20%200pubmed",
-      "abstract": "Idiopathic normal pressure hydrocephalus (iNPH) is an enigmatic neurological disorder that develops after age 60 and is characterized by gait difficulty, dementia, and incontinence. Recently, we reported that heterozygousCWH43deletions may cause iNPH. Here, we identify mutations affecting nine additional genes (AK9,RXFP2, PRKD1, HAVCR1, OTOG, MYO7A, NOTCH1, SPG11, and MYH13) that are statistically enriched among iNPH patients. The encoded proteins are all highly expressed in choroid plexus and ependymal cells, and most have been associated with cilia. Damaging mutations inAK9, which encodes an adenylate kinase, were detected in 9.6% of iNPH patients. Mice homozygous for an iNPH-associatedAK9mutation displayed normal cilia structure and number, but decreased cilia motility and beat frequency, communicating hydrocephalus, and balance impairment.AK9+/− mice displayed normal brain development and behavior until early adulthood, but subsequently developed communicating hydrocephalus. Together, our findings suggest that heterozygous mutations that impair ventricular epithelial function may contribute to iNPH.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/role-mutations-ak9-and-other-genes-affecting-ependymal-cells-idiopathic-normal",
-      "pdf_link": "/publications/pdf/yang-et-al-2023-a-role-for-mutations-in-ak9-and-other-genes-affecting-ependymal-cells-in-idiopathic-normal-pressure.pdf",
-      "year": "2023",
-      "journal": "Proc Natl Acad Sci U S A",
-      "journal_location": "PNAS 2023;120(51)"
-    },
-    {
-      "author": [
-        {
-          "name": "Garrison MA",
-          "lab_member": false
-        },
-        {
-          "name": "Jang Y",
-          "lab_member": false
-        },
-        {
-          "name": "Bae T",
-          "lab_member": false
-        },
-        {
-          "name": "Cherskov A",
-          "lab_member": false
-        },
-        {
-          "name": "Emery SB",
-          "lab_member": false
-        },
-        {
-          "name": "Fasching L",
-          "lab_member": false
-        },
-        {
-          "name": "Jones A",
-          "lab_member": false
-        },
-        {
-          "name": "Moldovan JB",
-          "lab_member": false
-        },
-        {
-          "name": "Molitor C",
-          "lab_member": false
-        },
-        {
-          "name": "Pochareddy S",
-          "lab_member": false
-        },
-        {
-          "name": "Peters MA",
-          "lab_member": false
-        },
-        {
-          "name": "Shin JH",
-          "lab_member": false
-        },
-        {
-          "name": "Wang Y",
-          "lab_member": false
-        },
-        {
-          "name": "Yang X",
-          "lab_member": false
-        },
-        {
-          "name": "Akbarian S",
-          "lab_member": false
-        },
-        {
-          "name": "Chess A",
-          "lab_member": false
-        },
-        {
-          "name": "Gage FH",
-          "lab_member": false
-        },
-        {
-          "name": "Gleeson JG",
-          "lab_member": false
-        },
-        {
-          "name": "Kidd JM",
-          "lab_member": false
-        },
-        {
-          "name": "McConnell M",
-          "lab_member": false
-        },
-        {
-          "name": "Mills RE",
-          "lab_member": false
-        },
-        {
-          "name": "Moran JV",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Sestan N",
-          "lab_member": false
-        },
-        {
-          "name": "Urban AE",
-          "lab_member": false
-        },
-        {
-          "name": "Vaccarino FM",
-          "lab_member": false
-        },
-        {
-          "name": "Walsh CA",
-          "lab_member": false
-        },
-        {
-          "name": "Weinberger DR",
-          "lab_member": false
-        },
-        {
-          "name": "Wheelan SJ",
-          "lab_member": false
-        },
-        {
-          "name": "Abyzov A",
-          "lab_member": false
-        },
-        {
-          "name": "Consortium BSMN",
-          "lab_member": false
-        }
-      ],
-      "title": "Genomic data resources of the Brain Somatic Mosaicism Network for neuropsychiatric diseases",
-      "title_link": "https://compbio.hms.harvard.edu/publications/genomic-data-resources-brain-somatic-mosaicism-network-neuropsychiatric",
-      "abstract": "Somatic mosaicism is defined as an occurrence of two or more populations of cells having genomic sequences differing at given loci in an individual who is derived from a single zygote. It is a characteristic of multicellular organisms that plays a crucial role in normal development and disease. To study the nature and extent of somatic mosaicism in autism spectrum disorder, bipolar disorder, focal cortical dysplasia, schizophrenia, and Tourette syndrome, a multi-institutional consortium called the Brain Somatic Mosaicism Network (BSMN) was formed through the National Institute of Mental Health (NIMH). In addition to genomic data of affected and neurotypical brains, the BSMN also developed and validated a best practices somatic single nucleotide variant calling workflow through the analysis of reference brain tissue. These resources, which include >400 terabytes of data from 1087 subjects, are now available to the research community via the NIMH Data Archive (NDA) and are described here.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/genomic-data-resources-brain-somatic-mosaicism-network-neuropsychiatric",
-      "pdf_link": "/publications/pdf/s41597-023-02645-7.pdf",
-      "year": "2023",
-      "journal": "Scientific Data",
-      "journal_location": "Scientific Data 2023;10(1):813"
+      "title": "On the Connection Between Non-negative Matrix Factorization and Latent Dirichlet Allocation",
+      "title_link": "https://compbio.hms.harvard.edu/publications/on-the-connection-between-non-negative-matrix-factorization-and-latent-dirichlet-allocation",
+      "abstract": "Non-negative matrix factorization with the generalized Kullback–Leibler divergence (NMF) and latent Dirichlet allocation (LDA) are two popular approaches for dimensionality reduction of non-negative data. Here, we show that NMF with ℓ1 normalizationconstraints on the columnsof both matrices of the decomposition and a Dirichlet prior on the columns of one matrix is equivalent to LDA. To show this, we demonstrate that explicitly accounting for the scaling ambiguity of NMF by adding ℓ1 normalization constraints to the optimization problem allows a joint update of both matrices in the widely used multiplicative updates (MU) algorithm. When both of the matrices are normalized, the joint MU algorithm leads to probabilistic latent semantic analysis (PLSA), which is LDA without a Dirichlet prior. Our approach of deriving joint updates for NMF also reveals that a Lasso penalty on one matrix together with an ℓ1 normalization constraint on the other matrix is insufficient to induce any sparsity.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/on-the-connection-between-non-negative-matrix-factorization-and-latent-dirichlet-allocation",
+      "pdf_link": "/publications/pdf/Benedikt-Geiger-2024-05-30.pdf",
+      "year": "2024",
+      "type": "2024",
+      "journal": "arXiv",
+      "journal_location": "arXiv"
     },
     {
       "author": [
@@ -3373,310 +3193,6 @@
       "year": "2023",
       "journal": "Nature",
       "journal_location": "Nature Methods 2023;20(12):1834-1835"
-    },
-    {
-      "author": [
-        {
-          "name": "Chu C",
-          "lab_member": true
-        },
-        {
-          "name": "Lin EW",
-          "lab_member": false
-        },
-        {
-          "name": "Tran A",
-          "lab_member": true
-        },
-        {
-          "name": "Jin H",
-          "lab_member": true
-        },
-        {
-          "name": "Ho NI",
-          "lab_member": false
-        },
-        {
-          "name": "Veit A",
-          "lab_member": true
-        },
-        {
-          "name": "Cortes-Ciriano I",
-          "lab_member": true
-        },
-        {
-          "name": "Burns KH",
-          "lab_member": false
-        },
-        {
-          "name": "Ting DT",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "The landscape of human SVA retrotransposons",
-      "title_link": "https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad821/7308677?login=false",
-      "abstract": "SINE-VNTR-Alu (SVA) retrotransposons are evolutionarily young and still-active transposable elements (TEs) in the human genome. Several pathogenic SVA insertions have been identified that directly mutate host genes to cause neurodegenerative and other types of diseases. However, due to their sequence heterogeneity and complex structures as well as limitations in sequencing techniques and analysis, SVA insertions have been less well studied compared to other mobile element insertions. Here, we identified polymorphic SVA insertions from 3646 whole-genome sequencing (WGS) samples of >150 diverse populations and constructed a polymorphic SVA insertion reference catalog. Using 20 long-read samples, we also assembled reference and polymorphic SVA sequences and characterized the internal hexamer/variable-number-tandem-repeat (VNTR) expansions as well as differing SVA activity for SVA subfamilies and human populations. In addition, we developed a module to annotate both reference and polymorphic SVA copies. By characterizing the landscape of both reference and polymorphic SVA retrotransposons, our study enables more accurate genotyping of these elements and facilitate the discovery of pathogenic SVA insertions.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/landscape-human-sva-retrotransposons",
-      "pdf_link": "/publications/pdf/gkad821.pdf",
-      "year": "2023",
-      "journal": "Nucleic Acids Res",
-      "journal_location": "Nucleic Acids Research 2023;51(21):11453-11465"
-    },
-    {
-      "author": [
-        {
-          "name": "Mariño-Enríquez A",
-          "lab_member": false
-        },
-        {
-          "name": "Philipp Novotny J",
-          "lab_member": false
-        },
-        {
-          "name": "Gulhan DC",
-          "lab_member": true
-        },
-        {
-          "name": "Klooster I",
-          "lab_member": false
-        },
-        {
-          "name": "Tran AV",
-          "lab_member": true
-        },
-        {
-          "name": "Kasbo M",
-          "lab_member": false
-        },
-        {
-          "name": "Lundberg MZ",
-          "lab_member": false
-        },
-        {
-          "name": "Ou W-B",
-          "lab_member": false
-        },
-        {
-          "name": "Tao DL",
-          "lab_member": false
-        },
-        {
-          "name": "Pilco-Janeta DF",
-          "lab_member": false
-        },
-        {
-          "name": "Mao VY",
-          "lab_member": true
-        },
-        {
-          "name": "Zenke FT",
-          "lab_member": false
-        },
-        {
-          "name": "Leeper BA",
-          "lab_member": false
-        },
-        {
-          "name": "Gokhale PC",
-          "lab_member": false
-        },
-        {
-          "name": "Cowley GS",
-          "lab_member": false
-        },
-        {
-          "name": "Baker LH",
-          "lab_member": false
-        },
-        {
-          "name": "Ballman KV",
-          "lab_member": false
-        },
-        {
-          "name": "Root DE",
-          "lab_member": false
-        },
-        {
-          "name": "Albers J",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "George S",
-          "lab_member": false
-        },
-        {
-          "name": "Fletcher JA",
-          "lab_member": false
-        }
-      ],
-      "title": "Hyper-Dependence on NHEJ Enables Synergy Between DNA-PK Inhibitors and Low-Dose Doxorubicin in Leiomyosarcoma",
-      "title_link": "https://pubmed.ncbi.nlm.nih.gov/37773632/",
-      "abstract": "Purpose:Leiomyosarcoma (LMS) is an aggressive sarcoma for which standard chemotherapies achieve response rates under 30%. There are no effective targeted therapies against LMS. Most LMS are characterized by chromosomal instability (CIN), resulting in part from TP53 and RB1 co-inactivation and DNA damage repair defects. We sought to identify therapeutic targets that could exacerbate intrinsic CIN and DNA damage in LMS, inducing lethal genotoxicity.Experimental design:We performed clinical targeted sequencing in 287 LMS and genome-wide loss-of-function screens in 3 patient-derived LMS cell lines, to identify LMS-specific dependencies. We validated candidate targets by biochemical and cell-response assays in vitro and in 7 mouse models.Results:Clinical targeted sequencing revealed a high burden of somatic copy number alterations (median fraction of the genome altered=0.62) and demonstrated homologous recombination deficiency signatures in 35% of LMS. Genome-wide shRNA screens demonstrated PRKDC (DNA-PKcs) and RPA2 essentiality, consistent with compensatory non-homologous end joining hyper-dependence. DNA-PK inhibitor combinations with unconventionally low-dose doxorubicin had synergistic activity in LMS in vitro models. Combination therapy with peposertib and low-dose doxorubicin (standard or liposomal formulations) inhibited growth of 5 of 7 LMS mouse models without toxicity.Conclusion:Combinations of DNA-PK inhibitors with unconventionally low, sensitizing, doxorubicin dosing showed synergistic effects in LMS in vitro and in vivo models, without discernable toxicity. These findings underscore the relevance of DNA damage repair alterations in LMS pathogenesis and identify dependence on NHEJ as a clinically actionable vulnerability in LMS.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/hyper-dependence-nhej-enables-synergy-between-dna-pk-inhibitors-and-low-dose",
-      "pdf_link": "/publications/pdf/CCR-23-0998.pdf",
-      "year": "2023",
-      "journal": "Clinical Cancer Research",
-      "journal_location": "Clinical Cancer Research 2023;29(24):5128-5139"
-    },
-    {
-      "author": [
-        {
-          "name": "Dekker J",
-          "lab_member": false
-        },
-        {
-          "name": "Alber F",
-          "lab_member": false
-        },
-        {
-          "name": "Aufmkolk S",
-          "lab_member": false
-        },
-        {
-          "name": "Believeau BJ",
-          "lab_member": false
-        },
-        {
-          "name": "Bruneau BG",
-          "lab_member": false
-        },
-        {
-          "name": "Belmont AS",
-          "lab_member": false
-        },
-        {
-          "name": "Bintu L",
-          "lab_member": false
-        },
-        {
-          "name": "Boettiger A",
-          "lab_member": false
-        },
-        {
-          "name": "Calandrelli R",
-          "lab_member": false
-        },
-        {
-          "name": "Disteche CM",
-          "lab_member": false
-        },
-        {
-          "name": "Gilbert DM",
-          "lab_member": false
-        },
-        {
-          "name": "Gregor T",
-          "lab_member": false
-        },
-        {
-          "name": "Hansen AS",
-          "lab_member": false
-        },
-        {
-          "name": "Huang B",
-          "lab_member": false
-        },
-        {
-          "name": "Huangfu D",
-          "lab_member": false
-        },
-        {
-          "name": "Kalhor R",
-          "lab_member": false
-        },
-        {
-          "name": "Leslie CS",
-          "lab_member": false
-        },
-        {
-          "name": "Li W",
-          "lab_member": false
-        },
-        {
-          "name": "Li Y",
-          "lab_member": false
-        },
-        {
-          "name": "Ma J",
-          "lab_member": false
-        },
-        {
-          "name": "Noble WS",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        },
-        {
-          "name": "Phillips-Cremins JE",
-          "lab_member": false
-        },
-        {
-          "name": "Pollard KS",
-          "lab_member": false
-        },
-        {
-          "name": "Rafelski SM",
-          "lab_member": false
-        },
-        {
-          "name": "Ren B",
-          "lab_member": false
-        },
-        {
-          "name": "Ruan Y",
-          "lab_member": false
-        },
-        {
-          "name": "Shav-Tal Y",
-          "lab_member": false
-        },
-        {
-          "name": "Shen Y",
-          "lab_member": false
-        },
-        {
-          "name": "Shendure J",
-          "lab_member": false
-        },
-        {
-          "name": "Shu X",
-          "lab_member": false
-        },
-        {
-          "name": "Strambio-De-Castilla C",
-          "lab_member": false
-        },
-        {
-          "name": "Vertii A",
-          "lab_member": false
-        },
-        {
-          "name": "Zhang H",
-          "lab_member": false
-        },
-        {
-          "name": "Zhong S",
-          "lab_member": false
-        }
-      ],
-      "title": "Spatial and temporal organization of the genome: Current state and future aims of the 4D nucleome project",
-      "title_link": "https://compbio.hms.harvard.edu/publications/spatial-and-temporal-organization-genome-current-state-and-future-aims-4d",
-      "abstract": "The four-dimensional nucleome (4DN) consortium studies the architecture of the genome and the nucleus in space and time. We summarize progress by the consortium and highlight the development of technologies for (1) mapping genome folding and identifying roles of nuclear components and bodies, proteins, andRNA, (2) characterizing nuclear organization with time or single-cell resolution, and (3) imaging of nuclear organization. With these tools, the consortium has provided over 2,000 public datasets. Integrative computational models based on these data are starting to reveal connections betweengenome structureand function. We then present a forward-looking perspective and outline current aims to (1) delineate dynamics of nuclear architecture at different timescales, from minutes to weeks as cells differentiate, in populations and in single cells, (2) characterizecis-determinants andtrans-modulators ofgenome organization, (3) test functional consequences of changes incis- andtrans-regulators, and (4) develop predictive models of genome structure and function.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/spatial-and-temporal-organization-genome-current-state-and-future-aims-4d",
-      "pdf_link": "/publications/pdf/1-s2.0-s1097276523004653-main.pdf",
-      "year": "2023",
-      "journal": "Molecular Cell",
-      "journal_location": "Molecular Cell 2023;83(15):2624-2640"
     },
     {
       "author": [
@@ -3878,6 +3394,158 @@
       "journal": "Nature",
       "journal_location": "Nature 2023;618(7967):1024-1032",
       "is_key_paper": true
+    },
+    {
+      "author": [
+        {
+          "name": "Dekker J",
+          "lab_member": false
+        },
+        {
+          "name": "Alber F",
+          "lab_member": false
+        },
+        {
+          "name": "Aufmkolk S",
+          "lab_member": false
+        },
+        {
+          "name": "Believeau BJ",
+          "lab_member": false
+        },
+        {
+          "name": "Bruneau BG",
+          "lab_member": false
+        },
+        {
+          "name": "Belmont AS",
+          "lab_member": false
+        },
+        {
+          "name": "Bintu L",
+          "lab_member": false
+        },
+        {
+          "name": "Boettiger A",
+          "lab_member": false
+        },
+        {
+          "name": "Calandrelli R",
+          "lab_member": false
+        },
+        {
+          "name": "Disteche CM",
+          "lab_member": false
+        },
+        {
+          "name": "Gilbert DM",
+          "lab_member": false
+        },
+        {
+          "name": "Gregor T",
+          "lab_member": false
+        },
+        {
+          "name": "Hansen AS",
+          "lab_member": false
+        },
+        {
+          "name": "Huang B",
+          "lab_member": false
+        },
+        {
+          "name": "Huangfu D",
+          "lab_member": false
+        },
+        {
+          "name": "Kalhor R",
+          "lab_member": false
+        },
+        {
+          "name": "Leslie CS",
+          "lab_member": false
+        },
+        {
+          "name": "Li W",
+          "lab_member": false
+        },
+        {
+          "name": "Li Y",
+          "lab_member": false
+        },
+        {
+          "name": "Ma J",
+          "lab_member": false
+        },
+        {
+          "name": "Noble WS",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Phillips-Cremins JE",
+          "lab_member": false
+        },
+        {
+          "name": "Pollard KS",
+          "lab_member": false
+        },
+        {
+          "name": "Rafelski SM",
+          "lab_member": false
+        },
+        {
+          "name": "Ren B",
+          "lab_member": false
+        },
+        {
+          "name": "Ruan Y",
+          "lab_member": false
+        },
+        {
+          "name": "Shav-Tal Y",
+          "lab_member": false
+        },
+        {
+          "name": "Shen Y",
+          "lab_member": false
+        },
+        {
+          "name": "Shendure J",
+          "lab_member": false
+        },
+        {
+          "name": "Shu X",
+          "lab_member": false
+        },
+        {
+          "name": "Strambio-De-Castilla C",
+          "lab_member": false
+        },
+        {
+          "name": "Vertii A",
+          "lab_member": false
+        },
+        {
+          "name": "Zhang H",
+          "lab_member": false
+        },
+        {
+          "name": "Zhong S",
+          "lab_member": false
+        }
+      ],
+      "title": "Spatial and temporal organization of the genome: Current state and future aims of the 4D nucleome project",
+      "title_link": "https://compbio.hms.harvard.edu/publications/spatial-and-temporal-organization-genome-current-state-and-future-aims-4d",
+      "abstract": "The four-dimensional nucleome (4DN) consortium studies the architecture of the genome and the nucleus in space and time. We summarize progress by the consortium and highlight the development of technologies for (1) mapping genome folding and identifying roles of nuclear components and bodies, proteins, andRNA, (2) characterizing nuclear organization with time or single-cell resolution, and (3) imaging of nuclear organization. With these tools, the consortium has provided over 2,000 public datasets. Integrative computational models based on these data are starting to reveal connections betweengenome structureand function. We then present a forward-looking perspective and outline current aims to (1) delineate dynamics of nuclear architecture at different timescales, from minutes to weeks as cells differentiate, in populations and in single cells, (2) characterizecis-determinants andtrans-modulators ofgenome organization, (3) test functional consequences of changes incis- andtrans-regulators, and (4) develop predictive models of genome structure and function.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/spatial-and-temporal-organization-genome-current-state-and-future-aims-4d",
+      "pdf_link": "/publications/pdf/1-s2.0-s1097276523004653-main.pdf",
+      "year": "2023",
+      "journal": "Molecular Cell",
+      "journal_location": "Molecular Cell 2023;83(15):2624-2640"
     },
     {
       "author": [
@@ -4246,71 +3914,27 @@
     {
       "author": [
         {
-          "name": "Batalini F",
+          "name": "Yang HW",
           "lab_member": false
         },
         {
-          "name": "Gulhan DC",
-          "lab_member": true
-        },
-        {
-          "name": "Mao V",
-          "lab_member": true
-        },
-        {
-          "name": "Tran A",
-          "lab_member": true
-        },
-        {
-          "name": "Polak M",
+          "name": "Lee S",
           "lab_member": false
         },
         {
-          "name": "Xiong N",
-          "lab_member": true
-        },
-        {
-          "name": "Tayob N",
+          "name": "Berry BC",
           "lab_member": false
         },
         {
-          "name": "Tung NM",
+          "name": "Yang D",
           "lab_member": false
         },
         {
-          "name": "Winer EP",
+          "name": "Zheng S",
           "lab_member": false
         },
         {
-          "name": "Mayer EL",
-          "lab_member": false
-        },
-        {
-          "name": "Knappskog S",
-          "lab_member": false
-        },
-        {
-          "name": "Lønning PE",
-          "lab_member": false
-        },
-        {
-          "name": "Matulonis UA",
-          "lab_member": false
-        },
-        {
-          "name": "Konstantinopoulos PA",
-          "lab_member": false
-        },
-        {
-          "name": "Solit DB",
-          "lab_member": false
-        },
-        {
-          "name": "Won H",
-          "lab_member": false
-        },
-        {
-          "name": "Eikesdal HP",
+          "name": "Carroll RS",
           "lab_member": false
         },
         {
@@ -4318,18 +3942,306 @@
           "lab_member": true
         },
         {
-          "name": "Wulf GM",
+          "name": "Johnson MD",
           "lab_member": false
         }
       ],
-      "title": "Mutational Signature 3 Detected from Clinical Panel Sequencing is Associated with Responses to Olaparib in Breast and Ovarian Cancers",
-      "title_link": "https://aacrjournals.org/clincancerres/article/28/21/4714/709823/Mutational-Signature-3-Detected-from-Clinical",
-      "abstract": "Purpose:The identification of patients with homologous recombination deficiency (HRD) beyond BRCA1/2 mutations is an urgent task, as they may benefit from PARP inhibitors. We have previously developed a method to detect mutational signature 3 (Sig3), termed SigMA, associated with HRD from clinical panel sequencing data, that is able to reliably detect HRD from the limited sequencing data derived from gene-focused panel sequencing.Experimental design:We apply this method to patients from two independent datasets: (i) high-grade serous ovarian cancer and triple-negative breast cancer (TNBC) from a phase Ib trial of the PARP inhibitor olaparib in combination with the PI3K inhibitor buparlisib (BKM120;NCT01623349), and (ii) TNBC patients who received neoadjuvant olaparib in the phase II PETREMAC trial (NCT02624973).Results:We find that Sig3 as detected by SigMA is positively associated with improved progression-free survival and objective responses. In addition, comparison of Sig3 detection in panel and exome-sequencing data from the same patient samples demonstrated highly concordant results and superior performance in comparison with the genomic instability score.Conclusions:Our analyses demonstrate that HRD can be detected reliably from panel-sequencing data that are obtained as part of routine clinical care, and that this approach can identify patients beyond those with germline BRCA1/2mut who might benefit from PARP inhibitors. Prospective clinical utility testing is warranted.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/mutational-signature-3-detected-clinical-panel-sequencing-associated-responses",
-      "pdf_link": "/publications/pdf/4714.pdf",
-      "year": "2022",
+      "title": "A role for mutations in AK9 and other genes affecting ependymal cells in idiopathic normal pressure hydrocephalus",
+      "title_link": "https://www.pnas.org/doi/abs/10.1073/pnas.2300681120?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%20%200pubmed",
+      "abstract": "Idiopathic normal pressure hydrocephalus (iNPH) is an enigmatic neurological disorder that develops after age 60 and is characterized by gait difficulty, dementia, and incontinence. Recently, we reported that heterozygousCWH43deletions may cause iNPH. Here, we identify mutations affecting nine additional genes (AK9,RXFP2, PRKD1, HAVCR1, OTOG, MYO7A, NOTCH1, SPG11, and MYH13) that are statistically enriched among iNPH patients. The encoded proteins are all highly expressed in choroid plexus and ependymal cells, and most have been associated with cilia. Damaging mutations inAK9, which encodes an adenylate kinase, were detected in 9.6% of iNPH patients. Mice homozygous for an iNPH-associatedAK9mutation displayed normal cilia structure and number, but decreased cilia motility and beat frequency, communicating hydrocephalus, and balance impairment.AK9+/− mice displayed normal brain development and behavior until early adulthood, but subsequently developed communicating hydrocephalus. Together, our findings suggest that heterozygous mutations that impair ventricular epithelial function may contribute to iNPH.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/role-mutations-ak9-and-other-genes-affecting-ependymal-cells-idiopathic-normal",
+      "pdf_link": "/publications/pdf/yang-et-al-2023-a-role-for-mutations-in-ak9-and-other-genes-affecting-ependymal-cells-in-idiopathic-normal-pressure.pdf",
+      "year": "2023",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_location": "PNAS 2023;120(51)"
+    },
+    {
+      "author": [
+        {
+          "name": "Garrison MA",
+          "lab_member": false
+        },
+        {
+          "name": "Jang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Bae T",
+          "lab_member": false
+        },
+        {
+          "name": "Cherskov A",
+          "lab_member": false
+        },
+        {
+          "name": "Emery SB",
+          "lab_member": false
+        },
+        {
+          "name": "Fasching L",
+          "lab_member": false
+        },
+        {
+          "name": "Jones A",
+          "lab_member": false
+        },
+        {
+          "name": "Moldovan JB",
+          "lab_member": false
+        },
+        {
+          "name": "Molitor C",
+          "lab_member": false
+        },
+        {
+          "name": "Pochareddy S",
+          "lab_member": false
+        },
+        {
+          "name": "Peters MA",
+          "lab_member": false
+        },
+        {
+          "name": "Shin JH",
+          "lab_member": false
+        },
+        {
+          "name": "Wang Y",
+          "lab_member": false
+        },
+        {
+          "name": "Yang X",
+          "lab_member": false
+        },
+        {
+          "name": "Akbarian S",
+          "lab_member": false
+        },
+        {
+          "name": "Chess A",
+          "lab_member": false
+        },
+        {
+          "name": "Gage FH",
+          "lab_member": false
+        },
+        {
+          "name": "Gleeson JG",
+          "lab_member": false
+        },
+        {
+          "name": "Kidd JM",
+          "lab_member": false
+        },
+        {
+          "name": "McConnell M",
+          "lab_member": false
+        },
+        {
+          "name": "Mills RE",
+          "lab_member": false
+        },
+        {
+          "name": "Moran JV",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Sestan N",
+          "lab_member": false
+        },
+        {
+          "name": "Urban AE",
+          "lab_member": false
+        },
+        {
+          "name": "Vaccarino FM",
+          "lab_member": false
+        },
+        {
+          "name": "Walsh CA",
+          "lab_member": false
+        },
+        {
+          "name": "Weinberger DR",
+          "lab_member": false
+        },
+        {
+          "name": "Wheelan SJ",
+          "lab_member": false
+        },
+        {
+          "name": "Abyzov A",
+          "lab_member": false
+        },
+        {
+          "name": "Consortium BSMN",
+          "lab_member": false
+        }
+      ],
+      "title": "Genomic data resources of the Brain Somatic Mosaicism Network for neuropsychiatric diseases",
+      "title_link": "https://compbio.hms.harvard.edu/publications/genomic-data-resources-brain-somatic-mosaicism-network-neuropsychiatric",
+      "abstract": "Somatic mosaicism is defined as an occurrence of two or more populations of cells having genomic sequences differing at given loci in an individual who is derived from a single zygote. It is a characteristic of multicellular organisms that plays a crucial role in normal development and disease. To study the nature and extent of somatic mosaicism in autism spectrum disorder, bipolar disorder, focal cortical dysplasia, schizophrenia, and Tourette syndrome, a multi-institutional consortium called the Brain Somatic Mosaicism Network (BSMN) was formed through the National Institute of Mental Health (NIMH). In addition to genomic data of affected and neurotypical brains, the BSMN also developed and validated a best practices somatic single nucleotide variant calling workflow through the analysis of reference brain tissue. These resources, which include >400 terabytes of data from 1087 subjects, are now available to the research community via the NIMH Data Archive (NDA) and are described here.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/genomic-data-resources-brain-somatic-mosaicism-network-neuropsychiatric",
+      "pdf_link": "/publications/pdf/s41597-023-02645-7.pdf",
+      "year": "2023",
+      "journal": "Scientific Data",
+      "journal_location": "Scientific Data 2023;10(1):813"
+    },
+    {
+      "author": [
+        {
+          "name": "Chu C",
+          "lab_member": true
+        },
+        {
+          "name": "Lin EW",
+          "lab_member": false
+        },
+        {
+          "name": "Tran A",
+          "lab_member": true
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Ho NI",
+          "lab_member": false
+        },
+        {
+          "name": "Veit A",
+          "lab_member": true
+        },
+        {
+          "name": "Cortes-Ciriano I",
+          "lab_member": true
+        },
+        {
+          "name": "Burns KH",
+          "lab_member": false
+        },
+        {
+          "name": "Ting DT",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "The landscape of human SVA retrotransposons",
+      "title_link": "https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad821/7308677?login=false",
+      "abstract": "SINE-VNTR-Alu (SVA) retrotransposons are evolutionarily young and still-active transposable elements (TEs) in the human genome. Several pathogenic SVA insertions have been identified that directly mutate host genes to cause neurodegenerative and other types of diseases. However, due to their sequence heterogeneity and complex structures as well as limitations in sequencing techniques and analysis, SVA insertions have been less well studied compared to other mobile element insertions. Here, we identified polymorphic SVA insertions from 3646 whole-genome sequencing (WGS) samples of >150 diverse populations and constructed a polymorphic SVA insertion reference catalog. Using 20 long-read samples, we also assembled reference and polymorphic SVA sequences and characterized the internal hexamer/variable-number-tandem-repeat (VNTR) expansions as well as differing SVA activity for SVA subfamilies and human populations. In addition, we developed a module to annotate both reference and polymorphic SVA copies. By characterizing the landscape of both reference and polymorphic SVA retrotransposons, our study enables more accurate genotyping of these elements and facilitate the discovery of pathogenic SVA insertions.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/landscape-human-sva-retrotransposons",
+      "pdf_link": "/publications/pdf/gkad821.pdf",
+      "year": "2023",
+      "journal": "Nucleic Acids Res",
+      "journal_location": "Nucleic Acids Research 2023;51(21):11453-11465"
+    },
+    {
+      "author": [
+        {
+          "name": "Mariño-Enríquez A",
+          "lab_member": false
+        },
+        {
+          "name": "Philipp Novotny J",
+          "lab_member": false
+        },
+        {
+          "name": "Gulhan DC",
+          "lab_member": true
+        },
+        {
+          "name": "Klooster I",
+          "lab_member": false
+        },
+        {
+          "name": "Tran AV",
+          "lab_member": true
+        },
+        {
+          "name": "Kasbo M",
+          "lab_member": false
+        },
+        {
+          "name": "Lundberg MZ",
+          "lab_member": false
+        },
+        {
+          "name": "Ou W-B",
+          "lab_member": false
+        },
+        {
+          "name": "Tao DL",
+          "lab_member": false
+        },
+        {
+          "name": "Pilco-Janeta DF",
+          "lab_member": false
+        },
+        {
+          "name": "Mao VY",
+          "lab_member": true
+        },
+        {
+          "name": "Zenke FT",
+          "lab_member": false
+        },
+        {
+          "name": "Leeper BA",
+          "lab_member": false
+        },
+        {
+          "name": "Gokhale PC",
+          "lab_member": false
+        },
+        {
+          "name": "Cowley GS",
+          "lab_member": false
+        },
+        {
+          "name": "Baker LH",
+          "lab_member": false
+        },
+        {
+          "name": "Ballman KV",
+          "lab_member": false
+        },
+        {
+          "name": "Root DE",
+          "lab_member": false
+        },
+        {
+          "name": "Albers J",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "George S",
+          "lab_member": false
+        },
+        {
+          "name": "Fletcher JA",
+          "lab_member": false
+        }
+      ],
+      "title": "Hyper-Dependence on NHEJ Enables Synergy Between DNA-PK Inhibitors and Low-Dose Doxorubicin in Leiomyosarcoma",
+      "title_link": "https://pubmed.ncbi.nlm.nih.gov/37773632/",
+      "abstract": "Purpose:Leiomyosarcoma (LMS) is an aggressive sarcoma for which standard chemotherapies achieve response rates under 30%. There are no effective targeted therapies against LMS. Most LMS are characterized by chromosomal instability (CIN), resulting in part from TP53 and RB1 co-inactivation and DNA damage repair defects. We sought to identify therapeutic targets that could exacerbate intrinsic CIN and DNA damage in LMS, inducing lethal genotoxicity.Experimental design:We performed clinical targeted sequencing in 287 LMS and genome-wide loss-of-function screens in 3 patient-derived LMS cell lines, to identify LMS-specific dependencies. We validated candidate targets by biochemical and cell-response assays in vitro and in 7 mouse models.Results:Clinical targeted sequencing revealed a high burden of somatic copy number alterations (median fraction of the genome altered=0.62) and demonstrated homologous recombination deficiency signatures in 35% of LMS. Genome-wide shRNA screens demonstrated PRKDC (DNA-PKcs) and RPA2 essentiality, consistent with compensatory non-homologous end joining hyper-dependence. DNA-PK inhibitor combinations with unconventionally low-dose doxorubicin had synergistic activity in LMS in vitro models. Combination therapy with peposertib and low-dose doxorubicin (standard or liposomal formulations) inhibited growth of 5 of 7 LMS mouse models without toxicity.Conclusion:Combinations of DNA-PK inhibitors with unconventionally low, sensitizing, doxorubicin dosing showed synergistic effects in LMS in vitro and in vivo models, without discernable toxicity. These findings underscore the relevance of DNA damage repair alterations in LMS pathogenesis and identify dependence on NHEJ as a clinically actionable vulnerability in LMS.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/hyper-dependence-nhej-enables-synergy-between-dna-pk-inhibitors-and-low-dose",
+      "pdf_link": "/publications/pdf/CCR-23-0998.pdf",
+      "year": "2023",
       "journal": "Clinical Cancer Research",
-      "journal_location": "Clinical Cancer Research 2022;28(21):4714-4723"
+      "journal_location": "Clinical Cancer Research 2023;29(24):5128-5139"
     },
     {
       "author": [
@@ -4684,34 +4596,118 @@
     {
       "author": [
         {
-          "name": "Lee S",
-          "lab_member": true
+          "name": "Breuss MW",
+          "lab_member": false
         },
         {
-          "name": "Bakker C",
-          "lab_member": true
+          "name": "Yang X",
+          "lab_member": false
         },
         {
-          "name": "Vitzthum C",
-          "lab_member": true
+          "name": "Schlachetzki JCM",
+          "lab_member": false
         },
         {
-          "name": "Alver BH",
-          "lab_member": true
+          "name": "Antaki D",
+          "lab_member": false
         },
         {
-          "name": "Park PJ*",
-          "lab_member": true
+          "name": "Lana AJ",
+          "lab_member": false
+        },
+        {
+          "name": "Xu X",
+          "lab_member": false
+        },
+        {
+          "name": "Chung C",
+          "lab_member": false
+        },
+        {
+          "name": "Chai G",
+          "lab_member": false
+        },
+        {
+          "name": "Stanley V",
+          "lab_member": false
+        },
+        {
+          "name": "Song Q",
+          "lab_member": false
+        },
+        {
+          "name": "Newmeyer TF",
+          "lab_member": false
+        },
+        {
+          "name": "Nguyen A",
+          "lab_member": false
+        },
+        {
+          "name": "O'Brien S",
+          "lab_member": false
+        },
+        {
+          "name": "Hoeksema MA",
+          "lab_member": false
+        },
+        {
+          "name": "Cao B",
+          "lab_member": false
+        },
+        {
+          "name": "Nott A",
+          "lab_member": false
+        },
+        {
+          "name": "McEvoy-Venneri J",
+          "lab_member": false
+        },
+        {
+          "name": "Pasillas MP",
+          "lab_member": false
+        },
+        {
+          "name": "Barton ST",
+          "lab_member": false
+        },
+        {
+          "name": "Copeland BR",
+          "lab_member": false
+        },
+        {
+          "name": "Nahas S",
+          "lab_member": false
+        },
+        {
+          "name": "Van Der Kraan L",
+          "lab_member": false
+        },
+        {
+          "name": "Ding Y",
+          "lab_member": false
+        },
+        {
+          "name": "Network NIMHBSM",
+          "lab_member": false
+        },
+        {
+          "name": "Glass CK",
+          "lab_member": false
+        },
+        {
+          "name": "Gleeson JG",
+          "lab_member": false
         }
       ],
-      "title": "Pairs and Pairix: a file format and a tool for efficient storage and retrieval for Hi-C read pairs",
-      "title_link": "https://compbio.hms.harvard.edu/publications/pairs-and-pairix-file-format-and-tool-efficient-storage-and-retrieval-hi-c-read",
-      "abstract": "SUMMARY: As the amount of three-dimensional chromosomal interaction data continues to increase, storing and accessing such data efficiently becomes paramount. We introduce Pairs, a block-compressed text file format for storing paired genomic coordinates from Hi-C data, and Pairix, an open-source C application to index and query Pairs files. Pairix (also available in Python and R) extends the functionalities of Tabix to paired coordinates data. We have also developed PairsQC, a collapsible HTML quality control report generator for Pairs files. AVAILABILITY: The format specification and source code are available athttps://github.com/4dn-dcic/pairix,https://github.com/4dn-dcic/Rpairixandhttps://github.com/4dn-dcic/pairsqc.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/pairs-and-pairix-file-format-and-tool-efficient-storage-and-retrieval-hi-c-read",
-      "pdf_link": "/publications/pdf/btab870.pdf",
+      "title": "Somatic mosaicism reveals clonal distributions of neocortical development",
+      "title_link": "https://www.nature.com/articles/s41586-022-04602-7",
+      "abstract": "The structure of the human neocortex underlies species-specific traits and reflects intricate developmental programs. Here we sought to reconstruct processes that occur during early development by sampling adult human tissues. We analysed neocortical clones in a post-mortem human brain through a comprehensive assessment of brain somatic mosaicism, acting as neutral lineage recorders1,2. We combined the sampling of 25 distinct anatomic locations with deep whole-genome sequencing in a neurotypical deceased individual and confirmed results with 5 samples collected from each of three additional donors. We identified 259 bona fide mosaic variants from the index case, then deconvolved distinct geographical, cell-type and clade organizations across the brain and other organs. We found that clones derived after the accumulation of 90-200 progenitors in the cerebral cortex tended to respect the midline axis, well before the anterior-posterior or ventral-dorsal axes, representing a secondary hierarchy following the overall patterning of forebrain and hindbrain domains. Clones across neocortically derived cells were consistent with a dual origin from both dorsal and ventral cellular populations, similar to rodents, whereas the microglia lineage appeared distinct from other resident brain cells. Our data provide a comprehensive analysis of brain somatic mosaicism across the neocortex and demonstrate cellular origins and progenitor distribution patterns within the human brain.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/somatic-mosaicism-reveals-clonal-distributions-neocortical-development",
+      "pdf_link": "/publications/pdf/nihms-1818642_1.pdf",
       "year": "2022",
-      "journal": "Bioinformatics",
-      "journal_location": "Bioinformatics 2022;38(6):1729-1731"
+      "journal": "Nature",
+      "journal_location": "Nature 2022;604(7907):689-696"
     },
     {
       "author": [
@@ -4968,118 +4964,122 @@
     {
       "author": [
         {
-          "name": "Breuss MW",
+          "name": "Batalini F",
           "lab_member": false
         },
         {
-          "name": "Yang X",
+          "name": "Gulhan DC",
+          "lab_member": true
+        },
+        {
+          "name": "Mao V",
+          "lab_member": true
+        },
+        {
+          "name": "Tran A",
+          "lab_member": true
+        },
+        {
+          "name": "Polak M",
           "lab_member": false
         },
         {
-          "name": "Schlachetzki JCM",
+          "name": "Xiong N",
+          "lab_member": true
+        },
+        {
+          "name": "Tayob N",
           "lab_member": false
         },
         {
-          "name": "Antaki D",
+          "name": "Tung NM",
           "lab_member": false
         },
         {
-          "name": "Lana AJ",
+          "name": "Winer EP",
           "lab_member": false
         },
         {
-          "name": "Xu X",
+          "name": "Mayer EL",
           "lab_member": false
         },
         {
-          "name": "Chung C",
+          "name": "Knappskog S",
           "lab_member": false
         },
         {
-          "name": "Chai G",
+          "name": "Lønning PE",
           "lab_member": false
         },
         {
-          "name": "Stanley V",
+          "name": "Matulonis UA",
           "lab_member": false
         },
         {
-          "name": "Song Q",
+          "name": "Konstantinopoulos PA",
           "lab_member": false
         },
         {
-          "name": "Newmeyer TF",
+          "name": "Solit DB",
           "lab_member": false
         },
         {
-          "name": "Nguyen A",
+          "name": "Won H",
           "lab_member": false
         },
         {
-          "name": "O'Brien S",
+          "name": "Eikesdal HP",
           "lab_member": false
         },
         {
-          "name": "Hoeksema MA",
-          "lab_member": false
+          "name": "Park PJ",
+          "lab_member": true
         },
         {
-          "name": "Cao B",
-          "lab_member": false
-        },
-        {
-          "name": "Nott A",
-          "lab_member": false
-        },
-        {
-          "name": "McEvoy-Venneri J",
-          "lab_member": false
-        },
-        {
-          "name": "Pasillas MP",
-          "lab_member": false
-        },
-        {
-          "name": "Barton ST",
-          "lab_member": false
-        },
-        {
-          "name": "Copeland BR",
-          "lab_member": false
-        },
-        {
-          "name": "Nahas S",
-          "lab_member": false
-        },
-        {
-          "name": "Van Der Kraan L",
-          "lab_member": false
-        },
-        {
-          "name": "Ding Y",
-          "lab_member": false
-        },
-        {
-          "name": "Network NIMHBSM",
-          "lab_member": false
-        },
-        {
-          "name": "Glass CK",
-          "lab_member": false
-        },
-        {
-          "name": "Gleeson JG",
+          "name": "Wulf GM",
           "lab_member": false
         }
       ],
-      "title": "Somatic mosaicism reveals clonal distributions of neocortical development",
-      "title_link": "https://www.nature.com/articles/s41586-022-04602-7",
-      "abstract": "The structure of the human neocortex underlies species-specific traits and reflects intricate developmental programs. Here we sought to reconstruct processes that occur during early development by sampling adult human tissues. We analysed neocortical clones in a post-mortem human brain through a comprehensive assessment of brain somatic mosaicism, acting as neutral lineage recorders1,2. We combined the sampling of 25 distinct anatomic locations with deep whole-genome sequencing in a neurotypical deceased individual and confirmed results with 5 samples collected from each of three additional donors. We identified 259 bona fide mosaic variants from the index case, then deconvolved distinct geographical, cell-type and clade organizations across the brain and other organs. We found that clones derived after the accumulation of 90-200 progenitors in the cerebral cortex tended to respect the midline axis, well before the anterior-posterior or ventral-dorsal axes, representing a secondary hierarchy following the overall patterning of forebrain and hindbrain domains. Clones across neocortically derived cells were consistent with a dual origin from both dorsal and ventral cellular populations, similar to rodents, whereas the microglia lineage appeared distinct from other resident brain cells. Our data provide a comprehensive analysis of brain somatic mosaicism across the neocortex and demonstrate cellular origins and progenitor distribution patterns within the human brain.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/somatic-mosaicism-reveals-clonal-distributions-neocortical-development",
-      "pdf_link": "/publications/pdf/nihms-1818642_1.pdf",
+      "title": "Mutational Signature 3 Detected from Clinical Panel Sequencing is Associated with Responses to Olaparib in Breast and Ovarian Cancers",
+      "title_link": "https://aacrjournals.org/clincancerres/article/28/21/4714/709823/Mutational-Signature-3-Detected-from-Clinical",
+      "abstract": "Purpose:The identification of patients with homologous recombination deficiency (HRD) beyond BRCA1/2 mutations is an urgent task, as they may benefit from PARP inhibitors. We have previously developed a method to detect mutational signature 3 (Sig3), termed SigMA, associated with HRD from clinical panel sequencing data, that is able to reliably detect HRD from the limited sequencing data derived from gene-focused panel sequencing.Experimental design:We apply this method to patients from two independent datasets: (i) high-grade serous ovarian cancer and triple-negative breast cancer (TNBC) from a phase Ib trial of the PARP inhibitor olaparib in combination with the PI3K inhibitor buparlisib (BKM120;NCT01623349), and (ii) TNBC patients who received neoadjuvant olaparib in the phase II PETREMAC trial (NCT02624973).Results:We find that Sig3 as detected by SigMA is positively associated with improved progression-free survival and objective responses. In addition, comparison of Sig3 detection in panel and exome-sequencing data from the same patient samples demonstrated highly concordant results and superior performance in comparison with the genomic instability score.Conclusions:Our analyses demonstrate that HRD can be detected reliably from panel-sequencing data that are obtained as part of routine clinical care, and that this approach can identify patients beyond those with germline BRCA1/2mut who might benefit from PARP inhibitors. Prospective clinical utility testing is warranted.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/mutational-signature-3-detected-clinical-panel-sequencing-associated-responses",
+      "pdf_link": "/publications/pdf/4714.pdf",
       "year": "2022",
-      "journal": "Nature",
-      "journal_location": "Nature 2022;604(7907):689-696"
+      "journal": "Clinical Cancer Research",
+      "journal_location": "Clinical Cancer Research 2022;28(21):4714-4723"
+    },
+    {
+      "author": [
+        {
+          "name": "Lee S",
+          "lab_member": true
+        },
+        {
+          "name": "Bakker C",
+          "lab_member": true
+        },
+        {
+          "name": "Vitzthum C",
+          "lab_member": true
+        },
+        {
+          "name": "Alver BH",
+          "lab_member": true
+        },
+        {
+          "name": "Park PJ*",
+          "lab_member": true
+        }
+      ],
+      "title": "Pairs and Pairix: a file format and a tool for efficient storage and retrieval for Hi-C read pairs",
+      "title_link": "https://compbio.hms.harvard.edu/publications/pairs-and-pairix-file-format-and-tool-efficient-storage-and-retrieval-hi-c-read",
+      "abstract": "SUMMARY: As the amount of three-dimensional chromosomal interaction data continues to increase, storing and accessing such data efficiently becomes paramount. We introduce Pairs, a block-compressed text file format for storing paired genomic coordinates from Hi-C data, and Pairix, an open-source C application to index and query Pairs files. Pairix (also available in Python and R) extends the functionalities of Tabix to paired coordinates data. We have also developed PairsQC, a collapsible HTML quality control report generator for Pairs files. AVAILABILITY: The format specification and source code are available athttps://github.com/4dn-dcic/pairix,https://github.com/4dn-dcic/Rpairixandhttps://github.com/4dn-dcic/pairsqc.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/pairs-and-pairix-file-format-and-tool-efficient-storage-and-retrieval-hi-c-read",
+      "pdf_link": "/publications/pdf/btab870.pdf",
+      "year": "2022",
+      "journal": "Bioinformatics",
+      "journal_location": "Bioinformatics 2022;38(6):1729-1731"
     },
     {
       "author": [

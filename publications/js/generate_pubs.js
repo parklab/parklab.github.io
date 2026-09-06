@@ -37,6 +37,17 @@ var tagColor;
 // If we use customs group, this maps orig type name to custom group name
 var groupMap;
 
+// Splits a journal_location citation string into the leading journal name
+// and the trailing details (year, volume, "in press", etc.), so the name
+// can be styled separately in the venue line.
+function highlightJournalName(journalLocation) {
+  const match = journalLocation.match(/^(.*?)(?=[\d(,]|$)/);
+  const name = (match ? match[0] : journalLocation).trimEnd();
+  const rest = journalLocation.slice(name.length);
+  if (!name) return journalLocation;
+  return `<span class="journal-name">${name}</span>${rest}`;
+}
+
 // Compares group keys for the 'year' / 'key-papers' groupings, treating
 // non-numeric keys (e.g. "bioRxiv") as coming before all calendar years.
 function sortYearKeys(a, b) {
@@ -207,7 +218,7 @@ function renderPubGroup(pubData, target, category) {
   pubInfo.append('div')
     .classed('venue', true)
     .html(function(d) {
-      return '<em>' + d.journal_location + '</em> ';
+      return '<em>' + highlightJournalName(d.journal_location) + '</em> ';
     });
 
   // add supplemental links
