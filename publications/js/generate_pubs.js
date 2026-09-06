@@ -37,6 +37,19 @@ var tagColor;
 // If we use customs group, this maps orig type name to custom group name
 var groupMap;
 
+// Compares group keys for the 'year' / 'key-papers' groupings, treating
+// non-numeric keys (e.g. "bioRxiv") as coming before all calendar years.
+function sortYearKeys(a, b) {
+  const na = Number(a);
+  const nb = Number(b);
+  const aIsYear = !Number.isNaN(na);
+  const bIsYear = !Number.isNaN(nb);
+  if (aIsYear && bIsYear) return nb - na;
+  if (!aIsYear && bIsYear) return -1;
+  if (aIsYear && !bIsYear) return 1;
+  return a.localeCompare(b);
+}
+
 d3.json('/publication-data.json', function(json) {
 
   createTypeColors(json.publications);
@@ -54,19 +67,19 @@ d3.json('/publication-data.json', function(json) {
   let sorted_keys;
   switch (sort_param) {
     case 'key-papers':
-      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+      sorted_keys = Object.keys(grouped_data).sort(sortYearKeys);
       break;
     case 'year':
-      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+      sorted_keys = Object.keys(grouped_data).sort(sortYearKeys);
       break;
     case 'journal':
       sorted_keys = Object.keys(grouped_data).sort(
-        (a, b) => 
+        (a, b) =>
           grouped_data[b].length - grouped_data[a].length || b.localeCompare(a)
       );
       break;
     default:
-      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+      sorted_keys = Object.keys(grouped_data).sort(sortYearKeys);
   }
   
   // Render links to the different categories

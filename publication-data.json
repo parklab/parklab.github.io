@@ -37,6 +37,292 @@
     {
       "author": [
         {
+          "name": "Sedlazeck FJ",
+          "lab_member": false
+        },
+        {
+          "name": "Coorens THH",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Stergachis AB",
+          "lab_member": false
+        },
+        {
+          "name": "The Somatic Mosaicism across Human Tissues Network",
+          "lab_member": false
+        }
+      ],
+      "title": "Integrated map of somatic mosaicism across human tissues in 25 individuals",
+      "title_link": "https://www.biorxiv.org/content/10.64898/2026.09.01.748636v1",
+      "abstract": "Although all cells in the body descend from one genome, they accumulate distinct genetic and epigenetic changes over a lifetime, producing a mosaic of somatic variation that can shape development, aging, and disease. This mosaicism is often studied in isolation, leaving unclear how these forms relate within and between individuals. Here, we present the first integrated analysis of the Somatic Mosaicism across Human Tissues (SMaHT) Network's production resource, profiling up to 20 tissues from 25 donors using short- and long-read, duplex, single-cell, transcriptomic, and epigenomic sequencing, alongside donor-specific near-telomere-to-telomere assemblies. Somatic mutation burden cannot be captured by a single data type or metric, as tissues accumulate distinct variant classes largely independently of one another. Long-read and single-cell data resolved cell-type-specific mutational processes, traced mobile element insertions to source loci, and revealed the developmental timing and functional consequences of individual mutations. Donor-specific assemblies uncovered elevated mutation rates within centromeres and segmental duplications inaccessible to standard reference genomes, while haplotype-resolved chromatin and methylation data showed that nongenetically-deterministic epigenetic states are pervasive across tissues. Together, these findings provide an integrated, multi-scale portrait of somatic mosaicism across the human body, establishing a baseline against which its contributions to aging and disease can be measured.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/integrated-map-of-somatic-mosaicism-across-human-tissues-in-25-individuals",
+      "year": "bioRxiv",
+      "type": "2026",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv"
+    },
+    {
+      "author": [
+        {
+          "name": "Shao DD*",
+          "lab_member": false
+        },
+        {
+          "name": "Zhao Y*",
+          "lab_member": true
+        },
+        {
+          "name": "Brew J",
+          "lab_member": true
+        },
+        {
+          "name": "Ghosh U",
+          "lab_member": false
+        },
+        {
+          "name": "Luquette JL",
+          "lab_member": true
+        },
+        {
+          "name": "Zhao S",
+          "lab_member": false
+        },
+        {
+          "name": "Kriz AJ",
+          "lab_member": false
+        },
+        {
+          "name": "Qian X",
+          "lab_member": false
+        },
+        {
+          "name": "Viswanadham VV",
+          "lab_member": true
+        },
+        {
+          "name": "Taketomi T",
+          "lab_member": false
+        },
+        {
+          "name": "Tsuruta F",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        },
+        {
+          "name": "Walsh, CA**",
+          "lab_member": false
+        }
+      ],
+      "title": "Perinatal Elimination of Genetically Aberrant Neurons from Human Cerebral Cortex",
+      "title_link": "https://compbio.hms.harvard.edu/publications/perinatal-elimination-of-genetically-aberrant-neurons-from-human-cerebral-cortex",
+      "abstract": "Human neurons are postmitotic and long-lived, requiring precise genomic regulation to maintain function over a lifetime. Normal neuronal function is highly dependent on gene dosage, with copy number variants (CNVs) and heterozygous point mutations associated with a host of neurodevelopmental and neuropsychiatric conditions [1–3]. Here, we investigated the landscape of somatic CNVs arising in fetal human brains, and how they change over development, to understand the processes that generate neurons with low rates of aneuploidy. We identified 7,725 CNVs in >1,200 single neurons from human postmortem brain of 16 neurotypical individuals, ranging in age from gestational week 14 to 90 years old using Tn5-transposase-based single-cell whole-genome amplification. We surveyed CNVs in another 44,861 nuclei with 10X Multiome analysis. Up to 45% of postmitotic neurons in the prenatal cortex showed aberrant genomes, characterized by widespread CNVs of multiple chromosomes, but this reduces sharply after birth (p<0.01). We identified micronuclei in the developing cortex in situ, reflecting chromosomal material missegregated during neurodevelopment [4–6]. The size of CNV appeared to define the trajectory of neuronal elimination, since cells with widespread CNVs were eliminated earlier and faster than cells with smaller CNVs. CNVs in surviving neurons were depleted for genes that are dosage-sensitive or involved in neurodevelopmental disorders (p<0.05), suggesting selective elimination of neurons with CNVs involving these critical genes. Neurons with high CNV burdens also showed abnormal expression of synaptic gene sets, indicating that abnormal synaptic gene regulation may contribute to neuronal elimination. Elimination of defective neuronal genomes during during synaptogenesis may represent a critical process of genome quality control and a vulnerable target of factors that contribute to neurodevelopmental disease.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/perinatal-elimination-of-genetically-aberrant-neurons-from-human-cerebral-cortex",
+      "pdf_link": "/publications/pdf/Diane-Shao-2025-04-03.pdf",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Nature",
+      "journal_location": "Nature, in press"
+    },
+    {
+      "author": [
+        {
+          "name": "Ha YJ",
+          "lab_member": true
+        },
+        {
+          "name": "Maziec D",
+          "lab_member": true
+        },
+        {
+          "name": "Markowski J",
+          "lab_member": true
+        },
+        {
+          "name": "Georges SJ",
+          "lab_member": false
+        },
+        {
+          "name": "Parmalee NL",
+          "lab_member": false
+        },
+        {
+          "name": "Berselli M",
+          "lab_member": true
+        },
+        {
+          "name": "Coorens THH",
+          "lab_member": false
+        },
+        {
+          "name": "Dong S",
+          "lab_member": false
+        },
+        {
+          "name": "Gardiner S",
+          "lab_member": false
+        },
+        {
+          "name": "Kalra D",
+          "lab_member": false
+        },
+        {
+          "name": "Li D",
+          "lab_member": false
+        },
+        {
+          "name": "Miao B",
+          "lab_member": false
+        },
+        {
+          "name": "Musunuri R",
+          "lab_member": false
+        },
+        {
+          "name": "Xue L",
+          "lab_member": false
+        },
+        {
+          "name": "Yu Z",
+          "lab_member": false
+        },
+        {
+          "name": "Walker K",
+          "lab_member": false
+        },
+        {
+          "name": "Anderson L",
+          "lab_member": false
+        },
+        {
+          "name": "Au NYT",
+          "lab_member": false
+        },
+        {
+          "name": "Cibulskis C",
+          "lab_member": false
+        },
+        {
+          "name": "Doddapaneni H",
+          "lab_member": false
+        },
+        {
+          "name": "Grochowski CM",
+          "lab_member": false
+        },
+        {
+          "name": "Jensen DM",
+          "lab_member": false
+        },
+        {
+          "name": "Lindsay T",
+          "lab_member": false
+        },
+        {
+          "name": "Loy K",
+          "lab_member": false
+        },
+        {
+          "name": "Narayan A",
+          "lab_member": false
+        },
+        {
+          "name": "Narzisi G",
+          "lab_member": false
+        },
+        {
+          "name": "Ou J",
+          "lab_member": false
+        },
+        {
+          "name": "Pham MM",
+          "lab_member": false
+        },
+        {
+          "name": "Runnels AM",
+          "lab_member": false
+        },
+        {
+          "name": "Stergachis AB",
+          "lab_member": false
+        },
+        {
+          "name": "Sutherlin LM",
+          "lab_member": false
+        },
+        {
+          "name": "Wang T",
+          "lab_member": false
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Feng WC",
+          "lab_member": true
+        },
+        {
+          "name": "Zhang Y",
+          "lab_member": true
+        },
+        {
+          "name": "Veit AD",
+          "lab_member": true
+        },
+        {
+          "name": "Kim CT",
+          "lab_member": true
+        },
+        {
+          "name": "Chun HE",
+          "lab_member": true
+        },
+        {
+          "name": "Fulton RS",
+          "lab_member": false
+        },
+        {
+          "name": "Germer S",
+          "lab_member": false
+        },
+        {
+          "name": "Gibbs R",
+          "lab_member": false
+        },
+        {
+          "name": "Marth GT",
+          "lab_member": false
+        },
+        {
+          "name": "Bennett JT",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Comprehensive benchmarking of somatic single-nucleotide variant and indel detection at ultra-low allele fractions using short- and long-read data",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681545v1",
+      "abstract": "Mosaic mutations in normal tissues occur at low variant allele fractions (VAFs), complicating detection. To benchmark strategies, the SMaHT Network created a cell-line mixture (1:49) and produced ultra-deep whole-genome sequencing using short and long reads (five centers, 180-500× each). We assembled a reference of 44,008 mosaic SNVs and 2,059 Indels, cross-validation between platforms to expose limits of short-read analysis. We also partitioned the genome by mappability to examine the impact of genomic context, added a negative reference set, and accounted for culture-derived mutations. When seven institutions applied eleven algorithms to mixture data, call sets were largely discordant across tools and replicates, partly reflecting stochastic presence of low-VAF mutations in biological replicants. For >2% VAF SNVs, sensitivity and precision approached ~80% at ≥300×, with little gain from additional sequencing. This work provides a comprehensive framework for reliable detection of low-VAF mutations in non-cancer tissues and a valuable resource for the community.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-single-nucleotide-variant-and-indel-detection-at-ultra-low-allele-fractions-using-short-and-long-read-data",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Cell Genomics",
+      "journal_location": "Cell Genomics, in press",
+      "pdf_link": "/publications/pdf/2025.10.13.681545v1.full.pdf"
+    },
+    {
+      "author": [
+        {
           "name": "The Somatic Mosaicism across Human Tissues Network",
           "lab_member": false
         }
@@ -186,7 +472,7 @@
       "title_link": "https://www.biorxiv.org/content/10.64898/2026.04.18.719374v1",
       "abstract": "The genome of every cancer cell carries a record of the mutational processes that have acted throughout its history. Mutational signature analysis, which infers the activity of mutagenic processes from their characteristic base-change patterns, has become an indispensable tool for interpreting somatic mutations. However, this framework captures only which types of mutations a process generates and not where in the genome they occur - a distribution influenced by replication timing, chromatin organization, transcription, DNA secondary structure, and other genomic features. Here, we present a generative probabilistic framework (MuTopia) that jointly infers mutational spectra and their genome-wide topography as nonlinear functions of genomic and epigenomic state. Applied to whole-genome sequencing data from 15 tumor types, MuTopia reveals that mutational processes fall into eight conserved topographic archetypes, or topotypes, shaped primarily by replication timing and chromatin state. Diverse mutational processes converge upon this limited repertoire, indicating that the genomic distribution of mutagenesis is constrained less by the source of damage than by how that damage is processed. Individual mutational processes exhibit state-dependent variation in their genomic distributions: the same signature can adopt distinct topotypes depending on repair proficiency and replication stress. For instance, SBS8 shifts from a canonical late-replicating profile in homologous recombination-proficient tumors to an early-replicating, stress-associated topotype in HR-deficient tumors, and replication stress similarly reshapes the genomic distribution of APOBEC editing. Topotypes, therefore, provide a classification of mutagenesis distinct from spectral signatures, capturing aspects of tumor biology that spectra alone cannot resolve.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/topographical-archetypes-of-somatic-mutagenesis-in-cancer",
-      "year": "2026",
+      "year": "bioRxiv",
       "type": "2026",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -975,7 +1261,7 @@
       "title_link": "https://www.biorxiv.org/content/10.64898/2025.12.12.692823v1",
       "abstract": "Detecting somatic mutations in normal tissues is challenging due to sequencing errors and the low allele fractions of post-zygotic variants. Duplex sequencing greatly reduces errors and can detect mutations at any allele fraction, but systematic, cross-platform comparisons are lacking. We present a comprehensive benchmarking of six duplex sequencing technologies used by the SMaHT Network: CODEC, CompDuplex-seq, HiDEF-seq, NanoSeq, ppmSeq, and VISTA-seq. We evaluated their performance using cord blood DNA, a tumor-normal cell line mixture, and homogenates from six human tissues. Each method shows distinct profiles in genomic footprint, sensitivity, and cost. Despite differences in library construction and sequencing platforms, estimates of mutation rates and mutational signatures are highly concordant. Integration with ultra-deep whole-genome sequencing shows that duplex approaches sensitively capture mutations and signatures beyond embryonic or clonally expanded variants. These results provide a foundation for selecting duplex methods and interpreting their data, enabling scalable single-molecule analyses of somatic mutation landscapes.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/benchmarking-of-duplex-sequencing-approaches-to-reveal-somatic-mutation-landscapes",
-      "year": "2025",
+      "year": "bioRxiv",
       "type": "2025",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -1438,7 +1724,7 @@
       "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.31.685648v1",
       "abstract": "Single-cell DNA sequencing offers a powerful means of studying somatic mosaicism but requires careful analysis to mitigate DNA amplification-related artifacts. We performed primary template-directed amplification (PTA) and sequencing of 102 nuclei from postmortem lung and colon tissues of a 74-year-old male. Single-cell mutation burdens and spectra were validated by duplex sequencing and revealed heterogeneity across organs and cells, including signatures of APOBEC activity and tobacco exposure. Cells from both tissues exhibited chromosomal aneuploidies, loss of chromosome Y, and chromosomal rearrangements including rearrangements of the T-cell receptor loci indicative of T-cells. Shared embryonic mutations between cells enabled reconstruction of cellular ancestries from the zygote, which were validated by bulk sequencing. Collectively, we demonstrate a comprehensive approach for single-cell genomics that yields an expansive view of diverse somatic mutation types from development through aging across diverse tissues-insights that are obscured in bulk sequencing and only partially captured by other single-cell methods.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/a-comprehensive-view-of-somatic-mosaicism-by-single-cell-dna-analysis",
-      "year": "2025",
+      "year": "bioRxiv",
       "type": "2025",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -1471,7 +1757,7 @@
       "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.28.685155v1",
       "abstract": "Somatic structural variants (SVs) play a crucial role in tumor development and evolution, yet their identification remains challenging, partly due to limitations in current reference genomes. We present a systematic evaluation of diploid donor-specific assemblies (DSAs)-generated based on hybrid long-read sequencing data-as the reference genome for detecting somatic SVs. We analyzed six tumor-normal cell line pairs, using the EchoSV tool we developed to consolidate haplotype-based SVs into a single DSA-based set and to compare SVs across reference genomes. Across Illumina, PacBio HiFi, and Oxford Nanopore Technology (ONT) data, DSA-based analysis improved read-mapping quality, identified over 20% additional SVs compared to GRCh38 and CHM13, and reduced germline artifacts. Most DSA-specific SVs were isolated deletions or insertions in repetitive elements, especially in satellite regions. By tracking sequence-context differences, we identified scenarios in which DSAs enabled detection of SVs missed on GRCh38/CHM13, and confirmed their functional impact with RNA-seq. These results highlight the value of integrating diploid DSAs into somatic SV analysis.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/diploid-donor-specific-assembly-enhances-somatic-structural-variant-detection-in-cancer-genomes",
-      "year": "2025",
+      "year": "bioRxiv",
       "type": "2025",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -1505,195 +1791,6 @@
       "journal": "medRxiv",
       "journal_location": "medRxiv",
       "pdf_link": "/publications/pdf/2025.10.17.25338254v1.full.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Ha YJ",
-          "lab_member": true
-        },
-        {
-          "name": "Maziec D",
-          "lab_member": true
-        },
-        {
-          "name": "Markowski J",
-          "lab_member": true
-        },
-        {
-          "name": "Georges SJ",
-          "lab_member": false
-        },
-        {
-          "name": "Parmalee NL",
-          "lab_member": false
-        },
-        {
-          "name": "Berselli M",
-          "lab_member": true
-        },
-        {
-          "name": "Coorens THH",
-          "lab_member": false
-        },
-        {
-          "name": "Dong S",
-          "lab_member": false
-        },
-        {
-          "name": "Gardiner S",
-          "lab_member": false
-        },
-        {
-          "name": "Kalra D",
-          "lab_member": false
-        },
-        {
-          "name": "Li D",
-          "lab_member": false
-        },
-        {
-          "name": "Miao B",
-          "lab_member": false
-        },
-        {
-          "name": "Musunuri R",
-          "lab_member": false
-        },
-        {
-          "name": "Xue L",
-          "lab_member": false
-        },
-        {
-          "name": "Yu Z",
-          "lab_member": false
-        },
-        {
-          "name": "Walker K",
-          "lab_member": false
-        },
-        {
-          "name": "Anderson L",
-          "lab_member": false
-        },
-        {
-          "name": "Au NYT",
-          "lab_member": false
-        },
-        {
-          "name": "Cibulskis C",
-          "lab_member": false
-        },
-        {
-          "name": "Doddapaneni H",
-          "lab_member": false
-        },
-        {
-          "name": "Grochowski CM",
-          "lab_member": false
-        },
-        {
-          "name": "Jensen DM",
-          "lab_member": false
-        },
-        {
-          "name": "Lindsay T",
-          "lab_member": false
-        },
-        {
-          "name": "Loy K",
-          "lab_member": false
-        },
-        {
-          "name": "Narayan A",
-          "lab_member": false
-        },
-        {
-          "name": "Narzisi G",
-          "lab_member": false
-        },
-        {
-          "name": "Ou J",
-          "lab_member": false
-        },
-        {
-          "name": "Pham MM",
-          "lab_member": false
-        },
-        {
-          "name": "Runnels AM",
-          "lab_member": false
-        },
-        {
-          "name": "Stergachis AB",
-          "lab_member": false
-        },
-        {
-          "name": "Sutherlin LM",
-          "lab_member": false
-        },
-        {
-          "name": "Wang T",
-          "lab_member": false
-        },
-        {
-          "name": "Jin H",
-          "lab_member": true
-        },
-        {
-          "name": "Feng WC",
-          "lab_member": true
-        },
-        {
-          "name": "Zhang Y",
-          "lab_member": true
-        },
-        {
-          "name": "Veit AD",
-          "lab_member": true
-        },
-        {
-          "name": "Kim CT",
-          "lab_member": true
-        },
-        {
-          "name": "Chun HE",
-          "lab_member": true
-        },
-        {
-          "name": "Fulton RS",
-          "lab_member": false
-        },
-        {
-          "name": "Germer S",
-          "lab_member": false
-        },
-        {
-          "name": "Gibbs R",
-          "lab_member": false
-        },
-        {
-          "name": "Marth GT",
-          "lab_member": false
-        },
-        {
-          "name": "Bennett JT",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "Comprehensive benchmarking of somatic single-nucleotide variant and indel detection at ultra-low allele fractions using short- and long-read data",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681545v1",
-      "abstract": "Mosaic mutations in normal tissues occur at low variant allele fractions (VAFs), complicating detection. To benchmark strategies, the SMaHT Network created a cell-line mixture (1:49) and produced ultra-deep whole-genome sequencing using short and long reads (five centers, 180-500× each). We assembled a reference of 44,008 mosaic SNVs and 2,059 Indels, cross-validation between platforms to expose limits of short-read analysis. We also partitioned the genome by mappability to examine the impact of genomic context, added a negative reference set, and accounted for culture-derived mutations. When seven institutions applied eleven algorithms to mixture data, call sets were largely discordant across tools and replicates, partly reflecting stochastic presence of low-VAF mutations in biological replicants. For >2% VAF SNVs, sensitivity and precision approached ~80% at ≥300×, with little gain from additional sequencing. This work provides a comprehensive framework for reliable detection of low-VAF mutations in non-cancer tissues and a valuable resource for the community.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-single-nucleotide-variant-and-indel-detection-at-ultra-low-allele-fractions-using-short-and-long-read-data",
-      "year": "2026",
-      "type": "2026",
-      "journal": "Cell Genomics",
-      "journal_location": "Cell Genomics, in press",
-      "pdf_link": "/publications/pdf/2025.10.13.681545v1.full.pdf"
     },
     {
       "author": [
@@ -1754,7 +1851,7 @@
       "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681986v1",
       "abstract": "Homologous recombination deficiency (HRD) activates pro-inflammatory cGAS/STING signaling, positioning it as a biomarker for combining immune checkpoint blockade (ICB) and PARP inhibition (PARPi). However, the consequences of HRD on the immune landscape across cancers remain unclear. Here, we applied a pan-cancer HRD classifier to >10,000 tumors from The Cancer Genome Atlas and uncovered striking heterogeneity in immune activity. Compared to HR-proficient tumors, HRD tumors showed elevated inflammation in breast, ovarian, and endometrial cancers. These tumors exhibited robust activation of innate and adaptive immune pathways (IFN, NF-κB) and transcriptional hallmarks of senescence, angiogenesis, and adenosine signaling. In contrast, lung, head and neck, and melanoma HRD tumors displayed suppressed inflammation and evidence of immune escape through large-scale loss-of-heterozygosity (LOH) at IFNA/B, STING, and other loci. These tumors also frequently presented HLA LOH and oncogene amplifications, suggesting selection under immune pressure and replication stress. Together, our study resolves HRD tumors into two immune archetypes, immune-inflamed and immune-evasive, linked to chromosomal instability and lineage, informing biomarker-driven evaluation of immune checkpoint blockade/PARPi combinatorial therapies.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/tissue-specificity-and-chromosomal-alterations-shape-divergent-immune-programs-in-hrd-tumors",
-      "year": "2025",
+      "year": "bioRxiv",
       "type": "2025",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -1899,7 +1996,7 @@
       "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.07.680917v1",
       "abstract": "Mobile element insertions (MEI) shape the human genome in both germline and somatic tissues. While inherited MEIs are well characterized, mapping somatic MEIs (sMEI) in non-cancer tissues remains challenging due to their low allelic fraction and repetitive nature. We established an integrative framework for sMEI analysis leveraging modern sequencing technologies and analytical innovations. We first benchmarked sMEI detection and demonstrated advantages of long-read and MEI-targeted sequencing for ultra-low-frequency events using a mixture of well-established cell lines. We then showed that haplotype phasing and donor-specific assemblies refine sMEI detection, effectively distinguishing from germline and false signals in in-silico tumor-normal mixtures. We further developed a source-tracing strategy based on internal sequence variation, expanding the catalogue of active source elements beyond traditional transduction-based methods. Applying this framework to donor tissues, we identified 18 rare somatic L1 insertions, revealing structural and source diversity. Our work provides a foundational framework and biological insight into sMEIs.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/multi-platform-framework-for-mapping-somatic-retrotransposition-in-human-tissue",
-      "year": "2025",
+      "year": "bioRxiv",
       "type": "2025",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -1956,7 +2053,7 @@
       "title_link": "https://www.biorxiv.org/content/10.1101/2025.09.18.677206v1",
       "abstract": "Postzygotic mosaicism gives rise to somatic structural variants (SVs) at ultra-low variant allele fractions (VAFs), which pose challenges for detection due to the high-coverage sequencing required and noise introduced by sequencing artifacts. Although somatic SV detection has been extensively studied in cancer, these studies are not directly applicable to the study of tissue mosaicism, as they rely on matched normals, target higher VAF ranges, and are enriched for different types of SVs. We present comprehensive benchmark data and best practices for non-cancer somatic SV detection. We created a synthetic mosaic sample by combining six HapMap individuals at varying proportions, generating allele fractions as low as 0.25%. This sample was sequenced to ~2,300x total coverage using Illumina, PacBio, and Nanopore technologies across multiple sequencing centers. A high-confidence benchmark SV set containing over 21,000 pseudo-somatic insertions and deletions ≥50bp was derived from haplotype-resolved assemblies. We evaluated 12 SV discovery pipelines and identified caller-specific strengths and sequencing platform-specific shortcomings. We find that short read-based approaches show reduced recall for insertions and repeat-associated SVs, whereas long-read sequencing achieves high accuracy throughout the genome, increasing linearly with coverage. The best algorithm's sensitivity exceeded 80% for VAFs ≥4% and 15% for VAFs of 0.5-1% with 60x coverage. The publicly available benchmarking data and comparative analysis of current methods provide a foundation for robust discovery of SV mosaicism in non-cancer tissues.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-structural-variant-detection-at-ultra-low-allele-fractions",
-      "year": "2025",
+      "year": "bioRxiv",
       "type": "2025",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -2310,7 +2407,7 @@
       "title_link": "https://doi.org/10.1101/2025.08.11.666099",
       "abstract": "The Data Distillery Knowledge Graph (DDKG) is a framework for semantic integration and querying of biomedical data across domains. Built for the NIH Common Fund Data Ecosystem, it supports translational research by linking clinical and experimental datasets in a unified graph model. Clinical standards such as ICD-10, SNOMED, and DrugBank are integrated through UMLS, while genomics and basic science data are structured using ontologies and standards such as HPO, GENCODE, Ensembl, STRING, and ClinVar. The DDKG uses a property graph architecture based on the UBKG infrastructure and supports ontology-based ingestion, identifier normalization, and graph-native querying. The system is modular and can be extended with new datasets or schema modules. We demonstrate its utility for informatics queries across eight use cases, including regulatory variant analysis, tissue-specific expression, biomarker discovery, and cross-species variant prioritization. The DDKG is accessible via a public interface, a programmatic API, and downloadable builds for local use.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/the-data-distillery-a-graph-framework-for-semantic-integration-and-querying-of-biomedical-data",
-      "year": "2025",
+      "year": "bioRxiv",
       "type": "2025",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -2633,71 +2730,6 @@
       "type": "2025",
       "journal": "Nature Communications",
       "journal_location": "Nature Communications 2025;16(1):5477"
-    },
-    {
-      "author": [
-        {
-          "name": "Shao DD",
-          "lab_member": false
-        },
-        {
-          "name": "Zhao Y",
-          "lab_member": true
-        },
-        {
-          "name": "Brew J",
-          "lab_member": true
-        },
-        {
-          "name": "Ghosh U",
-          "lab_member": false
-        },
-        {
-          "name": "Luquette JL",
-          "lab_member": true
-        },
-        {
-          "name": "Zhao S",
-          "lab_member": false
-        },
-        {
-          "name": "Kriz AJ",
-          "lab_member": false
-        },
-        {
-          "name": "Qian X",
-          "lab_member": false
-        },
-        {
-          "name": "Viswanadham VV",
-          "lab_member": true
-        },
-        {
-          "name": "Taketomi T",
-          "lab_member": false
-        },
-        {
-          "name": "Tsuruta F",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ**",
-          "lab_member": true
-        },
-        {
-          "name": "Walsh, CA**",
-          "lab_member": false
-        }
-      ],
-      "title": "Perinatal Elimination of Genetically Aberrant Neurons from Human Cerebral Cortex",
-      "title_link": "https://compbio.hms.harvard.edu/publications/perinatal-elimination-of-genetically-aberrant-neurons-from-human-cerebral-cortex",
-      "abstract": "Human neurons are postmitotic and long-lived, requiring precise genomic regulation to maintain function over a lifetime. Normal neuronal function is highly dependent on gene dosage, with copy number variants (CNVs) and heterozygous point mutations associated with a host of neurodevelopmental and neuropsychiatric conditions [1–3]. Here, we investigated the landscape of somatic CNVs arising in fetal human brains, and how they change over development, to understand the processes that generate neurons with low rates of aneuploidy. We identified 7,725 CNVs in >1,200 single neurons from human postmortem brain of 16 neurotypical individuals, ranging in age from gestational week 14 to 90 years old using Tn5-transposase-based single-cell whole-genome amplification. We surveyed CNVs in another 44,861 nuclei with 10X Multiome analysis. Up to 45% of postmitotic neurons in the prenatal cortex showed aberrant genomes, characterized by widespread CNVs of multiple chromosomes, but this reduces sharply after birth (p<0.01). We identified micronuclei in the developing cortex in situ, reflecting chromosomal material missegregated during neurodevelopment [4–6]. The size of CNV appeared to define the trajectory of neuronal elimination, since cells with widespread CNVs were eliminated earlier and faster than cells with smaller CNVs. CNVs in surviving neurons were depleted for genes that are dosage-sensitive or involved in neurodevelopmental disorders (p<0.05), suggesting selective elimination of neurons with CNVs involving these critical genes. Neurons with high CNV burdens also showed abnormal expression of synaptic gene sets, indicating that abnormal synaptic gene regulation may contribute to neuronal elimination. Elimination of defective neuronal genomes during during synaptogenesis may represent a critical process of genome quality control and a vulnerable target of factors that contribute to neurodevelopmental disease.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/perinatal-elimination-of-genetically-aberrant-neurons-from-human-cerebral-cortex",
-      "pdf_link": "/publications/pdf/Diane-Shao-2025-04-03.pdf",
-      "year": "2026",
-      "type": "2026",
-      "journal": "Nature",
-      "journal_location": "Nature, in press"
     },
     {
       "author": [
