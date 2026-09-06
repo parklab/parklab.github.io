@@ -11652,6 +11652,9 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .page-publications .venue {
   color: gray;
 }
+.page-publications .venue .journal-name {
+  color: darkred;
+}
 .page-publications .thumbnail {
   float: left;
   margin-right: 20px;
