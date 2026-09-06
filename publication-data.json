@@ -37,6 +37,22 @@
     {
       "author": [
         {
+          "name": "The Somatic Mosaicism across Human Tissues Network",
+          "lab_member": false
+        }
+      ],
+      "title": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.09.678885v2",
+      "abstract": "Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The SMaHT Network conducted four large-scale benchmarking experiments involving cell-lines and donor tissues, to evaluate sequencing technologies, experimental approaches, and computational methods for detecting different types of somatic mutations, generating community resource with >1,000x short-read and 100-400x long-read data for each of the nine analyzed samples. We determined effective strategies for utilizing short- and long-reads sequencing for mutation detection and demonstrated that using donor-specific assemblies and human pangenome improved calling, extending mutation catalogs to challenging genomic regions. We benchmarked six duplex technologies and showed that single-cell sequencing resolves cell type-specific mutational patterns and heterogeneity. Our results indicate that bulk, single-cell, and duplex analyses are complementary - and leveraging all three provides comprehensive characterization of mosaicism within tissues. Together, these findings provide a roadmap for accurate, genome-wide somatic mutation discovery and analysis.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-mutation-detection-by-the-smaht-network",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Cell",
+      "journal_location": "Cell, in press"
+    },
+    {
+      "author": [
+        {
           "name": "Zhou Z",
           "lab_member": false
         },
