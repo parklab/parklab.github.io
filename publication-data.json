@@ -1673,10 +1673,10 @@
       "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681545v1",
       "abstract": "Mosaic mutations in normal tissues occur at low variant allele fractions (VAFs), complicating detection. To benchmark strategies, the SMaHT Network created a cell-line mixture (1:49) and produced ultra-deep whole-genome sequencing using short and long reads (five centers, 180-500× each). We assembled a reference of 44,008 mosaic SNVs and 2,059 Indels, cross-validation between platforms to expose limits of short-read analysis. We also partitioned the genome by mappability to examine the impact of genomic context, added a negative reference set, and accounted for culture-derived mutations. When seven institutions applied eleven algorithms to mixture data, call sets were largely discordant across tools and replicates, partly reflecting stochastic presence of low-VAF mutations in biological replicants. For >2% VAF SNVs, sensitivity and precision approached ~80% at ≥300×, with little gain from additional sequencing. This work provides a comprehensive framework for reliable detection of low-VAF mutations in non-cancer tissues and a valuable resource for the community.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-single-nucleotide-variant-and-indel-detection-at-ultra-low-allele-fractions-using-short-and-long-read-data",
-      "year": "2025",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Cell Genomics",
+      "journal_location": "Cell Genomics, in press",
       "pdf_link": "/publications/pdf/2025.10.13.681545v1.full.pdf"
     },
     {
