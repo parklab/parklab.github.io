@@ -37,6 +37,14 @@
     {
       "author": [
         {
+          "name": "The Somatic Mosaicism across Human Tissues Network",
+          "lab_member": false
+        },
+        {
+          "name": "Stergachis AB",
+          "lab_member": false
+        },
+        {
           "name": "Sedlazeck FJ",
           "lab_member": false
         },
@@ -47,14 +55,6 @@
         {
           "name": "Park PJ",
           "lab_member": true
-        },
-        {
-          "name": "Stergachis AB",
-          "lab_member": false
-        },
-        {
-          "name": "The Somatic Mosaicism across Human Tissues Network",
-          "lab_member": false
         }
       ],
       "title": "Integrated map of somatic mosaicism across human tissues in 25 individuals",
@@ -481,15 +481,15 @@
      {
       "author": [
         {
-          "name": "Fu BJ",
+          "name": "Fu BJ*",
           "lab_member": true
         },
         {
-          "name": "Viswanadham VV",
+          "name": "Viswanadham VV*",
           "lab_member": true
         },
         {
-          "name": "Maziec D",
+          "name": "Maziec D*",
           "lab_member": true
         },
         {
