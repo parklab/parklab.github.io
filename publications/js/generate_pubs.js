@@ -39,12 +39,14 @@ var groupMap;
 
 // Splits a journal_location citation string into the leading journal name
 // and the trailing details (year, volume, "in press", etc.), so the name
-// can be styled separately in the venue line.
+// can be styled separately in the venue line. The year within the
+// trailing details is bolded; everything else stays plain weight.
 function highlightJournalName(journalLocation) {
   const match = journalLocation.match(/^(.*?)(?=[\d(,]|$)/);
   const name = (match ? match[0] : journalLocation).trimEnd();
-  const rest = journalLocation.slice(name.length);
-  if (!name) return journalLocation;
+  let rest = journalLocation.slice(name.length);
+  rest = rest.replace(/\b(19|20)\d{2}\b/, (year) => `<strong>${year}</strong>`);
+  if (!name) return rest || journalLocation;
   return `<span class="journal-name">${name}</span>${rest}`;
 }
 

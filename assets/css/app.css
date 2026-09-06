@@ -11571,6 +11571,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 /** Publications page-specific styles */
 .page-publications .label .asterisk {
   margin-top: 10px;
+  font-weight: normal;
 }
 .page-publications h1 {
   font-size: 1.5rem;
