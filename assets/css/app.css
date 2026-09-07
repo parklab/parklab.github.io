@@ -11691,18 +11691,28 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   color: #474747;
   background-color: white;
 }
-.page-publications #sort-select {
+.page-publications .sort-buttons {
+  display: flex;
+  gap: 8px;
+}
+.page-publications .sort-buttons .sort-button {
   font-size: 1rem;
-  padding: 0px 8px;
+  padding: 4px 12px;
   border-radius: 4px;
   border: 2px solid lightgray;
   font-family: Inter;
   font-weight: 500;
   color: #4a4a4a;
-  width: max-content;
-}
-.page-publications #sort-select:hover {
+  background: white;
   cursor: pointer;
+}
+.page-publications .sort-buttons .sort-button:hover {
+  border-color: #155799;
+}
+.page-publications .sort-buttons .sort-button.active {
+  border-color: #155799;
+  background: #155799;
+  color: white;
 }
 .page-publications .publications-container {
   display: flex;
