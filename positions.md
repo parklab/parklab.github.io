@@ -19,9 +19,9 @@ Applications are invited for multiple positions in the [Park laboratory](/) in t
 
 Due to a large number of indiscriminant applications, I cannot respond to every applicantion. <ins>If you send me a link to a short video recording (1-2 min, could be longer if you would like but not necessary) on your background and why you believe this laboratory is a good fit, I will respond.</ins>
 
-Recent work from the laboratory includes methods for detection of mosaic mutations from single-cell and bulk WGS data (Luquette et al, Nat Commun, 2019; Bohrson et al, Nat Genet, 2019; Luquette et al, Nat Genet, 2022; Dou et al, Nat Biotechnol, 2020; Zhao et al, Nat Commun, 2025; Ha et al, Cell Genomics, 2026), genome assembly using long reads and its application (Zhang et al, bioRxiv, 2025; Cheng et al, Nature, 2026), analysis of repetitive elements and transposable element insertions (Chu et al, Nat Commun, 2021; Wang et al, Cell Genomics, 2026), applications to neurodevelopment and neuropsychiatric/neurodegenerative disease (Bizzotto et al, Science, 2021; Rodin et al, Nat Neurosci, 2021; Shao et al, Nature, 2026; Zhou et al, Cell, 2026), mutational signature analysis (Gulhan et al, Nat Genet, 2019; Jin et al, Nat Genet, 2024), mosaic chromosomal alterations across human tissues (Gao et al, Nat Genet, 2023), and the functional consequences of cancer genome evolution (Wang et al, Nat Commun, 2019; Lee et al, Nature, 2023; Watson et al, Nat Genet, 2024).
+Recent work from the laboratory includes methods for detection of mosaic mutations from single-cell, RNA, and bulk WGS data (Ha et al, Cell Genomics, 2026; Zhao et al, Nat Commun, 2025; Gao et al, Nat Genet, 2023; Luquette et al, Nat Genet, 2022; Dou et al, Nat Biotechnol, 2020; Luquette et al, Nat Commun, 2019; Bohrson et al, Nat Genet, 2019), genome assembly using long reads and its application (Cheng et al, Nature, 2026; Zhang et al, bioRxiv, 2025), analysis of repetitive elements and transposable element insertions (Chu et al, Nat Commun, 2021), applications to neurodevelopment and neuropsychiatric/neurodegenerative disease (Shao et al, Nature, 2026; Zhou et al, Cell, 2026; Bizzotto et al, Science, 2021; Rodin et al, Nat Neurosci, 2021; Lodato et al, Science, 2018; Lodato et al, Science, 2015), mutational signature analysis (Jin et al, Nat Genet, 2024; Gulhan et al, Nat Genet, 2019), and the functional consequences of cancer genome evolution (Watson et al, Nat Genet, 2024; Lee et al, Nature, 2023).
 
-
+<br><br>
 
 #### Data Analysis Center for the Somatic Mosaicism across Human Tissues (SMaHT) project (2023-). 
 See [here](https://www.nih.gov/news-events/news-releases/nih-launches-140-million-effort-investigate-genetic-variation-normal-human-cells-tissues#.ZGPRCj3vAzl.twitter). In addition to an amazing dataset, this consortium will be a wonderful opportunity to get to know top researchers in the field.
@@ -61,13 +61,15 @@ The immediate positions after leaving the lab for the recent alumni:
 - Benedikt Geiger (Friedrich-Wilhelms-Universität Bonn, Harvard): PhD student in Bioinformatics & Integrative Genomics at Harvard
 - Clara Kim (Wellesley): Medical student at Boston University
 
+Please send your CV with '[ACB]' and your name in the subject line. Include a statement on your career plans and attach your undergraduate transcript.
+
 ### Graduate Students
 
 We'd love to have graduate students rotate!  The student must already be enrolled in a graduate program at Harvard (Bioinformatics and Integrative Genomics, Biophysics, Biological and Biomedical Sciences, etc.) or at MIT (Health Sciences & Technology, etc.).
 
 Due to high volume, inquires regarding graduate student positions from those who are in the process of applying to graduate programs will go unanswered.
 
-Visiting graduate positions may be available for outstanidng students. There are no internship positions for foreign medical students.
+Visiting graduate positions may be available for outstanding students. There are no internship positions for foreign medical students.
 
 ### Undergraduate Research Assistants
 
