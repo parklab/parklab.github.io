@@ -13,15 +13,15 @@ hide_footer: false
 
 #### [updated Sep 2026]
 
-<ins>Applicants to the BIG PhD program - Please see my note at the bottom of the page.</ins>
+**Applicants to the BIG PhD program - Please see my note at the bottom of the page.**
 
 Applications are invited for multiple positions in the [Park laboratory](/) in the Department of Biomedical Informatics at Harvard Medical School. The aim of the laboratory is to develop and apply innovative computational methods for genome sequencing data to enhance our understanding of cancer genetics, neurogenetics, and epigenetics.
 
-Due to a large number of indiscriminant applications, I cannot respond to every applicantion. <ins>If you send me a link to a short video recording (1-2 min, could be longer if you would like but not necessary) on your background and why you believe this laboratory is a good fit, I will respond.</ins>
+Due to a large number of indiscriminant applications, I cannot respond to every applicantion. **If you send me a link to a short video recording (1-2 min, could be longer if you would like but not necessary) on your background and why you believe this laboratory is a good fit, I will respond.**
 
 Recent work from the laboratory includes methods for detection of mosaic mutations from single-cell, RNA, and bulk WGS data (Ha et al, Cell Genomics, 2026; Zhao et al, Nat Commun, 2025; Gao et al, Nat Genet, 2023; Luquette et al, Nat Genet, 2022; Dou et al, Nat Biotechnol, 2020; Luquette et al, Nat Commun, 2019; Bohrson et al, Nat Genet, 2019), genome assembly using long reads and its application (Cheng et al, Nature, 2026; Zhang et al, bioRxiv, 2025), analysis of repetitive elements and transposable element insertions (Chu et al, Nat Commun, 2021), applications to neurodevelopment and neuropsychiatric/neurodegenerative disease (Shao et al, Nature, 2026; Zhou et al, Cell, 2026; Bizzotto et al, Science, 2021; Rodin et al, Nat Neurosci, 2021; Lodato et al, Science, 2018; Lodato et al, Science, 2015), mutational signature analysis (Jin et al, Nat Genet, 2024; Gulhan et al, Nat Genet, 2019), and the functional consequences of cancer genome evolution (Watson et al, Nat Genet, 2024; Lee et al, Nature, 2023).
 
-<br><br>
+<br>
 
 #### Data Analysis Center for the Somatic Mosaicism across Human Tissues (SMaHT) project (2023-). 
 See [here](https://www.nih.gov/news-events/news-releases/nih-launches-140-million-effort-investigate-genetic-variation-normal-human-cells-tissues#.ZGPRCj3vAzl.twitter). In addition to an amazing dataset, this consortium will be a wonderful opportunity to get to know top researchers in the field.
@@ -73,7 +73,7 @@ Visiting graduate positions may be available for outstanding students. There are
 
 ### Undergraduate Research Assistants
 
-A small number of research positions are open for undergraduates throughout the year, primarily for Harvard and MIT undergraduates. A 10-hour commitment during school year and a full-time commitment during summer are required. Strong quantitative background and substantial programming experience are essential. You may also be interested in the [Summer Institute in Bioinformatics and Integrative Genomics at Harvard-MIT Health, Science and Technology](https://dbmi.hms.harvard.edu/education/summer-institute-biomedical-informatics).
+A small number of research positions are open for undergraduates throughout the year for Harvard and MIT undergraduates. A 10-hour commitment during school year and a full-time commitment during summer are required. Strong quantitative background and substantial programming experience are essential. You may also be interested in the [Summer Institute in Bioinformatics and Integrative Genomics at Harvard-MIT Health, Science and Technology](https://dbmi.hms.harvard.edu/education/summer-institute-biomedical-informatics).
 
 
 ------------
