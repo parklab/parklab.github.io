@@ -11,7 +11,7 @@ hide_footer: false
 
 # Positions in the Park lab
 
-#### [updated Feb 2026]
+#### [updated Sep 2026]
 
 <ins>Applicants to the BIG PhD program - Please see my note at the bottom of the page</ins>
 
