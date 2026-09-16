@@ -11,3 +11,5 @@ hide_footer: false
 
 # Supplementary Material for Published Papers
 
+#### Most supplement material is now part of our GitHub pages: [https://github.com/parklab/](https://github.com/parklab/)
+
