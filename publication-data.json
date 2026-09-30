@@ -69,6 +69,49 @@
     {
       "author": [
         {
+          "name": "Chu C**",
+          "lab_member": true
+        },
+        {
+          "name": "Sexton CE",
+          "lab_member": true
+        },
+        {
+          "name": "Tran AV",
+          "lab_member": true
+        },
+        {
+          "name": "Ljungström V",
+          "lab_member": true
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Kamihara J",
+          "lab_member": false
+        },
+        {
+          "name": "Ting DT",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        }
+      ],
+      "title": "Contribution of de novo retroelements to birth defects and childhood cancers in 3244 trios",
+      "title_link": "https://www.medrxiv.org/content/10.1101/2024.04.15.24305733v1",
+      "abstract": "Insertion of active retroelements—L1s, Alus, and SVAs—can disrupt proper genome function and lead to various disorders including cancer. However, the role of de novo retroelements (DNRTs) in birth defects and childhood cancers has not been well characterized due to the lack of adequate data and efficient computational tools. Here, we examine whole-genome sequencing data of 3,244 trios from 12 birth defect and childhood cancer cohorts in the Gabriella Miller Kids First Pediatric Research Program. Using an improved version of our tool xTea (x-Transposable element analyzer) that incorporates a deep-learning module, we identified 162 DNRTs, as well as 2 pseudogene insertions. Several variants are likely to be causal, such as a de novo Alu insertion that led to the ablation of a whole exon in the NF1 gene in a proband with brain tumor. We observe a high de novo SVA insertion burden in both high-intolerance loss-of-function genes and exons as well as more frequent de novo Alu insertions of paternal origin. We also identify potential mosaic DNRTs from embryonic stages. Our study reveals the important roles of DNRTs in causing birth defects and predisposition to childhood cancers.",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Cell Genomics",
+      "journal_location": "Cell Genomics, in press"
+    },
+    {
+      "author": [
+        {
           "name": "Shao DD*",
           "lab_member": false
         },
