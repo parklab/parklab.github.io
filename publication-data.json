@@ -69,6 +69,39 @@
     {
       "author": [
         {
+          "name": "Zhang Y",
+          "lab_member": true
+        },
+        {
+          "name": "Qu H",
+          "lab_member": true
+        },
+        {
+          "name": "Qin Q",
+          "lab_member": false
+        },
+        {
+          "name": "Li H",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Diploid donor-specific assembly enhances somatic structural variant detection in cancer genomes",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.28.685155v1",
+      "abstract": "Somatic structural variants (SVs) play a crucial role in tumor development and evolution, yet their identification remains challenging, partly due to limitations in current reference genomes. We present a systematic evaluation of diploid donor-specific assemblies (DSAs)-generated based on hybrid long-read sequencing data-as the reference genome for detecting somatic SVs. We analyzed six tumor-normal cell line pairs, using the EchoSV tool we developed to consolidate haplotype-based SVs into a single DSA-based set and to compare SVs across reference genomes. Across Illumina, PacBio HiFi, and Oxford Nanopore Technology (ONT) data, DSA-based analysis improved read-mapping quality, identified over 20% additional SVs compared to GRCh38 and CHM13, and reduced germline artifacts. Most DSA-specific SVs were isolated deletions or insertions in repetitive elements, especially in satellite regions. By tracking sequence-context differences, we identified scenarios in which DSAs enabled detection of SVs missed on GRCh38/CHM13, and confirmed their functional impact with RNA-seq. These results highlight the value of integrating diploid DSAs into somatic SV analysis.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/diploid-donor-specific-assembly-enhances-somatic-structural-variant-detection-in-cancer-genomes",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Nature Methods",
+      "journal_location": "Nature Methods, in press",
+      "pdf_link": "/publications/pdf/2025.10.28.685155v1.full.pdf"
+    },
+    {
+      "author": [
+        {
           "name": "Chu C**",
           "lab_member": true
         },
@@ -2048,39 +2081,6 @@
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
       "pdf_link": "/publications/pdf/2025.10.31.685648v1.full.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Zhang Y",
-          "lab_member": true
-        },
-        {
-          "name": "Qu H",
-          "lab_member": true
-        },
-        {
-          "name": "Qin Q",
-          "lab_member": false
-        },
-        {
-          "name": "Li H",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "Diploid donor-specific assembly enhances somatic structural variant detection in cancer genomes",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.28.685155v1",
-      "abstract": "Somatic structural variants (SVs) play a crucial role in tumor development and evolution, yet their identification remains challenging, partly due to limitations in current reference genomes. We present a systematic evaluation of diploid donor-specific assemblies (DSAs)-generated based on hybrid long-read sequencing data-as the reference genome for detecting somatic SVs. We analyzed six tumor-normal cell line pairs, using the EchoSV tool we developed to consolidate haplotype-based SVs into a single DSA-based set and to compare SVs across reference genomes. Across Illumina, PacBio HiFi, and Oxford Nanopore Technology (ONT) data, DSA-based analysis improved read-mapping quality, identified over 20% additional SVs compared to GRCh38 and CHM13, and reduced germline artifacts. Most DSA-specific SVs were isolated deletions or insertions in repetitive elements, especially in satellite regions. By tracking sequence-context differences, we identified scenarios in which DSAs enabled detection of SVs missed on GRCh38/CHM13, and confirmed their functional impact with RNA-seq. These results highlight the value of integrating diploid DSAs into somatic SV analysis.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/diploid-donor-specific-assembly-enhances-somatic-structural-variant-detection-in-cancer-genomes",
-      "year": "bioRxiv",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/2025.10.28.685155v1.full.pdf"
     },
     {
       "author": [
