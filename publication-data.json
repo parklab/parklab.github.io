@@ -226,7 +226,7 @@
     {
       "author": [
         {
-          "name": "Ha YJ*",
+          "name": "Ha YJ**",
           "lab_member": true
         },
         {
@@ -378,27 +378,35 @@
           "lab_member": true
         },
         {
-          "name": "Fulton RS",
+          "name": "SMaHT Network Single Nucleotide Variant (SNV) Working Group",
           "lab_member": false
         },
         {
-          "name": "Germer S",
+          "name": "Ardlie KG**",
           "lab_member": false
         },
         {
-          "name": "Gibbs R",
+          "name": "Fulton RS**",
           "lab_member": false
         },
         {
-          "name": "Marth GT",
+          "name": "Germer S**",
           "lab_member": false
         },
         {
-          "name": "Bennett JT",
+          "name": "Gibbs R**",
           "lab_member": false
         },
         {
-          "name": "Park PJ",
+          "name": "Marth GT**",
+          "lab_member": false
+        },
+        {
+          "name": "Bennett JT**",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
           "lab_member": true
         }
       ],
@@ -531,7 +539,7 @@
       "lab_member": true
     },
     {
-      "name": "Park PJ**",
+      "name": "Park PJ",
       "lab_member": true
     },
     {
