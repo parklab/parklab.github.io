@@ -69,6 +69,82 @@
     {
       "author": [
         {
+          "name": "Zhang Y",
+          "lab_member": true
+        },
+        {
+          "name": "Qu H",
+          "lab_member": true
+        },
+        {
+          "name": "Qin Q",
+          "lab_member": false
+        },
+        {
+          "name": "Li H",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Diploid donor-specific assembly enhances somatic structural variant detection in cancer genomes",
+      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.28.685155v1",
+      "abstract": "Somatic structural variants (SVs) play a crucial role in tumor development and evolution, yet their identification remains challenging, partly due to limitations in current reference genomes. We present a systematic evaluation of diploid donor-specific assemblies (DSAs)-generated based on hybrid long-read sequencing data-as the reference genome for detecting somatic SVs. We analyzed six tumor-normal cell line pairs, using the EchoSV tool we developed to consolidate haplotype-based SVs into a single DSA-based set and to compare SVs across reference genomes. Across Illumina, PacBio HiFi, and Oxford Nanopore Technology (ONT) data, DSA-based analysis improved read-mapping quality, identified over 20% additional SVs compared to GRCh38 and CHM13, and reduced germline artifacts. Most DSA-specific SVs were isolated deletions or insertions in repetitive elements, especially in satellite regions. By tracking sequence-context differences, we identified scenarios in which DSAs enabled detection of SVs missed on GRCh38/CHM13, and confirmed their functional impact with RNA-seq. These results highlight the value of integrating diploid DSAs into somatic SV analysis.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/diploid-donor-specific-assembly-enhances-somatic-structural-variant-detection-in-cancer-genomes",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Nature Methods",
+      "journal_location": "Nature Methods, in press",
+      "pdf_link": "/publications/pdf/2025.10.28.685155v1.full.pdf"
+    },
+    {
+      "author": [
+        {
+          "name": "Chu C**",
+          "lab_member": true
+        },
+        {
+          "name": "Sexton CE",
+          "lab_member": true
+        },
+        {
+          "name": "Tran AV",
+          "lab_member": true
+        },
+        {
+          "name": "Ljungström V",
+          "lab_member": true
+        },
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Kamihara J",
+          "lab_member": false
+        },
+        {
+          "name": "Ting DT",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
+          "lab_member": true
+        }
+      ],
+      "title": "Contribution of de novo retroelements to birth defects and childhood cancers in 3244 trios",
+      "title_link": "https://www.medrxiv.org/content/10.1101/2024.04.15.24305733v1",
+      "abstract": "Insertion of active retroelements—L1s, Alus, and SVAs—can disrupt proper genome function and lead to various disorders including cancer. However, the role of de novo retroelements (DNRTs) in birth defects and childhood cancers has not been well characterized due to the lack of adequate data and efficient computational tools. Here, we examine whole-genome sequencing data of 3,244 trios from 12 birth defect and childhood cancer cohorts in the Gabriella Miller Kids First Pediatric Research Program. Using an improved version of our tool xTea (x-Transposable element analyzer) that incorporates a deep-learning module, we identified 162 DNRTs, as well as 2 pseudogene insertions. Several variants are likely to be causal, such as a de novo Alu insertion that led to the ablation of a whole exon in the NF1 gene in a proband with brain tumor. We observe a high de novo SVA insertion burden in both high-intolerance loss-of-function genes and exons as well as more frequent de novo Alu insertions of paternal origin. We also identify potential mosaic DNRTs from embryonic stages. Our study reveals the important roles of DNRTs in causing birth defects and predisposition to childhood cancers.",
+      "year": "2026",
+      "type": "2026",
+      "journal": "Cell Genomics",
+      "journal_location": "Cell Genomics, in press"
+    },
+    {
+      "author": [
+        {
           "name": "Shao DD*",
           "lab_member": false
         },
@@ -150,7 +226,7 @@
     {
       "author": [
         {
-          "name": "Ha YJ*",
+          "name": "Ha YJ**",
           "lab_member": true
         },
         {
@@ -302,27 +378,35 @@
           "lab_member": true
         },
         {
-          "name": "Fulton RS",
+          "name": "SMaHT Network Single Nucleotide Variant (SNV) Working Group",
           "lab_member": false
         },
         {
-          "name": "Germer S",
+          "name": "Ardlie KG**",
           "lab_member": false
         },
         {
-          "name": "Gibbs R",
+          "name": "Fulton RS**",
           "lab_member": false
         },
         {
-          "name": "Marth GT",
+          "name": "Germer S**",
           "lab_member": false
         },
         {
-          "name": "Bennett JT",
+          "name": "Gibbs R**",
           "lab_member": false
         },
         {
-          "name": "Park PJ",
+          "name": "Marth GT**",
+          "lab_member": false
+        },
+        {
+          "name": "Bennett JT**",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ**",
           "lab_member": true
         }
       ],
@@ -455,7 +539,7 @@
       "lab_member": true
     },
     {
-      "name": "Park PJ**",
+      "name": "Park PJ",
       "lab_member": true
     },
     {
@@ -669,7 +753,7 @@
       "year": "2026",
       "type": "2026",
       "journal": "Cell",
-      "journal_location": "Cell 2026 Jul 1:S0092-8674(26)00700-2"
+      "journal_location": "Cell 2026;189:5766-5782.e10"
       },
     {
       "author": [
@@ -2005,39 +2089,6 @@
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
       "pdf_link": "/publications/pdf/2025.10.31.685648v1.full.pdf"
-    },
-    {
-      "author": [
-        {
-          "name": "Zhang Y",
-          "lab_member": true
-        },
-        {
-          "name": "Qu H",
-          "lab_member": true
-        },
-        {
-          "name": "Qin Q",
-          "lab_member": false
-        },
-        {
-          "name": "Li H",
-          "lab_member": false
-        },
-        {
-          "name": "Park PJ",
-          "lab_member": true
-        }
-      ],
-      "title": "Diploid donor-specific assembly enhances somatic structural variant detection in cancer genomes",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.28.685155v1",
-      "abstract": "Somatic structural variants (SVs) play a crucial role in tumor development and evolution, yet their identification remains challenging, partly due to limitations in current reference genomes. We present a systematic evaluation of diploid donor-specific assemblies (DSAs)-generated based on hybrid long-read sequencing data-as the reference genome for detecting somatic SVs. We analyzed six tumor-normal cell line pairs, using the EchoSV tool we developed to consolidate haplotype-based SVs into a single DSA-based set and to compare SVs across reference genomes. Across Illumina, PacBio HiFi, and Oxford Nanopore Technology (ONT) data, DSA-based analysis improved read-mapping quality, identified over 20% additional SVs compared to GRCh38 and CHM13, and reduced germline artifacts. Most DSA-specific SVs were isolated deletions or insertions in repetitive elements, especially in satellite regions. By tracking sequence-context differences, we identified scenarios in which DSAs enabled detection of SVs missed on GRCh38/CHM13, and confirmed their functional impact with RNA-seq. These results highlight the value of integrating diploid DSAs into somatic SV analysis.",
-      "abstract_link": "https://compbio.hms.harvard.edu/publications/diploid-donor-specific-assembly-enhances-somatic-structural-variant-detection-in-cancer-genomes",
-      "year": "bioRxiv",
-      "type": "2025",
-      "journal": "bioRxiv",
-      "journal_location": "bioRxiv",
-      "pdf_link": "/publications/pdf/2025.10.28.685155v1.full.pdf"
     },
     {
       "author": [
