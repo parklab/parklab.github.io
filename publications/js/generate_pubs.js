@@ -6,16 +6,16 @@ const sort_param = params.get('sort') || 'year';
 
 const group_field = sort_param === "key-papers" ? "year" : sort_param;
 
-// Listen for change in sort field selector
-const selectElement = document.getElementById('sort-select');
-const selectElementValue = selectElement.value;
+const SORT_LABELS = { 'year': 'Year', 'journal': 'Journal', 'key-papers': 'Key Papers' };
 
-selectElement.appendChild(new Option('Year', 'year', false, sort_param === 'year'));
-selectElement.appendChild(new Option('Journal', 'journal', false, sort_param === 'journal'));
-selectElement.appendChild(new Option('Key Papers', 'key-papers', false, sort_param === 'key-papers'));
-
-selectElement.addEventListener('change', (event) => {
-  window.location.href = `?sort=${event.target.value}`;
+// Wire up the sort-by buttons: highlight the active choice, navigate on click
+document.querySelectorAll('.sort-button').forEach((btn) => {
+  if (btn.dataset.sort === sort_param) {
+    btn.classList.add('active');
+  }
+  btn.addEventListener('click', () => {
+    window.location.href = `?sort=${btn.dataset.sort}`;
+  });
 });
 
 // DISPLAY OPTIONS -------
@@ -37,6 +37,32 @@ var tagColor;
 // If we use customs group, this maps orig type name to custom group name
 var groupMap;
 
+// Splits a journal_location citation string into the leading journal name
+// and the trailing details (year, volume, "in press", etc.), so the name
+// can be styled separately in the venue line. The year within the
+// trailing details is bolded; everything else stays plain weight.
+function highlightJournalName(journalLocation) {
+  const match = journalLocation.match(/^(.*?)(?=[\d(,]|$)/);
+  const name = (match ? match[0] : journalLocation).trimEnd();
+  let rest = journalLocation.slice(name.length);
+  rest = rest.replace(/\b(19|20)\d{2}\b/, (year) => `<strong>${year}</strong>`);
+  if (!name) return rest || journalLocation;
+  return `<span class="journal-name">${name}</span>${rest}`;
+}
+
+// Compares group keys for the 'year' / 'key-papers' groupings, treating
+// non-numeric keys (e.g. "bioRxiv") as coming before all calendar years.
+function sortYearKeys(a, b) {
+  const na = Number(a);
+  const nb = Number(b);
+  const aIsYear = !Number.isNaN(na);
+  const bIsYear = !Number.isNaN(nb);
+  if (aIsYear && bIsYear) return nb - na;
+  if (!aIsYear && bIsYear) return -1;
+  if (aIsYear && !bIsYear) return 1;
+  return a.localeCompare(b);
+}
+
 d3.json('/publication-data.json', function(json) {
 
   createTypeColors(json.publications);
@@ -54,19 +80,19 @@ d3.json('/publication-data.json', function(json) {
   let sorted_keys;
   switch (sort_param) {
     case 'key-papers':
-      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+      sorted_keys = Object.keys(grouped_data).sort(sortYearKeys);
       break;
     case 'year':
-      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+      sorted_keys = Object.keys(grouped_data).sort(sortYearKeys);
       break;
     case 'journal':
       sorted_keys = Object.keys(grouped_data).sort(
-        (a, b) => 
+        (a, b) =>
           grouped_data[b].length - grouped_data[a].length || b.localeCompare(a)
       );
       break;
     default:
-      sorted_keys = Object.keys(grouped_data).sort((a, b) => b - a);
+      sorted_keys = Object.keys(grouped_data).sort(sortYearKeys);
   }
   
   // Render links to the different categories
@@ -82,7 +108,7 @@ function renderCategoryLinks(data, data_groups_by_venue) {
   const categoryLinksContainer = pubsContainer.append('div').classed('category-links-container', true);
  
   // Title of the category links
-  categoryLinksContainer.append('h2').text(sort_param === "key-papers" ? "Year" : selectElement.options[selectElement.selectedIndex].innerText)
+  categoryLinksContainer.append('h2').text(sort_param === "key-papers" ? "Year" : SORT_LABELS[sort_param])
 
   // Links to the different category values
   const categoryLinks = categoryLinksContainer.append('ul').classed('category-links', true);
@@ -194,7 +220,7 @@ function renderPubGroup(pubData, target, category) {
   pubInfo.append('div')
     .classed('venue', true)
     .html(function(d) {
-      return '<em>' + d.journal_location + '</em> ';
+      return '<em>' + highlightJournalName(d.journal_location) + '</em> ';
     });
 
   // add supplemental links

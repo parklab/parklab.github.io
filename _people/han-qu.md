@@ -1,6 +1,6 @@
 ---
 person_title: <a href="/people/han-qu">Han (Flora) Qu</a>
-name: Han (Flora) Qu
+name: Flora (Han) Qu
 subtitle: Research Fellow  # Set subtitle to position_link_text
 professional_title: "Postdoctoral Fellow"
 academic_title: "PhD, University of California, Riverside"

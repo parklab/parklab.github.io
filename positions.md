@@ -11,15 +11,20 @@ hide_footer: false
 
 # Positions in the Park lab
 
-#### [updated Feb 2026]
+#### [updated Sep 2026]
 
-<ins>Applicants to the BIG PhD program - Please see my note at the bottom of the page</ins>
+**Applicants to the BIG PhD program - Please see my note at the bottom of the page.**
 
 Applications are invited for multiple positions in the [Park laboratory](/) in the Department of Biomedical Informatics at Harvard Medical School. The aim of the laboratory is to develop and apply innovative computational methods for genome sequencing data to enhance our understanding of cancer genetics, neurogenetics, and epigenetics.
 
-Recent work from the laboratory includes methods for detection of mosaic mutations from single cell and bulk WGS data (Luquette et al, Nat Genetics, 2022; Dou et al, Nat Biotech, 2020; Bohrson et al, Nat Gen, 2019) and their applications (Bizzoto et al, Science, 2021; Lodato et al, Science, 2018), mutational signature analysis (Gurhan et al, Nat Gen, 2019), and analysis of chromothripsis events across cancers (Ciriano-Cortes et al, Nat Gen, 2020).
+Due to a large number of indiscriminant applications, I cannot respond to every applicantion. **If you send me a link to a short video recording (1-2 min, could be longer if you would like but not necessary) on your background and why you believe this laboratory is a good fit, I will respond.**
 
-#### New: Data Analysis Center for the Somatic Mosaicism across Human Tissues (SMaHT) project. See [here](https://www.nih.gov/news-events/news-releases/nih-launches-140-million-effort-investigate-genetic-variation-normal-human-cells-tissues#.ZGPRCj3vAzl.twitter) for more information about the project. In addition to an amazing dataset, this consortium will be a wonderful opportunity to get to know top researchers in the field.
+Recent work from the laboratory includes methods for detection of mosaic mutations from single-cell, RNA, and bulk WGS data (Ha et al, Cell Genomics, 2026; Zhao et al, Nat Commun, 2025; Gao et al, Nat Genet, 2023; Luquette et al, Nat Genet, 2022; Dou et al, Nat Biotechnol, 2020; Luquette et al, Nat Commun, 2019; Bohrson et al, Nat Genet, 2019), genome assembly using long reads and its application (Cheng et al, Nature, 2026; Zhang et al, bioRxiv, 2025), analysis of repetitive elements and transposable element insertions (Chu et al, Nat Commun, 2021), applications to neurodevelopment and neuropsychiatric/neurodegenerative disease (Shao et al, Nature, 2026; Zhou et al, Cell, 2026; Bizzotto et al, Science, 2021; Rodin et al, Nat Neurosci, 2021; Lodato et al, Science, 2018; Lodato et al, Science, 2015), mutational signature analysis (Jin et al, Nat Genet, 2024; Gulhan et al, Nat Genet, 2019), and the functional consequences of cancer genome evolution (Watson et al, Nat Genet, 2024; Lee et al, Nature, 2023).
+
+<br>
+
+#### Data Analysis Center for the Somatic Mosaicism across Human Tissues (SMaHT) project (2023-). 
+See [here](https://www.nih.gov/news-events/news-releases/nih-launches-140-million-effort-investigate-genetic-variation-normal-human-cells-tissues#.ZGPRCj3vAzl.twitter). In addition to an amazing dataset, this consortium will be a wonderful opportunity to get to know top researchers in the field.
 
 
 ### Postdoctoral Fellows
@@ -37,11 +42,9 @@ The successful candidates will join a group of supportive and productive computa
 
 Please send your CV with '[POSTDOC]' and your name in the subject line. A research statement that demonstrates one's expertise in an area is helpful but not required. 
 
-Due to a large number of indiscriminant applications, I cannot respond to every applicantion. <ins>If you send me a link to a short video recording (1-2 min, could be longer if you would like but not necessary) on your background and why you believe this laboratory is a good fit, I will respond.</ins>
-
 ### Bioinformatics Scientist
 
-We are also seeking a staff bioinformatics scientist to be part of the SMaHT Data Analysis Center and other projects. This is ideal for those who love bioinformatics analysis but do not wish to be on the standard postdoc track. Postdoctoral experience is desirable but not required.
+We are also seeking a staff bioinformatics scientist to be part of the SMaHT Data Analysis Center and other projects. This is ideal for those who love bioinformatics analysis but do not wish to be on the standard postdoc track. Postdoctoral experience is desirable but not required. Please send your CV with '[BIOINFO SCIENTIST]' and your name in the subject line. 
 
 ### Associate Computational Biologists
 
@@ -58,6 +61,7 @@ The immediate positions after leaving the lab for the recent alumni:
 - Benedikt Geiger (Friedrich-Wilhelms-Universität Bonn, Harvard): PhD student in Bioinformatics & Integrative Genomics at Harvard
 - Clara Kim (Wellesley): Medical student at Boston University
 
+Please send your CV with '[ACB]' and your name in the subject line. Include a statement on your career plans and attach your undergraduate transcript.
 
 ### Graduate Students
 
@@ -65,16 +69,12 @@ We'd love to have graduate students rotate!  The student must already be enrol
 
 Due to high volume, inquires regarding graduate student positions from those who are in the process of applying to graduate programs will go unanswered.
 
-Visiting graduate positions may be available. There are no internship positions for foreign medical students.
+Visiting graduate positions may be available for outstanding students. There are no internship positions for foreign medical students.
 
 ### Undergraduate Research Assistants
 
-A small number of research positions are open for undergraduates throughout the year, primarily for Harvard and MIT undergraduates. A 10-hour commitment during school year and a full-time commitment during summer are required. Strong quantitative background and substantial programming experience are essential. You may also be interested in the [Summer Institute in Bioinformatics and Integrative Genomics at Harvard-MIT Health, Science and Technology](https://dbmi.hms.harvard.edu/education/summer-institute-biomedical-informatics).
+A small number of research positions are open for undergraduates throughout the year for Harvard and MIT undergraduates. A 10-hour commitment during school year and a full-time commitment during summer are required. Strong quantitative background and substantial programming experience are essential. You may also be interested in the [Summer Institute in Bioinformatics and Integrative Genomics at Harvard-MIT Health, Science and Technology](https://dbmi.hms.harvard.edu/education/summer-institute-biomedical-informatics).
 
-
-### Software Engineers
-
-We are also hiring software engineers interested in using their skills to help build a whole-genome analysis platform for researchers and physicians. Experience in bioinformatics is helpful but not required. International applicants with at least a master’s degree are welcomed; remote work is a possibility.
 
 ------------
 

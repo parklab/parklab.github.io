@@ -1,6 +1,6 @@
 ---
 person_title: <a href="/people/sangmi-sandra-lee">Sangmi (Sandra) Lee</a>
-name: Sangmi (Sandra) Lee
+name: Sandra (Sangmi) Lee
 subtitle: Research Fellow  # Set subtitle to position_link_text
 professional_title: "PhD in Systems Biology/Bioinformatics, Korea Advanced Institute of Science and Technology"
 academic_title: "Postdoctoral Fellow"
