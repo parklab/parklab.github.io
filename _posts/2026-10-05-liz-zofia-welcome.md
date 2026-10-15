@@ -1,6 +1,6 @@
 ---
 layout: news-item
-title: "Welcome Liz and Zofia"
+title: "Welcome Liz and Zofia!"
 subtitle: "October 5, 2026"
 page_name: news-item
 date: "2026-10-05"
