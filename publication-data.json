@@ -11,6 +11,92 @@
     "tech report": "other"
   },
   "publications_format": [
+      {
+      "author": [
+        {
+          "name": "Brew J",
+          "lab_member": true
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Gulhan DC",
+          "lab_member": false
+        }
+      ],
+      "title": "Complete timing of copy-number amplification histories reveals whole-genome duplication dynamics and coincident oncogene amplification bursts",
+      "title_link": "https://doi.org/10.64898/2026.09.23.753832",
+      "abstract": "Copy-number amplifications drive cancer evolution through increased oncogene dosage. Mutations acquired before a gain are co-amplified, so their multiplicity places successive gains on a molecular timescale. This principle has been used to time individual gains and whole-genome duplication (WGD), but possible gain histories multiply rapidly with copy number, confining existing methods to low copy-number states or predefined scenarios and leaving oncogene-bearing amplifications unresolved. Here we describe a mathematical framework to systematically enumerate every allele-specific gain route to a copy-number state and derive an analytical timing for each gain, implemented in a method called Tau. Across pan-cancer genomes, punctuated multichromosomal events account for roughly three-quarters of clonal gains. Most are WGD, acquired early and often repeated within a doubling-prone subset, but a distinct, predominantly monoallelic class recurs on tumor-type-specific chromosomes, representing a coordinated mode separate from doubling. Strikingly, the highest copy-number states are reached not gradually but in abrupt bursts that cluster around WGD and contain more gains than doubling alone can produce, recurring at oncogenes. WGD is therefore not a passive doubling but a window in which localized oncogene amplification becomes far more frequent. By resolving the order of gains and the mutational processes shifting between them, Tau establishes punctuated amplification as a pervasive mode of cancer genome evolution.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/complete-timing-of-copy-number-amplification-histories-reveals-whole-genome-duplication-dynamics-and-coincident-oncogene-amplification-bursts",
+      "year": "2026",
+      "type": "2026",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2026.09.23.753832v2.full.pdf"
+    }, 
+    {
+      "author": [
+        {
+          "name": "Caglayan E",
+          "lab_member": false
+        },
+        {
+          "name": "Lamba I",
+          "lab_member": false
+        },
+        {
+          "name": "Manam Devi M",
+          "lab_member": false
+        },
+        {
+          "name": "Finander B",
+          "lab_member": false
+        },
+        {
+          "name": "Luquette LJ",
+          "lab_member": true
+        },
+        {
+          "name": "Exposito-Alonso D",
+          "lab_member": false
+        },
+        {
+          "name": "Zhao S",
+          "lab_member": false
+        },
+        {
+          "name": "Jin B",
+          "lab_member": false
+        },
+        {
+          "name": "Miller MB",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        },
+        {
+          "name": "Sherwood CC",
+          "lab_member": false
+        },
+        {
+          "name": "Walsh CA",
+          "lab_member": false
+        }
+      ],
+      "title": "Somatic mutations and single-nucleus transcriptomics reveal uniquely human properties of neuronal aging",
+      "title_link": "https://doi.org/10.64898/2026.09.22.753624",
+      "abstract": "Human brain aging is frequently studied in model mammals that rarely show the natural age-related neurodegenerative conditions that afflict humans, yet little is known about how genomic stability compares across species during aging. Although somatic single nucleotide variant (SNV) and short insertion/deletion (Indel) mutations accumulate at rates that inversely scale to lifespan in colon cells-leaving diverse mammals with similar end-of-life burdens of mutations -- here we show that cerebral cortical neurons accumulate SNVs at annual rates that are remarkably similar across six mammalian species (human, chimpanzee, rhesus macaque, marmoset, ferret, mouse) resulting in >12-fold more mutations in human neurons at the end of life compared to mouse neurons. Despite the conservation of overall annual mutation accumulation rates, mutational patterns--and hence likely mutagenic mechanisms--show sharp differences between species, with a nucleotide substitution pattern linked to neurodegenerative diseases accumulating almost exclusively in humans during aging. Coinciding with their higher mutational burden, single-nucleus transcriptomic analyses reveal pervasive age-associated proteostasis and mitochondrial dysregulation in human neurons that is far less pronounced in aged chimpanzees and rhesus macaques. These findings show that the pervasive effects of human neuronal aging might be linked to our long lifespan and are therefore not evident in animal models.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/somatic-mutations-and-single-nucleus-transcriptomics-reveal-uniquely-human-properties-of-neuronal-aging",
+      "year": "2026",
+      "type": "2026",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2026.09.22.753624v1.full.pdf"
+    },
     {
       "key": "publication_key",
       "author": [
@@ -34,6 +120,40 @@
     }
   ],
   "publications": [
+        {
+      "author": [
+        {
+          "name": "Jin H",
+          "lab_member": true
+        },
+        {
+          "name": "Geiger B",
+          "lab_member": true
+        },
+        {
+          "name": "Glodzik D",
+          "lab_member": true
+        },
+        {
+          "name": "Gulhan DC",
+          "lab_member": false
+        },
+        {
+          "name": "Park PJ",
+          "lab_member": true
+        }
+      ],
+      "title": "Correlation-aware discovery of co-occurring mutational signatures in cancer",
+      "title_link": "https://doi.org/10.64898/2026.09.14.751548",
+      "abstract": "Somatic mutations in cancer genomes record the activities of diverse mutational processes. Mutational signature analysis has advanced mechanistic understanding of mutagenesis and informed clinical decision-making, yet existing methods assume independence among signatures-an unrealistic assumption that can produce composite or contaminated signatures, reduce detection power, and yield inconsistent results. Here we present Cornet (CORrelated NMF ExTraction), a framework for mutational signature discovery that explicitly models co-occurring processes and jointly infers signatures and their correlation structure. Benchmarking on simulated data shows Cornet more accurately recovers distinct signatures under strong correlations. Applied to cancer genomes, Cornet enables unsupervised discovery of the colibactin-associated signature SBS88 in oral cancers and identifies the tobacco smoking signature SBS4 in bladder cancer, where it was previously thought absent. Cornet also uncovers a novel mutational process implicated in early-onset colorectal cancer and a signature arising from the interplay between tobacco smoking and ERCC2-mutation-driven nucleotide-excision repair deficiency. Together, these results demonstrate that modeling correlations among mutational processes is essential for high-resolution signature discovery and dissecting the mutational etiology of human cancer.",
+      "abstract_link": "https://compbio.hms.harvard.edu/publications/correlation-aware-discovery-of-co-occurring-mutational-signatures-in-cancer",
+      "year": "2026",
+      "type": "2026",
+      "journal": "bioRxiv",
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2026.09.14.751548v1.full.pdf"
+
+    },
     {
       "author": [
         {
@@ -64,7 +184,8 @@
       "year": "bioRxiv",
       "type": "2026",
       "journal": "bioRxiv",
-      "journal_location": "bioRxiv"
+      "journal_location": "bioRxiv",
+      "pdf_link": "/publications/pdf/2026.09.01.748636v1.full.pdf"
     },
     {
       "author": [
@@ -221,7 +342,7 @@
       "year": "2026",
       "type": "2026",
       "journal": "Cell",
-      "journal_location": "Cell, in press"
+      "journal_location": "Cell 2026;189(21):6594-6612.e21"
     },
     {
       "author": [
@@ -410,15 +531,15 @@
           "lab_member": true
         }
       ],
-      "title": "Comprehensive benchmarking of somatic single-nucleotide variant and indel detection at ultra-low allele fractions using short- and long-read data",
-      "title_link": "https://www.biorxiv.org/content/10.1101/2025.10.13.681545v1",
-      "abstract": "Mosaic mutations in normal tissues occur at low variant allele fractions (VAFs), complicating detection. To benchmark strategies, the SMaHT Network created a cell-line mixture (1:49) and produced ultra-deep whole-genome sequencing using short and long reads (five centers, 180-500× each). We assembled a reference of 44,008 mosaic SNVs and 2,059 Indels, cross-validation between platforms to expose limits of short-read analysis. We also partitioned the genome by mappability to examine the impact of genomic context, added a negative reference set, and accounted for culture-derived mutations. When seven institutions applied eleven algorithms to mixture data, call sets were largely discordant across tools and replicates, partly reflecting stochastic presence of low-VAF mutations in biological replicants. For >2% VAF SNVs, sensitivity and precision approached ~80% at ≥300×, with little gain from additional sequencing. This work provides a comprehensive framework for reliable detection of low-VAF mutations in non-cancer tissues and a valuable resource for the community.",
+      "title": "Detecting low-allele-fraction mosaic mutations: A multi-institution benchmarking with cell-line mixtures",
+      "title_link": "https://www.cell.com/cell-genomics/fulltext/S2666-979X(26)00252-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X26002521%3Fshowall%3Dtrue",
+      "abstract": "Mosaic mutations in normal tissues occur at low variant allele fractions (VAFs), complicating detection. To benchmark variant-calling strategies, the SMaHT Network created a cell-line mixture (1:49) and produced ultra-deep short- and long-read whole-genome sequencing data across five centers (170×–470× per center). We assembled a reference set of mosaic SNVs and indels, cross-validated with long-read data to expose short-read limitations. We also partitioned the genome by mappability to examine the impact of genomic context, added a negative reference set, and accounted for culture-derived mutations. When seven institutions applied twelve pipelines, callsets were largely discordant across tools and replicates, partly reflecting stochastic sampling of low-VAF mutations in biological replicates. For SNVs with VAFs above 2%, sensitivity and precision approached 80% at ≥300×, with little gain from additional sequencing. This work establishes a framework and best practices for reliably detecting low-VAF mutations in non-cancer tissues and provides a valuable resource for the community.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/comprehensive-benchmarking-of-somatic-single-nucleotide-variant-and-indel-detection-at-ultra-low-allele-fractions-using-short-and-long-read-data",
       "year": "2026",
       "type": "2026",
       "journal": "Cell Genomics",
-      "journal_location": "Cell Genomics, in press",
-      "pdf_link": "/publications/pdf/2025.10.13.681545v1.full.pdf"
+      "journal_location": "Cell Genomics, 2026;101390",
+      "pdf_link": "/publications/pdf/PIIS2666979X26002521.pdf"
     },
     {
   "author": [
@@ -656,7 +777,7 @@
       "year": "2026",
       "type": "2026",
       "journal": "Cancer Research Communications",
-      "journal_location": "Cancer Research Communications, in press"
+      "journal_location": "Cancer Research Communications 2026;6(9):2232-2241"
     },
     {
       "author": [
