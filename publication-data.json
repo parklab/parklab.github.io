@@ -11,7 +11,30 @@
     "tech report": "other"
   },
   "publications_format": [
-      {
+    {
+      "key": "publication_key",
+      "author": [
+        "author1",
+        "author2",
+        "author3"
+      ],
+      "title": "Publication Title",
+      "journal": "Journal name",
+      "journal_location": "Journal location",
+      "year": "year",
+      "thumbnail": "thumbnail_src",
+      "type": "journal",
+      "pdf": "pdf_src",
+      "url": "publication_url",
+      "supp": {
+        "Supplemental Link 1": "http://example1.com",
+        "Supplemental Link 2": "http://example2.com",
+        "Supplemental Link 3": "http://example3.com"
+      }
+    }
+  ],
+  "publications": [
+            {
       "author": [
         {
           "name": "Brew J",
@@ -30,7 +53,7 @@
       "title_link": "https://doi.org/10.64898/2026.09.23.753832",
       "abstract": "Copy-number amplifications drive cancer evolution through increased oncogene dosage. Mutations acquired before a gain are co-amplified, so their multiplicity places successive gains on a molecular timescale. This principle has been used to time individual gains and whole-genome duplication (WGD), but possible gain histories multiply rapidly with copy number, confining existing methods to low copy-number states or predefined scenarios and leaving oncogene-bearing amplifications unresolved. Here we describe a mathematical framework to systematically enumerate every allele-specific gain route to a copy-number state and derive an analytical timing for each gain, implemented in a method called Tau. Across pan-cancer genomes, punctuated multichromosomal events account for roughly three-quarters of clonal gains. Most are WGD, acquired early and often repeated within a doubling-prone subset, but a distinct, predominantly monoallelic class recurs on tumor-type-specific chromosomes, representing a coordinated mode separate from doubling. Strikingly, the highest copy-number states are reached not gradually but in abrupt bursts that cluster around WGD and contain more gains than doubling alone can produce, recurring at oncogenes. WGD is therefore not a passive doubling but a window in which localized oncogene amplification becomes far more frequent. By resolving the order of gains and the mutational processes shifting between them, Tau establishes punctuated amplification as a pervasive mode of cancer genome evolution.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/complete-timing-of-copy-number-amplification-histories-reveals-whole-genome-duplication-dynamics-and-coincident-oncogene-amplification-bursts",
-      "year": "2026",
+      "year": "bioRxiv",
       "type": "2026",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
@@ -91,36 +114,13 @@
       "title_link": "https://doi.org/10.64898/2026.09.22.753624",
       "abstract": "Human brain aging is frequently studied in model mammals that rarely show the natural age-related neurodegenerative conditions that afflict humans, yet little is known about how genomic stability compares across species during aging. Although somatic single nucleotide variant (SNV) and short insertion/deletion (Indel) mutations accumulate at rates that inversely scale to lifespan in colon cells-leaving diverse mammals with similar end-of-life burdens of mutations -- here we show that cerebral cortical neurons accumulate SNVs at annual rates that are remarkably similar across six mammalian species (human, chimpanzee, rhesus macaque, marmoset, ferret, mouse) resulting in >12-fold more mutations in human neurons at the end of life compared to mouse neurons. Despite the conservation of overall annual mutation accumulation rates, mutational patterns--and hence likely mutagenic mechanisms--show sharp differences between species, with a nucleotide substitution pattern linked to neurodegenerative diseases accumulating almost exclusively in humans during aging. Coinciding with their higher mutational burden, single-nucleus transcriptomic analyses reveal pervasive age-associated proteostasis and mitochondrial dysregulation in human neurons that is far less pronounced in aged chimpanzees and rhesus macaques. These findings show that the pervasive effects of human neuronal aging might be linked to our long lifespan and are therefore not evident in animal models.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/somatic-mutations-and-single-nucleus-transcriptomics-reveal-uniquely-human-properties-of-neuronal-aging",
-      "year": "2026",
+      "year": "bioRxiv",
       "type": "2026",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
       "pdf_link": "/publications/pdf/2026.09.22.753624v1.full.pdf"
-    },
+    }, 
     {
-      "key": "publication_key",
-      "author": [
-        "author1",
-        "author2",
-        "author3"
-      ],
-      "title": "Publication Title",
-      "journal": "Journal name",
-      "journal_location": "Journal location",
-      "year": "year",
-      "thumbnail": "thumbnail_src",
-      "type": "journal",
-      "pdf": "pdf_src",
-      "url": "publication_url",
-      "supp": {
-        "Supplemental Link 1": "http://example1.com",
-        "Supplemental Link 2": "http://example2.com",
-        "Supplemental Link 3": "http://example3.com"
-      }
-    }
-  ],
-  "publications": [
-        {
       "author": [
         {
           "name": "Jin H",
@@ -147,7 +147,7 @@
       "title_link": "https://doi.org/10.64898/2026.09.14.751548",
       "abstract": "Somatic mutations in cancer genomes record the activities of diverse mutational processes. Mutational signature analysis has advanced mechanistic understanding of mutagenesis and informed clinical decision-making, yet existing methods assume independence among signatures-an unrealistic assumption that can produce composite or contaminated signatures, reduce detection power, and yield inconsistent results. Here we present Cornet (CORrelated NMF ExTraction), a framework for mutational signature discovery that explicitly models co-occurring processes and jointly infers signatures and their correlation structure. Benchmarking on simulated data shows Cornet more accurately recovers distinct signatures under strong correlations. Applied to cancer genomes, Cornet enables unsupervised discovery of the colibactin-associated signature SBS88 in oral cancers and identifies the tobacco smoking signature SBS4 in bladder cancer, where it was previously thought absent. Cornet also uncovers a novel mutational process implicated in early-onset colorectal cancer and a signature arising from the interplay between tobacco smoking and ERCC2-mutation-driven nucleotide-excision repair deficiency. Together, these results demonstrate that modeling correlations among mutational processes is essential for high-resolution signature discovery and dissecting the mutational etiology of human cancer.",
       "abstract_link": "https://compbio.hms.harvard.edu/publications/correlation-aware-discovery-of-co-occurring-mutational-signatures-in-cancer",
-      "year": "2026",
+      "year": "bioRxiv",
       "type": "2026",
       "journal": "bioRxiv",
       "journal_location": "bioRxiv",
