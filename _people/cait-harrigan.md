@@ -11,4 +11,5 @@ image: ./img/cait-harrigan.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
 start_date: 2024-01-01
+list_title: ""  # hide title on People list (shown on bio page)
 ---

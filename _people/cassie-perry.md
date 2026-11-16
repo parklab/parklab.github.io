@@ -10,4 +10,5 @@ status: "Active Member"
 image: ./img/cassie-perry.jpg
 hide_footer: true
 position_category: Administrative Coordinator
+list_title: ""  # hide title on People list (shown on bio page)
 ---

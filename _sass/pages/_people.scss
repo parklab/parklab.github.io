@@ -58,10 +58,13 @@
                             width: 100%;
                             
                             img {
+                                // Fixed size for every photo; never shrink, crop instead of stretch
+                                flex: 0 0 130px;
                                 width: 130px;
                                 height: 150px;
                                 border-radius: 2px;
                                 object-fit: cover;
+                                object-position: center top;
                             }
                             .person-information {
                                 display: flex;
@@ -85,6 +88,19 @@
 
                                         &:hover {
                                             color: #404040;
+                                        }
+                                    }
+                                    // "(bio)" link next to the name: lighter than the name itself
+                                    a.bio-link {
+                                        font-size: 0.875rem;
+                                        font-weight: 400;
+                                        text-decoration: none;
+                                        margin-left: 4px;
+                                        color: #3273dc;
+
+                                        &:hover {
+                                            text-decoration: underline;
+                                            color: #3273dc;
                                         }
                                     }
                                     .dates {

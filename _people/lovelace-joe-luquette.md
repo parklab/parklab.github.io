@@ -2,8 +2,8 @@
 person_title: <a href="/people/lovelace-joe-luquette">L. Joe Luquette</a>
 name: L. Joe Luquette
 subtitle: Research Fellow  # Set subtitle to position_link_text
-professional_title: "Postdoctoral Fellow, Scientific Programmer (2009-2014)"
-academic_title: "PhD in Bioinformatics and Integrative Genomics, Harvard Medical School"
+professional_title: "Postdoctoral Fellow"
+academic_title: "PhD in Bioinformatics and Integrative Genomics, HMS"
 description: "A graduate of Boston University, Joe comes up with cool algorithms, designs web servers, and helps out with everything else, when he is not taking algebra courses for fun."
 layout: person
 status: "Active Member"
@@ -11,4 +11,5 @@ image: ./img/lovelace-joe-luquette.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows # Also in "Alumni: PhD Students" but is active
 start_date: 2009-01-01
+list_title: ""  # hide title on People list (shown on bio page)
 ---

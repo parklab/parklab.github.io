@@ -11,4 +11,5 @@ image: ./img/daniel-feng.png
 hide_footer: true
 position_category: Students
 start_date: 2026-08-01
+list_title: "BIG PhD program"  # short form for People list
 ---

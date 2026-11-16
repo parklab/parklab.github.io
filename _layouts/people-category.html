@@ -145,10 +145,17 @@ show_sidebar: false
                 <div class="person-card">
                   <img src="{{ person.image }}" alt="{{ person.name }}" />
                   <div class="person-information">
-                    <p class="title">{{ person.person_title }}</p>
+                    {% comment %} Show a "(bio)" link next to the PI's name (only if a bio exists) {% endcomment %}
+                    {% assign has_bio = false %}
+                    {% if person.description and person.description != "" %}{% assign has_bio = true %}{% endif %}
+                    {% assign bio_body = person.content | strip_html | strip %}
+                    {% if bio_body != "" %}{% assign has_bio = true %}{% endif %}
+                    <p class="title">{{ person.person_title }}{% if has_bio and category == "Principal Investigator" %} <a class="bio-link" href="{{ person.url | remove: '.html' }}">(bio)</a>{% endif %}</p>
                     <div>
-                      <p class="subtitle">{{ person.professional_title }}</p>
-                      <p class="subtitle">{{ person.academic_title }}</p>
+                      {% comment %} list_title (if set, even to "") overrides professional_title on this page only; bio pages keep professional_title {% endcomment %}
+                      {% if person.list_title != nil %}{% assign shown_title = person.list_title %}{% else %}{% assign shown_title = person.professional_title %}{% endif %}
+                      {% if shown_title and shown_title != "" %}<p class="subtitle">{{ shown_title }}</p>{% endif %}
+                      {% if person.academic_title and person.academic_title != "" %}<p class="subtitle">{{ person.academic_title }}</p>{% endif %}
                     </div>
                     {% if person.additional_links %}
                       <div class="additional-links-container">

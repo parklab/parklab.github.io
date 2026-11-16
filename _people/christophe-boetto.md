@@ -11,4 +11,5 @@ image: ./img/christophe-boetto.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
 start_date: 2025-01-01
+list_title: ""  # hide title on People list (shown on bio page)
 ---

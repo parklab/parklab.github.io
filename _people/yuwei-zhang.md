@@ -11,4 +11,5 @@ academic: 5
 image: ./img/yuwei-zhang.jpg
 hide_footer: true
 position_category: Postdoctoral Fellows
+list_title: ""  # hide title on People list (shown on bio page)
 ---
