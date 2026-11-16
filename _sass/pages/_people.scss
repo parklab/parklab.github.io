@@ -2,14 +2,14 @@
     margin: auto 0px 20px auto;
 
     .page-body-container {
-        margin-top: 50px;
+        margin-top: 0px;
         // Flex row so selected categories can sit side by side; all others take a full row
         display: flex;
         flex-wrap: wrap;
         column-gap: 32px;
 
         .category-container {
-            margin-top: 60px;
+            margin-top: 32px;
             flex: 1 1 100%;
 
             // Research Scientists and Administrative Coordinator share one line;
@@ -198,7 +198,7 @@
 
                 .category {
                     &-header {
-                        margin-top: 30px;
+                        margin-top: 0px;
                     }
                     
                     &-body {
