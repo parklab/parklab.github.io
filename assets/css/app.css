@@ -11378,10 +11378,12 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   width: 100%;
 }
 .people-page-container .page-body-container .category-container .category-body .person-container .person-card img {
+  flex: 0 0 130px;
   width: 130px;
   height: 150px;
   border-radius: 2px;
   object-fit: cover;
+  object-position: center top;
 }
 .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information {
   display: flex;
@@ -11405,6 +11407,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a:hover {
   color: #404040;
+}
+.people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a.bio-link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 4px;
+  color: #3273dc;
+}
+.people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title a.bio-link:hover {
+  text-decoration: underline;
+  color: #3273dc;
 }
 .people-page-container .page-body-container .category-container .category-body .person-container .person-card .person-information .title .dates {
   font-size: 0.875rem;
