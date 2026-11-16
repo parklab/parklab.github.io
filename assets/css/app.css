@@ -11330,13 +11330,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   margin: auto 0px 20px auto;
 }
 .people-page-container .page-body-container {
-  margin-top: 50px;
+  margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 32px;
 }
 .people-page-container .page-body-container .category-container {
-  margin-top: 60px;
+  margin-top: 32px;
   flex: 1 1 100%;
 }
 .people-page-container .page-body-container .category-container.category-research-scientists {
@@ -11488,7 +11488,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 @media (min-width: 992px) {
   .people-page-container .page-body-container .category-container .category-header {
-    margin-top: 30px;
+    margin-top: 0px;
   }
   .people-page-container .page-body-container .category-container .category-body .person-container {
     max-height: 200px;
