@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '3.1.3'
+ruby '3.1.7'
 
 gem 'rexml', '~> 3.2', '>= 3.2.4'
 gem "jekyll", "~> 4.4.1"
