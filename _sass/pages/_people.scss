@@ -3,9 +3,23 @@
 
     .page-body-container {
         margin-top: 50px;
+        // Flex row so selected categories can sit side by side; all others take a full row
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 32px;
 
         .category-container {
             margin-top: 60px;
+            flex: 1 1 100%;
+
+            // Research Scientists and Administrative Coordinator share one line;
+            // the second wraps below on screens too narrow for both
+            &.category-research-scientists {
+                flex: 0 0 auto;
+            }
+            &.category-administrative-coordinator {
+                flex: 1 1 420px;
+            }
 
             .category {
                 &-header-container {

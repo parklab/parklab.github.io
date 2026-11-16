@@ -9,7 +9,7 @@ layout: person
 status: "Active Member"
 image: ./img/shannon-ehmsen.jpg
 hide_footer: true
-position_category: Staff
+position_category: Staff Scientists and Software Engineers
 additional_links:
     linkedin: "https://www.linkedin.com/in/shannon-ehmsen/"
 tags:

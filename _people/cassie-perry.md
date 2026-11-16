@@ -9,5 +9,5 @@ layout: person
 status: "Active Member"
 image: ./img/cassie-perry.jpg
 hide_footer: true
-position_category: Staff
+position_category: Administrative Coordinator
 ---

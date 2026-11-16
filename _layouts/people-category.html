@@ -11,7 +11,7 @@ show_sidebar: false
     {% assign people_by_category = site.people | group_by: "position_category" %}
 
     {% for category in site.data.categories-order %}
-      <div class="category-container">
+      <div class="category-container category-{{ category | slugify }}">
         <div class="category-header-container">
           <h2 class="category-header">{{ category }}</h2>
   

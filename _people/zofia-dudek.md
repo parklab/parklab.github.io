@@ -9,5 +9,5 @@ layout: person
 status: "Active Member"
 image: ./img/ablank-profile-picture.jpg
 hide_footer: true
-position_category: Associate Computational Biologists
+position_category: Staff Scientists and Software Engineers
 ---
