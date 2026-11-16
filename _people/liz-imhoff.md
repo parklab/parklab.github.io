@@ -9,5 +9,5 @@ layout: person
 status: "Active Member"
 image: ./img/elizabeth-imhoff.jpeg
 hide_footer: true
-position_category: Staff Scientists and Software Engineers
+position_category: Associate Computational Biologists
 ---
